@@ -1,0 +1,22 @@
+{
+  "name": "日語刷刷庫 - JLPT 智能SRS & 閱讀測驗",
+  "short_name": "日語刷刷庫",
+  "description": "JLPT 智能SRS & 閱讀測驗",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "/shoebill_app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/shoebill.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
