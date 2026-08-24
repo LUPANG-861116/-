@@ -1,5 +1,5 @@
 /**
- * 日語真人發音工具 - 雙引擎高保真架構（/api/tts 專屬音訊串流 + Web Speech API 離線備援）
+ * 日語真人發音工具 - 完美相容全平台（雙重保險：Web Speech API 即時朗讀 + 伺服器高音質音訊）
  */
 
 let currentAudio: HTMLAudioElement | null = null;
@@ -21,12 +21,12 @@ export const cleanJapaneseSpeechText = (text: string): string => {
 };
 
 /**
- * Web Speech API 離線備援播放
+ * Web Speech API 核心播放器（完美修復 Chrome/Safari 語音阻擋與暫停問題）
  */
 export const speakWithWebSpeech = (
   text: string,
   rate: number = 0.85,
-  pitch: number = 1.02
+  pitch: number = 1.0
 ): Promise<void> => {
   return new Promise((resolve) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
@@ -35,12 +35,9 @@ export const speakWithWebSpeech = (
     }
 
     try {
+      // 解決 Chrome/Safari 語音合成器常處於 paused 狀態的底層 bug
       if (window.speechSynthesis.paused) {
         window.speechSynthesis.resume();
-      }
-
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
       }
 
       const utterance = new SpeechSynthesisUtterance(text);
@@ -49,10 +46,35 @@ export const speakWithWebSpeech = (
       utterance.pitch = pitch;
       utterance.volume = 1.0;
 
-      utterance.onend = () => resolve();
-      utterance.onerror = () => resolve();
+      // 嘗試挑選最佳日文聲音
+      try {
+        const voices = window.speechSynthesis.getVoices();
+        if (voices && voices.length > 0) {
+          const jaVoice = voices.find(
+            v => v.lang === 'ja-JP' || v.lang === 'ja_JP' || v.lang.toLowerCase().startsWith('ja')
+          );
+          if (jaVoice) {
+            utterance.voice = jaVoice;
+          }
+        }
+      } catch (e) {}
 
+      let resolved = false;
+      const done = () => {
+        if (!resolved) {
+          resolved = true;
+          resolve();
+        }
+      };
+
+      utterance.onend = done;
+      utterance.onerror = done;
+
+      // 啟動發音
       window.speechSynthesis.speak(utterance);
+
+      // 安全超時（避免某些裝置 onend 不觸發卡死）
+      setTimeout(done, 3500);
     } catch (e) {
       console.warn('Web Speech error:', e);
       resolve();
@@ -70,6 +92,9 @@ export const unlockSpeechAudio = () => {
   try {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.resume();
+      const silent = new SpeechSynthesisUtterance('');
+      silent.volume = 0;
+      window.speechSynthesis.speak(silent);
     }
   } catch (e) {}
 };
@@ -80,16 +105,12 @@ if (typeof window !== 'undefined') {
 }
 
 /**
- * 播放日語真人發音
- * 優先使用伺服器高音質真人母語 MP3 音訊，若離線或受阻則自動降級至 Web Speech API
- * @param text 要朗讀的日文文字或假名
- * @param rate 語速（預設 0.85，最接近真人清晰教學與日常的自然語速）
- * @param pitch 音調（預設 1.02）
+ * 播放日語發音（雙軌保險機制）
  */
 export const speakJapanese = (
   text: string,
   rate: number = 0.85,
-  pitch: number = 1.02
+  pitch: number = 1.0
 ): Promise<void> => {
   return new Promise((resolve) => {
     const cleanText = cleanJapaneseSpeechText(text);
@@ -100,7 +121,7 @@ export const speakJapanese = (
 
     unlockSpeechAudio();
 
-    // 停止正在播放的舊音訊
+    // 停止正在播放的音訊
     if (currentAudio) {
       try {
         currentAudio.pause();
@@ -109,35 +130,38 @@ export const speakJapanese = (
       currentAudio = null;
     }
 
-    // 1. 優先使用伺服器端音訊代理 (/api/tts?text=...)
-    try {
-      const audioUrl = `/api/tts?text=${encodeURIComponent(cleanText)}`;
-      const audio = new Audio(audioUrl);
-      
-      audio.playbackRate = Math.max(0.7, Math.min(1.2, rate));
+    // 優先嘗試伺服器端音訊代理 (/api/tts)
+    const audioUrl = `/api/tts?text=${encodeURIComponent(cleanText)}`;
+    const audio = new Audio(audioUrl);
+    audio.playbackRate = Math.max(0.7, Math.min(1.2, rate));
+
+    let audioPlayed = false;
+
+    audio.onplay = () => {
+      audioPlayed = true;
       currentAudio = audio;
+    };
 
-      audio.onended = () => {
-        if (currentAudio === audio) currentAudio = null;
-        resolve();
-      };
+    audio.onended = () => {
+      currentAudio = null;
+      resolve();
+    };
 
-      audio.onerror = () => {
-        if (currentAudio === audio) currentAudio = null;
-        // 降級使用 Web Speech API
+    audio.onerror = () => {
+      // 伺服器代理失敗時，無縫採用 Web Speech API 朗讀
+      if (!audioPlayed) {
         speakWithWebSpeech(cleanText, rate, pitch).then(resolve);
-      };
-
-      const playPromise = audio.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {
-          // 若播放受瀏覽器阻擋，立即降級至 Web Speech API
-          if (currentAudio === audio) currentAudio = null;
-          speakWithWebSpeech(cleanText, rate, pitch).then(resolve);
-        });
       }
-    } catch (err) {
-      speakWithWebSpeech(cleanText, rate, pitch).then(resolve);
+    };
+
+    const p = audio.play();
+    if (p !== undefined) {
+      p.catch(() => {
+        // 若受到瀏覽器 Autoplay 阻擋，立即使用 Web Speech API 朗讀
+        if (!audioPlayed) {
+          speakWithWebSpeech(cleanText, rate, pitch).then(resolve);
+        }
+      });
     }
   });
 };
