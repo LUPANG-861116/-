@@ -25,7 +25,7 @@ export const cleanJapaneseSpeechText = (text: string): string => {
  */
 export const speakWithWebSpeech = (
   text: string,
-  rate: number = 0.85,
+  rate: number = 1.1,
   pitch: number = 1.0
 ): Promise<void> => {
   return new Promise((resolve) => {
@@ -42,7 +42,7 @@ export const speakWithWebSpeech = (
 
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
-      utterance.rate = Math.max(0.65, Math.min(1.2, rate));
+      utterance.rate = Math.max(0.65, Math.min(1.4, rate));
       utterance.pitch = pitch;
       utterance.volume = 1.0;
 
@@ -74,7 +74,7 @@ export const speakWithWebSpeech = (
       window.speechSynthesis.speak(utterance);
 
       // 安全超時（避免某些裝置 onend 不觸發卡死）
-      setTimeout(done, 3500);
+      setTimeout(done, 3000);
     } catch (e) {
       console.warn('Web Speech error:', e);
       resolve();
@@ -106,10 +106,11 @@ if (typeof window !== 'undefined') {
 
 /**
  * 播放日語發音（雙軌保險機制）
+ * 預設標準語速為 1.1x（俐落自然）
  */
 export const speakJapanese = (
   text: string,
-  rate: number = 0.85,
+  rate: number = 1.1,
   pitch: number = 1.0
 ): Promise<void> => {
   return new Promise((resolve) => {
@@ -133,7 +134,7 @@ export const speakJapanese = (
     // 優先嘗試伺服器端音訊代理 (/api/tts)
     const audioUrl = `/api/tts?text=${encodeURIComponent(cleanText)}`;
     const audio = new Audio(audioUrl);
-    audio.playbackRate = Math.max(0.7, Math.min(1.2, rate));
+    audio.playbackRate = Math.max(0.7, Math.min(1.4, rate));
 
     let audioPlayed = false;
 
@@ -157,7 +158,6 @@ export const speakJapanese = (
     const p = audio.play();
     if (p !== undefined) {
       p.catch(() => {
-        // 若受到瀏覽器 Autoplay 阻擋，立即使用 Web Speech API 朗讀
         if (!audioPlayed) {
           speakWithWebSpeech(cleanText, rate, pitch).then(resolve);
         }

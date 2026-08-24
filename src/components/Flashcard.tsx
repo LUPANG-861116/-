@@ -31,10 +31,10 @@ export const Flashcard: React.FC<FlashcardProps> = ({
     return localStorage.getItem('nihongo_autoplay_audio') !== 'false';
   });
 
-  // 自然人聲語速調整（預設 0.85x 最接近真人清晰發音）
+  // 自然人聲語速調整（基準標準速設為 1.1x 俐落真人語速）
   const [speechRate, setSpeechRate] = useState<number>(() => {
     const saved = localStorage.getItem('nihongo_speech_rate');
-    return saved ? parseFloat(saved) : 0.85;
+    return saved ? parseFloat(saved) : 1.1;
   });
 
   // 切換自動發音
@@ -47,14 +47,14 @@ export const Flashcard: React.FC<FlashcardProps> = ({
     });
   };
 
-  // 切換語速 (0.75x 慢速 -> 0.85x 自然真人 -> 1.0x 正常)
+  // 切換語速 (1.1x 標準基準 -> 0.9x 慢速 -> 1.25x 快速)
   const cycleSpeechRate = (e: React.MouseEvent) => {
     e.stopPropagation();
     setSpeechRate(prev => {
-      let next = 0.85;
-      if (prev === 0.85) next = 0.75;
-      else if (prev === 0.75) next = 1.0;
-      else next = 0.85;
+      let next = 1.1;
+      if (prev === 1.1) next = 0.9;
+      else if (prev === 0.9) next = 1.25;
+      else next = 1.1;
       localStorage.setItem('nihongo_speech_rate', String(next));
       return next;
     });
@@ -177,10 +177,10 @@ export const Flashcard: React.FC<FlashcardProps> = ({
           <button
             onClick={cycleSpeechRate}
             className="inline-flex items-center gap-0.5 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-bold text-[11px] hover:border-slate-300 dark:hover:border-slate-600 transition-all cursor-pointer"
-            title="點擊切換發音語速 (0.75x 慢速 / 0.85x 真人標準 / 1.0x 原速)"
+            title="點擊切換發音語速 (1.0x 標準 / 0.9x 慢速 / 1.25x 快速)"
           >
             <Gauge className="w-3 h-3 text-rose-500" />
-            <span>{speechRate === 0.85 ? '0.85x 真人速' : speechRate === 0.75 ? '0.75x 慢速' : '1.0x 原速'}</span>
+            <span>{speechRate === 1.1 ? '1.0x 標準' : speechRate === 0.9 ? '0.9x 慢速' : '1.25x 快速'}</span>
           </button>
 
           {/* Level Badge */}
