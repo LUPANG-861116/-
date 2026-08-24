@@ -69,11 +69,8 @@ export const Flashcard: React.FC<FlashcardProps> = ({
     setIsStarred(isFavorite(word.id));
 
     if (autoPlayAudio || isListeningMode) {
-      // 換卡時自動發音，使用自然語速
-      const timer = setTimeout(() => {
-        speakJapanese(word.reading, speechRate);
-      }, 150);
-      return () => clearTimeout(timer);
+      // 換卡時立即自動發音，使用自然語速
+      speakJapanese(word.reading, speechRate);
     }
   }, [word.id, autoPlayAudio, isListeningMode, speechRate]);
 

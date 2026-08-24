@@ -1,9 +1,9 @@
 /**
- * Web Speech API 日語真人發音工具 - 智能人聲選取與語速節奏校正模組
+ * Web Speech API 日語真人發音工具 - 智能人聲選取、手機端自動解鎖與語速節奏校正模組
  */
 
 let bestJapaneseVoice: SpeechSynthesisVoice | null = null;
-let voicesLoaded = false;
+let isAudioUnlocked = false;
 
 // 優先挑選最高音質、最自然真人感的日語語音引擎
 export const getBestJapaneseVoice = (): SpeechSynthesisVoice | null => {
@@ -24,7 +24,6 @@ export const getBestJapaneseVoice = (): SpeechSynthesisVoice | null => {
     const score = (voice: SpeechSynthesisVoice): number => {
       const name = voice.name.toLowerCase();
       let s = 0;
-      // 頂級真人神經網路語音 (iOS Siri, Google Neural, MS Natural)
       if (name.includes('siri')) s += 100;
       if (name.includes('natural')) s += 90;
       if (name.includes('enhanced') || name.includes('premium')) s += 80;
@@ -41,18 +40,37 @@ export const getBestJapaneseVoice = (): SpeechSynthesisVoice | null => {
   return sorted[0] || null;
 };
 
+// 手機端 (iOS Safari / Android) 音訊通道自動解鎖機制
+export const unlockSpeechAudio = () => {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window) || isAudioUnlocked) return;
+  try {
+    window.speechSynthesis.resume();
+    const silent = new SpeechSynthesisUtterance(' ');
+    silent.volume = 0.01;
+    silent.rate = 1.0;
+    silent.lang = 'ja-JP';
+    window.speechSynthesis.speak(silent);
+    isAudioUnlocked = true;
+  } catch (e) {
+    console.warn('Audio unlock error:', e);
+  }
+};
+
 const initVoices = () => {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
 
   const update = () => {
     bestJapaneseVoice = getBestJapaneseVoice();
-    voicesLoaded = true;
   };
 
   update();
   if (window.speechSynthesis.onvoiceschanged !== undefined) {
     window.speechSynthesis.onvoiceschanged = update;
   }
+
+  // 註冊全域點擊/觸摸解鎖
+  window.addEventListener('touchstart', unlockSpeechAudio, { once: true, passive: true });
+  window.addEventListener('click', unlockSpeechAudio, { once: true, passive: true });
 };
 
 if (typeof window !== 'undefined') {
@@ -65,15 +83,11 @@ if (typeof window !== 'undefined') {
 export const cleanJapaneseSpeechText = (text: string): string => {
   if (!text) return '';
   return text
-    // 移除波浪號與破折號
     .replace(/[～~〜]/g, '')
-    // 移除括號及其內容（如中文註解、羅馬拼音）
     .replace(/（[^）]*）/g, '')
     .replace(/\([^)]*\)/g, '')
     .replace(/\[[^\]]*\]/g, '')
-    // 移除常見分隔符號
     .replace(/[;；/／、，,]/g, ' ')
-    // 替換多個空白為單一微停頓
     .replace(/\s+/g, ' ')
     .trim();
 };
@@ -81,12 +95,12 @@ export const cleanJapaneseSpeechText = (text: string): string => {
 /**
  * 播放日語真人發音
  * @param text 要朗讀的日文文字或假名
- * @param rate 語速（預設 0.86，為最接近真人清晰教學與日常的自然語速）
+ * @param rate 語速（預設 0.85，最接近真人清晰教學與日常的自然語速）
  * @param pitch 音調（預設 1.02，呈現更生動的日語共鳴）
  */
 export const speakJapanese = (
   text: string,
-  rate: number = 0.86,
+  rate: number = 0.85,
   pitch: number = 1.02
 ): Promise<void> => {
   return new Promise((resolve) => {
@@ -97,26 +111,29 @@ export const speakJapanese = (
     }
 
     try {
-      window.speechSynthesis.cancel(); // 停止先前的朗讀，避免聲音重疊
-
       const cleanText = cleanJapaneseSpeechText(text);
       if (!cleanText) {
         resolve();
         return;
       }
 
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'ja-JP';
-      // 校正為最接近自然人聲的語速與音調（避免發音過快或黏濁）
-      utterance.rate = Math.max(0.65, Math.min(1.2, rate));
-      utterance.pitch = pitch;
-
-      if (!bestJapaneseVoice && !voicesLoaded) {
-        bestJapaneseVoice = getBestJapaneseVoice();
+      // 解除暫停狀態
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
       }
 
-      if (bestJapaneseVoice) {
-        utterance.voice = bestJapaneseVoice;
+      // 取消前一個發音以避免堆疊延遲
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = 'ja-JP';
+      utterance.rate = Math.max(0.65, Math.min(1.2, rate));
+      utterance.pitch = pitch;
+      utterance.volume = 1.0;
+
+      const voice = bestJapaneseVoice || getBestJapaneseVoice();
+      if (voice) {
+        utterance.voice = voice;
       }
 
       utterance.onend = () => resolve();
@@ -127,15 +144,8 @@ export const speakJapanese = (
         resolve();
       };
 
-      // 些微延遲觸發，確保 iOS/Android 瀏覽器音訊通道已就緒
-      setTimeout(() => {
-        try {
-          window.speechSynthesis.speak(utterance);
-        } catch (e) {
-          console.error(e);
-          resolve();
-        }
-      }, 30);
+      // 觸發發音
+      window.speechSynthesis.speak(utterance);
     } catch (err) {
       console.error('Speech synthesis execution error', err);
       resolve();
