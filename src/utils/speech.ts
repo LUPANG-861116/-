@@ -1,5 +1,5 @@
 /**
- * 日語真人發音工具 - 雙引擎架構（高音質原生真人日語音訊 + Web Speech API 離線備援）
+ * 日語真人發音工具 - 雙引擎高保真架構（/api/tts 專屬音訊串流 + Web Speech API 離線備援）
  */
 
 let currentAudio: HTMLAudioElement | null = null;
@@ -23,7 +23,7 @@ export const cleanJapaneseSpeechText = (text: string): string => {
 /**
  * Web Speech API 離線備援播放
  */
-const speakWithWebSpeech = (
+export const speakWithWebSpeech = (
   text: string,
   rate: number = 0.85,
   pitch: number = 1.02
@@ -39,18 +39,15 @@ const speakWithWebSpeech = (
         window.speechSynthesis.resume();
       }
 
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
       utterance.rate = Math.max(0.65, Math.min(1.2, rate));
       utterance.pitch = pitch;
       utterance.volume = 1.0;
-
-      // 篩選日語可用聲音
-      const voices = window.speechSynthesis.getVoices() || [];
-      const jaVoice = voices.find(v => v.lang === 'ja-JP' || v.lang === 'ja_JP' || v.lang.startsWith('ja'));
-      if (jaVoice) {
-        utterance.voice = jaVoice;
-      }
 
       utterance.onend = () => resolve();
       utterance.onerror = () => resolve();
@@ -84,7 +81,7 @@ if (typeof window !== 'undefined') {
 
 /**
  * 播放日語真人發音
- * 優先使用 Google 高音質真人母語錄音 (MP3)，若無法連線或受阻則自動降級至 Web Speech API
+ * 優先使用伺服器高音質真人母語 MP3 音訊，若離線或受阻則自動降級至 Web Speech API
  * @param text 要朗讀的日文文字或假名
  * @param rate 語速（預設 0.85，最接近真人清晰教學與日常的自然語速）
  * @param pitch 音調（預設 1.02）
@@ -103,7 +100,7 @@ export const speakJapanese = (
 
     unlockSpeechAudio();
 
-    // 停止正在播放的音訊
+    // 停止正在播放的舊音訊
     if (currentAudio) {
       try {
         currentAudio.pause();
@@ -112,18 +109,11 @@ export const speakJapanese = (
       currentAudio = null;
     }
 
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      try {
-        window.speechSynthesis.cancel();
-      } catch (e) {}
-    }
-
-    // 1. 優先使用高音質真人母語發音音訊 (MP3)
+    // 1. 優先使用伺服器端音訊代理 (/api/tts?text=...)
     try {
-      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
+      const audioUrl = `/api/tts?text=${encodeURIComponent(cleanText)}`;
       const audio = new Audio(audioUrl);
       
-      // 設置自然真人語速
       audio.playbackRate = Math.max(0.7, Math.min(1.2, rate));
       currentAudio = audio;
 
