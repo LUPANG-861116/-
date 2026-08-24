@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import type { VocabWord, RatingGrade, WordSRSData } from '../types';
 import { speakJapanese } from '../utils/speech';
 import { predictNextInterval, isFavorite, toggleFavorite } from '../utils/srsEngine';
-import { Volume2, Eye, Check, X, ArrowLeft, Clock, Calendar, Star, Headphones } from 'lucide-react';
+import { Volume2, VolumeX, Eye, Check, X, ArrowLeft, Clock, Calendar, Star, Headphones, Gauge } from 'lucide-react';
 
 interface FlashcardProps {
   word: VocabWord;
@@ -26,19 +26,56 @@ export const Flashcard: React.FC<FlashcardProps> = ({
   const [showProMode, setShowProMode] = useState(false);
   const [isStarred, setIsStarred] = useState(false);
 
+  // 自動發音開關（預設為開啟 True，保存在 localStorage）
+  const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(() => {
+    return localStorage.getItem('nihongo_autoplay_audio') !== 'false';
+  });
+
+  // 自然人聲語速調整（預設 0.85x 最接近真人清晰發音）
+  const [speechRate, setSpeechRate] = useState<number>(() => {
+    const saved = localStorage.getItem('nihongo_speech_rate');
+    return saved ? parseFloat(saved) : 0.85;
+  });
+
+  // 切換自動發音
+  const toggleAutoPlay = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setAutoPlayAudio(prev => {
+      const next = !prev;
+      localStorage.setItem('nihongo_autoplay_audio', String(next));
+      return next;
+    });
+  };
+
+  // 切換語速 (0.75x 慢速 -> 0.85x 自然真人 -> 1.0x 正常)
+  const cycleSpeechRate = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setSpeechRate(prev => {
+      let next = 0.85;
+      if (prev === 0.85) next = 0.75;
+      else if (prev === 0.75) next = 1.0;
+      else next = 0.85;
+      localStorage.setItem('nihongo_speech_rate', String(next));
+      return next;
+    });
+  };
+
   // 判定是否為純聽力模式（答對兩次以上）
   const isListeningMode = (srsData.reps || 0) >= 2;
 
-  // 當單字切換時重設狀態，並在純聽力模式下自動發音
+  // 當單字切換時重設狀態，並在自動發音開啟時自動播放真人發音
   useEffect(() => {
     setIsRevealed(false);
     setIsStarred(isFavorite(word.id));
 
-    if (isListeningMode) {
-      // 純聽力挑戰：換卡自動播放發音
-      speakJapanese(word.reading);
+    if (autoPlayAudio || isListeningMode) {
+      // 換卡時自動發音，使用自然語速
+      const timer = setTimeout(() => {
+        speakJapanese(word.reading, speechRate);
+      }, 150);
+      return () => clearTimeout(timer);
     }
-  }, [word.id, isListeningMode]);
+  }, [word.id, autoPlayAudio, isListeningMode, speechRate]);
 
   // 收藏切換
   const handleToggleStar = (e: React.MouseEvent) => {
@@ -51,7 +88,7 @@ export const Flashcard: React.FC<FlashcardProps> = ({
   const handleSpeak = async (e?: React.MouseEvent, text?: string) => {
     if (e) e.stopPropagation();
     setIsPlayingAudio(true);
-    await speakJapanese(text || word.reading);
+    await speakJapanese(text || word.reading, speechRate);
     setIsPlayingAudio(false);
   };
 
@@ -114,22 +151,47 @@ export const Flashcard: React.FC<FlashcardProps> = ({
 
   return (
     <div className="max-w-lg mx-auto px-4 py-4 sm:py-6 space-y-4">
-      {/* Top Header Bar: Back, Level badge & Progress */}
-      <div className="flex items-center justify-between text-xs text-slate-500 font-medium">
+      {/* Top Header Bar: Back, Level badge & Audio controls */}
+      <div className="flex items-center justify-between text-xs text-slate-500 font-medium gap-2">
         <button
           onClick={onBack}
           className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 p-1 rounded-lg transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>返回選單</span>
+          <span>返回</span>
         </button>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          {/* Auto-Play Audio Toggle */}
+          <button
+            onClick={toggleAutoPlay}
+            className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg border font-semibold text-[11px] transition-all cursor-pointer ${
+              autoPlayAudio
+                ? 'bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 border-rose-200 dark:border-rose-800/80 shadow-xs'
+                : 'bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 border-slate-200 dark:border-slate-700'
+            }`}
+            title="點擊切換是否換卡自動發音"
+          >
+            {autoPlayAudio ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+            <span className="hidden sm:inline">{autoPlayAudio ? '自動發音' : '手動發音'}</span>
+          </button>
+
+          {/* Speech Rate Selector */}
+          <button
+            onClick={cycleSpeechRate}
+            className="inline-flex items-center gap-0.5 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-bold text-[11px] hover:border-slate-300 dark:hover:border-slate-600 transition-all cursor-pointer"
+            title="點擊切換發音語速 (0.75x 慢速 / 0.85x 真人標準 / 1.0x 原速)"
+          >
+            <Gauge className="w-3 h-3 text-rose-500" />
+            <span>{speechRate === 0.85 ? '0.85x 真人速' : speechRate === 0.75 ? '0.75x 慢速' : '1.0x 原速'}</span>
+          </button>
+
+          {/* Level Badge */}
           <span className="px-2 py-0.5 bg-rose-100 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 font-bold rounded-md text-[11px]">
             {word.level}
           </span>
-          <span>
-            {currentIndex + 1} / {totalCards}
+          <span className="text-[11px] text-slate-400">
+            {currentIndex + 1}/{totalCards}
           </span>
         </div>
       </div>
