@@ -24,6 +24,14 @@ export interface VocabWord {
   example: string;          // 日文例句
   exampleReading?: string;  // 例句假名
   exampleMeaning: string;   // 例句繁體中文翻譯
+  isCustomized?: boolean;   // 是否由使用者手動自訂修改過
+}
+
+export interface CustomWordOverride {
+  meaning?: string;
+  example?: string;
+  exampleMeaning?: string;
+  updatedAt?: string;
 }
 
 export type MasteryState = 'new' | 'learning' | 'review' | 'mastered';

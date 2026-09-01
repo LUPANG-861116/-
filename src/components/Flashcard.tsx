@@ -1,8 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import type { VocabWord, RatingGrade, WordSRSData } from '../types';
 import { speakJapanese } from '../utils/speech';
-import { predictNextInterval, isFavorite, toggleFavorite } from '../utils/srsEngine';
-import { Volume2, VolumeX, Eye, Check, X, ArrowLeft, Clock, Calendar, Star, Headphones, Gauge } from 'lucide-react';
+import {
+  predictNextInterval,
+  isFavorite,
+  toggleFavorite,
+  getAppliedWord,
+  saveCustomWordOverride,
+  removeCustomWordOverride
+} from '../utils/srsEngine';
+import {
+  Volume2,
+  VolumeX,
+  Eye,
+  Check,
+  X,
+  ArrowLeft,
+  Clock,
+  Calendar,
+  Star,
+  Headphones,
+  Gauge,
+  Edit3,
+  RotateCcw,
+  Sparkles
+} from 'lucide-react';
 
 interface FlashcardProps {
   word: VocabWord;
@@ -25,6 +47,15 @@ export const Flashcard: React.FC<FlashcardProps> = ({
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [showProMode, setShowProMode] = useState(false);
   const [isStarred, setIsStarred] = useState(false);
+
+  // 套用使用者自訂釋義後的單字狀態
+  const [activeWord, setActiveWord] = useState<VocabWord>(() => getAppliedWord(word));
+
+  // 編輯釋義狀態
+  const [isEditing, setIsEditing] = useState(false);
+  const [editMeaning, setEditMeaning] = useState('');
+  const [editExampleMeaning, setEditExampleMeaning] = useState('');
+  const [saveSuccessToast, setSaveSuccessToast] = useState(false);
 
   // 自動發音開關（預設為開啟 True，保存在 localStorage）
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(() => {
@@ -66,13 +97,53 @@ export const Flashcard: React.FC<FlashcardProps> = ({
   // 當單字切換時重設狀態，並在自動發音開啟時自動播放真人發音
   useEffect(() => {
     setIsRevealed(false);
+    setIsEditing(false);
     setIsStarred(isFavorite(word.id));
+    setActiveWord(getAppliedWord(word));
 
     if (autoPlayAudio || isListeningMode) {
       // 換卡時立即自動發音，使用自然語速
       speakJapanese(word.reading, speechRate);
     }
   }, [word.id, autoPlayAudio, isListeningMode, speechRate]);
+
+  // 開啟編輯模式
+  const handleOpenEdit = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setEditMeaning(activeWord.meaning);
+    setEditExampleMeaning(activeWord.exampleMeaning);
+    setIsEditing(true);
+  };
+
+  // 儲存編輯
+  const handleSaveEdit = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!editMeaning.trim()) return;
+    saveCustomWordOverride(word.id, {
+      meaning: editMeaning.trim(),
+      exampleMeaning: editExampleMeaning.trim()
+    });
+    setActiveWord(getAppliedWord(word));
+    setIsEditing(false);
+    setSaveSuccessToast(true);
+    setTimeout(() => setSaveSuccessToast(false), 2200);
+  };
+
+  // 還原預設字典釋義
+  const handleResetDefault = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    removeCustomWordOverride(word.id);
+    setActiveWord({ ...word, isCustomized: false });
+    setIsEditing(false);
+    setSaveSuccessToast(true);
+    setTimeout(() => setSaveSuccessToast(false), 2200);
+  };
+
+  // 取消編輯
+  const handleCancelEdit = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIsEditing(false);
+  };
 
   // 收藏切換
   const handleToggleStar = (e: React.MouseEvent) => {
@@ -280,13 +351,13 @@ export const Flashcard: React.FC<FlashcardProps> = ({
           <div className="text-center py-6 sm:py-8 space-y-2">
             {/* Hiragana Reading & Romaji */}
             <div className="flex items-center justify-center gap-2 text-rose-500 dark:text-rose-400 font-semibold text-base sm:text-lg">
-              <span>{word.reading}</span>
-              <span className="text-xs text-slate-400 font-normal">({word.romaji})</span>
+              <span>{activeWord.reading}</span>
+              <span className="text-xs text-slate-400 font-normal">({activeWord.romaji})</span>
             </div>
 
             {/* Big Japanese Kanji / Word */}
             <h2 className="text-4xl sm:text-5xl font-black text-slate-800 dark:text-slate-100 tracking-wide font-sans py-1">
-              {word.word}
+              {activeWord.word}
             </h2>
 
             {/* SRS Mastery Tag */}
@@ -308,12 +379,23 @@ export const Flashcard: React.FC<FlashcardProps> = ({
           </div>
         )}
 
+        {/* Success Toast */}
+        {saveSuccessToast && (
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="mb-2 p-2.5 bg-emerald-50 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300 rounded-xl text-xs font-bold text-center flex items-center justify-center gap-1.5 animate-fadeIn"
+          >
+            <Check className="w-4 h-4 text-emerald-500" />
+            <span>✓ 中文釋義已更新儲存！</span>
+          </div>
+        )}
+
         {/* Example Sentence Section */}
         <div className="mt-2 p-4 bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800 rounded-2xl space-y-2">
           <div className="flex items-center justify-between text-xs font-semibold text-slate-500 dark:text-slate-400">
             <span>日文例句</span>
             <button
-              onClick={(e) => handleSpeak(e, word.example)}
+              onClick={(e) => handleSpeak(e, activeWord.example)}
               className="text-slate-400 hover:text-rose-500 transition-colors p-1 cursor-pointer"
               title="朗讀例句"
             >
@@ -323,27 +405,125 @@ export const Flashcard: React.FC<FlashcardProps> = ({
 
           {/* Japanese Sentence */}
           <p className="text-base sm:text-lg text-slate-800 dark:text-slate-200 font-medium leading-relaxed">
-            {isListeningMode && !isRevealed ? '（翻開後顯示例句內容）' : word.example}
+            {isListeningMode && !isRevealed ? '（翻開後顯示例句內容）' : activeWord.example}
           </p>
 
           {/* Example Chinese Translation (Revealed when card is clicked) */}
           {isRevealed && (
             <p className="text-sm text-slate-600 dark:text-slate-300 pt-1 border-t border-slate-200/60 dark:border-slate-700/60 animate-fadeIn font-normal">
-              {word.exampleMeaning}
+              {activeWord.exampleMeaning}
             </p>
           )}
         </div>
 
-        {/* Word Chinese Meaning (Revealed when card is clicked) */}
+        {/* Word Chinese Meaning / Inline Edit Section */}
         {isRevealed ? (
-          <div className="mt-4 p-4 bg-gradient-to-r from-rose-50 to-amber-50 dark:from-rose-950/30 dark:to-amber-950/20 border border-rose-200/60 dark:border-rose-900/40 rounded-2xl text-center space-y-1 animate-fadeIn">
-            <span className="text-[11px] font-bold text-rose-600 dark:text-rose-400 uppercase tracking-wider">
-              中文釋義
-            </span>
-            <p className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-slate-100">
-              {word.meaning}
-            </p>
-          </div>
+          !isEditing ? (
+            <div className="mt-4 p-4 bg-gradient-to-r from-rose-50 to-amber-50 dark:from-rose-950/30 dark:to-amber-950/20 border border-rose-200/60 dark:border-rose-900/40 rounded-2xl space-y-2 animate-fadeIn relative">
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-bold text-rose-600 dark:text-rose-400 uppercase tracking-wider">
+                  中文釋義
+                </span>
+                <div className="flex items-center gap-1.5">
+                  {activeWord.isCustomized && (
+                    <span className="text-[10px] px-2 py-0.5 bg-amber-100 dark:bg-amber-900/60 text-amber-700 dark:text-amber-300 rounded-md font-bold flex items-center gap-0.5">
+                      <Sparkles className="w-2.5 h-2.5" />
+                      <span>自訂修訂</span>
+                    </span>
+                  )}
+                  <button
+                    onClick={handleOpenEdit}
+                    className="inline-flex items-center gap-1 text-xs text-rose-600 dark:text-rose-400 hover:text-rose-700 bg-white/90 dark:bg-slate-800/90 hover:bg-white dark:hover:bg-slate-800 px-2.5 py-1 rounded-xl border border-rose-200 dark:border-rose-800/60 shadow-2xs font-bold transition-all cursor-pointer"
+                    title="手動編輯中文釋義與例句翻譯"
+                  >
+                    <Edit3 className="w-3.5 h-3.5" />
+                    <span>編輯釋義</span>
+                  </button>
+                </div>
+              </div>
+              <p className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-slate-100 text-center py-1">
+                {activeWord.meaning}
+              </p>
+            </div>
+          ) : (
+            /* Inline Edit Mode Form */
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="mt-4 p-4 bg-white dark:bg-slate-850 border-2 border-rose-400 dark:border-rose-600 rounded-2xl space-y-3 shadow-lg animate-fadeIn text-left"
+            >
+              <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-2">
+                <span className="text-xs font-bold text-rose-600 dark:text-rose-400 flex items-center gap-1.5">
+                  <Edit3 className="w-4 h-4" />
+                  <span>手動校正中文釋義與翻譯</span>
+                </span>
+                <span className="text-[10px] text-slate-400">
+                  修改將永久保存在手機本機
+                </span>
+              </div>
+
+              {/* Meaning Input */}
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-700 dark:text-slate-300">
+                  單字中文意思：
+                </label>
+                <input
+                  type="text"
+                  value={editMeaning}
+                  onChange={(e) => setEditMeaning(e.target.value)}
+                  onClick={(e) => e.stopPropagation()}
+                  placeholder="輸入精確繁體中文意思..."
+                  className="w-full px-3 py-2 text-sm font-semibold rounded-xl border border-rose-200 dark:border-rose-800/80 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 focus:ring-2 focus:ring-rose-500 outline-none"
+                />
+              </div>
+
+              {/* Example Translation Input */}
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-700 dark:text-slate-300">
+                  例句中文翻譯：
+                </label>
+                <input
+                  type="text"
+                  value={editExampleMeaning}
+                  onChange={(e) => setEditExampleMeaning(e.target.value)}
+                  onClick={(e) => e.stopPropagation()}
+                  placeholder="輸入例句繁體中文翻譯..."
+                  className="w-full px-3 py-2 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 focus:ring-2 focus:ring-rose-500 outline-none"
+                />
+              </div>
+
+              {/* Buttons */}
+              <div className="flex items-center justify-between pt-1 gap-2">
+                {activeWord.isCustomized ? (
+                  <button
+                    onClick={handleResetDefault}
+                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border border-amber-300 dark:border-amber-700 text-amber-700 dark:text-amber-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/40 transition-all cursor-pointer"
+                    title="刪除自訂修改，恢復官方字典預設"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5" />
+                    <span>還原預設</span>
+                  </button>
+                ) : (
+                  <div />
+                )}
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={handleCancelEdit}
+                    className="px-3.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all cursor-pointer"
+                  >
+                    取消
+                  </button>
+                  <button
+                    onClick={handleSaveEdit}
+                    className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold shadow-xs transition-all active:scale-95 cursor-pointer"
+                  >
+                    <Check className="w-3.5 h-3.5 stroke-[2.5]" />
+                    <span>儲存修改</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          )
         ) : (
           /* Tap Hint Cue */
           <div className="mt-4 py-3 text-center text-xs font-medium text-slate-400 dark:text-slate-500 flex items-center justify-center gap-1.5 group-hover:text-rose-500 transition-colors">

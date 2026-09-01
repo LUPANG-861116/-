@@ -1,4 +1,4 @@
-import type { WordSRSData, VocabWord, MasteryState, RatingGrade, UserStats } from '../types';
+import type { WordSRSData, VocabWord, MasteryState, RatingGrade, UserStats, CustomWordOverride } from '../types';
 
 const STORAGE_KEY = 'nihongo_srs_records_v2';
 const STATS_KEY = 'nihongo_srs_user_stats_v2';
@@ -257,16 +257,79 @@ export const getHardWords = (words: VocabWord[]): VocabWord[] => {
 };
 
 /**
- * 匯出備份資料
+ * 自訂單字釋義與例句覆寫 (Custom Word Overrides)
+ */
+const CUSTOM_OVERRIDES_KEY = 'nihongo_custom_word_overrides_v1';
+
+export const getCustomWordOverrides = (): Record<string, CustomWordOverride> => {
+  try {
+    const raw = localStorage.getItem(CUSTOM_OVERRIDES_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    console.error('Failed to load custom word overrides', e);
+    return {};
+  }
+};
+
+export const saveCustomWordOverride = (
+  wordId: string,
+  override: Partial<CustomWordOverride>
+): void => {
+  try {
+    const all = getCustomWordOverrides();
+    const existing = all[wordId] || {};
+    all[wordId] = {
+      ...existing,
+      ...override,
+      updatedAt: new Date().toISOString()
+    };
+    localStorage.setItem(CUSTOM_OVERRIDES_KEY, JSON.stringify(all));
+  } catch (e) {
+    console.error('Failed to save custom word override', e);
+  }
+};
+
+export const removeCustomWordOverride = (wordId: string): void => {
+  try {
+    const all = getCustomWordOverrides();
+    if (all[wordId]) {
+      delete all[wordId];
+      localStorage.setItem(CUSTOM_OVERRIDES_KEY, JSON.stringify(all));
+    }
+  } catch (e) {
+    console.error('Failed to remove custom word override', e);
+  }
+};
+
+export const getAppliedWord = <T extends VocabWord>(word: T): T => {
+  if (!word) return word;
+  const all = getCustomWordOverrides();
+  const custom = all[word.id];
+  if (!custom) return word;
+  return {
+    ...word,
+    meaning: custom.meaning !== undefined && custom.meaning.trim() !== '' ? custom.meaning : word.meaning,
+    example: custom.example !== undefined && custom.example.trim() !== '' ? custom.example : word.example,
+    exampleMeaning: custom.exampleMeaning !== undefined && custom.exampleMeaning.trim() !== '' ? custom.exampleMeaning : word.exampleMeaning,
+    isCustomized: true
+  };
+};
+
+/**
+ * 匯出備份資料 (包含 SRS 學習進度、統計數據、星號收藏、以及自訂單字釋義)
  */
 export const exportDataJSON = (): string => {
   const srsData = getAllSRSData();
   const stats = localStorage.getItem(STATS_KEY);
+  const favorites = getFavorites();
+  const customOverrides = getCustomWordOverrides();
   return JSON.stringify({
     version: 2,
     exportedAt: new Date().toISOString(),
     srsData,
-    stats: stats ? JSON.parse(stats) : null
+    stats: stats ? JSON.parse(stats) : null,
+    favorites,
+    customOverrides
   }, null, 2);
 };
 
@@ -282,6 +345,12 @@ export const importDataJSON = (jsonStr: string): boolean => {
     if (parsed.stats) {
       localStorage.setItem(STATS_KEY, JSON.stringify(parsed.stats));
     }
+    if (parsed.favorites && Array.isArray(parsed.favorites)) {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(parsed.favorites));
+    }
+    if (parsed.customOverrides && typeof parsed.customOverrides === 'object') {
+      localStorage.setItem(CUSTOM_OVERRIDES_KEY, JSON.stringify(parsed.customOverrides));
+    }
     return true;
   } catch (e) {
     console.error('Import failed', e);
@@ -290,13 +359,14 @@ export const importDataJSON = (jsonStr: string): boolean => {
 };
 
 /**
- * 徹底重設所有使用者資料 (包含 SRS 紀錄、統計、收藏星星、閱讀進度)
+ * 徹底重設所有使用者資料 (包含 SRS 紀錄、統計、收藏星星、閱讀進度、自訂單字釋義)
  */
 export const resetAllUserData = (): void => {
   try {
     localStorage.removeItem(STORAGE_KEY);
     localStorage.removeItem(STATS_KEY);
     localStorage.removeItem(FAVORITES_KEY);
+    localStorage.removeItem(CUSTOM_OVERRIDES_KEY);
     localStorage.removeItem('nihongo_reading_progress_v1');
     localStorage.removeItem('nihongo_srs_records_v2');
     localStorage.removeItem('nihongo_srs_user_stats_v2');

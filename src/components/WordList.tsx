@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import type { VocabWord, JLPTLevel } from '../types';
 import { allWords } from '../data';
-import { getAllSRSData } from '../utils/srsEngine';
+import { getAllSRSData, getAppliedWord } from '../utils/srsEngine';
 import { speakJapanese } from '../utils/speech';
-import { Search, Volume2, BookOpen, X } from 'lucide-react';
+import { Search, Volume2, BookOpen, X, Sparkles } from 'lucide-react';
 
 interface WordListProps {
   initialLevel?: JLPTLevel;
@@ -18,9 +18,9 @@ export const WordList: React.FC<WordListProps> = ({ initialLevel = 'ALL' }) => {
 
   const srsDataMap = useMemo(() => getAllSRSData(), []);
 
-  // Filter words
+  // Filter words (with custom user overrides applied)
   const filteredWords = useMemo(() => {
-    return allWords.filter(word => {
+    return allWords.map(w => getAppliedWord(w)).filter(word => {
       // Level filter
       if (selectedLevel !== 'ALL' && word.level !== selectedLevel) return false;
 
@@ -242,10 +242,18 @@ export const WordList: React.FC<WordListProps> = ({ initialLevel = 'ALL' }) => {
             </div>
 
             {/* Meaning */}
-            <div className="p-3.5 bg-rose-50/50 dark:bg-rose-950/20 border border-rose-100 dark:border-rose-900/40 rounded-2xl">
-              <span className="text-[11px] font-bold text-rose-600 dark:text-rose-400 uppercase">
-                中文釋義
-              </span>
+            <div className="p-3.5 bg-rose-50/50 dark:bg-rose-950/20 border border-rose-100 dark:border-rose-900/40 rounded-2xl space-y-1">
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-bold text-rose-600 dark:text-rose-400 uppercase">
+                  中文釋義
+                </span>
+                {activeWord.isCustomized && (
+                  <span className="text-[10px] px-2 py-0.5 bg-amber-100 dark:bg-amber-900/60 text-amber-700 dark:text-amber-300 rounded-md font-bold flex items-center gap-0.5">
+                    <Sparkles className="w-2.5 h-2.5" />
+                    <span>自訂修訂</span>
+                  </span>
+                )}
+              </div>
               <p className="text-lg font-bold text-slate-800 dark:text-slate-100">
                 {activeWord.meaning}
               </p>
