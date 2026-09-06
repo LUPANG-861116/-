@@ -302,7 +302,7 @@
     "reading": "あなた",
     "romaji": "anata",
     "partOfSpeech": "名詞",
-    "meaning": "你",
+    "meaning": "你（君 / 對同輩稱呼）",
     "level": "N5",
     "example": "あなたのお名前は何ですか。",
     "exampleMeaning": "請問您的名字是什麼？"
@@ -720,7 +720,7 @@
     "reading": "いま",
     "romaji": "ima",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "最近、這陣子 / 從今以後、接下來",
     "level": "N5",
     "example": "今何時ですか。",
     "exampleMeaning": "現在幾點？"
@@ -1006,7 +1006,7 @@
     "reading": "えき",
     "romaji": "eki",
     "partOfSpeech": "名詞",
-    "meaning": "車站",
+    "meaning": "警察、警方",
     "level": "N5",
     "example": "駅で電車を待ちます。",
     "exampleMeaning": "在車站等電車。"
@@ -1259,7 +1259,7 @@
     "reading": "おちゃ",
     "romaji": "ocha",
     "partOfSpeech": "名詞",
-    "meaning": "茶",
+    "meaning": "牛排 / 漢堡排 / 蒸汽火車",
     "level": "N5",
     "example": "温かいお茶を飲みましょう。",
     "exampleMeaning": "來喝杯熱茶吧。"
@@ -1600,7 +1600,7 @@
     "reading": "かいしゃ",
     "romaji": "kaisha",
     "partOfSpeech": "名詞",
-    "meaning": "公司",
+    "meaning": "報社",
     "level": "N5",
     "example": "会社で働いています。",
     "exampleMeaning": "在公司上班。"
@@ -1864,7 +1864,7 @@
     "reading": "かてい",
     "romaji": "katei",
     "partOfSpeech": "名詞",
-    "meaning": "家",
+    "meaning": "…家（專家、小說家、藝術家）",
     "level": "N5",
     "example": "仕事でどんなに疲れても、温かい家庭が待っていると思えば頑張れるよ。",
     "exampleMeaning": "工作再怎麼累，只要想到溫暖的家在等著我，就能繼續堅持下去。"
@@ -2711,7 +2711,7 @@
     "reading": "こうちゃ",
     "romaji": "koucha",
     "partOfSpeech": "名詞",
-    "meaning": "茶",
+    "meaning": "牛排 / 漢堡排 / 蒸汽火車",
     "level": "N5",
     "example": "午後はお気に入りの紅茶を飲みながら読書をした。",
     "exampleMeaning": "下午一邊喝著最愛的紅茶一邊看書。"
@@ -2898,10 +2898,10 @@
     "reading": "この",
     "romaji": "kono",
     "partOfSpeech": "名詞",
-    "meaning": "這個（近處事物）",
+    "meaning": "這、這個（指靠近說話者的事物）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、このに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對這個進行了詳細的調查研究。"
+    "example": "この本はとても面白くて一気に読んでしまいました。",
+    "exampleMeaning": "這本書非常有趣，我一口氣就看完了。"
   },
   {
     "id": "n5_0265",
@@ -3008,7 +3008,7 @@
     "reading": "さあ",
     "romaji": "saa",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "最近、這陣子 / 從今以後、接下來",
     "level": "N5",
     "example": "さあ、そろそろ出発の時間だよ。",
     "exampleMeaning": "好啦，差不多該出發囉。"
@@ -3019,10 +3019,10 @@
     "reading": "～さい",
     "romaji": "～sai",
     "partOfSpeech": "名詞",
-    "meaning": "…歲（年齡單位）",
+    "meaning": "…歲（年齡計量單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、歳に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…歲進行了詳細的調查研究。"
+    "example": "私の弟は今年で二十歳になります。",
+    "exampleMeaning": "我的弟弟今年就要滿二十歲了。"
   },
   {
     "id": "n5_0276",
@@ -3096,10 +3096,10 @@
     "reading": "～さつ",
     "romaji": "～satsu",
     "partOfSpeech": "名詞",
-    "meaning": "…本（書籍雜誌單位）",
+    "meaning": "…本、…冊（書籍雜誌計算單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、冊に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…本進行了詳細的調查研究。"
+    "example": "図書館で興味深い小説を三冊借りました。",
+    "exampleMeaning": "我在圖書館借了三本引人入勝的小說。"
   },
   {
     "id": "n5_0283",
@@ -3151,10 +3151,10 @@
     "reading": "～さん",
     "romaji": "～san",
     "partOfSpeech": "名詞",
-    "meaning": "先生 小姐",
+    "meaning": "…先生、…小姐（接在人名後的禮貌稱呼）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、さんに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對先生 小姐進行了詳細的調查研究。"
+    "example": "田中さんは親切でいつもみんなを助けてくれます。",
+    "exampleMeaning": "田中先生為人親切，總是熱心幫助大家。"
   },
   {
     "id": "n5_0288",
@@ -3470,10 +3470,10 @@
     "reading": "～しゅうかん",
     "romaji": "～shuukan",
     "partOfSpeech": "名詞",
-    "meaning": "週間",
+    "meaning": "…週、…星期（時間長度單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、週間に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對週間進行了詳細的調查研究。"
+    "example": "夏休みに二週間の予定で北海道を旅行しました。",
+    "exampleMeaning": "暑假期間我安排了為期兩週的北海道旅行。"
   },
   {
     "id": "n5_0317",
@@ -3580,10 +3580,10 @@
     "reading": "～じん",
     "romaji": "～jin",
     "partOfSpeech": "名詞",
-    "meaning": "…人（計算人數單位）",
+    "meaning": "…國人（表示國籍、民族）",
     "level": "N5",
-    "example": "このプロジェクトチームは全員で五人います。",
-    "exampleMeaning": "這個專案團隊總共有五個人。"
+    "example": "彼は日本文化を愛するフランス人です。",
+    "exampleMeaning": "他是一位非常喜愛日本文化的法國人。"
   },
   {
     "id": "n5_0327",
@@ -3646,10 +3646,10 @@
     "reading": "～すぎ",
     "romaji": "～sugi",
     "partOfSpeech": "名詞",
-    "meaning": "太多了",
+    "meaning": "過度…、太… / 過了…（時間）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、すぎに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對太多了進行了詳細的調查研究。"
+    "example": "昨夜はお酒を飲みすぎて、朝起きたら頭が痛かった。",
+    "exampleMeaning": "昨晚喝了太多酒，早上起來頭痛不已。"
   },
   {
     "id": "n5_0333",
@@ -3690,7 +3690,7 @@
     "reading": "すずしい",
     "romaji": "suzushii",
     "partOfSpeech": "い形容詞",
-    "meaning": "涼爽的",
+    "meaning": "外表、模樣、打扮",
     "level": "N5",
     "example": "秋は涼しくて好きです。",
     "exampleMeaning": "秋天很涼爽我很喜歡。"
@@ -3756,7 +3756,7 @@
     "reading": "すむ",
     "romaji": "sumu",
     "partOfSpeech": "動詞",
-    "meaning": "居住",
+    "meaning": "生活、過日子",
     "level": "N5",
     "example": "東京に住んでいます。",
     "exampleMeaning": "住在東京。"
@@ -4075,10 +4075,10 @@
     "reading": "～だい",
     "romaji": "～dai",
     "partOfSpeech": "名詞",
-    "meaning": "…台（機械車輛單位）",
+    "meaning": "…台、…輛（車輛、機械電器計算單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、台に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…台進行了詳細的調查研究。"
+    "example": "駐車場に新しい車が二台停まっています。",
+    "exampleMeaning": "停車場停著兩輛嶄新的汽車。"
   },
   {
     "id": "n5_0372",
@@ -4108,7 +4108,7 @@
     "reading": "だいじょうぶ",
     "romaji": "daijoubu",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "馬上、快要 / 習慣 / 每年 / 每天",
     "level": "N5",
     "example": "少し風邪気味だけど、薬を飲めば大丈夫だよ。",
     "exampleMeaning": "雖然有點小感冒，但吃藥了就沒事啦。"
@@ -4174,10 +4174,10 @@
     "reading": "～だけ",
     "romaji": "～dake",
     "partOfSpeech": "名詞",
-    "meaning": "僅有的",
+    "meaning": "僅、只、只有",
     "level": "N5",
-    "example": "今回のプロジェクトでは、だけに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對僅有的進行了詳細的調查研究。"
+    "example": "今朝は時間がなかったので、パンだけ食べました。",
+    "exampleMeaning": "今天早上因為沒時間，所以只吃了麵包。"
   },
   {
     "id": "n5_0381",
@@ -4218,10 +4218,10 @@
     "reading": "～たち",
     "romaji": "～tachi",
     "partOfSpeech": "名詞",
-    "meaning": "太刀",
+    "meaning": "…們（表示人或動物的複數接尾辭）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、たちに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對太刀進行了詳細的調查研究。"
+    "example": "子供たちが校庭で元気に走り回っています。",
+    "exampleMeaning": "孩子們正在校園操場上充滿活力地奔跑。"
   },
   {
     "id": "n5_0385",
@@ -4823,10 +4823,10 @@
     "reading": "でんき",
     "romaji": "denki",
     "partOfSpeech": "名詞",
-    "meaning": "電",
+    "meaning": "電力、電燈",
     "level": "N5",
-    "example": "今回のプロジェクトでは、電気に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對電進行了詳細的調查研究。"
+    "example": "部屋が暗くなってきたので、電気をつけて明るくしました。",
+    "exampleMeaning": "房間漸漸變暗了，所以我打開電燈讓室內變亮。"
   },
   {
     "id": "n5_0440",
@@ -4867,10 +4867,10 @@
     "reading": "～ど",
     "romaji": "～do",
     "partOfSpeech": "名詞",
-    "meaning": "度",
+    "meaning": "…次、…回 / …度（溫度、角度單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、度に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對度進行了詳細的調查研究。"
+    "example": "今日の東京の最高気温は三十度まで上がりました。",
+    "exampleMeaning": "今天東京的最高氣溫上升到了三十度。"
   },
   {
     "id": "n5_0444",
@@ -5087,7 +5087,7 @@
     "reading": "とても",
     "romaji": "totemo",
     "partOfSpeech": "副詞",
-    "meaning": "非常、很",
+    "meaning": "馬上、快要 / 習慣 / 每年 / 每天",
     "level": "N5",
     "example": "このレストランの料理はとても美味しいです。",
     "exampleMeaning": "這家餐廳的料理非常美味。"
@@ -5340,10 +5340,10 @@
     "reading": "～など",
     "romaji": "～nado",
     "partOfSpeech": "名詞",
-    "meaning": "ETC。",
+    "meaning": "…等等、之類（列舉事物）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、などに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對ETC。進行了詳細的調查研究。"
+    "example": "休日は読書や映画鑑賞などを楽しんでいます。",
+    "exampleMeaning": "休假時我常享受閱讀或欣賞電影等活動。"
   },
   {
     "id": "n5_0487",
@@ -5549,10 +5549,10 @@
     "reading": "～にん",
     "romaji": "～nin",
     "partOfSpeech": "名詞",
-    "meaning": "…人（計算人數單位）",
+    "meaning": "…人（計算人數的單位）",
     "level": "N5",
-    "example": "このプロジェクトチームは全員で五人います。",
-    "exampleMeaning": "這個專案團隊總共有五個人。"
+    "example": "会議室にはすでに五人のメンバーが集まっています。",
+    "exampleMeaning": "會議室裡已經聚集了五位成員。"
   },
   {
     "id": "n5_0506",
@@ -5626,7 +5626,7 @@
     "reading": "ノート",
     "romaji": "ノート",
     "partOfSpeech": "名詞",
-    "meaning": "書本",
+    "meaning": "字典、辭典",
     "level": "N5",
     "example": "先生の大事なメモをノートにしっかり書き留めた。",
     "exampleMeaning": "我把老師的重要筆記牢牢地寫在筆記本上了。"
@@ -5714,10 +5714,10 @@
     "reading": "～はい",
     "romaji": "～hai",
     "partOfSpeech": "名詞",
-    "meaning": "…杯（飲料容器單位）",
+    "meaning": "…杯、…碗（盛裝飲料或料理的單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、杯に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…杯進行了詳細的調查研究。"
+    "example": "朝起きたらまず温かいコーヒーを一杯飲みます。",
+    "exampleMeaning": "早上起床後，我會先喝一杯熱咖啡。"
   },
   {
     "id": "n5_0521",
@@ -5945,10 +5945,10 @@
     "reading": "はなす",
     "romaji": "hanasu",
     "partOfSpeech": "動詞",
-    "meaning": "演講",
+    "meaning": "說話、交談、講",
     "level": "N5",
-    "example": "会議で来期のプロジェクトについて自分の意見を話した。",
-    "exampleMeaning": "我在會議上發表了自己對下期專案的看法。"
+    "example": "友達とカフェで将来の夢について楽しく話しました。",
+    "exampleMeaning": "我和朋友在咖啡廳裡開心地聊著未來的夢想。"
   },
   {
     "id": "n5_0542",
@@ -6055,10 +6055,10 @@
     "reading": "～ばん",
     "romaji": "～ban",
     "partOfSpeech": "名詞",
-    "meaning": "…號、…番（號碼順序）",
+    "meaning": "…號、…番（順序、號碼）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、番に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…號進行了詳細的調查研究。"
+    "example": "次の電車は二番ホームから発車します。",
+    "exampleMeaning": "下一班電車將從二號月台發車。"
   },
   {
     "id": "n5_0552",
@@ -6132,10 +6132,10 @@
     "reading": "～ひき",
     "romaji": "～hiki",
     "partOfSpeech": "名詞",
-    "meaning": "…隻（小型動物單位）",
+    "meaning": "…隻（小型動物、昆蟲、魚類計算單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、匹に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…隻進行了詳細的調查研究。"
+    "example": "公園の池で可愛い亀が二匹泳いでいました。",
+    "exampleMeaning": "公園的池塘裡有兩隻可愛的烏龜在游泳。"
   },
   {
     "id": "n5_0559",
@@ -6143,10 +6143,10 @@
     "reading": "ひく",
     "romaji": "hiku",
     "partOfSpeech": "動詞",
-    "meaning": "拉",
+    "meaning": "拉、牽、抽 / 查（字典）",
     "level": "N5",
-    "example": "辞書を引いて意味を調べます。",
-    "exampleMeaning": "查字典查詢意思。"
+    "example": "分からない単語があったら、すぐに辞書を引いて調べましょう。",
+    "exampleMeaning": "遇到不懂的單字時，立刻查字典弄清楚吧。"
   },
   {
     "id": "n5_0560",
@@ -6209,10 +6209,10 @@
     "reading": "ひとつ",
     "romaji": "hitotsu",
     "partOfSpeech": "名詞",
-    "meaning": "一",
+    "meaning": "一個（計算物品單位）",
     "level": "N5",
-    "example": "すみません、このケーキを一つ持ち帰りでお願いします。",
-    "exampleMeaning": "不好意思，這個蛋糕我要外帶一個。"
+    "example": "お土産に美味しいリンゴを一つもらいました。",
+    "exampleMeaning": "我收到了一顆美味的蘋果作為伴手禮。"
   },
   {
     "id": "n5_0566",
@@ -6253,10 +6253,10 @@
     "reading": "ひゃく",
     "romaji": "hyaku",
     "partOfSpeech": "名詞",
-    "meaning": "百",
+    "meaning": "百、一百",
     "level": "N5",
-    "example": "このコンサートのチケットは百枚限定らしい。",
-    "exampleMeaning": "聽說這場演唱會的門票只有限量一百張。"
+    "example": "このノートは百円ショップで安く買いました。",
+    "exampleMeaning": "這本筆記本是在百圓商店便宜買到的。"
   },
   {
     "id": "n5_0570",
@@ -6266,8 +6266,8 @@
     "partOfSpeech": "名詞",
     "meaning": "醫院",
     "level": "N5",
-    "example": "体の調子が悪いので、午後に病院へ行って診てもらいます。",
-    "exampleMeaning": "因為身體不舒服，下午要去醫院看診。"
+    "example": "熱が下がらないので、近くの病院で診てもらいました。",
+    "exampleMeaning": "因為燒一直沒退，所以我去了附近的醫院看診。"
   },
   {
     "id": "n5_0571",
@@ -6363,10 +6363,10 @@
     "reading": "フォーク",
     "romaji": "フォーク",
     "partOfSpeech": "名詞",
-    "meaning": "叉",
+    "meaning": "叉子",
     "level": "N5",
-    "example": "パスタをフォークで上手に巻いて食べる。",
-    "exampleMeaning": "用叉子把義大利麵捲得漂漂亮亮地吃下去。"
+    "example": "ナイフとフォークを使って上手にステーキを食べました。",
+    "exampleMeaning": "我用刀叉熟練地享用牛排。"
   },
   {
     "id": "n5_0580",
@@ -6396,10 +6396,10 @@
     "reading": "ふたつ",
     "romaji": "futatsu",
     "partOfSpeech": "名詞",
-    "meaning": "二",
+    "meaning": "兩個",
     "level": "N5",
-    "example": "りんごを二つください。半分に切りたいので。",
-    "exampleMeaning": "請給我兩個蘋果。因為我想切成兩半。"
+    "example": "ケーキを二つ買って、家族と一緒に半分ずつ分けました。",
+    "exampleMeaning": "買了兩個蛋糕，和家人一起平分享用。"
   },
   {
     "id": "n5_0583",
@@ -6462,10 +6462,10 @@
     "reading": "ふる",
     "romaji": "furu",
     "partOfSpeech": "動詞",
-    "meaning": "現在",
+    "meaning": "下（雨、雪）",
     "level": "N5",
-    "example": "あ、外を見て。雪が激しく降ってきたよ。",
-    "exampleMeaning": "啊，你看外面。雪下得好大呢！"
+    "example": "外を見ると白い雪が静かに降っていました。",
+    "exampleMeaning": "往窗外看去，白雪正靜靜地下著。"
   },
   {
     "id": "n5_0589",
@@ -6481,13 +6481,13 @@
   {
     "id": "n5_0590",
     "word": "～分",
-    "reading": "～ふん",
+    "reading": "～ふん; ～ぷん",
     "romaji": "～fun",
     "partOfSpeech": "名詞",
-    "meaning": "分",
+    "meaning": "…分（時間、分鐘單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、分に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對分進行了詳細的調查研究。"
+    "example": "ここから駅までは歩いて約十分かかります。",
+    "exampleMeaning": "從這裡步行到車站大約需要十分鐘。"
   },
   {
     "id": "n5_0591",
@@ -6506,10 +6506,10 @@
     "reading": "ページ",
     "romaji": "ページ",
     "partOfSpeech": "名詞",
-    "meaning": "頁",
+    "meaning": "頁、頁面",
     "level": "N5",
-    "example": "教科書の百ページの練習問題を解いておいてください。",
-    "exampleMeaning": "請把課本第100頁的練習題寫完。"
+    "example": "教科書の五十ページを開いて問題を解いてください。",
+    "exampleMeaning": "請翻開教科書第五十頁並解答題目。"
   },
   {
     "id": "n5_0593",
@@ -6528,10 +6528,10 @@
     "reading": "ベッド",
     "romaji": "ベド",
     "partOfSpeech": "名詞",
-    "meaning": "床",
+    "meaning": "床、睡床",
     "level": "N5",
-    "example": "引っ越ししたばかりで、まだベッドが届いていない。",
-    "exampleMeaning": "剛搬完家，床鋪都還沒送來。"
+    "example": "疲れたので柔らかいベッドに横になって休みました。",
+    "exampleMeaning": "因為太累了，便躺在柔軟的床上好好休息。"
   },
   {
     "id": "n5_0595",
@@ -6561,10 +6561,10 @@
     "reading": "へん",
     "romaji": "hen",
     "partOfSpeech": "名詞",
-    "meaning": "邊",
+    "meaning": "這一帶、附近、周邊",
     "level": "N5",
-    "example": "駅の周りのこの辺りは、夜でも明るくて安全です。",
-    "exampleMeaning": "車站周遭的這一帶，就算到了晚上也很明亮安全。"
+    "example": "この辺には静かで落ち着く公園がたくさんあります。",
+    "exampleMeaning": "這一帶有很多安靜又讓人放鬆的公園。"
   },
   {
     "id": "n5_0598",
@@ -6572,10 +6572,10 @@
     "reading": "ペン",
     "romaji": "ペン",
     "partOfSpeech": "名詞",
-    "meaning": "筆",
+    "meaning": "筆、鋼筆、原子筆",
     "level": "N5",
-    "example": "すいません、ボールペンを忘れちゃったので一本貸して。",
-    "exampleMeaning": "不好意思，我忘了帶原子筆，借我一支筆吧！"
+    "example": "手紙を書くために書き心地の良い黒いペンを買いました。",
+    "exampleMeaning": "為了寫信，我買了一支手感極佳的黑色原子筆。"
   },
   {
     "id": "n5_0599",
@@ -6646,13 +6646,13 @@
   {
     "id": "n5_0605",
     "word": "欲しい",
-    "reading": "ほし��",
+    "reading": "ほしい",
     "romaji": "hoshi��",
     "partOfSpeech": "動詞",
-    "meaning": "想",
+    "meaning": "想要、希望得到",
     "level": "N5",
-    "example": "ボーナスが出たら、新しいカメラがすごく欲しい。",
-    "exampleMeaning": "如果發了獎金，我超想要一台新相機的。"
+    "example": "誕生日に新しいカメラがずっと欲しいと思っていました。",
+    "exampleMeaning": "我一直很希望生日時能得到一台新相機。"
   },
   {
     "id": "n5_0606",
@@ -6704,7 +6704,7 @@
     "reading": "ほん",
     "romaji": "hon",
     "partOfSpeech": "名詞",
-    "meaning": "書本",
+    "meaning": "字典、辭典",
     "level": "N5",
     "example": "電車のなかで本を読んでいたら、乗り過ごしてしまった。",
     "exampleMeaning": "在電車裡看書看得太入迷，結果坐過站了。"
@@ -6715,10 +6715,10 @@
     "reading": "～ほん",
     "romaji": "～hon",
     "partOfSpeech": "名詞",
-    "meaning": "…支、…瓶（細長物品單位）",
+    "meaning": "…支、…瓶、…條（細長物品計算單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、本に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…支進行了詳細的調查研究。"
+    "example": "スーパーで新鮮な牛乳を二本買って帰りました。",
+    "exampleMeaning": "我在超市買了兩瓶新鮮牛奶帶回家。"
   },
   {
     "id": "n5_0612",
@@ -6726,7 +6726,7 @@
     "reading": "ほんだな",
     "romaji": "hondana",
     "partOfSpeech": "名詞",
-    "meaning": "書本",
+    "meaning": "字典、辭典",
     "level": "N5",
     "example": "お気に入りの小説を本棚の一番上に並べた。",
     "exampleMeaning": "我把最喜歡的小說排在書架的最上面。"
@@ -6748,10 +6748,10 @@
     "reading": "～まい",
     "romaji": "～mai",
     "partOfSpeech": "名詞",
-    "meaning": "…張、…件（薄平物品單位）",
+    "meaning": "…張、…件（薄平物品、紙張衣物單位）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、枚に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對…張進行了詳細的調查研究。"
+    "example": "プリンターに白い紙を十枚セットしました。",
+    "exampleMeaning": "我在印表機中裝入了十張白紙。"
   },
   {
     "id": "n5_0615",
@@ -6770,10 +6770,10 @@
     "reading": "まいげつ; まいつき",
     "romaji": "maigetsu; maitsuki",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "每個月",
     "level": "N5",
-    "example": "毎月、給料日には少しだけ貯金をするようにしている。",
-    "exampleMeaning": "我每個月發薪水時，都會規定自己存一點錢。"
+    "example": "毎月決まった金額を将来のために貯金しています。",
+    "exampleMeaning": "我每個月都會存下固定的金額為將來作準備。"
   },
   {
     "id": "n5_0617",
@@ -6781,10 +6781,10 @@
     "reading": "まいしゅう",
     "romaji": "maishuu",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "每週、每個星期",
     "level": "N5",
-    "example": "毎週土曜日の午後、近くの図書館で本を借りてきます。",
-    "exampleMeaning": "我每週六下午都會去附近的圖書館借書。"
+    "example": "毎週日曜日は家族と一緒にゆっくり食事を楽しみます。",
+    "exampleMeaning": "每週日我都會和家人一起悠閒地享用大餐。"
   },
   {
     "id": "n5_0618",
@@ -6792,10 +6792,10 @@
     "reading": "まいにち",
     "romaji": "mainichi",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "每天、天天",
     "level": "N5",
-    "example": "忙しくても、毎日お風呂に浸かるのがリラックスの秘訣です。",
-    "exampleMeaning": "就算再忙，每天泡澡是我放鬆的小祕訣。"
+    "example": "毎日三十分間、日本語のリスニングを練習しています。",
+    "exampleMeaning": "我每天都會花三十分鐘練習日語聽力。"
   },
   {
     "id": "n5_0619",
@@ -6803,10 +6803,10 @@
     "reading": "まいねん; まいとし",
     "romaji": "mainen; maitoshi",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "每年",
     "level": "N5",
-    "example": "毎年、桜が咲く季節になると京都へ旅行に行きます。",
-    "exampleMeaning": "我每年櫻花盛開的季節都會去京都旅行。"
+    "example": "毎年春になると綺麗な桜を見に京都へ出かけます。",
+    "exampleMeaning": "每年春天我都會去京都欣賞美麗的櫻花。"
   },
   {
     "id": "n5_0620",
@@ -6836,10 +6836,10 @@
     "reading": "～まえ",
     "romaji": "～mae",
     "partOfSpeech": "名詞",
-    "meaning": "前",
+    "meaning": "…之前、…前方",
     "level": "N5",
-    "example": "今回のプロジェクトでは、前に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對前進行了詳細的調查研究。"
+    "example": "食事の前に手を石鹸できれいに洗いましょう。",
+    "exampleMeaning": "用餐之前請先用肥皂把雙手洗乾淨。"
   },
   {
     "id": "n5_0623",
@@ -6869,10 +6869,10 @@
     "reading": "また",
     "romaji": "mata",
     "partOfSpeech": "名詞",
-    "meaning": "還",
+    "meaning": "又、再、還有",
     "level": "N5",
-    "example": "このお店のケーキはとても美味しいので、また食べに来たい。",
-    "exampleMeaning": "這家店的蛋糕非常好吃，我還想再來吃。"
+    "example": "分からないことがあれば、またいつでも質問してください。",
+    "exampleMeaning": "如果有不明白的地方，歡迎隨時再來提問。"
   },
   {
     "id": "n5_0626",
@@ -6891,10 +6891,10 @@
     "reading": "まち",
     "romaji": "machi",
     "partOfSpeech": "名詞",
-    "meaning": "鎮",
+    "meaning": "城鎮、街道、市鎮",
     "level": "N5",
-    "example": "週末は都会の喧騒を離れて、のんびりした町を散策したい。",
-    "exampleMeaning": "週末想遠離都市的喧囂，去純樸的小鎮漫步。"
+    "example": "私の生まれ育った町は海に近くて魚がとても美味しいです。",
+    "exampleMeaning": "我土生土長的小鎮靠近海邊，海鮮非常美味。"
   },
   {
     "id": "n5_0628",
@@ -6957,10 +6957,10 @@
     "reading": "まん",
     "romaji": "man",
     "partOfSpeech": "名詞",
-    "meaning": "萬",
+    "meaning": "萬、一萬",
     "level": "N5",
-    "example": "この中古車、走行距離がまだ一万キロしか走っていないんだって。",
-    "exampleMeaning": "聽說這台中古車才開了一萬公里而已呢。"
+    "example": "このパソコンは約十万円で購入しました。",
+    "exampleMeaning": "這台電腦花了約十萬日圓購買。"
   },
   {
     "id": "n5_0634",
@@ -7012,10 +7012,10 @@
     "reading": "みず",
     "romaji": "mizu",
     "partOfSpeech": "名詞",
-    "meaning": "水",
+    "meaning": "水、冷水",
     "level": "N5",
-    "example": "運動のあとは、冷たい水をたっぷり飲むのが一番だ。",
-    "exampleMeaning": "運動過後，大口喝冰水是最爽快的了。"
+    "example": "運動した後に冷たい水をたくさん飲みました。",
+    "exampleMeaning": "運動之後我喝了許多清涼的水。"
   },
   {
     "id": "n5_0639",
@@ -7034,10 +7034,10 @@
     "reading": "みせる",
     "romaji": "miseru",
     "partOfSpeech": "動詞",
-    "meaning": "展示",
+    "meaning": "展示、出示、給…看",
     "level": "N5",
-    "example": "旅行で撮った面白い写真を、スマホで友達に見せた。",
-    "exampleMeaning": "我用手機把旅行時拍的有趣照片給朋友看。"
+    "example": "旅行で撮った綺麗な写真を友達に見せました。",
+    "exampleMeaning": "我把旅行時拍的美麗照片拿給朋友看。"
   },
   {
     "id": "n5_0641",
@@ -7045,10 +7045,10 @@
     "reading": "みち",
     "romaji": "michi",
     "partOfSpeech": "名詞",
-    "meaning": "路",
+    "meaning": "道路、路徑、街道",
     "level": "N5",
-    "example": "この道をまっすぐ行くと、大きな公園にたどり着きます。",
-    "exampleMeaning": "沿著這條路直走，就會到達一座大公園。"
+    "example": "道に迷わないように地図アプリを確認しながら歩きました。",
+    "exampleMeaning": "為了不迷路，我一邊看著地圖應用程式一邊走。"
   },
   {
     "id": "n5_0642",
@@ -7067,10 +7067,10 @@
     "reading": "みっつ",
     "romaji": "mittsu",
     "partOfSpeech": "名詞",
-    "meaning": "三",
+    "meaning": "三個",
     "level": "N5",
-    "example": "ケーキがショーケースに並んでいて、どれも美味しそうだから三つ買っちゃおう。",
-    "exampleMeaning": "蛋糕擺在展示櫃裡，每一個看起來都很好吃，買三個好了！"
+    "example": "お皿の上に美味しそうなおにぎりが三つ並んでいます。",
+    "exampleMeaning": "盤子裡並排擺放著三個看起來很可口的飯糰。"
   },
   {
     "id": "n5_0644",
@@ -7089,10 +7089,10 @@
     "reading": "みなさん",
     "romaji": "minasan",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "各位、大家",
     "level": "N5",
-    "example": "皆さん、本日はお集まりいただき、誠にありがとうございます。",
-    "exampleMeaning": "各位，非常感謝今天大夥兒撥冗聚在這裡。"
+    "example": "皆さん、本日はお集まりいただき誠にありがとうございます。",
+    "exampleMeaning": "各位，非常感謝大家今天撥冗齊聚一堂。"
   },
   {
     "id": "n5_0646",
@@ -7100,10 +7100,10 @@
     "reading": "みなみ",
     "romaji": "minami",
     "partOfSpeech": "名詞",
-    "meaning": "南",
+    "meaning": "南方、南邊",
     "level": "N5",
-    "example": "リビングの窓が大きくて南向きだから、部屋全体がすごく明るい。",
-    "exampleMeaning": "客廳的窗戶很大又朝南，所以整個房間採光非常好。"
+    "example": "この部屋の窓は南に向いているので日当たりが良いです。",
+    "exampleMeaning": "這個房間的窗戶面朝南方，因此採光非常好。"
   },
   {
     "id": "n5_0647",
@@ -7133,10 +7133,10 @@
     "reading": "みんな",
     "romaji": "minna",
     "partOfSpeech": "な形容詞",
-    "meaning": "非常、很",
+    "meaning": "大家、全部、所有人",
     "level": "N5",
-    "example": "ここはとてもみんなな場所です。",
-    "exampleMeaning": "這裡是個非常非常、很的地方。"
+    "example": "クラスのみんなで力を合わせて合唱コンクールで優勝しました。",
+    "exampleMeaning": "全班同學齊心協力，在合唱比賽中贏得了冠軍。"
   },
   {
     "id": "n5_0650",
@@ -7177,10 +7177,10 @@
     "reading": "むっつ",
     "romaji": "muttsu",
     "partOfSpeech": "名詞",
-    "meaning": "六",
+    "meaning": "六個",
     "level": "N5",
-    "example": "お皿の上に美味しそうなみかんが六つ乗っている。",
-    "exampleMeaning": "盤子上面放著六顆看起來很好吃的橘子。"
+    "example": "卵をパックから六つ取り出してオムレツを作りました。",
+    "exampleMeaning": "從盒子裡取出六顆雞蛋做了美味的歐姆蛋。"
   },
   {
     "id": "n5_0654",
@@ -7320,10 +7320,10 @@
     "reading": "～や",
     "romaji": "～ya",
     "partOfSpeech": "名詞",
-    "meaning": "屋",
+    "meaning": "…店、…屋（商店、店家）",
     "level": "N5",
-    "example": "今回のプロジェクトでは、屋に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對屋進行了詳細的調查研究。"
+    "example": "駅前のパン屋さんで焼きたてのクロワッサンを買いました。",
+    "exampleMeaning": "在車站前的麵包店買了剛出爐的可頌麵包。"
   },
   {
     "id": "n5_0667",
@@ -7397,10 +7397,10 @@
     "reading": "やっつ",
     "romaji": "yattsu",
     "partOfSpeech": "名詞",
-    "meaning": "八",
+    "meaning": "八個",
     "level": "N5",
-    "example": "りんごが八つありますから、みんなで分けましょう。",
-    "exampleMeaning": "這裡有八顆蘋果，大家分著吃吧。"
+    "example": "箱の中に甘いみかんが八つ入っていました。",
+    "exampleMeaning": "箱子裡裝著八顆香甜的橘子。"
   },
   {
     "id": "n5_0674",
@@ -7408,10 +7408,10 @@
     "reading": "やま",
     "romaji": "yama",
     "partOfSpeech": "名詞",
-    "meaning": "山",
+    "meaning": "山、山嶽",
     "level": "N5",
-    "example": "週末に友達と近くの山にハイキングしに行きます。",
-    "exampleMeaning": "週末我要和朋友去附近的郊山健行。"
+    "example": "天気の良い休日に友達と山登りに出かけました。",
+    "exampleMeaning": "在天氣晴朗的假日，我和朋友一起去登山。"
   },
   {
     "id": "n5_0675",
@@ -7485,10 +7485,10 @@
     "reading": "ゆき",
     "romaji": "yuki",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "雪",
     "level": "N5",
-    "example": "外を見たら、いつの間にか雪が白く積もっていた。",
-    "exampleMeaning": "往窗外一看，不知不覺中已經積了一層白雪。"
+    "example": "夜の間にたくさんの雪が降り、街が一面銀世界になった。",
+    "exampleMeaning": "夜裡下了一場大雪，整個街道變成了一片銀白世界。"
   },
   {
     "id": "n5_0682",
@@ -7529,10 +7529,10 @@
     "reading": "よく",
     "romaji": "yoku",
     "partOfSpeech": "名詞",
-    "meaning": "常",
+    "meaning": "經常、時常 / 很好地、充分地",
     "level": "N5",
-    "example": "週末はよく図書館に行って本を読みます。",
-    "exampleMeaning": "週末我經常去圖書館看書。"
+    "example": "休日は近所の図書館へよく本を読みに行きます。",
+    "exampleMeaning": "休假時我經常去附近的圖書館看書。"
   },
   {
     "id": "n5_0686",
@@ -7540,10 +7540,10 @@
     "reading": "よこ",
     "romaji": "yoko",
     "partOfSpeech": "名詞",
-    "meaning": "旁",
+    "meaning": "旁邊、側面、橫向",
     "level": "N5",
-    "example": "自動販売機の横に、ゴミ箱が置いてあります。",
-    "exampleMeaning": "自動販賣機旁邊放著一個垃圾桶。"
+    "example": "駅の横に新しく便利なコンビニがオープンしました。",
+    "exampleMeaning": "車站旁邊新開了一家非常便利的便利商店。"
   },
   {
     "id": "n5_0687",
@@ -7562,10 +7562,10 @@
     "reading": "よっつ",
     "romaji": "yottsu",
     "partOfSpeech": "名詞",
-    "meaning": "四",
+    "meaning": "四個",
     "level": "N5",
-    "example": "テーブルの上に、みかんが四つ置いてあるよ。",
-    "exampleMeaning": "桌子上放了四顆橘子喔。"
+    "example": "四つの角があるテーブルを部屋の隅に置きました。",
+    "exampleMeaning": "把一張有四個角的桌子擺放在房間的角落。"
   },
   {
     "id": "n5_0689",
@@ -7619,8 +7619,8 @@
     "partOfSpeech": "名詞",
     "meaning": "下個月",
     "level": "N5",
-    "example": "来月、新しいプロジェクトが本格的にスタートする。",
-    "exampleMeaning": "下個月，新的專案就要正式啟動了。"
+    "example": "来月から新しい職場で働くことになり、準備を進めています。",
+    "exampleMeaning": "下個月即將在新的職場工作，目前正在做各項準備。"
   },
   {
     "id": "n5_0694",
@@ -7848,10 +7848,10 @@
     "reading": "わたし",
     "romaji": "watashi",
     "partOfSpeech": "名詞",
-    "meaning": "我",
+    "meaning": "我（男女通用的常用第一人稱）",
     "level": "N5",
-    "example": "私、実はパクチーがどうしても食べられないんだよね。",
-    "exampleMeaning": "我其實真的不敢吃香菜啦。"
+    "example": "私は毎朝六時に起きてジョギングをしています。",
+    "exampleMeaning": "我每天早上六點起床慢跑鍛鍊。"
   },
   {
     "id": "n5_0715",
@@ -7859,10 +7859,10 @@
     "reading": "わたくし",
     "romaji": "watakushi",
     "partOfSpeech": "名詞",
-    "meaning": "我",
+    "meaning": "我（較為正式、莊重的自稱）",
     "level": "N5",
-    "example": "私、〇〇と申します。本日はよろしくお願いいたします。",
-    "exampleMeaning": "我是〇〇。今天請多指教。"
+    "example": "わたくしが本日の司会を担当させていただきます。",
+    "exampleMeaning": "今天將由我來擔任本次活動的主持人。"
   },
   {
     "id": "n5_0716",

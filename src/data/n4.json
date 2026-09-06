@@ -148,7 +148,7 @@
     "reading": "やはり; やっぱり",
     "romaji": "yahari; yappari",
     "partOfSpeech": "名詞",
-    "meaning": "還",
+    "meaning": "果然、依然、還是",
     "level": "N4",
     "example": "天気予報を見たけど、やっぱり明日は雨みたいだね。",
     "exampleMeaning": "我看了氣象預報，果然明天好像會下雨呢。"
@@ -224,11 +224,11 @@
     "word": "～会",
     "reading": "～かい",
     "romaji": "～kai",
-    "partOfSpeech": "其他",
-    "meaning": "...會、...集會",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…會、…集會",
     "level": "N4",
-    "example": "今回のプロジェクトでは、会に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對...會進行了詳細的調查研究。"
+    "example": "今度の週末に小学校の同窓会が開かれます。",
+    "exampleMeaning": "這個週末將會舉辦小學同學會。"
   },
   {
     "id": "n4_0022",
@@ -785,11 +785,11 @@
     "word": "～製",
     "reading": "～せい",
     "romaji": "～sei",
-    "partOfSpeech": "其他",
-    "meaning": "...製造、...產",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…製造、…產",
     "level": "N4",
-    "example": "今回のプロジェクトでは、製に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對...製造進行了詳細的調查研究。"
+    "example": "このカメラは世界中で評価されている日本製です。",
+    "exampleMeaning": "這台相機是在全世界備受好評的日本製產品。"
   },
   {
     "id": "n4_0073",
@@ -819,7 +819,7 @@
     "reading": "ひ",
     "romaji": "hi",
     "partOfSpeech": "名詞",
-    "meaning": "天",
+    "meaning": "日子、日子、太陽",
     "level": "N4",
     "example": "焦らず一歩ずつ進めば、いつか必ず報われる日が来るさ。",
     "exampleMeaning": "只要不急躁、一步一腳印地前進，總有一天一定會迎來獲得回報的那一天。"
@@ -829,11 +829,11 @@
     "word": "～軒",
     "reading": "～けん",
     "romaji": "～ken",
-    "partOfSpeech": "名詞",
-    "meaning": "軒",
+    "partOfSpeech": "助數詞",
+    "meaning": "…間、…棟（房屋、店家的量詞）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、軒に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對軒進行了詳細的調查研究。"
+    "example": "駅の周辺には美味しいラーメン屋が三軒並んでいます。",
+    "exampleMeaning": "車站周邊並排著三家美味的拉麵店。"
   },
   {
     "id": "n4_0077",
@@ -961,11 +961,11 @@
     "word": "～学部",
     "reading": "～がくぶ",
     "romaji": "～gakubu",
-    "partOfSpeech": "名詞",
-    "meaning": "学部",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…學系、…學院",
     "level": "N4",
-    "example": "今回のプロジェクトでは、学部に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對学部進行了詳細的調查研究。"
+    "example": "兄は大学の法学部で法律を熱心に学んでいます。",
+    "exampleMeaning": "哥哥在大學的法學系非常認真地研讀法律。"
   },
   {
     "id": "n4_0089",
@@ -1313,11 +1313,11 @@
     "word": "～式",
     "reading": "～しき",
     "romaji": "～shiki",
-    "partOfSpeech": "名詞",
-    "meaning": "式",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…式、儀式、典禮 / …樣式、形式",
     "level": "N4",
-    "example": "今回のプロジェクトでは、式に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對式進行了詳細的調查研究。"
+    "example": "明日の卒業式には両親も出席する予定です。",
+    "exampleMeaning": "明天的畢業典禮預計父母也會出席。"
   },
   {
     "id": "n4_0121",
@@ -1335,11 +1335,11 @@
     "word": "～家",
     "reading": "～か",
     "romaji": "～ka",
-    "partOfSpeech": "名詞",
-    "meaning": "家",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…家（專家、從業者）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、家に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對家進行了詳細的調查研究。"
+    "example": "彼は世界的に高く評価されている有名な小説家です。",
+    "exampleMeaning": "他是享譽全球、備受推崇的知名小說家。"
   },
   {
     "id": "n4_0123",
@@ -1721,7 +1721,7 @@
     "reading": "なげる",
     "romaji": "nageru",
     "partOfSpeech": "動詞",
-    "meaning": "丟",
+    "meaning": "投擲、丟",
     "level": "N4",
     "example": "犬がボールを投げてもらうのを嬉しそうに待っている。",
     "exampleMeaning": "狗狗正開心地等待主人丟球給它撿。"
@@ -2425,7 +2425,7 @@
     "reading": "すいどう",
     "romaji": "suidou",
     "partOfSpeech": "名詞",
-    "meaning": "水",
+    "meaning": "熱水、溫泉",
     "level": "N4",
     "example": "日本の水道水はそのまま飲むことができるので安心だ。",
     "exampleMeaning": "日本的自來水可以直接飲用，所以讓人很放心。"
@@ -2502,10 +2502,10 @@
     "reading": "じてん",
     "romaji": "jiten",
     "partOfSpeech": "名詞",
-    "meaning": "書本",
+    "meaning": "字典、辭典",
     "level": "N4",
-    "example": "今回のプロジェクトでは、辞典に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對書本進行了詳細的調查研究。"
+    "example": "今回の機会を通じて、辞典の重要性と深い魅力を改めて実感しました。",
+    "exampleMeaning": "透過這次機會，我再次深刻體會到了「字典」的重要價值與深層魅力。"
   },
   {
     "id": "n4_0229",
@@ -2545,11 +2545,11 @@
     "word": "～員",
     "reading": "～いん",
     "romaji": "～in",
-    "partOfSpeech": "名詞",
-    "meaning": "員",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…員、成員、員工",
     "level": "N4",
-    "example": "今回のプロジェクトでは、員に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對員進行了詳細的調查研究。"
+    "example": "駅員さんに乗り換えのホームを教えてもらいました。",
+    "exampleMeaning": "我向站務員詢問並得知了轉乘月台。"
   },
   {
     "id": "n4_0233",
@@ -2732,11 +2732,11 @@
     "word": "～ばかり",
     "reading": "～ばかり",
     "romaji": "～bakari",
-    "partOfSpeech": "名詞",
-    "meaning": "僅有的",
+    "partOfSpeech": "助詞",
+    "meaning": "淨是…、光是… / 剛…不久",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ばかりに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對僅有的進行了詳細的調查研究。"
+    "example": "野菜を食べないで、甘いお菓子ばかり食べてはいけません。",
+    "exampleMeaning": "不可以不吃蔬菜，只光吃甜食點心。"
   },
   {
     "id": "n4_0250",
@@ -2819,12 +2819,12 @@
     "id": "n4_0257",
     "word": "ステーキ",
     "reading": "ステーキ",
-    "romaji": "ステーキ",
+    "romaji": "suteeki",
     "partOfSpeech": "名詞",
-    "meaning": "茶",
+    "meaning": "牛排",
     "level": "N4",
-    "example": "給料日なので、ちょっと贅沢して美味しいステーキを食べに行った。",
-    "exampleMeaning": "因為今天是發薪日，所以奢侈了一下，去吃美味的牛排。"
+    "example": "誕生日に家族でレストランに行って美味しいステーキを食べました。",
+    "exampleMeaning": "生日那天和家人去餐廳享用了美味的牛排。"
   },
   {
     "id": "n4_0258",
@@ -2942,10 +2942,10 @@
     "reading": "ぬる",
     "romaji": "nuru",
     "partOfSpeech": "動詞",
-    "meaning": "畫",
+    "meaning": "塗抹、粉刷、塗漆",
     "level": "N4",
-    "example": "トーストにバターをたっぷり塗って食べると美味しいよ。",
-    "exampleMeaning": "吐司抹上厚厚一層奶油再吃，超好吃的喔！"
+    "example": "パンにバターとジャムをたっぷり塗って食べました。",
+    "exampleMeaning": "在吐司上抹了滿滿的奶油和果醬享用。"
   },
   {
     "id": "n4_0269",
@@ -3061,12 +3061,12 @@
     "id": "n4_0279",
     "word": "アナウンサー",
     "reading": "アナウンサー",
-    "romaji": "アナウンサー",
+    "romaji": "anaunsaa",
     "partOfSpeech": "名詞",
-    "meaning": "pod音員",
+    "meaning": "主播、播音員",
     "level": "N4",
-    "example": "テレビのニュースでアナウンサーが台風の接近を伝えている。",
-    "exampleMeaning": "新聞主播正在電視上播報颱風逼近的消息。"
+    "example": "テレビのアナウンサーが分かりやすい声でニュースを伝えている。",
+    "exampleMeaning": "電視主播正用清晰易懂的聲音播報新聞。"
   },
   {
     "id": "n4_0280",
@@ -3338,21 +3338,21 @@
     "reading": "はんたい",
     "romaji": "hantai",
     "partOfSpeech": "名詞",
-    "meaning": "反對",
+    "meaning": "反對、相反",
     "level": "N4",
-    "example": "プロジェクトの計画にみんなが賛成すると思ったら、部長から反対されてしまった。",
-    "exampleMeaning": "本以為大家都會贊成專案計畫，結果卻遭到部長的反對。"
+    "example": "彼の提案には全員が賛成したわけではなく、反対意見もありました。",
+    "exampleMeaning": "並非所有人都贊成他的提案，也有人提出反對意見。"
   },
   {
     "id": "n4_0305",
     "word": "おる",
     "reading": "おる",
     "romaji": "oru",
-    "partOfSpeech": "名詞",
-    "meaning": "是",
+    "partOfSpeech": "動詞",
+    "meaning": "在、有（「いる」的自謙語）",
     "level": "N4",
-    "example": "「もしもし、私ですが、今会議中なので後で折り返してお電話します。」",
-    "exampleMeaning": "「餵你好，我是我（我正在通話中），現在正在開會，稍後再回電話給您。」"
+    "example": "父はただいま席を外しておりますので、後ほど折り返しご連絡いたします。",
+    "exampleMeaning": "我父親現在正好不在座位上，稍後會再回電給您。"
   },
   {
     "id": "n4_0306",
@@ -3389,14 +3389,14 @@
   },
   {
     "id": "n4_0309",
-    "word": "ごらんになる",
-    "reading": "-- honorific expression for みる --",
-    "romaji": "-- honorific expression for miru --",
-    "partOfSpeech": "名詞",
-    "meaning": "看看",
+    "word": "ご覧になる",
+    "reading": "ごらんになる",
+    "romaji": "goranninaru",
+    "partOfSpeech": "動詞",
+    "meaning": "看、觀賞（「見る」的尊敬語）",
     "level": "N4",
-    "example": "社長、こちらに新しい商品のサンプルがございますので、ぜひご覧になってください。",
-    "exampleMeaning": "社長，這裡有新商品的樣品，請您務必過目看看。"
+    "example": "先生、こちらの新しい資料をすでにご覧になりましたか。",
+    "exampleMeaning": "老師，您已經看過這份新資料了嗎？"
   },
   {
     "id": "n4_0310",
@@ -3448,10 +3448,10 @@
     "reading": "おつり",
     "romaji": "otsuri",
     "partOfSpeech": "名詞",
-    "meaning": "錢",
+    "meaning": "找零、找錢",
     "level": "N4",
-    "example": "すみません、おつりが足りないんですが確認してもらえますか。",
-    "exampleMeaning": "不好意思，找的零錢不夠，可以幫我確認一下嗎？"
+    "example": "千円札を出してお会計をし、三百円のおつりを受け取りました。",
+    "exampleMeaning": "我拿千圓鈔票結帳，並收下了三百圓找零。"
   },
   {
     "id": "n4_0315",
@@ -3536,7 +3536,7 @@
     "reading": "みな",
     "romaji": "mina",
     "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "meaning": "馬上、快要 / 習慣 / 每年 / 每天",
     "level": "N4",
     "example": "旅行の計画について、皆の意見を聞かせてください。",
     "exampleMeaning": "關於旅行的計畫，請讓大家聽聽各自的意見。"
@@ -3700,11 +3700,11 @@
     "word": "差し上げる",
     "reading": "さしあげる",
     "romaji": "sashiageru",
-    "partOfSpeech": "名詞",
-    "meaning": "給",
+    "partOfSpeech": "動詞",
+    "meaning": "給予、送給（「あげる」的自謙語）",
     "level": "N4",
-    "example": "お世話になった恩師に、感謝の気持ちを込めて万年筆を差し上げた。",
-    "exampleMeaning": "帶著感謝的心情，將鋼筆送給了照顧過我的恩師。"
+    "example": "お世話になった先生に感謝のプレゼントを差し上げました。",
+    "exampleMeaning": "我送了一份表達感謝的禮物給照顧過我的老師。"
   },
   {
     "id": "n4_0338",
@@ -3822,10 +3822,10 @@
     "reading": "かじ",
     "romaji": "kaji",
     "partOfSpeech": "名詞",
-    "meaning": "火",
+    "meaning": "火災、火警",
     "level": "N4",
-    "example": "乾燥している季節なので、火の元には十分注意して火事を防ごう。",
-    "exampleMeaning": "因為是乾燥的季節，務必注意火源以預防火災。"
+    "example": "近所で火事が発生しましたが、消防車がすぐに駆けつけて消火しました。",
+    "exampleMeaning": "附近發生了火災，但消防車立刻趕到將火撲滅了。"
   },
   {
     "id": "n4_0349",
@@ -3954,21 +3954,21 @@
     "reading": "つる",
     "romaji": "tsuru",
     "partOfSpeech": "動詞",
-    "meaning": "魚",
+    "meaning": "釣魚、垂釣",
     "level": "N4",
-    "example": "休日に川へ行って、のんびりと魚を釣るのが私の最高の息抜きだ。",
-    "exampleMeaning": "假日去河邊悠哉地釣魚，是我最棒的放鬆方式。"
+    "example": "週末に川へ行って、友達と一緒に大きな魚を三匹釣りました。",
+    "exampleMeaning": "週末去河邊和朋友一起釣到了三條大魚。"
   },
   {
     "id": "n4_0361",
     "word": "～ちゃん",
     "reading": "～ちゃん",
     "romaji": "～chan",
-    "partOfSpeech": "名詞",
-    "meaning": "陳",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…醬、小…（對小孩或親密朋友的暱稱）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ちゃんに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對陳進行了詳細的調查研究。"
+    "example": "花子ちゃんはいつも笑顔でみんなに元気をくれます。",
+    "exampleMeaning": "小花子總是面帶笑容，給大家帶來滿滿元氣。"
   },
   {
     "id": "n4_0362",
@@ -4130,10 +4130,10 @@
     "reading": "さいきん",
     "romaji": "saikin",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "最近、近來",
     "level": "N4",
-    "example": "最近、運動不足を解消するために毎晩ヨガを始めることにした。",
-    "exampleMeaning": "最近為了消除運動不足的問題，我決定每天晚上開始練瑜珈。"
+    "example": "最近は仕事が忙しくて、なかなかゆっくり本を読む時間がありません。",
+    "exampleMeaning": "最近工作很忙，很難有時間悠閒地看書。"
   },
   {
     "id": "n4_0377",
@@ -4174,10 +4174,10 @@
     "reading": "ち",
     "romaji": "chi",
     "partOfSpeech": "名詞",
-    "meaning": "志",
+    "meaning": "血液、血",
     "level": "N4",
-    "example": "転んで膝を擦りむいてしまい、少しだけ血が出てしまったがすぐに止まった。",
-    "exampleMeaning": "跌倒擦傷了膝蓋，流了一點血但馬上就止住了。"
+    "example": "料理中にうっかり包丁で指を切って血が出てしまいました。",
+    "exampleMeaning": "做飯時不小心被菜刀切到手指流血了。"
   },
   {
     "id": "n4_0381",
@@ -4228,11 +4228,11 @@
     "word": "中々",
     "reading": "なかなか",
     "romaji": "nakanaka",
-    "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "partOfSpeech": "副詞",
+    "meaning": "相當、很 / （後接否定）怎麼也不…",
     "level": "N4",
-    "example": "あのラーメン屋はいつ行っても行列ができていて、なかなか入れない。",
-    "exampleMeaning": "那間拉麵店不管什麼時候去都在排隊，很難進去吃得到。"
+    "example": "この問題は難しくて、なかなか答えが見つかりません。",
+    "exampleMeaning": "這個題目很難，怎麼也找不出答案。"
   },
   {
     "id": "n4_0386",
@@ -4361,10 +4361,10 @@
     "reading": "わかす",
     "romaji": "wakasu",
     "partOfSpeech": "動詞",
-    "meaning": "熬",
+    "meaning": "燒開、煮沸（水） / 燒（洗澡水）",
     "level": "N4",
-    "example": "お腹が空いたので、カップラーメンを作るために今お湯を沸かしているところだ。",
-    "exampleMeaning": "肚子餓了，我現在正在煮水準備泡泡麵。"
+    "example": "やかんでお湯を沸かして、美味しい温かいお茶を淹れました。",
+    "exampleMeaning": "用水壺燒開水，泡了美味又溫暖的茶。"
   },
   {
     "id": "n4_0398",
@@ -4438,10 +4438,10 @@
     "reading": "したぎ",
     "romaji": "shitagi",
     "partOfSpeech": "名詞",
-    "meaning": "內衣",
+    "meaning": "內衣、貼身衣物",
     "level": "N4",
-    "example": "今回のプロジェクトでは、下着に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對內衣進行了詳細的調查研究。"
+    "example": "旅行に行く前に、新しい下着と靴下を何枚か買い足しました。",
+    "exampleMeaning": "去旅行前，我買了幾件新的內衣和襪子備用。"
   },
   {
     "id": "n4_0405",
@@ -4482,10 +4482,10 @@
     "reading": "うら",
     "romaji": "ura",
     "partOfSpeech": "名詞",
-    "meaning": "後退",
+    "meaning": "背面、反面、後面",
     "level": "N4",
-    "example": "すいません、車のカギを落としたので、シートの裏を探してもらえますか。",
-    "exampleMeaning": "不好意思，我的車鑰匙掉了，可以幫我找一下座椅後方嗎？"
+    "example": "駅の裏側に新しくて静かなカフェがオープンしました。",
+    "exampleMeaning": "車站後方新開了一家安靜舒適的咖啡廳。"
   },
   {
     "id": "n4_0409",
@@ -4546,12 +4546,12 @@
     "id": "n4_0414",
     "word": "ハンバーグ",
     "reading": "ハンバーグ",
-    "romaji": "ハンバーグ",
+    "romaji": "hanbaagu",
     "partOfSpeech": "名詞",
-    "meaning": "茶",
+    "meaning": "漢堡排",
     "level": "N4",
-    "example": "メニューの一番人気である、特製ハンバーグを注文した。",
-    "exampleMeaning": "我點了菜單上最受歡迎的特製漢堡排。"
+    "example": "子供たちの大好物である手作りのハンバーグを夕飯に作りました。",
+    "exampleMeaning": "晚餐我做了孩子們最愛吃的自製手工漢堡排。"
   },
   {
     "id": "n4_0415",
@@ -4581,10 +4581,10 @@
     "reading": "あそび",
     "romaji": "asobi",
     "partOfSpeech": "名詞",
-    "meaning": "玩",
+    "meaning": "遊戲、玩耍、遊玩",
     "level": "N4",
-    "example": "子どものころ、この公園でよく友達と遊びました。",
-    "exampleMeaning": "小時候，我經常和朋友在這個公園裡玩耍。"
+    "example": "子供たちが公園で楽しそうに鬼ごっこ遊びをしています。",
+    "exampleMeaning": "孩子們正在公園裡開心地玩捉迷藏遊戲。"
   },
   {
     "id": "n4_0418",
@@ -4657,11 +4657,11 @@
     "word": "まず",
     "reading": "まず",
     "romaji": "mazu",
-    "partOfSpeech": "名詞",
-    "meaning": "第一的",
+    "partOfSpeech": "副詞",
+    "meaning": "首先、第一步",
     "level": "N4",
-    "example": "レストランに入ったら、まず席を確保してから注文しに行こう。",
-    "exampleMeaning": "進到餐廳後，先找好位子再去點餐吧。"
+    "example": "料理を始める前に、まず手を石鹸できれいに洗いましょう。",
+    "exampleMeaning": "在開始做飯之前，首先用肥皂把雙手洗乾淨吧。"
   },
   {
     "id": "n4_0425",
@@ -4679,11 +4679,11 @@
     "word": "大体",
     "reading": "だいたい",
     "romaji": "daitai",
-    "partOfSpeech": "名詞",
-    "meaning": "大致",
+    "partOfSpeech": "副詞",
+    "meaning": "大致、大約、基本上",
     "level": "N4",
-    "example": "今回のプロジェクトの概要は、大体理解できました。",
-    "exampleMeaning": "這次專案的大致內容，我已經理解了。"
+    "example": "今日の宿題は大体終わったので、あとは見直すだけです。",
+    "exampleMeaning": "今天的作業基本上都做完了，只剩下再檢查一遍。"
   },
   {
     "id": "n4_0427",
@@ -4844,11 +4844,11 @@
     "word": "～まま",
     "reading": "～まま",
     "romaji": "～mama",
-    "partOfSpeech": "名詞",
-    "meaning": "媽媽",
+    "partOfSpeech": "助詞",
+    "meaning": "保持…狀態、維持原狀",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ままに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對媽媽進行了詳細的調查研究。"
+    "example": "テレビをつけたまま寝てしまい、電気代がもったいなかった。",
+    "exampleMeaning": "開著電視就直接睡著了，真是浪費電費。"
   },
   {
     "id": "n4_0442",
@@ -4865,23 +4865,23 @@
     "id": "n4_0443",
     "word": "プレゼント",
     "reading": "プレゼント",
-    "romaji": "プレゼント",
+    "romaji": "purezento",
     "partOfSpeech": "名詞",
-    "meaning": "展示",
+    "meaning": "禮物、贈品",
     "level": "N4",
-    "example": "今回のプロジェクトでは、プレゼントに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對展示進行了詳細的調查研究。"
+    "example": "友達の誕生日に心のこもった素敵なプレゼントを贈りました。",
+    "exampleMeaning": "在朋友生日時，我送了一份充滿心意的精美禮物。"
   },
   {
     "id": "n4_0444",
     "word": "～(に) よると",
     "reading": "～(に) よると",
     "romaji": "～(ni) yoruto",
-    "partOfSpeech": "名詞",
-    "meaning": "（根據）",
+    "partOfSpeech": "句型",
+    "meaning": "根據…所說、依據…",
     "level": "N4",
-    "example": "今回のプロジェクトでは、(に) よるとに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對進行了詳細的調查研究。"
+    "example": "天気予報によると、明日は午後から激しい雨が降るそうです。",
+    "exampleMeaning": "根據氣象預報，明天下午開始好像會下大雨。"
   },
   {
     "id": "n4_0445",
@@ -5098,21 +5098,21 @@
     "reading": "たずねる",
     "romaji": "tazuneru",
     "partOfSpeech": "動詞",
-    "meaning": "問",
+    "meaning": "詢問、打聽",
     "level": "N4",
-    "example": "駅への道を近くの人に尋ねてみた。",
-    "exampleMeaning": "我向附近的人打聽去車站的路。"
+    "example": "道に迷ってしまったので、近くの交番で駅への道を尋ねました。",
+    "exampleMeaning": "因為迷路了，所以在附近的派出所詢問前往車站的路。"
   },
   {
     "id": "n4_0465",
     "word": "放送",
     "reading": "ほうそうする",
     "romaji": "housousuru",
-    "partOfSpeech": "名詞",
-    "meaning": "pod送",
+    "partOfSpeech": "動詞",
+    "meaning": "廣播、播送、播出",
     "level": "N4",
-    "example": "台風の接近に関する緊急ニュースがテレビで放送されている。",
-    "exampleMeaning": "電視正在廣播播送關於颱風接近的緊急新聞。"
+    "example": "毎朝七時からラジオで英語の学習番組が放送されています。",
+    "exampleMeaning": "每天早上七點廣播電台都會播出英語學習節目。"
   },
   {
     "id": "n4_0466",
@@ -5166,8 +5166,8 @@
     "partOfSpeech": "名詞",
     "meaning": "戒指",
     "level": "N4",
-    "example": "今回のプロジェクトでは、指輪に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對戒指進行了詳細的調查研究。"
+    "example": "結婚記念日に夫から美しいダイヤモンドの指輪をもらいました。",
+    "exampleMeaning": "結婚紀念日那天我收到了丈夫送的美麗鑽戒。"
   },
   {
     "id": "n4_0471",
@@ -5208,7 +5208,7 @@
     "reading": "こうぎ",
     "romaji": "kougi",
     "partOfSpeech": "名詞",
-    "meaning": "演講",
+    "meaning": "說話、交談、講話",
     "level": "N4",
     "example": "今日の午後の講義はとても面白くて、あっという間に時間が過ぎた。",
     "exampleMeaning": "今天下午的演講非常有趣，時間一下子就過去了。"
@@ -5416,11 +5416,11 @@
     "word": "なるほど",
     "reading": "なるほど",
     "romaji": "naruhodo",
-    "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "partOfSpeech": "感嘆詞",
+    "meaning": "原來如此、的確如此",
     "level": "N4",
-    "example": "なるほど、そういう理由で彼は遅刻したのか。",
-    "exampleMeaning": "原來如此，他是因為這個原因才遲到的啊。"
+    "example": "先生の説明を聞いて、なるほどそういうことかと納得しました。",
+    "exampleMeaning": "聽了老師的說明，我心想「原來是這麼一回事啊」，恍然大悟。"
   },
   {
     "id": "n4_0494",
@@ -5537,11 +5537,11 @@
     "word": "～様",
     "reading": "～さま",
     "romaji": "～sama",
-    "partOfSpeech": "名詞",
-    "meaning": "先生。",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…先生、…女士、…大人（最尊敬尊稱）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、様に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對先生。進行了詳細的調查研究。"
+    "example": "山田様、お待たせいたしました。こちらのお席へどうぞ。",
+    "exampleMeaning": "山田先生，讓您久等了，請往這邊的座位入座。"
   },
   {
     "id": "n4_0505",
@@ -5549,10 +5549,10 @@
     "reading": "ごぞんじ",
     "romaji": "gozonji",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "知道、了解（「知っている」的尊敬語）",
     "level": "N4",
-    "example": "この辺りで美味しいラーメン屋をご存じありませんか？",
-    "exampleMeaning": "請問你知道這附近哪裡有好吃的拉麵店嗎？"
+    "example": "田中先生が来月ご退職されることをすでにご存じですか。",
+    "exampleMeaning": "您已經知道田中老師下個月要退休的事了嗎？"
   },
   {
     "id": "n4_0506",
@@ -5647,11 +5647,11 @@
     "word": "～代",
     "reading": "～だい",
     "romaji": "～dai",
-    "partOfSpeech": "名詞",
-    "meaning": "代",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…費、…費用 / …年代、年齡段",
     "level": "N4",
-    "example": "今回のプロジェクトでは、代に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對代進行了詳細的調查研究。"
+    "example": "毎月の電気代や水道代などの光熱費をしっかり節約しています。",
+    "exampleMeaning": "我每個月都切實節省電費和水費等水電瓦斯費用。"
   },
   {
     "id": "n4_0515",
@@ -5680,11 +5680,11 @@
     "word": "退院",
     "reading": "たいいんする",
     "romaji": "taiinsuru",
-    "partOfSpeech": "名詞",
-    "meaning": "醫院",
+    "partOfSpeech": "動詞",
+    "meaning": "出院",
     "level": "N4",
-    "example": "手術が無事に成功して、来週退院できることになりました。",
-    "exampleMeaning": "手術非常成功，決定下禮拜可以出院了。"
+    "example": "祖父の手術が無事に成功し、来週の月曜日に退院できることになりました。",
+    "exampleMeaning": "祖父的手術非常順利成功，預計下週一就可以出院了。"
   },
   {
     "id": "n4_0518",
@@ -5725,10 +5725,10 @@
     "reading": "きしゃ",
     "romaji": "kisha",
     "partOfSpeech": "名詞",
-    "meaning": "茶",
+    "meaning": "蒸汽火車、火車",
     "level": "N4",
-    "example": "たまにはのんびり汽車に乗って旅に出たいなぁ。",
-    "exampleMeaning": "好想偶爾搭著火車悠閒地去旅行啊。"
+    "example": "昔の日本を走っていた黒い汽車が博物館に大切に展示されている。",
+    "exampleMeaning": "過去在日本行駛的黑色蒸汽火車被完好地展示在博物館中。"
   },
   {
     "id": "n4_0522",
@@ -5788,24 +5788,24 @@
   {
     "id": "n4_0527",
     "word": "様",
-    "reading": "よう",
-    "romaji": "you",
+    "reading": "さま",
+    "romaji": "sama",
     "partOfSpeech": "名詞",
-    "meaning": "先生。",
+    "meaning": "尊稱（先生、女士、大人） / 樣子、姿態",
     "level": "N4",
-    "example": "今回のプロジェクトでは、様に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對先生。進行了詳細的調查研究。"
+    "example": "お客様に対する丁寧な言葉遣いと笑顔を心がけています。",
+    "exampleMeaning": "我們時刻注意對客人保持禮貌的措辭與親切的微笑。"
   },
   {
     "id": "n4_0528",
     "word": "～おき",
     "reading": "～おき",
     "romaji": "～oki",
-    "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "partOfSpeech": "接尾辭",
+    "meaning": "每隔…、每隔一段…",
     "level": "N4",
-    "example": "今回のプロジェクトでは、おきに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對非常進行了詳細的調查研究。"
+    "example": "この薬は食後に四時間おきに一錠ずつ飲んでください。",
+    "exampleMeaning": "這個藥請在飯後每隔四小時服用一粒。"
   },
   {
     "id": "n4_0529",
@@ -5813,21 +5813,21 @@
     "reading": "さいしょ",
     "romaji": "saisho",
     "partOfSpeech": "名詞",
-    "meaning": "第一的",
+    "meaning": "最初、起初、一開始",
     "level": "N4",
-    "example": "今回のプロジェクトでは、最初に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對第一的進行了詳細的調查研究。"
+    "example": "最初は日本語を話すのが恥ずかしかったですが、今では楽しく話せます。",
+    "exampleMeaning": "起初開口說日語很害羞，但現在已經能開心地對話了。"
   },
   {
     "id": "n4_0530",
     "word": "御～",
-    "reading": "ご～",
-    "romaji": "go～",
-    "partOfSpeech": "名詞",
-    "meaning": "御",
+    "reading": "お～; ご～",
+    "romaji": "o～; go～",
+    "partOfSpeech": "接頭辭",
+    "meaning": "敬語接頭辭（表示尊敬或禮貌）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、御～に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對御進行了詳細的調查研究。"
+    "example": "本日はお忙しい中、ご出席いただき誠にありがとうございます。",
+    "exampleMeaning": "非常感謝您今天在百忙之中抽空出席。"
   },
   {
     "id": "n4_0531",
@@ -5835,10 +5835,10 @@
     "reading": "あんしん",
     "romaji": "anshin",
     "partOfSpeech": "名詞",
-    "meaning": "安全",
+    "meaning": "安心、放心",
     "level": "N4",
-    "example": "今回のプロジェクトでは、安心に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對安全進行了詳細的調查研究。"
+    "example": "無事に飛行機が目的地に到着したと聞いて、ホッと安心しました。",
+    "exampleMeaning": "聽到飛機平安抵達目的地，我終於鬆了一口氣感到安心。"
   },
   {
     "id": "n4_0532",
@@ -5890,10 +5890,10 @@
     "reading": "せんぱい",
     "romaji": "senpai",
     "partOfSpeech": "名詞",
-    "meaning": "進階的",
+    "meaning": "前輩、學長姐",
     "level": "N4",
-    "example": "今回のプロジェクトでは、先輩に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對進階的進行了詳細的調查研究。"
+    "example": "会社の優しい先輩が仕事のやり方を一から丁寧に教えてくれました。",
+    "exampleMeaning": "公司親切的前輩從頭開始耐心地指導我工作的方式。"
   },
   {
     "id": "n4_0537",
@@ -5901,21 +5901,21 @@
     "reading": "やくそく",
     "romaji": "yakusoku",
     "partOfSpeech": "名詞",
-    "meaning": "約定、承諾",
+    "meaning": "約定、約會、承諾",
     "level": "N4",
-    "example": "今回のプロジェクトでは、約束に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對約定進行了詳細的調查研究。"
+    "example": "友達と週末に映画を見に行く約束をしたので、とても楽しみです。",
+    "exampleMeaning": "我和朋友約好週末一起去看電影，因此非常期待。"
   },
   {
     "id": "n4_0538",
     "word": "世話",
     "reading": "せわする",
     "romaji": "sewasuru",
-    "partOfSpeech": "名詞",
-    "meaning": "關心",
+    "partOfSpeech": "動詞",
+    "meaning": "照顧、照料、關照",
     "level": "N4",
-    "example": "今回のプロジェクトでは、世話に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對關心進行了詳細的調查研究。"
+    "example": "毎朝早く起きて、飼っているかわいい犬の世話をしています。",
+    "exampleMeaning": "每天早上我都很早起床，照顧飼養的可愛狗狗。"
   },
   {
     "id": "n4_0539",
@@ -5923,10 +5923,10 @@
     "reading": "きんじょ",
     "romaji": "kinjo",
     "partOfSpeech": "名詞",
-    "meaning": "鄰裡",
+    "meaning": "附近、鄰近、鄰居",
     "level": "N4",
-    "example": "今回のプロジェクトでは、近所に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對鄰裡進行了詳細的調查研究。"
+    "example": "近所に大きなスーパーができたので、毎日の買い物がとても便利になりました。",
+    "exampleMeaning": "家附近開了一家大型超市，每天買東西變得非常方便。"
   },
   {
     "id": "n4_0540",
@@ -5936,19 +5936,19 @@
     "partOfSpeech": "名詞",
     "meaning": "將來、未來",
     "level": "N4",
-    "example": "今回のプロジェクトでは、将来に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對將來進行了詳細的調查研究。"
+    "example": "将来は日本へ留学して、IT企業でエンジニアとして働きたいです。",
+    "exampleMeaning": "我未來的夢想是去日本留學，並在IT企業擔任工程師工作。"
   },
   {
     "id": "n4_0541",
     "word": "億",
     "reading": "おく",
     "romaji": "oku",
-    "partOfSpeech": "名詞",
-    "meaning": "放",
+    "partOfSpeech": "數詞",
+    "meaning": "億（數字單位）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、億に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對放進行了詳細的調查研究。"
+    "example": "日本の人口は約一億二千万人と言われています。",
+    "exampleMeaning": "據說日本的人口大約有一億兩千多萬人。"
   },
   {
     "id": "n4_0542",
@@ -5958,8 +5958,8 @@
     "partOfSpeech": "名詞",
     "meaning": "數學",
     "level": "N4",
-    "example": "今回のプロジェクトでは、数学に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對數學進行了詳細的調查研究。"
+    "example": "学生の頃は数学の計算問題が得意で、テストで満点を取りました。",
+    "exampleMeaning": "學生時期我很擅長數學計算題，考試還拿過滿分。"
   },
   {
     "id": "n4_0543",
@@ -5967,10 +5967,10 @@
     "reading": "ぶんか",
     "romaji": "bunka",
     "partOfSpeech": "名詞",
-    "meaning": "文化、人文",
+    "meaning": "文化",
     "level": "N4",
-    "example": "今回のプロジェクトでは、文化に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對文化進行了詳細的調查研究。"
+    "example": "日本のお茶や着物などの伝統的な文化にとても興味があります。",
+    "exampleMeaning": "我對日本茶道與和服等傳統文化非常感興趣。"
   },
   {
     "id": "n4_0544",
@@ -5989,10 +5989,10 @@
     "reading": "しゅうかん",
     "romaji": "shuukan",
     "partOfSpeech": "名詞",
-    "meaning": "習慣、風俗",
+    "meaning": "習慣、習俗",
     "level": "N4",
-    "example": "今回のプロジェクトでは、習慣に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對習慣進行了詳細的調查研究。"
+    "example": "朝起きてすぐにコップ一杯の白湯を飲むのが健康のための習慣です。",
+    "exampleMeaning": "早上起床立刻喝一杯溫開水是我維持健康的習慣。"
   },
   {
     "id": "n4_0546",
@@ -6010,11 +6010,11 @@
     "word": "君",
     "reading": "きみ",
     "romaji": "kimi",
-    "partOfSpeech": "名詞",
-    "meaning": "你",
+    "partOfSpeech": "代名詞",
+    "meaning": "你（對同輩或晚輩的親切稱呼）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、君に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對你進行了詳細的調查研究。"
+    "example": "君の描いた絵は色彩が豊かで本当に素晴らしいね。",
+    "exampleMeaning": "你畫的畫色彩豐富，真的非常出色呢。"
   },
   {
     "id": "n4_0548",
@@ -6044,10 +6044,10 @@
     "reading": "このあいだ",
     "romaji": "konoaida",
     "partOfSpeech": "名詞",
-    "meaning": "這段時間",
+    "meaning": "前幾天、前不久、前陣子",
     "level": "N4",
-    "example": "今回のプロジェクトでは、この間に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對這段時間進行了詳細的調查研究。"
+    "example": "この間紹介してもらった本を読んだら、とても面白かったよ。",
+    "exampleMeaning": "我讀了前陣子你推薦給我的那本書，真的非常有趣。"
   },
   {
     "id": "n4_0551",
@@ -6055,21 +6055,21 @@
     "reading": "かっこう",
     "romaji": "kakkou",
     "partOfSpeech": "名詞",
-    "meaning": "涼爽的",
+    "meaning": "外表、模樣、打扮 / 體面",
     "level": "N4",
-    "example": "今回のプロジェクトでは、格好に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對涼爽的進行了詳細的調查研究。"
+    "example": "新しいスーツを着て、とても格好いい姿で出勤しました。",
+    "exampleMeaning": "穿上新西裝，以非常帥氣體面的模樣出門上班。"
   },
   {
     "id": "n4_0552",
     "word": "かまう",
-    "reading": "to mind, to care about, to be concerned about",
-    "romaji": "to mind, to care about, to be concerned about",
-    "partOfSpeech": "名詞",
-    "meaning": "我不介意",
+    "reading": "かまう",
+    "romaji": "kamau",
+    "partOfSpeech": "動詞",
+    "meaning": "介意、在乎、照料",
     "level": "N4",
-    "example": "今回のプロジェクトでは、かまうに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對我不介意進行了詳細的調查研究。"
+    "example": "服装なんて細かく気にしませんので、どうぞ構わずにお入りください。",
+    "exampleMeaning": "不用太拘泥穿著，請別介意直接進來吧。"
   },
   {
     "id": "n4_0553",
@@ -6109,22 +6109,22 @@
     "word": "出発",
     "reading": "しゅっぱつする",
     "romaji": "shuppatsusuru",
-    "partOfSpeech": "名詞",
-    "meaning": "離開",
+    "partOfSpeech": "動詞",
+    "meaning": "出發、啟程",
     "level": "N4",
-    "example": "今回のプロジェクトでは、出発に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對離開進行了詳細的調查研究。"
+    "example": "明日は朝早い新幹線に乗るため、六時に家を出発します。",
+    "exampleMeaning": "明天為了搭乘早班新幹線，早上六點就要從家裡出發。"
   },
   {
     "id": "n4_0557",
     "word": "拝見",
     "reading": "はいけんする",
     "romaji": "haikensuru",
-    "partOfSpeech": "名詞",
-    "meaning": "看法",
+    "partOfSpeech": "動詞",
+    "meaning": "拜見、過目、看（「見る」的自謙語）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、拝見に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對看法進行了詳細的調查研究。"
+    "example": "送っていただいた企画書を拝見し、大変勉強になりました。",
+    "exampleMeaning": "我已經拜讀了您寄給我的企劃書，獲益良多。"
   },
   {
     "id": "n4_0558",
@@ -6143,10 +6143,10 @@
     "reading": "せなか",
     "romaji": "senaka",
     "partOfSpeech": "名詞",
-    "meaning": "後退",
+    "meaning": "背部、後背",
     "level": "N4",
-    "example": "今回のプロジェクトでは、背中に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對後退進行了詳細的調查研究。"
+    "example": "一日中パソコンに向かっていたので、背中と肩が痛くなってしまった。",
+    "exampleMeaning": "一整天都對著電腦，導致後背和肩膀都痠痛了起來。"
   },
   {
     "id": "n4_0560",
@@ -6154,10 +6154,10 @@
     "reading": "しんぶんしゃ",
     "romaji": "shinbunsha",
     "partOfSpeech": "名詞",
-    "meaning": "公司",
+    "meaning": "報社",
     "level": "N4",
-    "example": "今回のプロジェクトでは、新聞社に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對公司進行了詳細的調查研究。"
+    "example": "彼は大学を卒業後、大手の新聞社に記者として採用されました。",
+    "exampleMeaning": "他大學畢業後，被大型報社錄取並擔任記者工作。"
   },
   {
     "id": "n4_0561",
@@ -6186,33 +6186,33 @@
     "word": "～君",
     "reading": "～くん",
     "romaji": "～kun",
-    "partOfSpeech": "名詞",
-    "meaning": "你",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…君、…同學（對男性同輩或晚輩的稱呼）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、君に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對你進行了詳細的調查研究。"
+    "example": "田中君はサッカーが得意で、クラスのムードメーカーです。",
+    "exampleMeaning": "田中同學擅長踢足球，是班上的氣氛製造者。"
   },
   {
     "id": "n4_0564",
     "word": "おっしゃる",
     "reading": "おっしゃる",
     "romaji": "ossharu",
-    "partOfSpeech": "名詞",
-    "meaning": "說",
+    "partOfSpeech": "動詞",
+    "meaning": "說、講（「言う」的尊敬語）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、おっしゃるに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對說進行了詳細的調查研究。"
+    "example": "社長がおっしゃった通り、顧客満足度を第一に考えるべきです。",
+    "exampleMeaning": "正如社長所說的那樣，我們應該將客戶滿意度放在第一位。"
   },
   {
     "id": "n4_0565",
     "word": "眠い",
     "reading": "ねむい",
     "romaji": "nemui",
-    "partOfSpeech": "い形容詞",
-    "meaning": "睏",
+    "partOfSpeech": "形容詞",
+    "meaning": "想睡的、睏倦的",
     "level": "N4",
-    "example": "このデザインはとても眠いと思います。",
-    "exampleMeaning": "我覺得這個設計非常睏。"
+    "example": "昨夜は遅くまで試験勉強をしていたので、今朝はとても眠いです。",
+    "exampleMeaning": "昨晚為了準備考試讀書讀到很晚，所以今天早上非常想睡。"
   },
   {
     "id": "n4_0566",
@@ -6238,25 +6238,25 @@
   },
   {
     "id": "n4_0568",
-    "word": "スーパー (マーケット)",
-    "reading": "スーパー (マーケット)",
-    "romaji": "スーパー (マーケト)",
+    "word": "スーパー",
+    "reading": "スーパー",
+    "romaji": "suupaa",
     "partOfSpeech": "名詞",
-    "meaning": "超級市場）",
+    "meaning": "超級市場、超市",
     "level": "N4",
-    "example": "今回のプロジェクトでは、スーパー (マーケット)に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對超級市場）進行了詳細的調查研究。"
+    "example": "仕事帰りに近くのスーパーへ寄って、今晩の夕飯の材料を買いました。",
+    "exampleMeaning": "下班回家的路上順道去了附近的超市，買了今晚煮晚餐的食材。"
   },
   {
     "id": "n4_0569",
     "word": "アクセサリー",
     "reading": "アクセサリー",
-    "romaji": "アクセサリー",
+    "romaji": "akusesarii",
     "partOfSpeech": "名詞",
-    "meaning": "配件",
+    "meaning": "飾品、首飾、飾物",
     "level": "N4",
-    "example": "今回のプロジェクトでは、アクセサリーに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對配件進行了詳細的調查研究。"
+    "example": "彼女の誕生日に似合いそうな可愛いアクセサリーを選びました。",
+    "exampleMeaning": "我在她生日時挑選了很適合她的可愛首飾作為禮物。"
   },
   {
     "id": "n4_0570",
@@ -6286,10 +6286,10 @@
     "reading": "じゆう",
     "romaji": "jiyuu",
     "partOfSpeech": "名詞",
-    "meaning": "吉佑",
+    "meaning": "自由、自在",
     "level": "N4",
-    "example": "今回のプロジェクトでは、自由に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對吉佑進行了詳細的調查研究。"
+    "example": "休日は誰にも邪魔されず、自分の自由な時間を満喫しています。",
+    "exampleMeaning": "假日不受任何人打擾，盡情享受屬於自己的自由時光。"
   },
   {
     "id": "n4_0573",
@@ -6297,10 +6297,10 @@
     "reading": "しかた",
     "romaji": "shikata",
     "partOfSpeech": "名詞",
-    "meaning": "如何",
+    "meaning": "做法、辦法、方式",
     "level": "N4",
-    "example": "今回のプロジェクトでは、仕方に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對如何進行了詳細的調查研究。"
+    "example": "この機械の正しい使い方の仕方が分からず、説明書を読みました。",
+    "exampleMeaning": "我不知道這台機器的正確操作方法，於是閱讀了說明書。"
   },
   {
     "id": "n4_0574",
@@ -6308,21 +6308,21 @@
     "reading": "くび",
     "romaji": "kubi",
     "partOfSpeech": "名詞",
-    "meaning": "脖子",
+    "meaning": "脖子、頸部",
     "level": "N4",
-    "example": "今回のプロジェクトでは、首に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對脖子進行了詳細的調查研究。"
+    "example": "冬の寒い日は首にマフラーを巻いて暖かくして外出します。",
+    "exampleMeaning": "冬天的寒冷日子裡，我會在脖子上圍上圍巾保暖後再出門。"
   },
   {
     "id": "n4_0575",
     "word": "程",
     "reading": "ほど",
     "romaji": "hodo",
-    "partOfSpeech": "名詞",
-    "meaning": "程度",
+    "partOfSpeech": "助詞",
+    "meaning": "大約、程度、越…越…",
     "level": "N4",
-    "example": "今回のプロジェクトでは、程に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對程度進行了詳細的調查研究。"
+    "example": "駅から家まで歩いて十分程で着く距離に住んでいます。",
+    "exampleMeaning": "我住在從車站走路大約十分鐘左右就能到達的距離。"
   },
   {
     "id": "n4_0576",
@@ -6330,10 +6330,10 @@
     "reading": "かわり",
     "romaji": "kawari",
     "partOfSpeech": "名詞",
-    "meaning": "代替",
+    "meaning": "代替、代理、補償",
     "level": "N4",
-    "example": "今回のプロジェクトでは、代わりに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對代替進行了詳細的調查研究。"
+    "example": "風邪で休んだ同僚の代わりに、今日の午後の会議に出席しました。",
+    "exampleMeaning": "代替因感冒請假的同事，我出席了今天下午的會議。"
   },
   {
     "id": "n4_0577",
@@ -6341,10 +6341,10 @@
     "reading": "しっぱい",
     "romaji": "shippai",
     "partOfSpeech": "名詞",
-    "meaning": "七派",
+    "meaning": "失敗、差錯",
     "level": "N4",
-    "example": "今回のプロジェクトでは、失敗に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對七派進行了詳細的調查研究。"
+    "example": "一度の失敗にくじけず、原因を振り返って次に活かしましょう。",
+    "exampleMeaning": "不要因一次失敗就氣餒，反省原因並在下一次加以改進吧。"
   },
   {
     "id": "n4_0578",
@@ -6352,10 +6352,10 @@
     "reading": "こうぎょう",
     "romaji": "kougyou",
     "partOfSpeech": "名詞",
-    "meaning": "產業",
+    "meaning": "工業、製造業",
     "level": "N4",
-    "example": "今回のプロジェクトでは、工業に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對產業進行了詳細的調查研究。"
+    "example": "この地域は自動車などの製造を中心とした工業が非常に盛んです。",
+    "exampleMeaning": "這個地區以汽車等製造為中心的工業非常繁榮發達。"
   },
   {
     "id": "n4_0579",
@@ -6372,12 +6372,12 @@
     "id": "n4_0580",
     "word": "スーツケース",
     "reading": "スーツケース",
-    "romaji": "スーツケース",
+    "romaji": "suutsukeesu",
     "partOfSpeech": "名詞",
-    "meaning": "行李箱",
+    "meaning": "行李箱、旅行箱",
     "level": "N4",
-    "example": "今回のプロジェクトでは、スーツケースに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對行李箱進行了詳細的調查研究。"
+    "example": "一週間の海外旅行に向けて、大きなスーツケースに荷物を詰めました。",
+    "exampleMeaning": "為了迎接一週的海外旅行，我把行李裝進了大型行李箱中。"
   },
   {
     "id": "n4_0581",
@@ -6385,10 +6385,10 @@
     "reading": "ひげ",
     "romaji": "hige",
     "partOfSpeech": "名詞",
-    "meaning": "鬍鬚",
+    "meaning": "鬍鬚、鬍子",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ひげに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對鬍鬚進行了詳細的調查研究。"
+    "example": "毎朝出勤する前に、鏡を見ながら綺麗にひげを剃っています。",
+    "exampleMeaning": "每天早上出門上班前，我都會看著鏡子把鬍子刮得乾乾淨淨。"
   },
   {
     "id": "n4_0582",
@@ -6396,10 +6396,10 @@
     "reading": "けんきゅうしつ",
     "romaji": "kenkyuushitsu",
     "partOfSpeech": "名詞",
-    "meaning": "實驗室",
+    "meaning": "研究室、實驗室",
     "level": "N4",
-    "example": "今回のプロジェクトでは、研究室に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對實驗室進行了詳細的調查研究。"
+    "example": "放課後に教授の研究室を訪ねて、卒論のテーマについて相談しました。",
+    "exampleMeaning": "放學後我造訪了教授的研究室，討論了畢業論文的主題。"
   },
   {
     "id": "n4_0583",
@@ -6418,21 +6418,21 @@
     "reading": "しょうかい",
     "romaji": "shoukai",
     "partOfSpeech": "名詞",
-    "meaning": "介紹",
+    "meaning": "介紹、推薦",
     "level": "N4",
-    "example": "今回のプロジェクトでは、紹介に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對介紹進行了詳細的調查研究。"
+    "example": "新しく入社した新入社員の皆さんを部署の先輩たちに紹介しました。",
+    "exampleMeaning": "我向部門的前輩們介紹了新入職的新進員工。"
   },
   {
     "id": "n4_0585",
-    "word": "けれど; けれども",
-    "reading": "けれど; けれども",
-    "romaji": "keredo; keredomo",
-    "partOfSpeech": "名詞",
-    "meaning": "然而",
+    "word": "けれど",
+    "reading": "けれど",
+    "romaji": "keredo",
+    "partOfSpeech": "接續詞",
+    "meaning": "雖然…但是、然而",
     "level": "N4",
-    "example": "今回のプロジェクトでは、けれど; けれどもに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對然而進行了詳細的調查研究。"
+    "example": "値段は少し高かったけれど、品質がとても良くて大満足です。",
+    "exampleMeaning": "雖然價格稍微貴了一點，但品質非常好，我很滿意。"
   },
   {
     "id": "n4_0586",
@@ -6440,10 +6440,10 @@
     "reading": "ふね",
     "romaji": "fune",
     "partOfSpeech": "名詞",
-    "meaning": "船",
+    "meaning": "小船、木舟",
     "level": "N4",
-    "example": "今回のプロジェクトでは、舟に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對船進行了詳細的調查研究。"
+    "example": "観光地で小さな舟に乗って、静かな川を下りながら景色を楽しみました。",
+    "exampleMeaning": "在觀光景點乘坐小木船，順著平靜的河流順流而下欣賞沿途景色。"
   },
   {
     "id": "n4_0587",
@@ -6461,22 +6461,22 @@
     "word": "～(に) ついて",
     "reading": "～(に) ついて",
     "romaji": "～(ni) tsuite",
-    "partOfSpeech": "名詞",
-    "meaning": "（至）關於",
+    "partOfSpeech": "句型",
+    "meaning": "關於…、對於…",
     "level": "N4",
-    "example": "今回のプロジェクトでは、(に) ついてに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對進行了詳細的調查研究。"
+    "example": "日本の伝統的な祭りについて、クラス全員の前で発表しました。",
+    "exampleMeaning": "我向全班同學發表了關於日本傳統祭典的專題介紹。"
   },
   {
     "id": "n4_0589",
     "word": "コンサート",
     "reading": "コンサート",
-    "romaji": "コンサート",
+    "romaji": "konsaato",
     "partOfSpeech": "名詞",
-    "meaning": "音樂會",
+    "meaning": "演唱會、音樂會",
     "level": "N4",
-    "example": "今回のプロジェクトでは、コンサートに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對音樂會進行了詳細的調查研究。"
+    "example": "大好きなバンドの生演奏を聴くためにコンサート会場へ行きました。",
+    "exampleMeaning": "為了聆聽最喜愛樂團的現場演奏，我去了音樂會現場。"
   },
   {
     "id": "n4_0590",
@@ -6484,10 +6484,10 @@
     "reading": "むし",
     "romaji": "mushi",
     "partOfSpeech": "名詞",
-    "meaning": "昆蟲",
+    "meaning": "昆蟲、蟲子",
     "level": "N4",
-    "example": "今回のプロジェクトでは、虫に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對昆蟲進行了詳細的調查研究。"
+    "example": "夏になると森の中から色々な虫の鳴き声が聞こえてきます。",
+    "exampleMeaning": "一到夏天，森林裡就會傳來各種昆蟲的鳴叫聲。"
   },
   {
     "id": "n4_0591",
@@ -6502,14 +6502,14 @@
   },
   {
     "id": "n4_0592",
-    "word": "コンピュータ; コンピューター",
-    "reading": "コンピュータ; コンピューター",
-    "romaji": "コンピュータ; コンピューター",
+    "word": "コンピューター",
+    "reading": "コンピューター",
+    "romaji": "konpyuutaa",
     "partOfSpeech": "名詞",
-    "meaning": "電腦",
+    "meaning": "電腦、計算機",
     "level": "N4",
-    "example": "今回のプロジェクトでは、コンピュータ; コンピューターに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對電腦進行了詳細的調查研究。"
+    "example": "最新のコンピューターを導入したおかげで、作業効率が大幅に向上した。",
+    "exampleMeaning": "多虧引進了最新型電腦，工作效率大幅獲得提升。"
   },
   {
     "id": "n4_0593",
@@ -6528,10 +6528,10 @@
     "reading": "りょうほう",
     "romaji": "ryouhou",
     "partOfSpeech": "名詞",
-    "meaning": "兩個都",
+    "meaning": "雙方、兩邊、兩者",
     "level": "N4",
-    "example": "今回のプロジェクトでは、両方に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對兩個都進行了詳細的調查研究。"
+    "example": "赤と青のどちらの服も素敵だったので、結局両方買ってしまいました。",
+    "exampleMeaning": "紅色和藍色的衣服都很好看，最後我把兩件都買下來了。"
   },
   {
     "id": "n4_0595",
@@ -6552,19 +6552,19 @@
     "partOfSpeech": "名詞",
     "meaning": "游泳",
     "level": "N4",
-    "example": "今回のプロジェクトでは、水泳に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對游泳進行了詳細的調查研究。"
+    "example": "健康維持のために、毎週土曜日は市民プールで水泳をしています。",
+    "exampleMeaning": "為了保持身體健康，每週六我都會去市民泳池游泳。"
   },
   {
     "id": "n4_0597",
     "word": "経験",
     "reading": "けいけんする",
     "romaji": "keikensuru",
-    "partOfSpeech": "名詞",
-    "meaning": "經驗、體會",
+    "partOfSpeech": "動詞",
+    "meaning": "經驗、經歷、體會",
     "level": "N4",
-    "example": "今回のプロジェクトでは、経験に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對經驗進行了詳細的調查研究。"
+    "example": "若い頃に海外で生活した経験は、今でも大きな財産になっています。",
+    "exampleMeaning": "年輕時在國外生活的經驗，至今依然是我人生寶貴的財富。"
   },
   {
     "id": "n4_0598",
@@ -6572,10 +6572,10 @@
     "reading": "かつ",
     "romaji": "katsu",
     "partOfSpeech": "動詞",
-    "meaning": "贏",
+    "meaning": "獲勝、贏得勝利",
     "level": "N4",
-    "example": "毎日しっかり勝つように心がけています。",
-    "exampleMeaning": "每天都用心努力做好贏。"
+    "example": "厳しい練習を重ねた結果、強豪チームとの試合に見事勝ちました。",
+    "exampleMeaning": "經過刻苦的反覆練習，我們在與強隊的比賽中漂亮地贏得勝利。"
   },
   {
     "id": "n4_0599",
@@ -6583,10 +6583,10 @@
     "reading": "すな",
     "romaji": "suna",
     "partOfSpeech": "名詞",
-    "meaning": "沙",
+    "meaning": "沙子、細沙",
     "level": "N4",
-    "example": "今回のプロジェクトでは、砂に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對沙進行了詳細的調查研究。"
+    "example": "子供たちが白い砂浜で夢中になってお城を作って遊んでいます。",
+    "exampleMeaning": "孩子們在白色沙灘上全神貫注地堆著城堡玩耍。"
   },
   {
     "id": "n4_0600",
@@ -6594,10 +6594,10 @@
     "reading": "けいさつ",
     "romaji": "keisatsu",
     "partOfSpeech": "名詞",
-    "meaning": "車站",
+    "meaning": "警察、警方",
     "level": "N4",
-    "example": "今回のプロジェクトでは、警察に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對車站進行了詳細的調查研究。"
+    "example": "財布を落として困っていたところ、警察に届けられていて無事に戻ってきました。",
+    "exampleMeaning": "弄丟錢包正不知所措時，幸好有人送到警察局，順利找了回來。"
   },
   {
     "id": "n4_0601",
@@ -6659,11 +6659,11 @@
     "word": "特別",
     "reading": "とくべつ",
     "romaji": "tokubetsu",
-    "partOfSpeech": "名詞",
-    "meaning": "特別的",
+    "partOfSpeech": "形容詞",
+    "meaning": "特別的、格外的",
     "level": "N4",
-    "example": "今回のプロジェクトでは、特別に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對特別的進行了詳細的調查研究。"
+    "example": "今日は私の誕生日なので、家族が特別なディナーを用意してくれました。",
+    "exampleMeaning": "因為今天是我的生日，家人為我準備了特別的豐盛晚餐。"
   },
   {
     "id": "n4_0607",
@@ -6671,10 +6671,10 @@
     "reading": "ふくしゅう",
     "romaji": "fukushuu",
     "partOfSpeech": "名詞",
-    "meaning": "審查",
+    "meaning": "複習、溫習",
     "level": "N4",
-    "example": "今回のプロジェクトでは、復習に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對審查進行了詳細的調查研究。"
+    "example": "授業で習った文法をその日のうちに復習することで、しっかり定着します。",
+    "exampleMeaning": "在當天就複習課堂上學過的文法，能讓記憶更加牢固。"
   },
   {
     "id": "n4_0608",
@@ -6703,11 +6703,11 @@
     "word": "もうすぐ",
     "reading": "もうすぐ",
     "romaji": "mousugu",
-    "partOfSpeech": "名詞",
-    "meaning": "非常、很",
+    "partOfSpeech": "副詞",
+    "meaning": "馬上、快要、即將",
     "level": "N4",
-    "example": "今回のプロジェクトでは、もうすぐに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對非常進行了詳細的調查研究。"
+    "example": "もうすぐ待ちに待った夏休みが始まるので、今からとても楽しみです。",
+    "exampleMeaning": "期待已久的暑假馬上就要開始了，現在就非常期待。"
   },
   {
     "id": "n4_0611",
@@ -6715,10 +6715,10 @@
     "reading": "まんなか",
     "romaji": "mannaka",
     "partOfSpeech": "名詞",
-    "meaning": "中間",
+    "meaning": "正中央、正中間",
     "level": "N4",
-    "example": "今回のプロジェクトでは、真中に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對中間進行了詳細的調查研究。"
+    "example": "丸いテーブルの真ん中に綺麗な花瓶を飾りました。",
+    "exampleMeaning": "在圓形桌子的正中央擺放了漂亮的花瓶作為裝飾。"
   },
   {
     "id": "n4_0612",
@@ -6739,19 +6739,19 @@
     "partOfSpeech": "名詞",
     "meaning": "研究、探討",
     "level": "N4",
-    "example": "今回のプロジェクトでは、研究に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對研究進行了詳細的調查研究。"
+    "example": "彼は大学院で再生可能エネルギーに関する最先端の研究を行っている。",
+    "exampleMeaning": "他在研究所進行有關可再生能源的頂尖尖端研究。"
   },
   {
     "id": "n4_0614",
     "word": "ケーキ",
     "reading": "ケーキ",
-    "romaji": "ケーキ",
+    "romaji": "keeki",
     "partOfSpeech": "名詞",
     "meaning": "蛋糕",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ケーキに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對蛋糕進行了詳細的調查研究。"
+    "example": "誕生日パーティーのためにイチゴがたくさん乗ったケーキを買いました。",
+    "exampleMeaning": "為了生日派對，我買了一個上面放滿草莓的美味蛋糕。"
   },
   {
     "id": "n4_0615",
@@ -6759,10 +6759,10 @@
     "reading": "くさ",
     "romaji": "kusa",
     "partOfSpeech": "名詞",
-    "meaning": "青草、草地",
+    "meaning": "草、青草",
     "level": "N4",
-    "example": "今回のプロジェクトでは、草に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對青草進行了詳細的調查研究。"
+    "example": "週末に家族と一緒に庭に生えた雑草をきれいに抜きました。",
+    "exampleMeaning": "週末和家人一起把院子裡長出的雜草拔除乾淨。"
   },
   {
     "id": "n4_0616",
@@ -6781,10 +6781,10 @@
     "reading": "このごろ",
     "romaji": "konogoro",
     "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "meaning": "這陣子、最近",
     "level": "N4",
-    "example": "今回のプロジェクトでは、この頃に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對現在進行了詳細的調查研究。"
+    "example": "この頃は朝晩の冷え込みが厳しくなってきたので、風邪に気をつけてください。",
+    "exampleMeaning": "這陣子早晚天氣轉涼變冷了，請多注意不要感冒。"
   },
   {
     "id": "n4_0618",
@@ -6814,10 +6814,10 @@
     "reading": "はなみ",
     "romaji": "hanami",
     "partOfSpeech": "名詞",
-    "meaning": "賞櫻",
+    "meaning": "賞櫻、賞花",
     "level": "N4",
-    "example": "今回のプロジェクトでは、花見に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對賞櫻進行了詳細的調查研究。"
+    "example": "春になると桜が満開になる公園でお弁当を持って花見をします。",
+    "exampleMeaning": "一到春天，大家會帶著便當到櫻花盛開的公園賞花。"
   },
   {
     "id": "n4_0621",
@@ -6825,21 +6825,21 @@
     "reading": "とちゅう",
     "romaji": "tochuu",
     "partOfSpeech": "名詞",
-    "meaning": "在中間",
+    "meaning": "途中、半路上",
     "level": "N4",
-    "example": "今回のプロジェクトでは、途中に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對在中間進行了詳細的調查研究。"
+    "example": "学校から家に帰る途中でコンビニに寄ってアイスを買いました。",
+    "exampleMeaning": "在從學校回家的半路上順便去了便利商店買冰淇淋。"
   },
   {
     "id": "n4_0622",
     "word": "入院",
     "reading": "にゅういんする",
     "romaji": "nyuuinsuru",
-    "partOfSpeech": "名詞",
-    "meaning": "醫院",
+    "partOfSpeech": "動詞",
+    "meaning": "住院",
     "level": "N4",
-    "example": "今回のプロジェクトでは、入院に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對醫院進行了詳細的調查研究。"
+    "example": "友人が怪我をして入院したと聞き、すぐにお見舞いに行きました。",
+    "exampleMeaning": "聽說朋友受傷住院了，我立刻前往醫院探望。"
   },
   {
     "id": "n4_0623",
@@ -6866,24 +6866,24 @@
   {
     "id": "n4_0625",
     "word": "～町",
-    "reading": "～ちょう",
-    "romaji": "～chou",
-    "partOfSpeech": "名詞",
-    "meaning": "町",
+    "reading": "～ちょう; ～まち",
+    "romaji": "～chou; ～machi",
+    "partOfSpeech": "接尾辭",
+    "meaning": "…町、…鎮（行政區劃）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、町に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對町進行了詳細的調查研究。"
+    "example": "私の住んでいる桜町は自然が豊かでとても住みやすい所です。",
+    "exampleMeaning": "我居住的櫻町自然環境豐富，是個非常宜居的好地方。"
   },
   {
     "id": "n4_0626",
     "word": "安全",
     "reading": "あんぜん",
     "romaji": "anzen",
-    "partOfSpeech": "名詞",
-    "meaning": "安全的",
+    "partOfSpeech": "形容詞",
+    "meaning": "安全的、平安的",
     "level": "N4",
-    "example": "今回のプロジェクトでは、安全に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對安全的進行了詳細的調查研究。"
+    "example": "夜間でも街灯が多くて道が明るいので、女性一人でも安全に歩けます。",
+    "exampleMeaning": "即使在夜間也有很多路燈十分明亮，女性一個人也能安全步行。"
   },
   {
     "id": "n4_0627",
@@ -6891,10 +6891,10 @@
     "reading": "かんごふ",
     "romaji": "kangofu",
     "partOfSpeech": "名詞",
-    "meaning": "護士",
+    "meaning": "護士、護理師",
     "level": "N4",
-    "example": "今回のプロジェクトでは、看護婦に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對護士進行了詳細的調查研究。"
+    "example": "親切な看護婦さんが入院中の患者に優しく声をかけて励ましてくれた。",
+    "exampleMeaning": "親切的護理師溫柔地向住院患者關心打氣。"
   },
   {
     "id": "n4_0628",
@@ -6902,43 +6902,43 @@
     "reading": "けんぶつ",
     "romaji": "kenbutsu",
     "partOfSpeech": "名詞",
-    "meaning": "觀光",
+    "meaning": "觀光、遊覽、參觀",
     "level": "N4",
-    "example": "今回のプロジェクトでは、見物に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對觀光進行了詳細的調查研究。"
+    "example": "京都へ旅行に行って、歴史ある有名な寺や神社を見物しました。",
+    "exampleMeaning": "去京都旅行時，我參觀遊覽了歷史悠久的知名寺廟與神社。"
   },
   {
     "id": "n4_0629",
     "word": "相談",
     "reading": "そうだんする",
     "romaji": "soudansuru",
-    "partOfSpeech": "名詞",
-    "meaning": "諮詢",
+    "partOfSpeech": "動詞",
+    "meaning": "商量、諮詢、討論",
     "level": "N4",
-    "example": "今回のプロジェクトでは、相談に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對諮詢進行了詳細的調查研究。"
+    "example": "進路について悩んだときは、一人で抱え込まずに先生に相談しましょう。",
+    "exampleMeaning": "為升學或出路煩惱時，不要自己一個人承擔，找老師商量吧。"
   },
   {
     "id": "n4_0630",
     "word": "ガソリンスタンド",
     "reading": "ガソリンスタンド",
-    "romaji": "ガソリンスタンド",
+    "romaji": "gasorinsutando",
     "partOfSpeech": "名詞",
-    "meaning": "車站",
+    "meaning": "加油站",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ガソリンスタンドに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對車站進行了詳細的調查研究。"
+    "example": "ドライブの途中で燃料が減ってきたので、近くのガソリンスタンドで満タンにした。",
+    "exampleMeaning": "開車兜風途中油量變少了，於是在附近的加油站把油加滿。"
   },
   {
     "id": "n4_0631",
     "word": "テニス",
     "reading": "テニス",
-    "romaji": "テニス",
+    "romaji": "tenisu",
     "partOfSpeech": "名詞",
     "meaning": "網球",
     "level": "N4",
-    "example": "今回のプロジェクトでは、テニスに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對網球進行了詳細的調查研究。"
+    "example": "休日はテニスコートで汗を流してリフレッシュするのが楽しみです。",
+    "exampleMeaning": "休假時在網球場上揮灑汗水放鬆身心是我的一大樂趣。"
   },
   {
     "id": "n4_0632",
@@ -6968,21 +6968,21 @@
     "reading": "ほんやく",
     "romaji": "honyaku",
     "partOfSpeech": "名詞",
-    "meaning": "翻譯",
+    "meaning": "翻譯、筆譯",
     "level": "N4",
-    "example": "今回のプロジェクトでは、翻訳に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對翻譯進行了詳細的調查研究。"
+    "example": "日本の素晴らしい小説を母国語に翻訳して世界の人々に届けたい。",
+    "exampleMeaning": "我想把日本優秀的小說翻譯成母語，傳遞給全世界的讀者。"
   },
   {
     "id": "n4_0635",
     "word": "食事",
     "reading": "しょくじする",
     "romaji": "shokujisuru",
-    "partOfSpeech": "名詞",
-    "meaning": "一頓飯",
+    "partOfSpeech": "動詞",
+    "meaning": "用餐、吃飯",
     "level": "N4",
-    "example": "今回のプロジェクトでは、食事に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對一頓飯進行了詳細的調查研究。"
+    "example": "久しぶりに家族全員が揃って、楽しい雰囲気の中で食事をしました。",
+    "exampleMeaning": "難得全家人齊聚一堂，在歡樂的氣氛中一起用餐。"
   },
   {
     "id": "n4_0636",
@@ -6990,10 +6990,10 @@
     "reading": "おかげ",
     "romaji": "okage",
     "partOfSpeech": "名詞",
-    "meaning": "謝謝你",
+    "meaning": "多虧、托福、幸好",
     "level": "N4",
-    "example": "今回のプロジェクトでは、お陰に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對謝謝你進行了詳細的調查研究。"
+    "example": "先生の熱心なご指導のおかげで、無事にJLPT試験に合格できました。",
+    "exampleMeaning": "多虧了老師耐心的悉心指導，我順利通過了JLPT日檢考試。"
   },
   {
     "id": "n4_0637",
@@ -7003,8 +7003,8 @@
     "partOfSpeech": "名詞",
     "meaning": "女兒",
     "level": "N4",
-    "example": "今回のプロジェクトでは、娘に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對女兒進行了詳細的調查研究。"
+    "example": "娘が今年小学校に入学するので、ランドセルをプレゼントしました。",
+    "exampleMeaning": "女兒今年要上小學了，我送了她一個書包作為入學禮物。"
   },
   {
     "id": "n4_0638",
@@ -7012,10 +7012,10 @@
     "reading": "ゆ",
     "romaji": "yu",
     "partOfSpeech": "名詞",
-    "meaning": "水",
+    "meaning": "熱水、溫泉、洗澡水",
     "level": "N4",
-    "example": "今回のプロジェクトでは、湯に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對水進行了詳細的調查研究。"
+    "example": "寒い夜には温かいお湯にゆっくり浸かって体の芯まで温まります。",
+    "exampleMeaning": "在寒冷的夜晚悠閒地泡在熱水裡，讓全身都溫暖起來。"
   },
   {
     "id": "n4_0639",
@@ -7023,10 +7023,10 @@
     "reading": "きょうそう",
     "romaji": "kyousou",
     "partOfSpeech": "名詞",
-    "meaning": "競賽",
+    "meaning": "競爭、競賽",
     "level": "N4",
-    "example": "今回のプロジェクトでは、競争に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對競賽進行了詳細的調查研究。"
+    "example": "運動会の徒競走でクラスメートと全力で走って競争しました。",
+    "exampleMeaning": "在運動會的跑步比賽中，我和同班同學全力奔跑競賽。"
   },
   {
     "id": "n4_0640",
@@ -7036,8 +7036,8 @@
     "partOfSpeech": "名詞",
     "meaning": "會議",
     "level": "N4",
-    "example": "今回のプロジェクトでは、会議に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對會議進行了詳細的調查研究。"
+    "example": "明日の午後から新しいプロジェクトの進行に関する重要な会議があります。",
+    "exampleMeaning": "明天下午開始有一場關於新專案進度的重要會議。"
   },
   {
     "id": "n4_0641",
@@ -7045,10 +7045,10 @@
     "reading": "みずうみ",
     "romaji": "mizuumi",
     "partOfSpeech": "名詞",
-    "meaning": "水",
+    "meaning": "湖泊、湖",
     "level": "N4",
-    "example": "今回のプロジェクトでは、湖に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對水進行了詳細的調查研究。"
+    "example": "澄んだ湖の周りを散歩しながら、美しい富士山の姿を眺めました。",
+    "exampleMeaning": "沿著清澈的湖泊周圍散步，一邊眺望美麗的富士山景。"
   },
   {
     "id": "n4_0642",
@@ -7077,11 +7077,11 @@
     "word": "生活",
     "reading": "せいかつする",
     "romaji": "seikatsusuru",
-    "partOfSpeech": "名詞",
-    "meaning": "居住",
+    "partOfSpeech": "動詞",
+    "meaning": "生活、過日子",
     "level": "N4",
-    "example": "今回のプロジェクトでは、生活に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對居住進行了詳細的調查研究。"
+    "example": "東京で一人暮らしの生活を始めてから、自炊の大切さを実感しています。",
+    "exampleMeaning": "自從在東京開始一個人獨立生活後，深刻體會到自己做飯的重要性。"
   },
   {
     "id": "n4_0645",
@@ -7089,10 +7089,10 @@
     "reading": "いと",
     "romaji": "ito",
     "partOfSpeech": "名詞",
-    "meaning": "線",
+    "meaning": "線、絲線",
     "level": "N4",
-    "example": "今回のプロジェクトでは、糸に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對線進行了詳細的調查研究。"
+    "example": "針に赤い糸を通して、取れそうだったシャツのボタンを縫い付けました。",
+    "exampleMeaning": "把紅線穿過針眼，將快要掉落的襯衫扣子縫緊。"
   },
   {
     "id": "n4_0646",
@@ -7100,21 +7100,21 @@
     "reading": "かんけい",
     "romaji": "kankei",
     "partOfSpeech": "名詞",
-    "meaning": "關係",
+    "meaning": "關係、關聯",
     "level": "N4",
-    "example": "今回のプロジェクトでは、関係に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對關係進行了詳細的調查研究。"
+    "example": "良好な人間関係を築くためには、相手への思いやりが欠かせません。",
+    "exampleMeaning": "為了建立良好的人際關係，對他人的體貼與關心是不可或缺的。"
   },
   {
     "id": "n4_0647",
     "word": "ピアノ",
     "reading": "ピアノ",
-    "romaji": "ピアノ",
+    "romaji": "piano",
     "partOfSpeech": "名詞",
     "meaning": "鋼琴",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ピアノに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對鋼琴進行了詳細的調查研究。"
+    "example": "子供の頃からピアノを習っていて、今でもクラシック音楽を演奏します。",
+    "exampleMeaning": "從小就學習彈鋼琴，直到現在依然會彈奏古典音樂。"
   },
   {
     "id": "n4_0648",
@@ -7133,21 +7133,21 @@
     "reading": "ばんぐみ",
     "romaji": "bangumi",
     "partOfSpeech": "名詞",
-    "meaning": "程式",
+    "meaning": "節目（電視、廣播）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、番組に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對程式進行了詳細的調查研究。"
+    "example": "毎週日曜日の夜に放送されるドキュメンタリー番組を家族で見ています。",
+    "exampleMeaning": "全家人一起收看每週日晚上播出的紀錄片節目。"
   },
   {
     "id": "n4_0650",
     "word": "急",
     "reading": "きゅう",
     "romaji": "kyuu",
-    "partOfSpeech": "名詞",
-    "meaning": "突然",
+    "partOfSpeech": "形容詞",
+    "meaning": "緊急的、突然的、急迫的",
     "level": "N4",
-    "example": "今回のプロジェクトでは、急に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對突然進行了詳細的調查研究。"
+    "example": "急な用事が入ってしまったため、申し訳ありませんが本日の約束を延期させてください。",
+    "exampleMeaning": "因為突然有急事，非常抱歉，希望能延期今天的約定。"
   },
   {
     "id": "n4_0651",
@@ -7155,10 +7155,10 @@
     "reading": "たな",
     "romaji": "tana",
     "partOfSpeech": "名詞",
-    "meaning": "架子",
+    "meaning": "架子、架台、書架",
     "level": "N4",
-    "example": "今回のプロジェクトでは、棚に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對架子進行了詳細的調查研究。"
+    "example": "部屋の本棚にたくさん並んでいる小説を休日にゆっくり整理しました。",
+    "exampleMeaning": "休假時我悠閒地整理了房間書架上排列整齊的大量小說。"
   },
   {
     "id": "n4_0652",
@@ -7166,32 +7166,32 @@
     "reading": "もめん",
     "romaji": "momen",
     "partOfSpeech": "名詞",
-    "meaning": "棉布",
+    "meaning": "棉布、棉織品",
     "level": "N4",
-    "example": "今回のプロジェクトでは、木綿に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對棉布進行了詳細的調查研究。"
+    "example": "この木綿のシャツは肌触りが優しくて、汗を吸いやすいので夏に最適です。",
+    "exampleMeaning": "這件純棉襯衫觸感溫和又吸汗，非常適合夏天穿著。"
   },
   {
     "id": "n4_0653",
     "word": "輸出",
     "reading": "ゆしゅつする",
     "romaji": "yushutsusuru",
-    "partOfSpeech": "名詞",
-    "meaning": "出口",
+    "partOfSpeech": "動詞",
+    "meaning": "出口、輸出",
     "level": "N4",
-    "example": "今回のプロジェクトでは、輸出に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對出口進行了詳細的調查研究。"
+    "example": "日本で生産された高品質な自動車は世界各国の市場へ輸出されています。",
+    "exampleMeaning": "在日本製造的高品質汽車被出口外銷到世界各國市場。"
   },
   {
     "id": "n4_0654",
     "word": "タイプ",
     "reading": "タイプ",
-    "romaji": "タイプ",
+    "romaji": "taipu",
     "partOfSpeech": "名詞",
-    "meaning": "類型",
+    "meaning": "類型、款式、風格",
     "level": "N4",
-    "example": "今回のプロジェクトでは、タイプに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對類型進行了詳細的調查研究。"
+    "example": "この新型スマートフォンは軽量で操作しやすい人気のタイプです。",
+    "exampleMeaning": "這款新型智慧型手機是輕巧好操作的超人氣款式。"
   },
   {
     "id": "n4_0655",
@@ -7199,10 +7199,10 @@
     "reading": "すり",
     "romaji": "suri",
     "partOfSpeech": "名詞",
-    "meaning": "扒手",
+    "meaning": "扒手、扒竊",
     "level": "N4",
-    "example": "今回のプロジェクトでは、すりに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對扒手進行了詳細的調查研究。"
+    "example": "観光地や混雑した電車の中では、すりの被害に遭わないよう財布に注意しましょう。",
+    "exampleMeaning": "在觀光景點或擁擠的電車上，要多注意隨身錢包以防扒竊。"
   },
   {
     "id": "n4_0656",
@@ -7219,23 +7219,23 @@
     "id": "n4_0657",
     "word": "アルコール",
     "reading": "アルコール",
-    "romaji": "アルコール",
+    "romaji": "arukooru",
     "partOfSpeech": "名詞",
-    "meaning": "酒精",
+    "meaning": "酒精、酒類",
     "level": "N4",
-    "example": "今回のプロジェクトでは、アルコールに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對酒精進行了詳細的調查研究。"
+    "example": "食事の前には手指をアルコール消毒液できれいに除菌しましょう。",
+    "exampleMeaning": "用餐前請用酒精消毒液把雙手徹底清潔殺菌。"
   },
   {
     "id": "n4_0658",
     "word": "ソフト",
     "reading": "ソフト",
-    "romaji": "ソフト",
+    "romaji": "sofuto",
     "partOfSpeech": "名詞",
-    "meaning": "柔軟的",
+    "meaning": "軟體 / 柔軟溫和的",
     "level": "N4",
-    "example": "今回のプロジェクトでは、ソフトに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對柔軟的進行了詳細的調查研究。"
+    "example": "パソコンに新しい写真編集ソフトをインストールして使ってみました。",
+    "exampleMeaning": "我在電腦上安裝了新的照片編輯軟體並試用了一下。"
   },
   {
     "id": "n4_0659",
@@ -7243,10 +7243,10 @@
     "reading": "じんじゃ",
     "romaji": "jinja",
     "partOfSpeech": "名詞",
-    "meaning": "金賈",
+    "meaning": "神社",
     "level": "N4",
-    "example": "今回のプロジェクトでは、神社に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對金賈進行了詳細的調查研究。"
+    "example": "お正月に家族と一緒に地元の神社へ初詣に行って健康を祈願しました。",
+    "exampleMeaning": "過年時我和家人一起去當地的神社進行新年參拜，祈求身體健康。"
   },
   {
     "id": "n4_0660",
@@ -7265,10 +7265,10 @@
     "reading": "たのしみ",
     "romaji": "tanoshimi",
     "partOfSpeech": "名詞",
-    "meaning": "樂趣",
+    "meaning": "樂趣、期待、愛好",
     "level": "N4",
-    "example": "今回のプロジェクトでは、楽しみに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對樂趣進行了詳細的調查研究。"
+    "example": "来月友達と一緒に温泉旅行へ行く予定があり、今からとても楽しみです。",
+    "exampleMeaning": "下個月計劃和朋友一起去溫泉旅行，現在就感到無比期待。"
   },
   {
     "id": "n4_0662",
@@ -7287,10 +7287,10 @@
     "reading": "でんぽう",
     "romaji": "denpou",
     "partOfSpeech": "名詞",
-    "meaning": "登波",
+    "meaning": "電報、賀電",
     "level": "N4",
-    "example": "今回のプロジェクトでは、電報に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對登波進行了詳細的調查研究。"
+    "example": "親友の結婚式に出席できなかったため、お祝いの電報を贈りました。",
+    "exampleMeaning": "因為無法親自出席摯友的婚禮，我寄了一份祝賀電報送上祝福。"
   },
   {
     "id": "n4_0664",
@@ -7298,10 +7298,10 @@
     "reading": "かない",
     "romaji": "kanai",
     "partOfSpeech": "名詞",
-    "meaning": "妻子",
+    "meaning": "妻子、內人（對他人稱自己的妻子）",
     "level": "N4",
-    "example": "今回のプロジェクトでは、家内に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對妻子進行了詳細的調查研究。"
+    "example": "休日は家内と一緒に庭の手入れをしたり散歩をしたりして過ごします。",
+    "exampleMeaning": "假日我和內人一起整理院子或散步度過悠閒時光。"
   },
   {
     "id": "n4_0665",
@@ -7309,21 +7309,21 @@
     "reading": "ゆび",
     "romaji": "yubi",
     "partOfSpeech": "名詞",
-    "meaning": "手指",
+    "meaning": "手指、腳趾",
     "level": "N4",
-    "example": "今回のプロジェクトでは、指に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對手指進行了詳細的調查研究。"
+    "example": "冬の寒さで指先がかじかんで、文字を書くのが大変でした。",
+    "exampleMeaning": "冬天的寒冷讓手指尖凍得發僵，寫起字來十分費力。"
   },
   {
     "id": "n4_0666",
     "word": "これから",
     "reading": "これから",
     "romaji": "korekara",
-    "partOfSpeech": "名詞",
-    "meaning": "現在",
+    "partOfSpeech": "副詞",
+    "meaning": "從現在起、今後、接下來",
     "level": "N4",
-    "example": "今回のプロジェクトでは、これからに関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對現在進行了詳細的調查研究。"
+    "example": "これから日本語の勉強をもっと頑張って、年底の試験に合格したいです。",
+    "exampleMeaning": "從現在開始我要更加努力學習日語，爭取通過年底的日檢考試。"
   },
   {
     "id": "n4_0667",
@@ -7342,9 +7342,9 @@
     "reading": "しゃかい",
     "romaji": "shakai",
     "partOfSpeech": "名詞",
-    "meaning": "社會",
+    "meaning": "社會、社交界",
     "level": "N4",
-    "example": "今回のプロジェクトでは、社会に関する詳しい調査を行いました。",
-    "exampleMeaning": "在本次專案中，我們針對社會進行了詳細的調查研究。"
+    "example": "大学を卒業した後は、立派な社会人として社会に貢献したいと考えています。",
+    "exampleMeaning": "大學畢業後，我想成為一名優秀的社會人士並為社會做出貢獻。"
   }
 ]
