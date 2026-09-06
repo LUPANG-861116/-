@@ -17,7 +17,7 @@ interface LevelSelectorProps {
   n3MasteredCount: number;
   n2MasteredCount: number;
   n1MasteredCount?: number;
-  n5n4UnlearnedCount: number;
+  n5n4UnmasteredCount: number;
   n5n4MasteredCount: number;
 }
 
@@ -33,13 +33,13 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
   n3MasteredCount,
   n2MasteredCount,
   n1MasteredCount = 0,
-  n5n4UnlearnedCount,
+  n5n4UnmasteredCount,
   n5n4MasteredCount
 }) => {
   // Focus schedule strictly on N5 + N4 (1,386 words) as requested
   const scheduleInfo = getExamScheduleInfo(
     n5n4Words.length,
-    n5n4UnlearnedCount,
+    n5n4UnmasteredCount,
     n5n4MasteredCount
   );
 
@@ -79,9 +79,9 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
           </div>
 
           <div className="space-y-0.5">
-            <span className="text-[11px] text-white/80 block">剩餘待背</span>
+            <span className="text-[11px] text-white/80 block">剩餘待熟</span>
             <span className="text-2xl sm:text-3xl font-black text-rose-200">
-              {scheduleInfo.unlearnedWords}
+              {scheduleInfo.unmasteredWords}
             </span>
             <span className="text-[10px] text-white/70 block">字 (N5+N4)</span>
           </div>

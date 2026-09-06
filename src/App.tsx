@@ -7,7 +7,9 @@ import {
   getUserStats,
   getReviewQueue,
   getHardWords,
-  getUnfamiliarWords
+  getUnfamiliarWords,
+  shuffleArray,
+  getTodayString
 } from './utils/srsEngine';
 import { calculateDynamicBatchSize, getDaysUntilTarget } from './utils/scheduler';
 import { Navbar } from './components/Navbar';
@@ -19,7 +21,7 @@ import { QuizView } from './components/QuizView';
 import { ReadingView } from './components/ReadingView';
 import { PhraseList } from './components/PhraseList';
 import confetti from 'canvas-confetti';
-import { Award, Zap, ArrowRight } from 'lucide-react';
+import { Award, Zap, ArrowRight, RefreshCw } from 'lucide-react';
 
 export function App() {
   const [currentView, setCurrentView] = useState<AppView>('study');
@@ -57,11 +59,11 @@ export function App() {
   // N5 + N4 Mastered Count (Core Exam Focus)
   const n5n4Mastered = n5Mastered + n4Mastered;
 
-  // N5 + N4 Unlearned Count (Core Exam Focus: 1,386 words)
-  const n5n4Unlearned = useMemo(() => {
+  // N5 + N4 尚未完全記熟的單字總量 (含待複習、學習中、全新單字)
+  const n5n4Unmastered = useMemo(() => {
     return n5n4Words.filter(w => {
       const srs = getSRSDataForWord(w.id);
-      return srs.reps === 0 && !srs.lastReviewDate;
+      return srs.state !== 'mastered';
     }).length;
   }, [refreshKey]);
 
@@ -80,7 +82,7 @@ export function App() {
     return getUnfamiliarWords(n5n4Words);
   }, [refreshKey]);
 
-  // Start study session
+  // Start study session (全面隨機打亂順序，避免同字首聚集；待複習分段分批 15 字)
   const handleStartStudy = (level: JLPTLevel, mode: 'all' | 'due' | 'hard' | 'scheduled' | 'unfamiliar') => {
     setCurrentLevel(level);
     setLastStudyMode(mode);
@@ -104,41 +106,53 @@ export function App() {
         : allN1Words;
 
     if (mode === 'due') {
-      pool = getReviewQueue(basePool);
+      // 待複習分段分批：每次 15 字，打亂字首順序，避免一次背太長負擔過重
+      const dueList = shuffleArray(getReviewQueue(basePool));
+      pool = dueList.slice(0, 15);
     } else if (mode === 'hard') {
-      pool = getHardWords(basePool);
+      // 弱點錯題：每次 15 字，打亂順序
+      const hardList = shuffleArray(getHardWords(basePool));
+      pool = hardList.slice(0, 15);
     } else if (mode === 'unfamiliar') {
-      pool = getUnfamiliarWords(basePool);
+      // 不熟/星號特訓專區：每次 15 字，打亂順序
+      const unfamiliarList = shuffleArray(getUnfamiliarWords(basePool));
+      pool = unfamiliarList.slice(0, 15);
     } else if (mode === 'scheduled') {
-      // 考前動態排程批次：以 N5+N4 待學單字為主
-      const unlearned = basePool.filter(w => {
+      // 考前智慧排程：以「未完全記熟」的單字（包含待複習、學習中、全新單字）為計算依據
+      const unmastered = basePool.filter(w => {
         const srs = getSRSDataForWord(w.id);
-        return srs.reps === 0 && !srs.lastReviewDate;
+        return srs.state !== 'mastered';
       });
 
       const daysLeft = getDaysUntilTarget();
-      const batchSize = calculateDynamicBatchSize(unlearned.length, daysLeft);
+      const batchSize = calculateDynamicBatchSize(unmastered.length, daysLeft);
 
-      if (unlearned.length > 0) {
-        pool = unlearned.slice(0, batchSize);
+      if (unmastered.length > 0) {
+        // 優先挑選：今日到期待複習單字 + 學習中/全新單字，全部洗牌隨機！
+        const today = getTodayString();
+        const dueWords = unmastered.filter(w => {
+          const srs = getSRSDataForWord(w.id);
+          return srs.nextReviewDate && srs.nextReviewDate <= today;
+        });
+        const otherUnmastered = unmastered.filter(w => !dueWords.some(d => d.id === w.id));
+
+        // 混合洗牌打亂
+        const combined = [...shuffleArray(dueWords), ...shuffleArray(otherUnmastered)];
+        pool = combined.slice(0, batchSize);
       } else {
-        // 若全部學過一輪，取複習間隔最短的單字
-        pool = [...basePool]
-          .sort((a, b) => (getSRSDataForWord(a.id).reps || 0) - (getSRSDataForWord(b.id).reps || 0))
-          .slice(0, batchSize);
+        // 若全部都精熟，取複習間隔最短的單字洗牌
+        const sorted = [...basePool].sort((a, b) => (getSRSDataForWord(a.id).reps || 0) - (getSRSDataForWord(b.id).reps || 0));
+        pool = shuffleArray(sorted.slice(0, batchSize * 2)).slice(0, batchSize);
       }
     } else {
-      // 綜合隨機或自主單元練習（每次 15 字）
-      const unlearned = basePool.filter(w => {
-        const srs = getSRSDataForWord(w.id);
-        return srs.reps === 0 && !srs.lastReviewDate;
-      });
-      const poolSource = unlearned.length >= 10 ? unlearned : basePool;
-      pool = poolSource.slice(0, 15);
+      // 綜合自選單元練習（打亂順序，每次 15 字）
+      const unmastered = basePool.filter(w => getSRSDataForWord(w.id).state !== 'mastered');
+      const candidate = unmastered.length > 0 ? unmastered : basePool;
+      pool = shuffleArray(candidate).slice(0, 15);
     }
 
     if (pool.length === 0) {
-      pool = basePool.slice(0, 15);
+      pool = shuffleArray(basePool).slice(0, 15);
     }
 
     setStudyQueue(pool);
@@ -225,7 +239,7 @@ export function App() {
                 n3MasteredCount={n3Mastered}
                 n2MasteredCount={n2Mastered}
                 n1MasteredCount={n1Mastered}
-                n5n4UnlearnedCount={n5n4Unlearned}
+                n5n4UnmasteredCount={n5n4Unmastered}
                 n5n4MasteredCount={n5n4Mastered}
               />
             ) : isStudyFinished ? (
@@ -237,32 +251,56 @@ export function App() {
 
                 <div className="space-y-2">
                   <h2 className="text-2xl sm:text-3xl font-black text-slate-800 dark:text-slate-100">
-                    🎉 太棒了！本組單字背誦完成！
+                    {lastStudyMode === 'due' ? '🎉 太棒了！本組複習完成！' : '🎉 太棒了！本組單字學習完成！'}
                   </h2>
                   <p className="text-slate-500 text-sm">
-                    已完成這批 {studyQueue.length} 個單字。系統已依據你的答題情況排入 SRS 間隔記憶排程！
+                    {lastStudyMode === 'due'
+                      ? `已完成這批 ${studyQueue.length} 個待複習單字。系統已自動更新間隔記憶排程！`
+                      : `已完成這批 ${studyQueue.length} 個單字。系統已依據你的答題情況排入 SRS 間隔記憶排程！`}
                   </p>
-                  {n5n4Unlearned > 0 ? (
+
+                  {lastStudyMode === 'due' ? (
+                    dueCount > 0 ? (
+                      <div className="inline-block px-3 py-1.5 bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 font-bold text-xs rounded-xl">
+                        今日尚有 {dueCount} 個單字待複習
+                      </div>
+                    ) : (
+                      <div className="inline-block px-3 py-1.5 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 font-bold text-xs rounded-xl">
+                        🎉 今日所有待複習單字已全部清空完成！
+                      </div>
+                    )
+                  ) : n5n4Unmastered > 0 ? (
                     <div className="inline-block px-3 py-1.5 bg-rose-50 dark:bg-rose-950/50 text-rose-600 dark:text-rose-400 font-bold text-xs rounded-xl">
-                      N5+N4 剩餘 {n5n4Unlearned} 個全新單字待挑戰
+                      N5+N4 剩餘 {n5n4Unmastered} 個未熟單字待精熟
                     </div>
                   ) : (
                     <div className="inline-block px-3 py-1.5 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 font-bold text-xs rounded-xl">
-                      N5+N4 已全部背過一輪！可持續每日複習或挑戰 N3/N2！
+                      N5+N4 全部單字皆已達成精熟！
                     </div>
                   )}
                 </div>
 
                 <div className="pt-2 flex flex-col gap-3">
-                  {/* Continue Next Batch (As requested by user) */}
-                  <button
-                    onClick={handleContinueNextBatch}
-                    className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-rose-500 to-amber-500 hover:from-rose-600 hover:to-amber-600 text-white font-extrabold rounded-2xl shadow-lg shadow-rose-500/20 text-base active:scale-95 transition-all cursor-pointer"
-                  >
-                    <Zap className="w-5 h-5 fill-current" />
-                    <span>🔥 繼續背下一組單字 ({calculateDynamicBatchSize(n5n4Unlearned)} 字)</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
+                  {/* Primary Next Batch Action */}
+                  {lastStudyMode === 'due' && dueCount > 0 ? (
+                    <button
+                      onClick={handleContinueNextBatch}
+                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-600 hover:to-rose-600 text-white font-extrabold rounded-2xl shadow-lg shadow-amber-500/20 text-base active:scale-95 transition-all cursor-pointer"
+                    >
+                      <RefreshCw className="w-5 h-5" />
+                      <span>🔥 繼續下一組複習 ({Math.min(15, dueCount)} 字)</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => handleStartStudy('N5_N4', 'scheduled')}
+                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-rose-500 to-amber-500 hover:from-rose-600 hover:to-amber-600 text-white font-extrabold rounded-2xl shadow-lg shadow-rose-500/20 text-base active:scale-95 transition-all cursor-pointer"
+                    >
+                      <Zap className="w-5 h-5 fill-current" />
+                      <span>🔥 繼續背下一組單字 ({calculateDynamicBatchSize(n5n4Unmastered)} 字)</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </button>
+                  )}
 
                   <div className="flex gap-2.5">
                     <button
@@ -275,7 +313,7 @@ export function App() {
                       返回選單
                     </button>
 
-                    {dueCount > 0 && (
+                    {lastStudyMode !== 'due' && dueCount > 0 && (
                       <button
                         onClick={handleGoToReview}
                         className="flex-1 py-3 px-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-2xl text-xs sm:text-sm transition-all cursor-pointer shadow-xs"

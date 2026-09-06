@@ -8,9 +8,10 @@ export interface ExamScheduleInfo {
   targetDate: string;
   daysLeft: number;
   totalWords: number;
-  unlearnedWords: number;
+  unmasteredWords: number;     // 尚未完全記熟的單字總量 (含待複習、學習中、全新單字)
+  unlearnedWords: number;      // 相容舊欄位別名
   masteredWords: number;
-  dailyQuota: number;        // 今日動態建議單次背誦量 (最低 10 字)
+  dailyQuota: number;          // 今日動態建議單次背誦量 (最低下限 15 字)
   suggestedPaceText: string;
 }
 
@@ -26,15 +27,15 @@ export const getDaysUntilTarget = (targetDateStr: string = TARGET_EXAM_DATE_STRI
 };
 
 /**
- * 依據剩餘未學單字與剩餘天數，動態計算每次學習批次大小（最低 10 字）
+ * 依據剩餘未記熟單字與剩餘天數，動態計算每次學習批次大小（最低下限 15 字）
  */
 export const calculateDynamicBatchSize = (
-  unlearnedCount: number,
+  unmasteredCount: number,
   daysLeft: number = getDaysUntilTarget()
 ): number => {
-  if (unlearnedCount <= 0) return 10;
-  const calculated = Math.ceil(unlearnedCount / Math.max(1, daysLeft));
-  return Math.max(10, calculated);
+  if (unmasteredCount <= 0) return 15;
+  const calculated = Math.ceil(unmasteredCount / Math.max(1, daysLeft));
+  return Math.max(15, calculated);
 };
 
 /**
@@ -42,11 +43,11 @@ export const calculateDynamicBatchSize = (
  */
 export const getExamScheduleInfo = (
   totalWordsCount: number,
-  unlearnedCount: number,
+  unmasteredCount: number,
   masteredCount: number
 ): ExamScheduleInfo => {
   const daysLeft = getDaysUntilTarget();
-  const dailyQuota = calculateDynamicBatchSize(unlearnedCount, daysLeft);
+  const dailyQuota = calculateDynamicBatchSize(unmasteredCount, daysLeft);
 
   let paceText = `距離 2026 下半年 JLPT 考前衝刺期剩餘 ${daysLeft} 天`;
   if (daysLeft <= 30) {
@@ -57,7 +58,8 @@ export const getExamScheduleInfo = (
     targetDate: TARGET_EXAM_DATE_STRING,
     daysLeft,
     totalWords: totalWordsCount,
-    unlearnedWords: unlearnedCount,
+    unmasteredWords: unmasteredCount,
+    unlearnedWords: unmasteredCount,
     masteredWords: masteredCount,
     dailyQuota,
     suggestedPaceText: paceText

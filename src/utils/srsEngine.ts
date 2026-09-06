@@ -232,6 +232,18 @@ export const getUserStats = (): UserStats => {
 };
 
 /**
+ * Fisher-Yates 洗牌演算法，將陣列順序完全隨機打亂，避免同字首單字聚集
+ */
+export const shuffleArray = <T>(array: T[]): T[] => {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+};
+
+/**
  * 獲取待複習佇列
  */
 export const getReviewQueue = (words: VocabWord[]): VocabWord[] => {
