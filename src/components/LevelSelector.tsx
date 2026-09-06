@@ -5,7 +5,6 @@ import { getExamScheduleInfo } from '../utils/scheduler';
 import {
   Play,
   RefreshCw,
-  Calendar,
   Target,
   Zap,
   BookOpen,
@@ -13,7 +12,6 @@ import {
   Star,
   MessageSquare,
   X,
-  HelpCircle,
   Headphones,
   CheckCircle2
 } from 'lucide-react';
@@ -75,24 +73,16 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
         <div className="flex items-center justify-between gap-2">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold">
             <Target className="w-3.5 h-3.5" />
-            <span>2026 年底 JLPT 目標衝刺 (N5+N4)</span>
+            <span>2026 JLPT 目標 (N5+N4)</span>
           </div>
 
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setShowGuideModal(true)}
-              className="inline-flex items-center gap-1 text-[11px] text-white/90 hover:text-white bg-white/15 hover:bg-white/25 px-2.5 py-1 rounded-full backdrop-blur-md transition-all cursor-pointer font-bold"
-              title="點擊查看系統學習與特訓機制說明"
-            >
-              <HelpCircle className="w-3.5 h-3.5" />
-              <span>機制說明</span>
-            </button>
-
-            <div className="inline-flex items-center gap-1 text-amber-200 text-xs font-semibold">
-              <Calendar className="w-3.5 h-3.5" />
-              <span>考前一週完成目標</span>
-            </div>
-          </div>
+          <button
+            onClick={() => setShowGuideModal(true)}
+            className="w-7 h-7 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md flex items-center justify-center font-bold text-xs text-white transition-all cursor-pointer shadow-xs"
+            title="查看機制說明"
+          >
+            ?
+          </button>
         </div>
 
         {/* Big Countdown & Quota Stats */}
@@ -106,7 +96,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
           </div>
 
           <div className="space-y-0.5">
-            <span className="text-[11px] text-white/80 block">今日建議背</span>
+            <span className="text-[11px] text-white/80 block">今日建議</span>
             <span className="text-2xl sm:text-3xl font-black text-white">
               {scheduleInfo.dailyQuota}
             </span>
@@ -118,7 +108,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             <span className="text-2xl sm:text-3xl font-black text-rose-200">
               {scheduleInfo.unmasteredWords}
             </span>
-            <span className="text-[10px] text-white/70 block">字 (N5+N4)</span>
+            <span className="text-[10px] text-white/70 block">字</span>
           </div>
         </div>
 
@@ -129,7 +119,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-white text-rose-600 font-extrabold rounded-2xl shadow-md hover:bg-rose-50 active:scale-95 transition-all text-sm cursor-pointer"
           >
             <Zap className="w-4 h-4 fill-current" />
-            <span>開始背今日建議量 ({scheduleInfo.dailyQuota} 字)</span>
+            <span>開始背單字 ({scheduleInfo.dailyQuota} 字)</span>
           </button>
 
           {dueCount > 0 && (
@@ -138,7 +128,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
               className="inline-flex items-center justify-center gap-1.5 px-4 py-3.5 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-bold rounded-2xl transition-all text-xs cursor-pointer"
             >
               <RefreshCw className="w-3.5 h-3.5" />
-              <span>今日待複習 ({dueCount})</span>
+              <span>今日複習 ({dueCount})</span>
             </button>
           )}
         </div>
@@ -228,7 +218,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
         </div>
       )}
 
-      {/* SPECIAL ZONE: 不熟與星號收藏單字特訓專區 */}
+      {/* SPECIAL ZONE: 弱點與收藏特訓專區 */}
       {unfamiliarCount > 0 && (
         <div
           onClick={onStartUnfamiliarStudy}
@@ -240,16 +230,16 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             </div>
             <div>
               <div className="font-bold text-sm flex items-center gap-1.5">
-                <span>⭐ 不熟與星號收藏單字特訓專區</span>
+                <span>⭐ 弱點與收藏特訓</span>
                 <span className="px-2 py-0.2 bg-white text-rose-600 rounded-full text-[10px] font-black">
                   {unfamiliarCount} 字
                 </span>
               </div>
-              <div className="text-xs text-amber-100">包含曾答錯的弱點單字與手動星號收藏生詞</div>
+              <div className="text-xs text-amber-100">包含答錯弱點與星號收藏單字</div>
             </div>
           </div>
           <span className="px-3 py-1.5 bg-white text-rose-600 text-xs font-bold rounded-xl whitespace-nowrap">
-            立即特訓
+            開始特訓
           </span>
         </div>
       )}
@@ -266,8 +256,8 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <BookOpen className="w-4 h-4" />
               </div>
               <div>
-                <div className="font-bold text-xs">📖 分級長篇閱讀測驗</div>
-                <div className="text-[10px] text-blue-100">N5~N1 每日精選篇章與題目</div>
+                <div className="font-bold text-xs">📖 閱讀測驗</div>
+                <div className="text-[10px] text-blue-100">N5~N1 精選篇章與題庫</div>
               </div>
             </div>
             <Play className="w-3.5 h-3.5 fill-current opacity-80" />
@@ -284,8 +274,8 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <MessageSquare className="w-4 h-4" />
               </div>
               <div>
-                <div className="font-bold text-xs">💬 常用片語與句型</div>
-                <div className="text-[10px] text-amber-100">N5~N1 核心文法與生活片語</div>
+                <div className="font-bold text-xs">💬 常用片語</div>
+                <div className="text-[10px] text-amber-100">N5~N1 核心句型與片語</div>
               </div>
             </div>
             <Play className="w-3.5 h-3.5 fill-current opacity-80" />
@@ -298,9 +288,9 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
         <div className="flex items-center justify-between text-xs font-bold text-slate-500 px-1">
           <span className="flex items-center gap-1 text-rose-600 dark:text-rose-400">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>目前主力考試核心單字 (N5 + N4 共 {n5n4Words.length} 字)</span>
+            <span>JLPT 核心單字 (N5 + N4)</span>
           </span>
-          <span>點擊自主單元練習</span>
+          <span>單元練習</span>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -320,10 +310,10 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
 
             <div className="mt-3 space-y-0.5">
               <h3 className="font-bold text-base text-slate-800 dark:text-slate-100 group-hover:text-emerald-600 transition-colors">
-                JLPT N5 完整單字庫
+                JLPT N5
               </h3>
               <p className="text-xs text-slate-500">
-                日常生活、基礎動詞與形容詞（共 {allN5Words.length} 字）
+                基礎名詞、動詞與形容詞（共 {allN5Words.length} 字）
               </p>
             </div>
 
@@ -351,10 +341,10 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
 
             <div className="mt-3 space-y-0.5">
               <h3 className="font-bold text-base text-slate-800 dark:text-slate-100 group-hover:text-blue-600 transition-colors">
-                JLPT N4 完整單字庫
+                JLPT N4
               </h3>
               <p className="text-xs text-slate-500">
-                進階活用、日常會話單字（共 {allN4Words.length} 字）
+                進階活用與日常會話（共 {allN4Words.length} 字）
               </p>
             </div>
 
@@ -368,11 +358,11 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
         </div>
       </div>
 
-      {/* THREE SEPARATE COMPREHENSIVE RANDOM PRACTICE BLOCKS (Requested by User) */}
+      {/* THREE SEPARATE COMPREHENSIVE RANDOM PRACTICE BLOCKS */}
       <div className="space-y-2.5">
         <div className="text-xs font-bold text-slate-500 px-1 flex items-center justify-between">
-          <span>綜合隨機自主練習專區（分 3 大區塊）</span>
-          <span className="text-[10px] text-slate-400">隨機跨級別題庫混背</span>
+          <span>綜合隨機練習</span>
+          <span className="text-[10px] text-slate-400">跨級別隨機混背</span>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
@@ -389,10 +379,10 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-rose-500 fill-current" />
               </div>
               <div className="font-bold text-sm text-slate-900 dark:text-slate-100 mt-2">
-                N5 ~ N4 綜合隨機
+                N5 ~ N4 隨機
               </div>
               <div className="text-[11px] text-slate-500 mt-0.5">
-                共 {n5n4Words.length} 字 • 短期日檢衝刺
+                共 {n5n4Words.length} 字 • 短期衝刺
               </div>
             </div>
           </button>
@@ -410,10 +400,10 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-indigo-500 fill-current" />
               </div>
               <div className="font-bold text-sm text-slate-900 dark:text-slate-100 mt-2">
-                N5 ~ N2 綜合隨機
+                N5 ~ N2 隨機
               </div>
               <div className="text-[11px] text-slate-500 mt-0.5">
-                共 {n5n2Words.length} 字 • 實戰日常全覆蓋
+                共 {n5n2Words.length} 字 • 實戰全覆蓋
               </div>
             </div>
           </button>
@@ -431,7 +421,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-purple-600 fill-current" />
               </div>
               <div className="font-bold text-sm text-slate-900 dark:text-slate-100 mt-2">
-                N5 ~ N1 全量隨機
+                N5 ~ N1 隨機
               </div>
               <div className="text-[11px] text-slate-500 mt-0.5">
                 共 {n5n1Words.length} 字 • 全級別大滿貫
@@ -441,10 +431,10 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
         </div>
       </div>
 
-      {/* FUTURE ADVANCED LEVELS: N3, N2 & N1 (N1 INDEPENDENT CARD) */}
+      {/* FUTURE ADVANCED LEVELS: N3, N2 & N1 */}
       <div className="space-y-2 pt-2 border-t border-slate-200/80 dark:border-slate-800">
         <div className="text-xs font-semibold text-slate-400 px-1">
-          中高級獨立進階單字庫（考完 N4 後可隨時挑戰）
+          中高級進階單字
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
@@ -461,7 +451,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-purple-500" />
               </div>
               <div className="font-bold text-sm text-slate-800 dark:text-slate-200">
-                JLPT N3 單字庫
+                JLPT N3
               </div>
               <p className="text-[10px] text-slate-500">共 {allN3Words.length} 字 (掌握 {n3MasteredCount})</p>
             </div>
@@ -480,13 +470,13 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-rose-500" />
               </div>
               <div className="font-bold text-sm text-slate-800 dark:text-slate-200">
-                JLPT N2 單字庫
+                JLPT N2
               </div>
               <p className="text-[10px] text-slate-500">共 {allN2Words.length} 字 (掌握 {n2MasteredCount})</p>
             </div>
           </div>
 
-          {/* N1 Card (Independent Block Requested by User) */}
+          {/* N1 Card */}
           <div
             onClick={() => onStartStudy('N1', 'all')}
             className="p-3.5 bg-gradient-to-br from-slate-900 to-indigo-950 text-white border border-indigo-700/60 rounded-2xl cursor-pointer hover:border-indigo-400 shadow-md transition-all flex flex-col justify-between"
@@ -499,7 +489,7 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
                 <Play className="w-3.5 h-3.5 text-indigo-300 fill-current" />
               </div>
               <div className="font-bold text-sm text-white">
-                JLPT N1 單字庫
+                JLPT N1
               </div>
               <p className="text-[10px] text-indigo-200">共 {allN1Words.length} 字 (掌握 {n1MasteredCount})</p>
             </div>
