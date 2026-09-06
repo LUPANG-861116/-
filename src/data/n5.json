@@ -214,7 +214,7 @@
     "reading": "あたま",
     "romaji": "atama",
     "partOfSpeech": "名詞",
-    "meaning": "頭部、腦袋",
+    "meaning": "頭、腦袋",
     "level": "N5",
     "example": "風邪を引いてしまって、朝から頭が痛いです。",
     "exampleMeaning": "感冒了，從早上開始就頭痛。"
@@ -588,7 +588,7 @@
     "reading": "いす",
     "romaji": "isu",
     "partOfSpeech": "名詞",
-    "meaning": "椅子（繁體中文釋義）",
+    "meaning": "椅子",
     "level": "N5",
     "example": "どうぞこちらの座り心地の良い椅子にお掛けください。",
     "exampleMeaning": "請坐在這邊這張坐起來很舒適的椅子上。"
@@ -621,7 +621,7 @@
     "reading": "いち",
     "romaji": "ichi",
     "partOfSpeech": "名詞",
-    "meaning": "一（數字）",
+    "meaning": "一",
     "level": "N5",
     "example": "りんごを一つください。",
     "exampleMeaning": "請給我一個蘋果。"
@@ -764,7 +764,7 @@
     "reading": "いりぐち",
     "romaji": "iriguchi",
     "partOfSpeech": "名詞",
-    "meaning": "入口（繁體中文釋義）",
+    "meaning": "入口",
     "level": "N5",
     "example": "美術館の入口でチケットを見せて中に入りました。",
     "exampleMeaning": "在美術館入口出示門票後走進館內。"
@@ -1028,10 +1028,10 @@
     "reading": "～えん",
     "romaji": "～en",
     "partOfSpeech": "名詞",
-    "meaning": "円",
+    "meaning": "日圓（貨幣單位）",
     "level": "N5",
-    "example": "日本に約三円滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三円。"
+    "example": "このノートは一冊百五十円です。",
+    "exampleMeaning": "這本筆記本一本是一百五十日圓。"
   },
   {
     "id": "n5_0095",
@@ -1039,7 +1039,7 @@
     "reading": "えんぴつ",
     "romaji": "enpitsu",
     "partOfSpeech": "名詞",
-    "meaning": "鉛筆（繁體中文釋義）",
+    "meaning": "鉛筆",
     "level": "N5",
     "example": "シャープペンも便利だけど、テストのときはやっぱり鉛筆のほうが書きやすいな。",
     "exampleMeaning": "自動鉛筆雖然方便，但考試時果然還是用鉛筆比較好寫呢。"
@@ -1556,10 +1556,10 @@
     "reading": "～かい",
     "romaji": "～kai",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "…次、…回（頻率次數）",
     "level": "N5",
-    "example": "日本に約三回滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "週に二回ジムに通って運動しています。",
+    "exampleMeaning": "我每週去兩次健身房運動。"
   },
   {
     "id": "n5_0143",
@@ -1567,10 +1567,10 @@
     "reading": "～かい",
     "romaji": "～kai",
     "partOfSpeech": "名詞",
-    "meaning": "階",
+    "meaning": "…樓、層（樓層單位）",
     "level": "N5",
-    "example": "日本に約三階滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三階。"
+    "example": "私の部屋はこのマンションの三階にあります。",
+    "exampleMeaning": "我的房間在這棟公寓的三樓。"
   },
   {
     "id": "n5_0144",
@@ -1723,8 +1723,8 @@
     "partOfSpeech": "名詞",
     "meaning": "…個月",
     "level": "N5",
-    "example": "日本に約三か月滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三個月。"
+    "example": "日本に来てから早くも三か月が経ちました。",
+    "exampleMeaning": "來到日本後不知不覺已經過了三個月。"
   },
   {
     "id": "n5_0158",
@@ -1831,10 +1831,10 @@
     "reading": "～がつ",
     "romaji": "～gatsu",
     "partOfSpeech": "名詞",
-    "meaning": "月",
+    "meaning": "…月（月份單位）",
     "level": "N5",
-    "example": "日本に約三月滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三月。"
+    "example": "来年の四月から新しい大学に入学する予定です。",
+    "exampleMeaning": "預計從明年四月起進入新大學就讀。"
   },
   {
     "id": "n5_0168",
@@ -1919,7 +1919,7 @@
     "reading": "かみ",
     "romaji": "kami",
     "partOfSpeech": "名詞",
-    "meaning": "紙（繁體中文釋義）",
+    "meaning": "紙",
     "level": "N5",
     "example": "アイデアが思い浮かんだので、手元にあった紙にすぐメモした。",
     "exampleMeaning": "因為想到了點子，馬上就記在手邊的紙上了。"
@@ -1985,10 +1985,10 @@
     "reading": "～がる",
     "romaji": "～garu",
     "partOfSpeech": "名詞",
-    "meaning": "加魯",
+    "meaning": "感到…、表現出…的情感（接尾辭）",
     "level": "N5",
-    "example": "日本に約三がる滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三加魯。"
+    "example": "子供が寒がっていたので、暖かいコートを着せました。",
+    "exampleMeaning": "因為小孩子覺得冷，所以給他穿上了保暖的外套。"
   },
   {
     "id": "n5_0182",
@@ -2042,8 +2042,8 @@
     "partOfSpeech": "其他",
     "meaning": "...側、...邊",
     "level": "N5",
-    "example": "日本に約三側滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三...側。"
+    "example": "安全のため、道路の右側を通行するようにしてください。",
+    "exampleMeaning": "為了安全起見，請靠道路右側通行。"
   },
   {
     "id": "n5_0187",
@@ -2062,7 +2062,7 @@
     "reading": "かんじ",
     "romaji": "kanji",
     "partOfSpeech": "名詞",
-    "meaning": "漢字（繁體中文釋義）",
+    "meaning": "漢字",
     "level": "N5",
     "example": "日本語の漢字って音読みと訓読みがあって、覚えるのが本当に大変ですよね。",
     "exampleMeaning": "日文漢字有音讀跟訓讀，要記起來真的非常不容易對吧。"
@@ -2205,7 +2205,7 @@
     "reading": "きゅう",
     "romaji": "kyuu",
     "partOfSpeech": "名詞",
-    "meaning": "九（數字）",
+    "meaning": "九",
     "level": "N5",
     "example": "九時に寝ます。",
     "exampleMeaning": "九點睡覺。"
@@ -2271,7 +2271,7 @@
     "reading": "きょねん",
     "romaji": "kyonen",
     "partOfSpeech": "名詞",
-    "meaning": "去年（繁體中文釋義）",
+    "meaning": "去年",
     "level": "N5",
     "example": "去年大学を卒業して、会社に入りました。",
     "exampleMeaning": "去年大學畢業後進入了公司工作。"
@@ -2370,7 +2370,7 @@
     "reading": "く",
     "romaji": "ku",
     "partOfSpeech": "名詞",
-    "meaning": "九（數字）",
+    "meaning": "九",
     "level": "N5",
     "example": "九時に寝ます。",
     "exampleMeaning": "九點睡覺。"
@@ -2414,7 +2414,7 @@
     "reading": "くち",
     "romaji": "kuchi",
     "partOfSpeech": "名詞",
-    "meaning": "嘴巴、開口",
+    "meaning": "嘴巴、開口、入口",
     "level": "N5",
     "example": "虫歯にならないように、食後は口をすすぎます。",
     "exampleMeaning": "為了不蛀牙，吃完飯後會漱口。"
@@ -2656,10 +2656,10 @@
     "reading": "～こ",
     "romaji": "～ko",
     "partOfSpeech": "名詞",
-    "meaning": "小的",
+    "meaning": "…個（計算小物品單位）",
     "level": "N5",
-    "example": "日本に約三個滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三小的。"
+    "example": "スーパーで新鮮なリンゴを三個買って帰りました。",
+    "exampleMeaning": "在超市買了三個新鮮的蘋果帶回家。"
   },
   {
     "id": "n5_0243",
@@ -2678,10 +2678,10 @@
     "reading": "～ご",
     "romaji": "～go",
     "partOfSpeech": "名詞",
-    "meaning": "語",
+    "meaning": "…語（語言接尾辭）",
     "level": "N5",
-    "example": "日本に約三語滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三語。"
+    "example": "将来のために、英語と日本語を熱心に勉強しています。",
+    "exampleMeaning": "為了未來，我正熱情地學習英語與日語。"
   },
   {
     "id": "n5_0245",
@@ -2689,7 +2689,7 @@
     "reading": "こうえん",
     "romaji": "kouen",
     "partOfSpeech": "名詞",
-    "meaning": "公園（繁體中文釋義）",
+    "meaning": "公園",
     "level": "N5",
     "example": "天気がいいので、近くの公園で散歩しよう。",
     "exampleMeaning": "天氣這麼好，去附近的公園散步吧。"
@@ -2865,7 +2865,7 @@
     "reading": "ことし",
     "romaji": "kotoshi",
     "partOfSpeech": "名詞",
-    "meaning": "今年（繁體中文釋義）",
+    "meaning": "今年",
     "level": "N5",
     "example": "今年こそ日本語能力試験に合格したいです。",
     "exampleMeaning": "今年一定要通過日本語能力試驗。"
@@ -2900,8 +2900,8 @@
     "partOfSpeech": "名詞",
     "meaning": "這個（近處事物）",
     "level": "N5",
-    "example": "この本はとても面白くて勉強になります。",
-    "exampleMeaning": "這本書非常有趣且受益良多。"
+    "example": "今回のプロジェクトでは、このに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對這個進行了詳細的調查研究。"
   },
   {
     "id": "n5_0265",
@@ -2953,10 +2953,10 @@
     "reading": "～ころ; ～ごろ",
     "romaji": "～koro; ～goro",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "…左右（表示概略時間的接尾辭）",
     "level": "N5",
-    "example": "日本に約三ころ; ～ごろ滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "明日の夕方五時ごろに伺います。",
+    "exampleMeaning": "明天傍晚五點左右我會前去拜訪。"
   },
   {
     "id": "n5_0270",
@@ -3019,10 +3019,10 @@
     "reading": "～さい",
     "romaji": "～sai",
     "partOfSpeech": "名詞",
-    "meaning": "舊的、古老",
+    "meaning": "…歲（年齡單位）",
     "level": "N5",
-    "example": "日本に約三歳滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三舊的。"
+    "example": "今回のプロジェクトでは、歳に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…歲進行了詳細的調查研究。"
   },
   {
     "id": "n5_0276",
@@ -3041,7 +3041,7 @@
     "reading": "さかな",
     "romaji": "sakana",
     "partOfSpeech": "名詞",
-    "meaning": "魚（繁體中文釋義）",
+    "meaning": "魚",
     "level": "N5",
     "example": "魚料理が好きです。",
     "exampleMeaning": "喜歡魚料理。"
@@ -3096,10 +3096,10 @@
     "reading": "～さつ",
     "romaji": "～satsu",
     "partOfSpeech": "名詞",
-    "meaning": "書本",
+    "meaning": "…本（書籍雜誌單位）",
     "level": "N5",
-    "example": "日本に約三冊滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三書本。"
+    "example": "今回のプロジェクトでは、冊に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…本進行了詳細的調查研究。"
   },
   {
     "id": "n5_0283",
@@ -3153,8 +3153,8 @@
     "partOfSpeech": "名詞",
     "meaning": "先生 小姐",
     "level": "N5",
-    "example": "日本に約三さん滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三先生 小姐。"
+    "example": "今回のプロジェクトでは、さんに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對先生 小姐進行了詳細的調查研究。"
   },
   {
     "id": "n5_0288",
@@ -3162,7 +3162,7 @@
     "reading": "さん",
     "romaji": "san",
     "partOfSpeech": "名詞",
-    "meaning": "三（數字）",
+    "meaning": "三",
     "level": "N5",
     "example": "りんごを三個買いました。",
     "exampleMeaning": "買了三個蘋果。"
@@ -3184,7 +3184,7 @@
     "reading": "し",
     "romaji": "shi",
     "partOfSpeech": "名詞",
-    "meaning": "四（數字）",
+    "meaning": "四",
     "level": "N5",
     "example": "四月になりました。",
     "exampleMeaning": "到了四月了。"
@@ -3195,10 +3195,10 @@
     "reading": "～じ",
     "romaji": "～ji",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "…點鐘（時間）",
     "level": "N5",
-    "example": "日本に約三時滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "明日の朝八時に駅の改札前で待ち合わせしましょう。",
+    "exampleMeaning": "明天早上八點在車站剪票口前碰面集合吧。"
   },
   {
     "id": "n5_0292",
@@ -3239,10 +3239,10 @@
     "reading": "～じかん",
     "romaji": "～jikan",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "…個小時（計算時間長度單位）",
     "level": "N5",
-    "example": "日本に約三時間滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "東京から大阪まで新幹線で約二時間半かかります。",
+    "exampleMeaning": "從東京到大阪搭乘新幹線大約需要兩個半小時。"
   },
   {
     "id": "n5_0296",
@@ -3294,7 +3294,7 @@
     "reading": "しち",
     "romaji": "shichi",
     "partOfSpeech": "名詞",
-    "meaning": "七（繁體中文釋義）",
+    "meaning": "七",
     "level": "N5",
     "example": "七月に入ってから、急に暑くなってきたね。",
     "exampleMeaning": "進入七月之後，突然變得好熱呢。"
@@ -3448,7 +3448,7 @@
     "reading": "じゅう",
     "romaji": "juu",
     "partOfSpeech": "名詞",
-    "meaning": "十（數字）",
+    "meaning": "十",
     "level": "N5",
     "example": "十分休みます。",
     "exampleMeaning": "休息十分鐘。"
@@ -3459,10 +3459,10 @@
     "reading": "～じゅう",
     "romaji": "～juu",
     "partOfSpeech": "名詞",
-    "meaning": "中",
+    "meaning": "…之中、…期間（接尾辭）",
     "level": "N5",
-    "example": "日本に約三中滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三中。"
+    "example": "部長はただいま会議中ですので、少々お待ちください。",
+    "exampleMeaning": "部長現在正在會議中，請稍候片刻。"
   },
   {
     "id": "n5_0316",
@@ -3472,8 +3472,8 @@
     "partOfSpeech": "名詞",
     "meaning": "週間",
     "level": "N5",
-    "example": "日本に約三週間滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三週間。"
+    "example": "今回のプロジェクトでは、週間に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對週間進行了詳細的調查研究。"
   },
   {
     "id": "n5_0317",
@@ -3580,10 +3580,10 @@
     "reading": "～じん",
     "romaji": "～jin",
     "partOfSpeech": "名詞",
-    "meaning": "人",
+    "meaning": "…人（計算人數單位）",
     "level": "N5",
-    "example": "日本に約三人滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三人。"
+    "example": "このプロジェクトチームは全員で五人います。",
+    "exampleMeaning": "這個專案團隊總共有五個人。"
   },
   {
     "id": "n5_0327",
@@ -3648,8 +3648,8 @@
     "partOfSpeech": "名詞",
     "meaning": "太多了",
     "level": "N5",
-    "example": "日本に約三すぎ滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三太多了。"
+    "example": "今回のプロジェクトでは、すぎに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對太多了進行了詳細的調查研究。"
   },
   {
     "id": "n5_0333",
@@ -3701,10 +3701,10 @@
     "reading": "～ずつ",
     "romaji": "～zutsu",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "每…、各…（均分接尾辭）",
     "level": "N5",
-    "example": "日本に約三ずつ滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "お菓子を一人に二個ずつ配りました。",
+    "exampleMeaning": "點心分發給每個人各兩個。"
   },
   {
     "id": "n5_0338",
@@ -3866,7 +3866,7 @@
     "reading": "せん",
     "romaji": "sen",
     "partOfSpeech": "名詞",
-    "meaning": "千（數字）",
+    "meaning": "千",
     "level": "N5",
     "example": "千円札を出します。",
     "exampleMeaning": "拿出千元鈔票。"
@@ -4075,10 +4075,10 @@
     "reading": "～だい",
     "romaji": "～dai",
     "partOfSpeech": "名詞",
-    "meaning": "台",
+    "meaning": "…台（機械車輛單位）",
     "level": "N5",
-    "example": "日本に約三台滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三台。"
+    "example": "今回のプロジェクトでは、台に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…台進行了詳細的調查研究。"
   },
   {
     "id": "n5_0372",
@@ -4176,8 +4176,8 @@
     "partOfSpeech": "名詞",
     "meaning": "僅有的",
     "level": "N5",
-    "example": "日本に約三だけ滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三僅有的。"
+    "example": "今回のプロジェクトでは、だけに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對僅有的進行了詳細的調查研究。"
   },
   {
     "id": "n5_0381",
@@ -4220,8 +4220,8 @@
     "partOfSpeech": "名詞",
     "meaning": "太刀",
     "level": "N5",
-    "example": "日本に約三たち滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三太刀。"
+    "example": "今回のプロジェクトでは、たちに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對太刀進行了詳細的調查研究。"
   },
   {
     "id": "n5_0385",
@@ -4493,10 +4493,10 @@
     "reading": "～ちゅう",
     "romaji": "～chuu",
     "partOfSpeech": "名詞",
-    "meaning": "中",
+    "meaning": "…之中、…期間（接尾辭）",
     "level": "N5",
-    "example": "日本に約三中滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三中。"
+    "example": "部長はただいま会議中ですので、少々お待ちください。",
+    "exampleMeaning": "部長現在正在會議中，請稍候片刻。"
   },
   {
     "id": "n5_0410",
@@ -4658,7 +4658,7 @@
     "reading": "て",
     "romaji": "te",
     "partOfSpeech": "名詞",
-    "meaning": "手（繁體中文釋義）",
+    "meaning": "手、手部",
     "level": "N5",
     "example": "食事の前に石鹸できれいに手を洗います。",
     "exampleMeaning": "吃飯前用肥皂把手洗乾淨。"
@@ -4735,7 +4735,7 @@
     "reading": "でぐち",
     "romaji": "deguchi",
     "partOfSpeech": "名詞",
-    "meaning": "出口（繁體中文釋義）",
+    "meaning": "出口",
     "level": "N5",
     "example": "コンサートが終わって、大勢の人が出口へ向かいました。",
     "exampleMeaning": "演唱會結束後，許多人走向出口。"
@@ -4825,8 +4825,8 @@
     "partOfSpeech": "名詞",
     "meaning": "電",
     "level": "N5",
-    "example": "仕事で新しい電気を使う機会がありました。",
-    "exampleMeaning": "工作上有機會使用到新的電。"
+    "example": "今回のプロジェクトでは、電気に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對電進行了詳細的調查研究。"
   },
   {
     "id": "n5_0440",
@@ -4845,7 +4845,7 @@
     "reading": "でんわ",
     "romaji": "denwa",
     "partOfSpeech": "名詞",
-    "meaning": "電話（繁體中文釋義）",
+    "meaning": "電話",
     "level": "N5",
     "example": "あとで母に電話をかけます。",
     "exampleMeaning": "我等等會打電話給我媽。"
@@ -4869,8 +4869,8 @@
     "partOfSpeech": "名詞",
     "meaning": "度",
     "level": "N5",
-    "example": "日本に約三度滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三度。"
+    "example": "今回のプロジェクトでは、度に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對度進行了詳細的調查研究。"
   },
   {
     "id": "n5_0444",
@@ -4933,7 +4933,7 @@
     "reading": "どうぶつ",
     "romaji": "doubutsu",
     "partOfSpeech": "名詞",
-    "meaning": "動物（繁體中文釋義）",
+    "meaning": "動物",
     "level": "N5",
     "example": "上野動物園でパンダを見てきました。",
     "exampleMeaning": "我去上野動物園看過貓熊了。"
@@ -4955,7 +4955,7 @@
     "reading": "(〜を) とお",
     "romaji": "(〜wo) too",
     "partOfSpeech": "名詞",
-    "meaning": "十（數字）",
+    "meaning": "十",
     "level": "N5",
     "example": "十分休みます。",
     "exampleMeaning": "休息十分鐘。"
@@ -4988,10 +4988,10 @@
     "reading": "～とき",
     "romaji": "～toki",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "…點鐘（時間）",
     "level": "N5",
-    "example": "日本に約三時滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三時間。"
+    "example": "明日の朝八時に駅の改札前で待ち合わせしましょう。",
+    "exampleMeaning": "明天早上八點在車站剪票口前碰面集合吧。"
   },
   {
     "id": "n5_0455",
@@ -4999,10 +4999,10 @@
     "reading": "ときどき",
     "romaji": "tokidoki",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "有時、偶爾",
     "level": "N5",
-    "example": "仕事の帰りに時々本屋に寄ります。",
-    "exampleMeaning": "下班回家路上有時會順道去書店。"
+    "example": "仕事の帰りに時々駅前の本屋に寄ります。",
+    "exampleMeaning": "下班回家路上有時會順道去車站前的書店。"
   },
   {
     "id": "n5_0456",
@@ -5043,10 +5043,10 @@
     "reading": "とし",
     "romaji": "toshi",
     "partOfSpeech": "名詞",
-    "meaning": "年（繁體中文釋義）",
+    "meaning": "年、年份、年齡",
     "level": "N5",
-    "example": "新しい年を迎えて、家族みんなでお祝いしました。",
-    "exampleMeaning": "迎接新的一年，全家人一起慶祝。"
+    "example": "新しい年を迎えて、家族みんなで健康を祈りました。",
+    "exampleMeaning": "迎接新的一年，全家人一起祈求健康平安。"
   },
   {
     "id": "n5_0460",
@@ -5175,7 +5175,7 @@
     "reading": "とり",
     "romaji": "tori",
     "partOfSpeech": "名詞",
-    "meaning": "鳥（繁體中文釋義）",
+    "meaning": "鳥",
     "level": "N5",
     "example": "朝になると、庭の木で鳥たちが鳴き始める。",
     "exampleMeaning": "到了早上，鳥兒們就會在庭院的樹上開始啼叫。"
@@ -5342,8 +5342,8 @@
     "partOfSpeech": "名詞",
     "meaning": "ETC。",
     "level": "N5",
-    "example": "日本に約三など滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三ETC。。"
+    "example": "今回のプロジェクトでは、などに関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對ETC。進行了詳細的調查研究。"
   },
   {
     "id": "n5_0487",
@@ -5494,10 +5494,10 @@
     "reading": "～にち",
     "romaji": "～nichi",
     "partOfSpeech": "名詞",
-    "meaning": "日",
+    "meaning": "…號、…天（日期/天數）",
     "level": "N5",
-    "example": "日本に約三日滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三日。"
+    "example": "日本語の試験は来月の十五日に行われます。",
+    "exampleMeaning": "日語考試將在下個月十五號舉行。"
   },
   {
     "id": "n5_0501",
@@ -5549,10 +5549,10 @@
     "reading": "～にん",
     "romaji": "～nin",
     "partOfSpeech": "名詞",
-    "meaning": "人",
+    "meaning": "…人（計算人數單位）",
     "level": "N5",
-    "example": "日本に約三人滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三人。"
+    "example": "このプロジェクトチームは全員で五人います。",
+    "exampleMeaning": "這個專案團隊總共有五個人。"
   },
   {
     "id": "n5_0506",
@@ -5615,10 +5615,10 @@
     "reading": "～ねん",
     "romaji": "～nen",
     "partOfSpeech": "名詞",
-    "meaning": "年",
+    "meaning": "…年（年份單位）",
     "level": "N5",
-    "example": "新しい年を迎えて、家族みんなでお祝いしました。",
-    "exampleMeaning": "迎接新的一年，全家人一起慶祝。"
+    "example": "日本で三年働いた経験があり、日常会話は問題ありません。",
+    "exampleMeaning": "我有在日本工作三年的經驗，日常會話完全沒問題。"
   },
   {
     "id": "n5_0512",
@@ -5714,10 +5714,10 @@
     "reading": "～はい",
     "romaji": "～hai",
     "partOfSpeech": "名詞",
-    "meaning": "杯",
+    "meaning": "…杯（飲料容器單位）",
     "level": "N5",
-    "example": "日本に約三杯滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三杯。"
+    "example": "今回のプロジェクトでは、杯に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…杯進行了詳細的調查研究。"
   },
   {
     "id": "n5_0521",
@@ -5780,7 +5780,7 @@
     "reading": "はし",
     "romaji": "hashi",
     "partOfSpeech": "名詞",
-    "meaning": "橋（繁體中文釋義）",
+    "meaning": "橋",
     "level": "N5",
     "example": "その古い橋を渡ると、すぐにコンビニが見えますよ。",
     "exampleMeaning": "穿過那座老橋，很快就能看到便利商店喔。"
@@ -5824,10 +5824,10 @@
     "reading": "はじめて",
     "romaji": "hajimete",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "第一次、初次",
     "level": "N5",
-    "example": "日本に来たのは、これが初めてです。",
-    "exampleMeaning": "這是我第一次來日本。"
+    "example": "日本に来たのは、今回の旅行が初めてです。",
+    "exampleMeaning": "這次旅行是我第一次來到日本。"
   },
   {
     "id": "n5_0531",
@@ -5912,7 +5912,7 @@
     "reading": "はな",
     "romaji": "hana",
     "partOfSpeech": "名詞",
-    "meaning": "花（繁體中文釋義）",
+    "meaning": "花",
     "level": "N5",
     "example": "母の誕生日に、きれいな赤い花をプレゼントしました。",
     "exampleMeaning": "我在母親生日那天，送了一束美麗的紅花給她。"
@@ -6055,10 +6055,10 @@
     "reading": "～ばん",
     "romaji": "～ban",
     "partOfSpeech": "名詞",
-    "meaning": "番",
+    "meaning": "…號、…番（號碼順序）",
     "level": "N5",
-    "example": "日本に約三番滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三番。"
+    "example": "今回のプロジェクトでは、番に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…號進行了詳細的調查研究。"
   },
   {
     "id": "n5_0552",
@@ -6132,10 +6132,10 @@
     "reading": "～ひき",
     "romaji": "～hiki",
     "partOfSpeech": "名詞",
-    "meaning": "小的",
+    "meaning": "…隻（小型動物單位）",
     "level": "N5",
-    "example": "日本に約三匹滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三小的。"
+    "example": "今回のプロジェクトでは、匹に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…隻進行了詳細的調查研究。"
   },
   {
     "id": "n5_0559",
@@ -6253,7 +6253,7 @@
     "reading": "ひゃく",
     "romaji": "hyaku",
     "partOfSpeech": "名詞",
-    "meaning": "百（繁體中文釋義）",
+    "meaning": "百",
     "level": "N5",
     "example": "このコンサートのチケットは百枚限定らしい。",
     "exampleMeaning": "聽說這場演唱會的門票只有限量一百張。"
@@ -6297,10 +6297,10 @@
     "reading": "ひる",
     "romaji": "hiru",
     "partOfSpeech": "名詞",
-    "meaning": "時間",
+    "meaning": "中午、白天",
     "level": "N5",
-    "example": "昼ご飯に友達と美味しいラーメンを食べました。",
-    "exampleMeaning": "午餐和朋友吃了美味的拉麵。"
+    "example": "昼ご飯に友達と美味しいラーメンを食べに行きました。",
+    "exampleMeaning": "午餐跟朋友一起去吃了美味的拉麵。"
   },
   {
     "id": "n5_0574",
@@ -6486,8 +6486,8 @@
     "partOfSpeech": "名詞",
     "meaning": "分",
     "level": "N5",
-    "example": "日本に約三分滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三分。"
+    "example": "今回のプロジェクトでは、分に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對分進行了詳細的調查研究。"
   },
   {
     "id": "n5_0591",
@@ -6605,7 +6605,7 @@
     "reading": "ぼうし",
     "romaji": "boushi",
     "partOfSpeech": "名詞",
-    "meaning": "帽子（繁體中文釋義）",
+    "meaning": "帽子",
     "level": "N5",
     "example": "日差しが強いので、帽子をかぶって出かけよう。",
     "exampleMeaning": "陽光很強烈，戴頂帽子再出門吧！"
@@ -6715,10 +6715,10 @@
     "reading": "～ほん",
     "romaji": "～hon",
     "partOfSpeech": "名詞",
-    "meaning": "本",
+    "meaning": "…支、…瓶（細長物品單位）",
     "level": "N5",
-    "example": "日本に約三本滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三本。"
+    "example": "今回のプロジェクトでは、本に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…支進行了詳細的調查研究。"
   },
   {
     "id": "n5_0612",
@@ -6748,10 +6748,10 @@
     "reading": "～まい",
     "romaji": "～mai",
     "partOfSpeech": "名詞",
-    "meaning": "枚",
+    "meaning": "…張、…件（薄平物品單位）",
     "level": "N5",
-    "example": "日本に約三枚滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三枚。"
+    "example": "今回のプロジェクトでは、枚に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對…張進行了詳細的調查研究。"
   },
   {
     "id": "n5_0615",
@@ -6838,8 +6838,8 @@
     "partOfSpeech": "名詞",
     "meaning": "前",
     "level": "N5",
-    "example": "日本に約三前滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三前。"
+    "example": "今回のプロジェクトでは、前に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對前進行了詳細的調查研究。"
   },
   {
     "id": "n5_0623",
@@ -7012,7 +7012,7 @@
     "reading": "みず",
     "romaji": "mizu",
     "partOfSpeech": "名詞",
-    "meaning": "水（繁體中文釋義）",
+    "meaning": "水",
     "level": "N5",
     "example": "運動のあとは、冷たい水をたっぷり飲むのが一番だ。",
     "exampleMeaning": "運動過後，大口喝冰水是最爽快的了。"
@@ -7100,7 +7100,7 @@
     "reading": "みなみ",
     "romaji": "minami",
     "partOfSpeech": "名詞",
-    "meaning": "南（繁體中文釋義）",
+    "meaning": "南",
     "level": "N5",
     "example": "リビングの窓が大きくて南向きだから、部屋全体がすごく明るい。",
     "exampleMeaning": "客廳的窗戶很大又朝南，所以整個房間採光非常好。"
@@ -7221,7 +7221,7 @@
     "reading": "めがね",
     "romaji": "megane",
     "partOfSpeech": "名詞",
-    "meaning": "眼鏡（繁體中文釋義）",
+    "meaning": "眼鏡",
     "level": "N5",
     "example": "黒ぶちの眼鏡をかけると、雰囲気がかなり変わるね。",
     "exampleMeaning": "戴上黑框眼鏡後，整個人給人的感覺變了不少呢。"
@@ -7309,7 +7309,7 @@
     "reading": "もんだい",
     "romaji": "mondai",
     "partOfSpeech": "名詞",
-    "meaning": "問題（繁體中文釋義）",
+    "meaning": "問題",
     "level": "N5",
     "example": "この漢字の読み方の問題、どうしても思い出せない。",
     "exampleMeaning": "這個漢字怎麼唸的問題，我怎麼想都想不起來。"
@@ -7322,8 +7322,8 @@
     "partOfSpeech": "名詞",
     "meaning": "屋",
     "level": "N5",
-    "example": "日本に約三屋滞在する予定です。",
-    "exampleMeaning": "預計在日本停留約三屋。"
+    "example": "今回のプロジェクトでは、屋に関する詳しい調査を行いました。",
+    "exampleMeaning": "在本次專案中，我們針對屋進行了詳細的調查研究。"
   },
   {
     "id": "n5_0667",
@@ -7386,10 +7386,10 @@
     "reading": "やすむ",
     "romaji": "yasumu",
     "partOfSpeech": "動詞",
-    "meaning": "時間",
+    "meaning": "休息、請假、缺席",
     "level": "N5",
     "example": "体調が優れないので、今日は会社を休ませてください。",
-    "exampleMeaning": "因為身體不太舒服，今天請讓我請假一天。"
+    "exampleMeaning": "因為身體不太舒服，今天請讓我向公司請假一天。"
   },
   {
     "id": "n5_0673",
@@ -7408,7 +7408,7 @@
     "reading": "やま",
     "romaji": "yama",
     "partOfSpeech": "名詞",
-    "meaning": "山（繁體中文釋義）",
+    "meaning": "山",
     "level": "N5",
     "example": "週末に友達と近くの山にハイキングしに行きます。",
     "exampleMeaning": "週末我要和朋友去附近的郊山健行。"
@@ -7716,7 +7716,7 @@
     "reading": "りょこう",
     "romaji": "ryokou",
     "partOfSpeech": "名詞",
-    "meaning": "旅行（繁體中文釋義）",
+    "meaning": "旅行",
     "level": "N5",
     "example": "コロナが明けてから、久しぶりに海外へ旅行に行きたいな。",
     "exampleMeaning": "疫情解封之後，好想去國外旅行一番啊。"

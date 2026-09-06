@@ -150,31 +150,31 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
       {/* POPUP MODAL: 系統智慧學習與特訓機制說明通知 (可點右上角 X 關閉) */}
       {showGuideModal && (
         <div
-          className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fadeIn"
+          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 animate-fadeIn"
           onClick={handleCloseGuide}
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="w-full max-w-md bg-white dark:bg-slate-850 rounded-3xl p-6 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-4 animate-scaleUp text-left relative"
+            className="w-full max-w-md bg-white dark:bg-slate-900 rounded-3xl p-6 shadow-2xl border border-slate-200 dark:border-slate-800 space-y-4 animate-scaleUp text-left relative"
           >
             {/* Header with Title & Top-Right X button */}
-            <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center">
-                  <Sparkles className="w-4 h-4" />
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-2xl bg-amber-100 dark:bg-amber-950/80 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0 shadow-2xs">
+                  <Sparkles className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-extrabold text-base text-slate-800 dark:text-slate-100">
+                  <h3 className="font-extrabold text-base text-slate-900 dark:text-white">
                     系統智慧學習與特訓機制說明
                   </h3>
-                  <p className="text-[11px] text-slate-400">掌握 SRS 間隔記憶與特訓核心</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">掌握 SRS 間隔記憶與特訓核心</p>
                 </div>
               </div>
 
               {/* Close X Button */}
               <button
                 onClick={handleCloseGuide}
-                className="p-1.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-colors cursor-pointer"
+                className="p-2 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-colors cursor-pointer"
                 title="關閉說明"
               >
                 <X className="w-5 h-5" />
@@ -182,33 +182,33 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             </div>
 
             {/* Explanation Content List */}
-            <div className="space-y-2.5 text-xs">
-              <div className="p-3 bg-indigo-50/70 dark:bg-indigo-950/30 rounded-2xl border border-indigo-100 dark:border-indigo-900/40 space-y-1">
-                <div className="font-bold text-indigo-700 dark:text-indigo-300 flex items-center gap-1.5">
-                  <Headphones className="w-4 h-4 text-indigo-500" />
+            <div className="space-y-3 text-xs">
+              <div className="p-3.5 bg-indigo-50/90 dark:bg-indigo-950/50 rounded-2xl border border-indigo-200 dark:border-indigo-900/60 space-y-1.5 shadow-2xs">
+                <div className="font-bold text-indigo-900 dark:text-indigo-200 flex items-center gap-1.5 text-xs">
+                  <Headphones className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
                   <span>🎧 答對 2 次進入「聽力盲測模式」</span>
                 </div>
-                <p className="text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
+                <p className="text-slate-700 dark:text-slate-200 text-xs leading-relaxed font-normal">
                   單字前兩次以漢字讀音熟悉；當連續答對 2 次後，系統會隱藏文字並自動播放真人發音，考驗聽力耳感，點卡片即可對答案！
                 </p>
               </div>
 
-              <div className="p-3 bg-rose-50/70 dark:bg-rose-950/30 rounded-2xl border border-rose-100 dark:border-rose-900/40 space-y-1">
-                <div className="font-bold text-rose-700 dark:text-rose-300 flex items-center gap-1.5">
-                  <Star className="w-4 h-4 text-rose-500 fill-current" />
+              <div className="p-3.5 bg-rose-50/90 dark:bg-rose-950/50 rounded-2xl border border-rose-200 dark:border-rose-900/60 space-y-1.5 shadow-2xs">
+                <div className="font-bold text-rose-900 dark:text-rose-200 flex items-center gap-1.5 text-xs">
+                  <Star className="w-4 h-4 text-rose-600 dark:text-rose-400 fill-current" />
                   <span>⭐ 特訓專區「答對即畢業」機制</span>
                 </div>
-                <p className="text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
+                <p className="text-slate-700 dark:text-slate-200 text-xs leading-relaxed font-normal">
                   遇到不會（答錯）會自動編入特訓專區；在特訓中答對（按會）即自動畢業移除；未來若在任何複習中再答錯，會再次自動編入！
                 </p>
               </div>
 
-              <div className="p-3 bg-amber-50/70 dark:bg-amber-950/30 rounded-2xl border border-amber-100 dark:border-amber-900/40 space-y-1">
-                <div className="font-bold text-amber-700 dark:text-amber-300 flex items-center gap-1.5">
-                  <Zap className="w-4 h-4 text-amber-500 fill-current" />
+              <div className="p-3.5 bg-amber-50/90 dark:bg-amber-950/50 rounded-2xl border border-amber-200 dark:border-amber-900/60 space-y-1.5 shadow-2xs">
+                <div className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5 text-xs">
+                  <Zap className="w-4 h-4 text-amber-600 dark:text-amber-400 fill-current" />
                   <span>⚡ 15 字分段學習 & 全題庫隨機洗牌</span>
                 </div>
-                <p className="text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
+                <p className="text-slate-700 dark:text-slate-200 text-xs leading-relaxed font-normal">
                   背新單字與待複習全面以 15 字為一組分段進行，並採用隨機打亂演算法，告別字首聚集枯燥感！
                 </p>
               </div>
@@ -218,9 +218,9 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             <div className="pt-2">
               <button
                 onClick={handleCloseGuide}
-                className="w-full py-3 bg-gradient-to-r from-rose-500 to-amber-500 hover:from-rose-600 hover:to-amber-600 text-white font-extrabold rounded-2xl shadow-md shadow-rose-500/20 text-sm active:scale-98 transition-all cursor-pointer flex items-center justify-center gap-1.5"
+                className="w-full py-3.5 bg-gradient-to-r from-rose-500 to-amber-500 hover:from-rose-600 hover:to-amber-600 text-white font-black rounded-2xl shadow-lg shadow-rose-500/25 text-sm active:scale-98 transition-all cursor-pointer flex items-center justify-center gap-2"
               >
-                <CheckCircle2 className="w-4 h-4" />
+                <CheckCircle2 className="w-4 h-4 stroke-[2.5]" />
                 <span>我知道了，開始學習！</span>
               </button>
             </div>
