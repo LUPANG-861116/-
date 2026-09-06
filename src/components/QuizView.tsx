@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import type { VocabWord, JLPTLevel } from '../types';
 import { n5n4Words, n5n2Words, n5n1Words, allN5Words, allN4Words, allN3Words, allN2Words, allN1Words } from '../data';
 import { allGrammarQuizData } from '../data/quizGrammarData';
@@ -12,14 +12,13 @@ import {
   ArrowRight,
   RefreshCw,
   Clock,
-  Award,
   Zap,
-  Target,
-  Flame,
   FileCheck,
   Sparkles,
   Layers,
-  CheckSquare
+  HelpCircle,
+  Headphones,
+  Play
 } from 'lucide-react';
 
 interface QuizViewProps {
@@ -27,32 +26,54 @@ interface QuizViewProps {
   onRefreshStats: () => void;
 }
 
+export type MainQuizMode = 'interactive' | 'exam';
 export type QuizCategoryType = 'all' | 'reading' | 'meaning' | 'particle' | 'conjugation' | 'cloze';
 
-interface Question {
-  type: 'cloze' | 'reading' | 'meaning' | 'particle' | 'conjugation';
+interface BaseQuestion {
+  type: 'listen_abc' | 'zh_to_ja' | 'ja_to_zh' | 'cloze' | 'reading' | 'meaning' | 'particle' | 'conjugation';
   word?: VocabWord;
   prompt: string;
   subPrompt?: string;
-  options: { text: string; isCorrect: boolean; reading?: string }[];
-  explanation: string;
   levelBadge?: string;
   categoryBadge?: string;
+  explanation: string;
+  // For listen_abc mode
+  audioCandidates?: {
+    letter: 'A' | 'B' | 'C';
+    word: VocabWord;
+    isCorrect: boolean;
+  }[];
+  options: {
+    id: string | number;
+    text: string;
+    subText?: string;
+    isCorrect: boolean;
+    isUnsure?: boolean;
+    word?: VocabWord;
+  }[];
 }
 
 export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats }) => {
+  // Main mode: 'interactive' (多感官互動速刷) vs 'exam' (日檢全真筆試模擬考)
+  const [mainMode, setMainMode] = useState<MainQuizMode>('interactive');
   const [selectedQuizLevel, setSelectedQuizLevel] = useState<JLPTLevel>(currentLevel === 'ALL' ? 'N5_N4' : currentLevel);
   const [selectedCategory, setSelectedCategory] = useState<QuizCategoryType>('all');
-  const [questionCount, setQuestionCount] = useState<number>(20);
+  const [questionCount, setQuestionCount] = useState<number>(15);
   const [isTimedMode, setIsTimedMode] = useState(false);
-  const [timeRemaining, setTimeRemaining] = useState<number>(20 * 60);
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [timeRemaining, setTimeRemaining] = useState<number>(15 * 45);
+
+  // Playing states
+  const [questions, setQuestions] = useState<BaseQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [selectedOptionId, setSelectedOptionId] = useState<string | number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
+  const [activePlayingLetter, setActivePlayingLetter] = useState<'A' | 'B' | 'C' | null>(null);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [isSettingUp, setIsSettingUp] = useState(true);
+
+  // Auto-advance timer ref
+  const autoNextTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Filter pool based on selected quiz level
   const wordPool = useMemo(() => {
@@ -99,30 +120,143 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
     return () => clearInterval(timer);
   }, [isTimedMode, isSettingUp, isFinished]);
 
-  // Generate dynamic questions based on selected category and level (WITHOUT giveaway hints)
-  const startQuiz = (count: number = questionCount, timed: boolean = isTimedMode) => {
-    setIsTimedMode(timed);
-    const generated: Question[] = [];
+  // Clean timer on unmount
+  useEffect(() => {
+    return () => {
+      if (autoNextTimeoutRef.current) clearTimeout(autoNextTimeoutRef.current);
+    };
+  }, []);
 
-    // Helper to generate a single question from word (No giveaways in subPrompt)
-    const makeWordQuestion = (targetWord: VocabWord, specificType?: 'cloze' | 'reading' | 'meaning'): Question => {
+  // When moving to next question, auto speak if it's ja_to_zh in interactive mode
+  useEffect(() => {
+    if (isSettingUp || isFinished || questions.length === 0) return;
+    const currentQ = questions[currentIndex];
+    if (!currentQ) return;
+
+    if (currentQ.type === 'ja_to_zh' && currentQ.word) {
+      speakJapanese(currentQ.word.reading);
+    }
+  }, [currentIndex, isSettingUp, isFinished, questions]);
+
+  // -------------------------------------------------------------
+  // GENERATE INTERACTIVE QUESTIONS (WordUp / Duolingo Reference Style)
+  // -------------------------------------------------------------
+  const generateInteractiveQuestions = (count: number): BaseQuestion[] => {
+    const list: BaseQuestion[] = [];
+    const shuffledPool = [...wordPool].sort(() => Math.random() - 0.5);
+    const total = Math.min(count, shuffledPool.length);
+
+    // Question types to rotate: 'listen_abc', 'zh_to_ja', 'ja_to_zh'
+    const interactiveTypes: ('listen_abc' | 'zh_to_ja' | 'ja_to_zh')[] = ['listen_abc', 'zh_to_ja', 'ja_to_zh'];
+
+    for (let i = 0; i < total; i++) {
+      const targetWord = shuffledPool[i];
+      const qType = interactiveTypes[i % interactiveTypes.length];
+
+      // Get 2 wrong distractors with clean meanings
+      const validDistractors = wordPool
+        .filter(w => w.id !== targetWord.id && w.meaning && w.meaning.trim() !== targetWord.meaning.trim())
+        .sort(() => Math.random() - 0.5);
+      const wrong1 = validDistractors[0] || shuffledPool[(i + 1) % shuffledPool.length];
+      const wrong2 = validDistractors[1] || shuffledPool[(i + 2) % shuffledPool.length];
+
+      const cleanMeaning = (m: string) => m.split(/[、，；;/（(]/)[0].trim() || m;
+
+      if (qType === 'listen_abc') {
+        // --- 1. 聽力辨音三選一 (🔊 A / 🔊 B / 🔊 C) ---
+        const candidates = [targetWord, wrong1, wrong2].sort(() => Math.random() - 0.5);
+        const letters: ('A' | 'B' | 'C')[] = ['A', 'B', 'C'];
+        const audioCandidates = candidates.map((w, idx) => ({
+          letter: letters[idx],
+          word: w,
+          isCorrect: w.id === targetWord.id
+        }));
+
+        const options = audioCandidates.map(c => ({
+          id: c.letter,
+          text: `選項 ${c.letter}`,
+          subText: `點擊上方 [ 🔊 ${c.letter} ] 試聽發音`,
+          isCorrect: c.isCorrect,
+          word: c.word
+        }));
+
+        list.push({
+          type: 'listen_abc',
+          word: targetWord,
+          levelBadge: targetWord.level,
+          categoryBadge: '🎧 聽力辨音三選一',
+          prompt: cleanMeaning(targetWord.meaning),
+          subPrompt: '請點擊上方按鈕試聽 A、B、C 發音，選出對應的日語讀音',
+          audioCandidates,
+          options,
+          explanation: `【正解】${targetWord.word}（${targetWord.reading}）＝ ${targetWord.meaning}\n【例句】${targetWord.example}（${targetWord.exampleMeaning}）`
+        });
+      } else if (qType === 'zh_to_ja') {
+        // --- 2. 看中文選日文單字 (中翻日主動回想) ---
+        const candidates = [targetWord, wrong1, wrong2].sort(() => Math.random() - 0.5);
+        const options = candidates.map((w, idx) => ({
+          id: `opt_${idx}`,
+          text: w.word,
+          subText: w.reading !== w.word ? w.reading : undefined,
+          isCorrect: w.id === targetWord.id,
+          word: w
+        }));
+
+        list.push({
+          type: 'zh_to_ja',
+          word: targetWord,
+          levelBadge: targetWord.level,
+          categoryBadge: '🈳 看中文選日文',
+          prompt: cleanMeaning(targetWord.meaning),
+          subPrompt: '請選出正確的日文單字',
+          options,
+          explanation: `【正解】${targetWord.word}（${targetWord.reading}）＝ ${targetWord.meaning}\n【例句】${targetWord.example}（${targetWord.exampleMeaning}）`
+        });
+      } else {
+        // --- 3. 看日文選中文意思 (日翻中聽辨理解) ---
+        const candidates = [targetWord, wrong1, wrong2].sort(() => Math.random() - 0.5);
+        const options = candidates.map((w, idx) => ({
+          id: `opt_${idx}`,
+          text: cleanMeaning(w.meaning),
+          isCorrect: w.id === targetWord.id,
+          word: w
+        }));
+
+        list.push({
+          type: 'ja_to_zh',
+          word: targetWord,
+          levelBadge: targetWord.level,
+          categoryBadge: '📖 看日文選中文',
+          prompt: targetWord.word,
+          subPrompt: targetWord.reading !== targetWord.word ? `（${targetWord.reading}）` : '請選出正確的中文意思',
+          options,
+          explanation: `【正解】${targetWord.word}（${targetWord.reading}）＝ ${targetWord.meaning}\n【例句】${targetWord.example}（${targetWord.exampleMeaning}）`
+        });
+      }
+    }
+
+    return list;
+  };
+
+  // -------------------------------------------------------------
+  // GENERATE STANDARD JLPT EXAM QUESTIONS
+  // -------------------------------------------------------------
+  const generateExamQuestions = (count: number): BaseQuestion[] => {
+    const generated: BaseQuestion[] = [];
+
+    const makeWordQuestion = (targetWord: VocabWord, specificType?: 'cloze' | 'reading' | 'meaning'): BaseQuestion => {
       const types: ('cloze' | 'reading' | 'meaning')[] = ['cloze', 'reading', 'meaning'];
       const qType = specificType || types[Math.floor(Math.random() * types.length)];
 
-      const validPool = wordPool.filter(
-        w => w.id !== targetWord.id && w.meaning && w.meaning.trim() !== '、' && w.meaning.trim().length > 0
-      );
-
+      const validPool = wordPool.filter(w => w.id !== targetWord.id && w.meaning && w.meaning.trim().length > 0);
       const wrongOptions = validPool
         .filter(w => w.partOfSpeech === targetWord.partOfSpeech)
         .sort(() => Math.random() - 0.5)
         .slice(0, 3);
-
       const fillers = validPool
         .filter(w => !wrongOptions.some(o => o.id === w.id))
         .sort(() => Math.random() - 0.5)
         .slice(0, 3 - wrongOptions.length);
-
       const allWrongs = [...wrongOptions, ...fillers];
 
       if (qType === 'cloze') {
@@ -131,11 +265,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
           : `＿＿＿（${targetWord.example}）`;
 
         const opts = [
-          { text: targetWord.word, isCorrect: true, reading: targetWord.reading },
-          ...allWrongs.map(w => ({ text: w.word, isCorrect: false, reading: w.reading }))
-        ]
-          .filter((opt, i, self) => i === self.findIndex(t => t.text === opt.text))
-          .sort(() => Math.random() - 0.5);
+          { id: 0, text: targetWord.word, isCorrect: true, word: targetWord },
+          ...allWrongs.map((w, i) => ({ id: i + 1, text: w.word, isCorrect: false, word: w }))
+        ].sort(() => Math.random() - 0.5);
 
         return {
           type: 'cloze',
@@ -149,11 +281,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
         };
       } else if (qType === 'reading') {
         const opts = [
-          { text: targetWord.reading, isCorrect: true },
-          ...allWrongs.map(w => ({ text: w.reading, isCorrect: false }))
-        ]
-          .filter((opt, i, self) => i === self.findIndex(t => t.text === opt.text))
-          .sort(() => Math.random() - 0.5);
+          { id: 0, text: targetWord.reading, isCorrect: true, word: targetWord },
+          ...allWrongs.map((w, i) => ({ id: i + 1, text: w.reading, isCorrect: false, word: w }))
+        ].sort(() => Math.random() - 0.5);
 
         return {
           type: 'reading',
@@ -168,11 +298,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
       } else {
         const cleanMeaning = (m: string) => m.replace(/^[、,\s]+|[、,\s]+$/g, '');
         const opts = [
-          { text: cleanMeaning(targetWord.meaning), isCorrect: true },
-          ...allWrongs.map(w => ({ text: cleanMeaning(w.meaning), isCorrect: false }))
-        ]
-          .filter((opt, i, self) => opt.text.length > 0 && i === self.findIndex(t => t.text === opt.text))
-          .sort(() => Math.random() - 0.5);
+          { id: 0, text: cleanMeaning(targetWord.meaning), isCorrect: true, word: targetWord },
+          ...allWrongs.map((w, i) => ({ id: i + 1, text: cleanMeaning(w.meaning), isCorrect: false, word: w }))
+        ].sort(() => Math.random() - 0.5);
 
         return {
           type: 'meaning',
@@ -187,9 +315,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
       }
     };
 
-    // Helper for grammar items (No giveaways in subPrompt)
-    const makeGrammarQuestion = (gItem: typeof allGrammarQuizData[0]): Question => {
+    const makeGrammarQuestion = (gItem: typeof allGrammarQuizData[0]): BaseQuestion => {
       const opts = gItem.options.map((optText, idx) => ({
+        id: idx,
         text: optText,
         isCorrect: idx === gItem.correctAnswer
       })).sort(() => Math.random() - 0.5);
@@ -206,21 +334,15 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
     };
 
     if (selectedCategory === 'particle') {
-      const pPool = grammarPool.filter(g => g.type === 'particle');
-      const pool = pPool.length > 0 ? pPool : allGrammarQuizData.filter(g => g.type === 'particle');
-      const shuffled = [...pool].sort(() => Math.random() - 0.5);
-      const total = Math.min(count, shuffled.length);
-      for (let i = 0; i < total; i++) {
-        generated.push(makeGrammarQuestion(shuffled[i]));
-      }
+      const pool = grammarPool.filter(g => g.type === 'particle');
+      const total = Math.min(count, pool.length);
+      const shuffled = [...pool].sort(() => Math.random() - 0.5).slice(0, total);
+      shuffled.forEach(g => generated.push(makeGrammarQuestion(g)));
     } else if (selectedCategory === 'conjugation') {
-      const cPool = grammarPool.filter(g => g.type === 'conjugation');
-      const pool = cPool.length > 0 ? cPool : allGrammarQuizData.filter(g => g.type === 'conjugation');
-      const shuffled = [...pool].sort(() => Math.random() - 0.5);
-      const total = Math.min(count, shuffled.length);
-      for (let i = 0; i < total; i++) {
-        generated.push(makeGrammarQuestion(shuffled[i]));
-      }
+      const pool = grammarPool.filter(g => g.type === 'conjugation');
+      const total = Math.min(count, pool.length);
+      const shuffled = [...pool].sort(() => Math.random() - 0.5).slice(0, total);
+      shuffled.forEach(g => generated.push(makeGrammarQuestion(g)));
     } else if (selectedCategory === 'reading') {
       const shuffled = [...wordPool].sort(() => Math.random() - 0.5).slice(0, count);
       shuffled.forEach(w => generated.push(makeWordQuestion(w, 'reading')));
@@ -231,10 +353,8 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
       const shuffled = [...wordPool].sort(() => Math.random() - 0.5).slice(0, count);
       shuffled.forEach(w => generated.push(makeWordQuestion(w, 'cloze')));
     } else {
-      // 'all': Mix of reading, meaning, cloze, particles, and conjugations
       const shuffledWords = [...wordPool].sort(() => Math.random() - 0.5);
       const shuffledGrammar = [...grammarPool].sort(() => Math.random() - 0.5);
-
       const grammarCount = Math.min(Math.floor(count * 0.35), shuffledGrammar.length);
       const wordCount = count - grammarCount;
 
@@ -247,70 +367,93 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
       generated.sort(() => Math.random() - 0.5);
     }
 
+    return generated;
+  };
+
+  // -------------------------------------------------------------
+  // START QUIZ
+  // -------------------------------------------------------------
+  const startQuiz = (count: number = questionCount, timed: boolean = isTimedMode) => {
+    setIsTimedMode(timed);
+    if (autoNextTimeoutRef.current) clearTimeout(autoNextTimeoutRef.current);
+
+    const generated = mainMode === 'interactive'
+      ? generateInteractiveQuestions(count)
+      : generateExamQuestions(count);
+
     setQuestions(generated);
     setCurrentIndex(0);
-    setSelectedOption(null);
+    setSelectedOptionId(null);
     setIsAnswered(false);
+    setActivePlayingLetter(null);
     setScore(0);
     setIsFinished(false);
     setIsSettingUp(false);
     setTimeRemaining(Math.round(count * 45));
   };
 
-  // Step 1: Select option (does NOT confirm immediately)
-  const handleSelectOption = (idx: number) => {
-    if (isAnswered) return;
-    setSelectedOption(idx);
+  // -------------------------------------------------------------
+  // PLAY AUDIO FOR A/B/C CANDIDATE
+  // -------------------------------------------------------------
+  const handlePlayCandidateAudio = (letter: 'A' | 'B' | 'C', word: VocabWord) => {
+    setActivePlayingLetter(letter);
+    speakJapanese(word.reading);
+    setTimeout(() => {
+      setActivePlayingLetter(null);
+    }, 1200);
   };
 
-  // Step 2: Final confirmation button click
-  const handleConfirmAnswer = () => {
-    if (selectedOption === null || isAnswered) return;
+  // -------------------------------------------------------------
+  // HANDLE SELECT OPTION OR "我不確定"
+  // -------------------------------------------------------------
+  const handleAnswer = (optionId: string | number | 'unsure') => {
+    if (isAnswered) return;
     setIsAnswered(true);
+    setSelectedOptionId(optionId);
 
     const currentQ = questions[currentIndex];
-    const isCorrect = currentQ.options[selectedOption].isCorrect;
+    const isUnsure = optionId === 'unsure';
+    const chosenOption = currentQ.options.find(o => o.id === optionId);
+    const isCorrect = !isUnsure && !!chosenOption?.isCorrect;
 
+    // Instant audio feedback
     if (currentQ.word) {
       if (isCorrect) {
-        setScore(prev => prev + 1);
-        updateWordSRS(currentQ.word.id, 'good');
-      } else {
-        updateWordSRS(currentQ.word.id, 'again');
+        speakJapanese(currentQ.word.reading);
+      } else if (chosenOption?.word) {
+        speakJapanese(chosenOption.word.reading);
       }
+    }
+
+    // Update Score & SRS
+    if (isCorrect) {
+      setScore(prev => prev + 1);
+      if (currentQ.word) updateWordSRS(currentQ.word.id, 'good');
     } else {
-      if (isCorrect) {
-        setScore(prev => prev + 1);
-      }
+      // Wrong or unsure: mark as 'again' to save in Weakness zone
+      if (currentQ.word) updateWordSRS(currentQ.word.id, 'again');
     }
     onRefreshStats();
   };
 
+  // -------------------------------------------------------------
+  // NEXT QUESTION
+  // -------------------------------------------------------------
   const handleNext = () => {
+    if (autoNextTimeoutRef.current) clearTimeout(autoNextTimeoutRef.current);
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex(prev => prev + 1);
-      setSelectedOption(null);
+      setSelectedOptionId(null);
       setIsAnswered(false);
+      setActivePlayingLetter(null);
     } else {
       setIsFinished(true);
       confetti({
-        particleCount: 90,
+        particleCount: 100,
         spread: 70,
         origin: { y: 0.6 }
       });
     }
-  };
-
-  // Speaks ONLY the question text (does NOT give away the hidden answer)
-  const handleSpeakQuestion = () => {
-    if (!questions[currentIndex]) return;
-    const currentQ = questions[currentIndex];
-    // Clean prompt to read sentence or target word without spoiling answer
-    const textToSpeak = currentQ.prompt
-      .replace(/＿＿＿|（　）|\(　\)/g, '、')
-      .replace(/の正しい読み方はどれですか。|の意味はどれですか。/g, '')
-      .replace(/[「」]/g, '');
-    speakJapanese(textToSpeak || currentQ.prompt);
   };
 
   const formatTime = (seconds: number) => {
@@ -319,66 +462,88 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
     return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
   };
 
-  // 1. SETUP SCREEN (Level, Category, Question Count & Mock Exam Mode Selector)
+  // =============================================================
+  // 1. SETUP SCREEN
+  // =============================================================
   if (isSettingUp) {
     return (
-      <div className="max-w-lg mx-auto px-4 py-8 space-y-5 animate-fadeIn">
-        <div className="text-center space-y-2">
-          <div className="w-16 h-16 mx-auto rounded-3xl bg-gradient-to-tr from-emerald-500 to-teal-600 flex items-center justify-center text-white text-2xl shadow-lg">
-            <FileCheck className="w-8 h-8" />
+      <div className="max-w-lg mx-auto px-4 py-6 sm:py-8 space-y-5 animate-fadeIn">
+        {/* Title Banner */}
+        <div className="text-center space-y-1.5">
+          <div className="w-14 h-14 mx-auto rounded-3xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-cyan-500 flex items-center justify-center text-white text-2xl shadow-lg shadow-teal-500/20">
+            <Zap className="w-7 h-7 fill-current" />
           </div>
           <h2 className="text-2xl font-black text-slate-800 dark:text-slate-100">
-            日檢全真題型測驗題庫
+            JLPT 互動測驗題庫
           </h2>
           <p className="text-xs text-slate-500">
-            依據 JLPT 官方考試模式規劃：漢字讀音、單字字義、文法助詞、詞性活用變形、語境克漏字！
+            多感官互動速刷 • 聽力試聽辨音 • 日檢全真筆試模擬考
           </p>
         </div>
 
-        {/* 1. Category Filter Selector */}
-        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-5 shadow-sm space-y-3">
-          <div className="flex items-center justify-between">
-            <label className="text-xs font-bold text-slate-400 block uppercase tracking-wider flex items-center gap-1.5">
-              <Layers className="w-3.5 h-3.5 text-emerald-500" />
-              <span>測驗題型分類</span>
-            </label>
-            <span className="text-[10px] text-emerald-600 font-bold">日檢五大題型</span>
-          </div>
+        {/* 1. Mode Switcher (Interactive vs Mock Exam) */}
+        <div className="bg-slate-100 dark:bg-slate-800 p-1.5 rounded-2xl grid grid-cols-2 gap-1.5 text-xs font-bold shadow-inner">
+          <button
+            onClick={() => setMainMode('interactive')}
+            className={`py-3 px-3 rounded-xl transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
+              mainMode === 'interactive'
+                ? 'bg-white dark:bg-slate-700 text-teal-600 dark:text-teal-300 shadow-md font-black'
+                : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+            }`}
+          >
+            <div className="flex items-center gap-1.5 text-sm">
+              <Headphones className="w-4 h-4" />
+              <span>🎮 多感官互動速刷</span>
+            </div>
+            <span className="text-[10px] opacity-80">聽力辨音 • 看中選日 • 即時反饋</span>
+          </button>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
-            {[
-              { id: 'all', label: '綜合混合全真題', icon: Sparkles, desc: '讀音/字義/助詞/活用' },
-              { id: 'reading', label: '🔤 漢字讀音', icon: FileCheck, desc: '文字・語彙 讀音選擇' },
-              { id: 'meaning', label: '📖 單字字義', icon: Target, desc: '語彙・意味 中文理解' },
-              { id: 'particle', label: '🧩 文法助詞填空', icon: Zap, desc: 'に/で/を/が/へ/と' },
-              { id: 'conjugation', label: '🔄 詞性與動詞活用', icon: RefreshCw, desc: '現在/過去/可能/受身' },
-              { id: 'cloze', label: '📝 語境克漏字', icon: Flame, desc: '文脈規定 句意填空' }
-            ].map(cat => {
-              const isSelected = selectedCategory === cat.id;
-              return (
-                <button
-                  key={cat.id}
-                  onClick={() => setSelectedCategory(cat.id as QuizCategoryType)}
-                  className={`p-2.5 rounded-2xl border-2 text-left transition-all cursor-pointer flex flex-col justify-between ${
-                    isSelected
-                      ? 'border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/40 shadow-xs'
-                      : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
-                  }`}
-                >
-                  <div className="font-bold text-xs text-slate-800 dark:text-slate-200">
-                    {cat.label}
-                  </div>
-                  <div className="text-[10px] text-slate-400 mt-0.5">
-                    {cat.desc}
-                  </div>
-                </button>
-              );
-            })}
-          </div>
+          <button
+            onClick={() => setMainMode('exam')}
+            className={`py-3 px-3 rounded-xl transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
+              mainMode === 'exam'
+                ? 'bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-300 shadow-md font-black'
+                : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+            }`}
+          >
+            <div className="flex items-center gap-1.5 text-sm">
+              <FileCheck className="w-4 h-4" />
+              <span>📝 全真筆試模擬考</span>
+            </div>
+            <span className="text-[10px] opacity-80">讀音 • 字義 • 文法助詞 • 克漏字</span>
+          </button>
         </div>
 
-        {/* 2. Quiz Level Scope Selector */}
-        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-5 shadow-sm space-y-3">
+        {/* Interactive Mode Features Highlights */}
+        {mainMode === 'interactive' && (
+          <div className="bg-gradient-to-r from-teal-500/10 via-cyan-500/10 to-emerald-500/10 border border-teal-200 dark:border-teal-900/60 rounded-2xl p-4 text-xs space-y-2 text-slate-700 dark:text-slate-300">
+            <div className="font-bold text-teal-900 dark:text-teal-200 flex items-center gap-1.5 text-xs">
+              <Sparkles className="w-4 h-4 text-teal-600 dark:text-teal-400" />
+              <span>影片同款 3 大核心速刷題型：</span>
+            </div>
+            <div className="grid grid-cols-3 gap-2 text-center pt-1">
+              <div className="bg-white/80 dark:bg-slate-800/80 p-2 rounded-xl border border-teal-100 dark:border-teal-900">
+                <div className="font-bold text-[11px] text-teal-700 dark:text-teal-300">🔊 聽力辨音</div>
+                <div className="text-[9px] text-slate-500 mt-0.5">A/B/C 試聽選字</div>
+              </div>
+              <div className="bg-white/80 dark:bg-slate-800/80 p-2 rounded-xl border border-cyan-100 dark:border-cyan-900">
+                <div className="font-bold text-[11px] text-cyan-700 dark:text-cyan-300">🈳 看中選日</div>
+                <div className="text-[9px] text-slate-500 mt-0.5">中翻日反向回想</div>
+              </div>
+              <div className="bg-white/80 dark:bg-slate-800/80 p-2 rounded-xl border border-emerald-100 dark:border-emerald-900">
+                <div className="font-bold text-[11px] text-emerald-700 dark:text-emerald-300">📖 看日選中</div>
+                <div className="text-[9px] text-slate-500 mt-0.5">日翻中聽辨理解</div>
+              </div>
+            </div>
+            <div className="text-[10px] text-slate-500 pt-1 flex items-center gap-1">
+              <CheckCircle2 className="w-3.5 h-3.5 text-teal-500" />
+              <span>附帶「我不確定」免猜機制，不會自動編入弱點特訓！</span>
+            </div>
+          </div>
+        )}
+
+        {/* 2. Level Scope Selector */}
+        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-5 shadow-xs space-y-3">
           <label className="text-xs font-bold text-slate-400 block uppercase tracking-wider">
             測驗範圍 ({wordPool.length} 字可測)
           </label>
@@ -399,7 +564,7 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
                 onClick={() => setSelectedQuizLevel(lvl.id as JLPTLevel)}
                 className={`px-3 py-1.5 rounded-xl font-bold transition-all cursor-pointer ${
                   selectedQuizLevel === lvl.id
-                    ? 'bg-emerald-500 text-white shadow-xs'
+                    ? 'bg-teal-500 text-white shadow-xs'
                     : 'bg-slate-100 dark:bg-slate-700/60 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
                 }`}
               >
@@ -409,50 +574,83 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
           </div>
         </div>
 
-        {/* 3. Question Count Selector */}
-        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-6 shadow-sm space-y-4">
+        {/* 3. Category Filter Selector (Only for Exam Mode) */}
+        {mainMode === 'exam' && (
+          <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-5 shadow-xs space-y-3">
+            <div className="flex items-center justify-between">
+              <label className="text-xs font-bold text-slate-400 block uppercase tracking-wider flex items-center gap-1.5">
+                <Layers className="w-3.5 h-3.5 text-emerald-500" />
+                <span>測驗題型分類</span>
+              </label>
+              <span className="text-[10px] text-emerald-600 font-bold">日檢五大題型</span>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+              {[
+                { id: 'all', label: '綜合混合全真題', desc: '讀音/字義/助詞/活用' },
+                { id: 'reading', label: '🔤 漢字讀音', desc: '文字・語彙 讀音選擇' },
+                { id: 'meaning', label: '📖 單字字義', desc: '語彙・意味 中文理解' },
+                { id: 'particle', label: '🧩 文法助詞填空', desc: 'に/で/を/が/へ/と' },
+                { id: 'conjugation', label: '🔄 詞性與動詞活用', desc: '現在/過去/可能/受身' },
+                { id: 'cloze', label: '📝 語境克漏字', desc: '文脈規定 句意填空' }
+              ].map(cat => {
+                const isSelected = selectedCategory === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => setSelectedCategory(cat.id as QuizCategoryType)}
+                    className={`p-2.5 rounded-2xl border-2 text-left transition-all cursor-pointer flex flex-col justify-between ${
+                      isSelected
+                        ? 'border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/40 shadow-xs'
+                        : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className="font-bold text-xs text-slate-800 dark:text-slate-200">
+                      {cat.label}
+                    </div>
+                    <div className="text-[10px] text-slate-400 mt-0.5">
+                      {cat.desc}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* 4. Question Count Selector */}
+        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-5 shadow-xs space-y-3">
           <label className="text-xs font-bold text-slate-400 block uppercase tracking-wider">
-            選擇本次測驗題數
+            選擇本次題數
           </label>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             {[
-              { count: 10, label: '快速測驗', sub: '約 2~3 分鐘 (通勤首選)', icon: Zap },
-              { count: 20, label: '標準單元', sub: '約 5 分鐘 (推薦日常)', icon: Target, isRec: true },
-              { count: 35, label: '深度衝刺', sub: '約 10 分鐘 (深度強化)', icon: Flame },
-              { count: 50, label: '全真模擬考', sub: '約 15~20 分鐘 (考前檢驗)', icon: Award }
+              { count: 10, label: '10 題', sub: '極速刷' },
+              { count: 15, label: '15 題', sub: '標準日常', isRec: true },
+              { count: 25, label: '25 題', sub: '深度強化' },
+              { count: 40, label: '40 題', sub: '考前衝刺' }
             ].map(item => {
-              const Icon = item.icon;
               const isSelected = questionCount === item.count;
-
               return (
                 <button
                   key={item.count}
-                  onClick={() => {
-                    setQuestionCount(item.count);
-                    if (item.count === 50) setIsTimedMode(true);
-                  }}
-                  className={`p-4 rounded-2xl border-2 text-left transition-all cursor-pointer flex flex-col justify-between gap-1 relative ${
+                  onClick={() => setQuestionCount(item.count)}
+                  className={`p-3 rounded-2xl border-2 text-center transition-all cursor-pointer flex flex-col justify-between items-center relative ${
                     isSelected
-                      ? 'border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/40 shadow-xs'
-                      : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600'
+                      ? 'border-teal-500 bg-teal-50/60 dark:bg-teal-950/40 shadow-xs'
+                      : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
                   }`}
                 >
                   {item.isRec && (
-                    <span className="absolute -top-2 right-3 px-2 py-0.5 bg-rose-500 text-white rounded-full text-[10px] font-black">
+                    <span className="absolute -top-2 right-2 px-1.5 py-0.2 bg-rose-500 text-white rounded-full text-[9px] font-black">
                       推薦
                     </span>
                   )}
-                  <div className="flex items-center gap-2">
-                    <Icon className={`w-4 h-4 ${isSelected ? 'text-emerald-600' : 'text-slate-400'}`} />
-                    <span className="font-bold text-sm text-slate-800 dark:text-slate-100">
-                      {item.count} 題
-                    </span>
-                  </div>
-                  <div className="text-xs font-semibold text-slate-700 dark:text-slate-300">
+                  <div className="font-black text-sm text-slate-800 dark:text-slate-100">
                     {item.label}
                   </div>
-                  <div className="text-[10px] text-slate-400">
+                  <div className="text-[10px] text-slate-400 mt-0.5">
                     {item.sub}
                   </div>
                 </button>
@@ -460,35 +658,40 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
             })}
           </div>
 
-          {/* Timed Mode Toggle */}
-          <div className="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700">
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-slate-500" />
-              <span className="text-xs font-bold text-slate-700 dark:text-slate-200">
-                開啟考前倒數計時模式
-              </span>
+          {/* Timed Mode Toggle (Exam Mode) */}
+          {mainMode === 'exam' && (
+            <div className="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700">
+              <div className="flex items-center gap-2">
+                <Clock className="w-4 h-4 text-slate-500" />
+                <span className="text-xs font-bold text-slate-700 dark:text-slate-200">
+                  開啟考前倒數計時模式
+                </span>
+              </div>
+              <input
+                type="checkbox"
+                checked={isTimedMode}
+                onChange={(e) => setIsTimedMode(e.target.checked)}
+                className="w-4 h-4 text-teal-600 rounded cursor-pointer"
+              />
             </div>
-            <input
-              type="checkbox"
-              checked={isTimedMode}
-              onChange={(e) => setIsTimedMode(e.target.checked)}
-              className="w-4 h-4 text-emerald-600 rounded cursor-pointer"
-            />
-          </div>
+          )}
         </div>
 
         {/* Start Button */}
         <button
           onClick={() => startQuiz(questionCount, isTimedMode)}
-          className="w-full py-4 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-extrabold rounded-2xl shadow-lg shadow-emerald-500/20 text-base active:scale-95 transition-all cursor-pointer"
+          className="w-full py-4 bg-gradient-to-r from-teal-500 via-teal-600 to-emerald-600 hover:from-teal-600 hover:to-emerald-700 text-white font-extrabold rounded-2xl shadow-lg shadow-teal-500/25 text-base active:scale-95 transition-all cursor-pointer flex items-center justify-center gap-2"
         >
-          開始測驗 ({questionCount} 題{isTimedMode ? ' • 計時模式' : ''})
+          <Play className="w-4 h-4 fill-current" />
+          <span>開始{mainMode === 'interactive' ? '互動速刷' : '筆試測驗'} ({questionCount} 題)</span>
         </button>
       </div>
     );
   }
 
+  // =============================================================
   // 2. QUIZ FINISHED SCREEN
+  // =============================================================
   if (isFinished) {
     const accuracy = Math.round((score / questions.length) * 100);
     const isPassed = accuracy >= 60;
@@ -496,7 +699,7 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
     return (
       <div className="max-w-md mx-auto px-4 py-10 text-center space-y-6 animate-scaleUp">
         <div className={`w-20 h-20 mx-auto rounded-3xl flex items-center justify-center text-white text-3xl font-black shadow-lg ${
-          isPassed ? 'bg-gradient-to-tr from-emerald-400 to-teal-600' : 'bg-gradient-to-tr from-amber-500 to-rose-500'
+          isPassed ? 'bg-gradient-to-tr from-teal-400 to-emerald-600' : 'bg-gradient-to-tr from-amber-500 to-rose-500'
         }`}>
           {isPassed ? '🏆' : '💪'}
         </div>
@@ -508,28 +711,28 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
           <h2 className="text-3xl font-black text-slate-800 dark:text-slate-100">
             本次成績：{score} / {questions.length}
           </h2>
-          <p className="text-sm font-bold text-emerald-600 dark:text-emerald-400">
+          <p className="text-sm font-bold text-teal-600 dark:text-teal-400">
             答對率 {accuracy}%
           </p>
           <p className="text-xs text-slate-400">
-            答對與答錯的單字均已自動記錄至 SRS 間隔重複複習系統中！
+            答對與不熟單字均已自動記錄至 SRS 間隔記憶與特訓專區中！
           </p>
         </div>
 
         <div className="pt-2 flex flex-col gap-2.5">
           <button
             onClick={() => startQuiz(questionCount, isTimedMode)}
-            className="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-2xl shadow-md active:scale-95 transition-all cursor-pointer text-sm"
+            className="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-2xl shadow-md active:scale-95 transition-all cursor-pointer text-sm"
           >
             <RefreshCw className="w-4 h-4" />
-            <span>換一組題目再測驗一次 ({questionCount} 題)</span>
+            <span>換一組題目再刷一次 ({questionCount} 題)</span>
           </button>
 
           <button
             onClick={() => setIsSettingUp(true)}
             className="w-full py-3 bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 font-bold rounded-2xl text-xs sm:text-sm transition-all cursor-pointer"
           >
-            返回測驗設定 (修改題型、題數或模式)
+            返回測驗設定
           </button>
         </div>
       </div>
@@ -538,19 +741,21 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
 
   const currentQ = questions[currentIndex];
 
-  // 3. ACTIVE QUIZ QUESTION SCREEN
+  // =============================================================
+  // 3. ACTIVE QUIZ PLAYING SCREEN
+  // =============================================================
   return (
-    <div className="max-w-lg mx-auto px-4 py-4 sm:py-6 space-y-4">
-      {/* Quiz Header: Level badge, Timer & Progress */}
-      <div className="flex items-center justify-between text-xs font-semibold text-slate-500">
+    <div className="max-w-lg mx-auto px-4 py-4 sm:py-6 space-y-4 animate-fadeIn">
+      {/* Quiz Top Bar: Level, Mode, Progress */}
+      <div className="flex items-center justify-between text-xs font-bold text-slate-500">
         <div className="flex items-center gap-1.5">
           {currentQ.levelBadge && (
-            <span className="px-2 py-0.5 bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 rounded-md font-bold">
+            <span className="px-2 py-0.5 bg-teal-100 dark:bg-teal-950 text-teal-700 dark:text-teal-300 rounded-md font-extrabold">
               {currentQ.levelBadge}
             </span>
           )}
-          <span className="px-2 py-0.5 bg-slate-100 dark:bg-slate-800 rounded-md text-slate-600 dark:text-slate-300 font-medium">
-            {currentQ.categoryBadge || '日檢題目'}
+          <span className="px-2 py-0.5 bg-slate-100 dark:bg-slate-800 rounded-md text-slate-600 dark:text-slate-300">
+            {currentQ.categoryBadge || '測驗題目'}
           </span>
         </div>
 
@@ -564,123 +769,153 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
             </div>
           )}
 
-          <span>
-            {currentIndex + 1} / {questions.length}
+          <span className="text-teal-600 dark:text-teal-400 font-black">
+            {currentIndex + 1} <span className="text-slate-400 font-normal">/ {questions.length}</span>
           </span>
         </div>
       </div>
 
-      {/* Progress Bar */}
-      <div className="w-full bg-slate-100 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden">
+      {/* Thin Mint-Green Progress Bar (Video Reference Style) */}
+      <div className="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
         <div
-          className="bg-emerald-500 h-full rounded-full transition-all duration-300"
+          className="bg-gradient-to-r from-teal-400 to-cyan-500 h-full rounded-full transition-all duration-300"
           style={{ width: `${Math.round(((currentIndex + 1) / questions.length) * 100)}%` }}
         />
       </div>
 
-      {/* Question Card */}
-      <div className="bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 rounded-3xl p-6 shadow-sm space-y-4">
-        <div className="space-y-1.5">
-          <div className="flex items-center justify-between">
-            <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
-              {currentQ.categoryBadge || '測驗題目'}
-            </span>
-            <button
-              onClick={handleSpeakQuestion}
-              title="朗讀題目"
-              className="text-slate-400 hover:text-emerald-500 p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors cursor-pointer"
-            >
-              <Volume2 className="w-4 h-4" />
-            </button>
-          </div>
+      {/* Main Question Card (Video Reference UI) */}
+      <div className="bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 rounded-3xl p-6 shadow-sm space-y-5 text-center relative">
+        {/* Main Prompt */}
+        <div className="space-y-1.5 pt-2">
+          {/* Audio button for ja_to_zh */}
+          {currentQ.type === 'ja_to_zh' && currentQ.word && (
+            <div className="flex items-center justify-center gap-2">
+              <h3 className="text-3xl font-black text-teal-600 dark:text-teal-400 tracking-wide">
+                {currentQ.prompt}
+              </h3>
+              <button
+                onClick={() => speakJapanese(currentQ.word!.reading)}
+                className="w-9 h-9 rounded-full bg-amber-100 hover:bg-amber-200 dark:bg-amber-950 text-amber-600 dark:text-amber-400 flex items-center justify-center transition-all cursor-pointer shadow-xs active:scale-95"
+                title="播放真人發音"
+              >
+                <Volume2 className="w-5 h-5" />
+              </button>
+            </div>
+          )}
 
-          <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white leading-relaxed">
-            {currentQ.prompt}
-          </h3>
+          {/* Normal prompt for other types */}
+          {currentQ.type !== 'ja_to_zh' && (
+            <h3 className="text-3xl font-black text-teal-600 dark:text-teal-400 tracking-wide">
+              {currentQ.prompt}
+            </h3>
+          )}
 
-          {currentQ.subPrompt && (
-            <p className="text-xs text-slate-400 dark:text-slate-500">
+          {/* SubPrompt or Answer reveal in listen_abc */}
+          {isAnswered && currentQ.type === 'listen_abc' && currentQ.word ? (
+            <div className="animate-fadeIn">
+              <span className="text-base font-bold text-slate-800 dark:text-slate-100">
+                {currentQ.word.word}
+              </span>
+              <span className="text-xs text-slate-500 ml-1.5 font-medium">
+                （{currentQ.word.reading}）
+              </span>
+            </div>
+          ) : currentQ.subPrompt ? (
+            <p className="text-xs text-slate-400 dark:text-slate-500 font-medium">
               {currentQ.subPrompt}
             </p>
-          )}
+          ) : null}
         </div>
 
-        {/* Options (4-choice with 2-step selection) */}
-        <div className="grid grid-cols-1 gap-2.5 pt-2">
-          {currentQ.options.map((option, idx) => {
-            let optionStyles = 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/80 hover:border-emerald-300 dark:hover:border-emerald-700';
+        {/* ------------------------------------------------------------- */}
+        {/* SPECIAL TYPE: LISTEN A / B / C AUDIO BUTTONS (Video Highlight) */}
+        {/* ------------------------------------------------------------- */}
+        {currentQ.type === 'listen_abc' && currentQ.audioCandidates && (
+          <div className="grid grid-cols-3 gap-3 pt-2 pb-1 max-w-xs mx-auto">
+            {currentQ.audioCandidates.map((candidate) => {
+              const isPlaying = activePlayingLetter === candidate.letter;
+
+              return (
+                <button
+                  key={candidate.letter}
+                  onClick={() => handlePlayCandidateAudio(candidate.letter, candidate.word)}
+                  className={`flex flex-col items-center justify-center p-3 rounded-2xl border-2 transition-all cursor-pointer active:scale-95 ${
+                    isPlaying
+                      ? 'border-amber-400 bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 shadow-md scale-105'
+                      : 'border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-850 hover:border-teal-400 text-slate-700 dark:text-slate-200'
+                  }`}
+                >
+                  <Volume2 className={`w-6 h-6 mb-1 ${isPlaying ? 'text-amber-600 animate-bounce' : 'text-teal-500'}`} />
+                  <span className="font-black text-sm">{candidate.letter}</span>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Options List */}
+        <div className="space-y-2.5 pt-1">
+          {currentQ.options.map((option) => {
+            let style = 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-teal-400 text-slate-800 dark:text-slate-100';
 
             if (isAnswered) {
               if (option.isCorrect) {
-                optionStyles = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-200 font-bold';
-              } else if (selectedOption === idx) {
-                optionStyles = 'border-rose-500 bg-rose-50 dark:bg-rose-950/60 text-rose-900 dark:text-rose-200 font-bold';
+                // Correct: vibrant cyan/teal green checkmark (Video match)
+                style = 'border-teal-500 bg-teal-500 text-white font-black shadow-md shadow-teal-500/25 ring-2 ring-teal-400';
+              } else if (selectedOptionId === option.id) {
+                // Wrong chosen
+                style = 'border-rose-500 bg-rose-500 text-white font-bold shadow-md shadow-rose-500/25';
               } else {
-                optionStyles = 'border-slate-200 dark:border-slate-700 opacity-50';
-              }
-            } else {
-              // Pre-answer selection highlight
-              if (selectedOption === idx) {
-                optionStyles = 'border-emerald-500 bg-emerald-50/70 dark:bg-emerald-950/50 text-emerald-900 dark:text-emerald-200 font-bold ring-2 ring-emerald-400/30';
+                style = 'border-slate-200 dark:border-slate-700 opacity-40';
               }
             }
 
             return (
               <button
-                key={idx}
+                key={option.id}
                 disabled={isAnswered}
-                onClick={() => handleSelectOption(idx)}
-                className={`w-full p-4 rounded-2xl border-2 text-left transition-all flex items-center justify-between gap-2 cursor-pointer ${optionStyles}`}
+                onClick={() => handleAnswer(option.id)}
+                className={`w-full py-4 px-5 rounded-2xl border-2 font-bold text-base transition-all flex items-center justify-between cursor-pointer ${style}`}
               >
-                <div className="flex items-center gap-3">
-                  <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${
-                    selectedOption === idx && !isAnswered
-                      ? 'bg-emerald-500 text-white'
-                      : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'
-                  }`}>
-                    {idx + 1}
-                  </span>
-                  <span className="text-base font-semibold">
-                    {option.text}
-                  </span>
+                <div className="flex items-center gap-2">
+                  <span>{option.text}</span>
+                  {option.subText && !isAnswered && (
+                    <span className="text-xs opacity-75 font-normal">（{option.subText}）</span>
+                  )}
                 </div>
 
-                {isAnswered ? (
+                {isAnswered && (
                   <div>
                     {option.isCorrect ? (
-                      <CheckCircle2 className="w-5 h-5 text-emerald-500" />
-                    ) : selectedOption === idx ? (
-                      <XCircle className="w-5 h-5 text-rose-500" />
+                      <CheckCircle2 className="w-5 h-5 text-white" />
+                    ) : selectedOptionId === option.id ? (
+                      <XCircle className="w-5 h-5 text-white" />
                     ) : null}
                   </div>
-                ) : selectedOption === idx ? (
-                  <div className="w-3 h-3 rounded-full bg-emerald-500" />
-                ) : null}
+                )}
               </button>
             );
           })}
+
+          {/* BOTTOM: 「我不確定」 BUTTON (Video Match) */}
+          {!isAnswered && (
+            <button
+              onClick={() => handleAnswer('unsure')}
+              className="w-full py-3.5 px-4 rounded-2xl border-2 border-amber-300 dark:border-amber-700/80 bg-amber-50/50 dark:bg-amber-950/30 hover:bg-amber-100 text-amber-800 dark:text-amber-200 text-sm font-bold transition-all cursor-pointer shadow-xs active:scale-98 flex items-center justify-center gap-1.5"
+            >
+              <HelpCircle className="w-4 h-4 text-amber-500" />
+              <span>我不確定（直接看正解並加入特訓）</span>
+            </button>
+          )}
         </div>
 
-        {/* STEP 2: CONFIRMATION BUTTON (Appears when an option is selected but not yet answered) */}
-        {!isAnswered && selectedOption !== null && (
-          <div className="pt-2 animate-fadeIn">
-            <button
-              onClick={handleConfirmAnswer}
-              className="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-extrabold rounded-2xl shadow-lg shadow-emerald-500/20 text-base active:scale-98 transition-all flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <CheckSquare className="w-5 h-5" />
-              <span>確定送出答案</span>
-            </button>
-          </div>
-        )}
-
-        {/* Explanation Banner (Appears AFTER final confirmation) */}
+        {/* Post-Answer Card & Next Button */}
         {isAnswered && (
-          <div className="pt-2 animate-fadeIn space-y-3">
-            <div className="p-4 bg-slate-50 dark:bg-slate-900/60 rounded-2xl border border-slate-200 dark:border-slate-700 space-y-1.5 text-xs">
+          <div className="pt-2 space-y-3 animate-fadeIn text-left">
+            <div className="p-4 bg-slate-50 dark:bg-slate-900/80 rounded-2xl border border-slate-200 dark:border-slate-700 space-y-1.5 text-xs">
               <div className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>解題詳解與考點分析：</span>
+                <Sparkles className="w-3.5 h-3.5 text-teal-500" />
+                <span>解析與例句說明：</span>
               </div>
               <p className="text-slate-600 dark:text-slate-300 whitespace-pre-line leading-relaxed">
                 {currentQ.explanation}
@@ -689,9 +924,9 @@ export const QuizView: React.FC<QuizViewProps> = ({ currentLevel, onRefreshStats
 
             <button
               onClick={handleNext}
-              className="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-2xl shadow-md transition-all active:scale-95 cursor-pointer text-sm"
+              className="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-teal-500 to-emerald-600 hover:from-teal-600 hover:to-emerald-700 text-white font-black rounded-2xl shadow-lg shadow-teal-500/25 transition-all active:scale-95 cursor-pointer text-sm"
             >
-              <span>{currentIndex + 1 < questions.length ? '下一題' : '查看測驗結果'}</span>
+              <span>{currentIndex + 1 < questions.length ? '下一題' : '查看測驗成績'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
