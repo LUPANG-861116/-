@@ -133,14 +133,14 @@
   },
   {
     "id": "n5_0013",
-    "word": "朝御飯",
+    "word": "朝ご飯",
     "reading": "あさごはん",
     "romaji": "asagohan",
     "partOfSpeech": "名詞",
     "meaning": "早餐",
     "level": "N5",
-    "example": "朝御飯にパンを食べました。",
-    "exampleMeaning": "早餐吃了麵包。"
+    "example": "朝ご飯を食べないと、午前中に元気が出ません。",
+    "exampleMeaning": "不吃早餐的話，早上就提不起精神。"
   },
   {
     "id": "n5_0014",
@@ -1129,8 +1129,8 @@
     "partOfSpeech": "名詞",
     "meaning": "點心、零食",
     "level": "N5",
-    "example": "美味しいお菓子を食べました。",
-    "exampleMeaning": "吃了好吃的點心。"
+    "example": "お菓子を食べすぎると太ってしまいます。",
+    "exampleMeaning": "零食吃太多的話會變胖。"
   },
   {
     "id": "n5_0104",
@@ -1184,8 +1184,8 @@
     "partOfSpeech": "名詞",
     "meaning": "酒",
     "level": "N5",
-    "example": "日本のお酒を飲みました。",
-    "exampleMeaning": "喝了日本酒。"
+    "example": "父はお酒が好きでよく飲みに行きます。",
+    "exampleMeaning": "父親很喜歡喝酒，常去喝酒。"
   },
   {
     "id": "n5_0109",
@@ -1195,8 +1195,8 @@
     "partOfSpeech": "名詞",
     "meaning": "盤子",
     "level": "N5",
-    "example": "お皿を洗ってください。",
-    "exampleMeaning": "請洗盤子。"
+    "example": "お皿をテーブルの上に並べてください。",
+    "exampleMeaning": "請把盤子擺在桌子上。"
   },
   {
     "id": "n5_0110",
@@ -1256,13 +1256,13 @@
   {
     "id": "n5_0115",
     "word": "お茶",
-    "reading": "おちゃ",
+    "reading": "お茶",
     "romaji": "ocha",
     "partOfSpeech": "名詞",
-    "meaning": "牛排 / 漢堡排 / 蒸汽火車",
+    "meaning": "茶",
     "level": "N5",
-    "example": "温かいお茶を飲みましょう。",
-    "exampleMeaning": "來喝杯熱茶吧。"
+    "example": "温かいお茶を飲みたい気分です。",
+    "exampleMeaning": "想要喝熱茶的心情。"
   },
   {
     "id": "n5_0116",
@@ -1437,8 +1437,8 @@
     "partOfSpeech": "名詞",
     "meaning": "便當",
     "level": "N5",
-    "example": "お弁当を作りました。",
-    "exampleMeaning": "做了便當。"
+    "example": "時間がある時はお弁当を作って持っていきます。",
+    "exampleMeaning": "有時間的時候我會做便當帶去。"
   },
   {
     "id": "n5_0132",
@@ -2216,10 +2216,10 @@
     "reading": "ぎゅうにく",
     "romaji": "gyuuniku",
     "partOfSpeech": "名詞",
-    "meaning": "緊的",
+    "meaning": "牛肉",
     "level": "N5",
-    "example": "この靴、デザインは可愛いんだけどサイズが小さすぎて足がすごく緊る感じがする。",
-    "exampleMeaning": "這雙鞋設計雖然很可愛，但尺寸太小了，感覺腳被勒得超級緊。"
+    "example": "今日は特売だったので牛肉を買いました。",
+    "exampleMeaning": "因為今天是特賣，所以買了牛肉。"
   },
   {
     "id": "n5_0203",
@@ -2229,8 +2229,8 @@
     "partOfSpeech": "名詞",
     "meaning": "牛奶",
     "level": "N5",
-    "example": "毎朝牛乳を飲みます。",
-    "exampleMeaning": "每天早晨喝牛奶。"
+    "example": "子供の頃から牛乳が嫌いでした。",
+    "exampleMeaning": "我從小時候就不喜歡喝牛奶。"
   },
   {
     "id": "n5_0204",
@@ -2405,8 +2405,8 @@
     "partOfSpeech": "名詞",
     "meaning": "水果",
     "level": "N5",
-    "example": "新鮮な果物が好きです。",
-    "exampleMeaning": "喜歡新鮮的水果。"
+    "example": "果物はテーブルの上にあります。",
+    "exampleMeaning": "水果在桌子上。"
   },
   {
     "id": "n5_0220",
@@ -2753,12 +2753,12 @@
     "id": "n5_0251",
     "word": "コーヒー",
     "reading": "コーヒー",
-    "romaji": "コーヒー",
+    "romaji": "koohii",
     "partOfSpeech": "名詞",
     "meaning": "咖啡",
     "level": "N5",
-    "example": "朝コーヒーを飲みます。",
-    "exampleMeaning": "早上喝咖啡。"
+    "example": "毎朝コーヒーを飲まないと目が覚めません。",
+    "exampleMeaning": "每天早上不喝咖啡就醒不過來。"
   },
   {
     "id": "n5_0252",
@@ -2852,12 +2852,12 @@
     "id": "n5_0260",
     "word": "コップ",
     "reading": "コップ",
-    "romaji": "コプ",
+    "romaji": "koppu",
     "partOfSpeech": "名詞",
-    "meaning": "杯子、玻璃杯",
+    "meaning": "杯子",
     "level": "N5",
-    "example": "コップに冷たい麦茶を入れて飲みました。",
-    "exampleMeaning": "在玻璃杯裡倒了冰麥茶喝。"
+    "example": "コップにジュースを注いであげました。",
+    "exampleMeaning": "倒了果汁到杯子裡給他。"
   },
   {
     "id": "n5_0261",
@@ -2905,14 +2905,14 @@
   },
   {
     "id": "n5_0265",
-    "word": "御飯",
+    "word": "ご飯",
     "reading": "ごはん",
     "romaji": "gohan",
     "partOfSpeech": "名詞",
-    "meaning": "米飯、餐食",
+    "meaning": "白飯、飯、餐",
     "level": "N5",
-    "example": "晩ご飯を食べましょう。",
-    "exampleMeaning": "來吃晚餐吧。"
+    "example": "ご飯はもう炊けましたか？",
+    "exampleMeaning": "飯已經煮好了嗎？"
   },
   {
     "id": "n5_0266",
@@ -3043,8 +3043,8 @@
     "partOfSpeech": "名詞",
     "meaning": "魚",
     "level": "N5",
-    "example": "魚料理が好きです。",
-    "exampleMeaning": "喜歡魚料理。"
+    "example": "刺身用の魚を買いに行きます。",
+    "exampleMeaning": "去買做生魚片用的魚。"
   },
   {
     "id": "n5_0278",
@@ -3118,10 +3118,10 @@
     "reading": "さとう",
     "romaji": "satou",
     "partOfSpeech": "名詞",
-    "meaning": "糖",
+    "meaning": "砂糖、糖",
     "level": "N5",
-    "example": "コーヒーに砂糖を入れます。",
-    "exampleMeaning": "在咖啡裡加糖。"
+    "example": "コーヒーには砂糖を入れません。",
+    "exampleMeaning": "咖啡裡不加糖。"
   },
   {
     "id": "n5_0285",
@@ -3208,8 +3208,8 @@
     "partOfSpeech": "名詞",
     "meaning": "鹽",
     "level": "N5",
-    "example": "このスープ、もう少し塩を入れた方がおいしいよ。",
-    "exampleMeaning": "這個湯再加一點鹽會更好喝喔。"
+    "example": "塩を入れすぎてしょっぱくなりました。",
+    "exampleMeaning": "鹽放太多變太鹹了。"
   },
   {
     "id": "n5_0293",
@@ -3527,8 +3527,8 @@
     "partOfSpeech": "名詞",
     "meaning": "醬油",
     "level": "N5",
-    "example": "寿司に醤油をつけます。",
-    "exampleMeaning": "吃壽司沾醬油。"
+    "example": "醤油はどこにありますか？",
+    "exampleMeaning": "醬油在哪裡呢？"
   },
   {
     "id": "n5_0322",
@@ -3721,12 +3721,12 @@
     "id": "n5_0339",
     "word": "スプーン",
     "reading": "スプーン",
-    "romaji": "スプーン",
+    "romaji": "supuun",
     "partOfSpeech": "名詞",
-    "meaning": "湯匙",
+    "meaning": "湯匙、勺子",
     "level": "N5",
-    "example": "スプーンでスープを飲みます。",
-    "exampleMeaning": "用湯匙喝湯。"
+    "example": "赤ちゃんはまだスプーンがうまく使えません。",
+    "exampleMeaning": "嬰兒還不太會使用湯匙。"
   },
   {
     "id": "n5_0340",
@@ -4308,8 +4308,8 @@
     "partOfSpeech": "名詞",
     "meaning": "食物",
     "level": "N5",
-    "example": "日本の食べ物は美味しくて、いつも食べ過ぎちゃう。",
-    "exampleMeaning": "日本的食物很好吃，害我總是吃太多。"
+    "example": "好きな食べ物は何ですか？",
+    "exampleMeaning": "你喜歡的食物是什麼呢？"
   },
   {
     "id": "n5_0393",
@@ -4328,10 +4328,10 @@
     "reading": "たまご",
     "romaji": "tamago",
     "partOfSpeech": "名詞",
-    "meaning": "蛋",
+    "meaning": "雞蛋、蛋",
     "level": "N5",
-    "example": "朝ごはんは目玉焼きと卵かけご飯にしよう。",
-    "exampleMeaning": "早餐就吃荷包蛋和生雞蛋拌飯吧。"
+    "example": "卵を割る時は気をつけてください。",
+    "exampleMeaning": "打蛋的時候請小心。"
   },
   {
     "id": "n5_0395",
@@ -5188,8 +5188,8 @@
     "partOfSpeech": "名詞",
     "meaning": "雞肉",
     "level": "N5",
-    "example": "今夜の夕食はヘルシーに鶏肉のサラダにしよう。",
-    "exampleMeaning": "今晚的晚餐就健康一點，吃雞肉沙拉吧。"
+    "example": "鶏肉は柔らかくて美味しいです。",
+    "exampleMeaning": "雞肉很嫩很好吃。"
   },
   {
     "id": "n5_0473",
@@ -5250,12 +5250,12 @@
     "id": "n5_0478",
     "word": "ナイフ",
     "reading": "ナイフ",
-    "romaji": "ナイフ",
+    "romaji": "naifu",
     "partOfSpeech": "名詞",
-    "meaning": "刀",
+    "meaning": "小刀、西餐刀",
     "level": "N5",
-    "example": "果物を切るために、ナイフを貸してください。",
-    "exampleMeaning": "為了切水果，請借我一把水果刀。"
+    "example": "ナイフで肉を小さく切ってください。",
+    "exampleMeaning": "請用刀把肉切小塊。"
   },
   {
     "id": "n5_0479",
@@ -5468,14 +5468,14 @@
   },
   {
     "id": "n5_0498",
-    "word": "肉",
-    "reading": "にく",
-    "romaji": "niku",
+    "word": "お肉",
+    "reading": "おにく",
+    "romaji": "oniku",
     "partOfSpeech": "名詞",
-    "meaning": "尼庫",
+    "meaning": "肉",
     "level": "N5",
-    "example": "今日の晩ご飯は焼肉にしよう！",
-    "exampleMeaning": "今晚的晚餐就吃燒肉吧！"
+    "example": "お肉は冷蔵庫に入れておいてください。",
+    "exampleMeaning": "請把肉先放進冰箱裡。"
   },
   {
     "id": "n5_0499",
@@ -5648,10 +5648,10 @@
     "reading": "のみもの",
     "romaji": "nomimono",
     "partOfSpeech": "名詞",
-    "meaning": "喝",
+    "meaning": "飲料",
     "level": "N5",
-    "example": "暑いから、何か冷たい飲み物がほしいね。",
-    "exampleMeaning": "好熱喔，想喝點冰涼的飲料呢。"
+    "example": "飲み物は何になさいますか？",
+    "exampleMeaning": "請問飲料要喝什麼呢？"
   },
   {
     "id": "n5_0515",
@@ -5776,14 +5776,14 @@
   },
   {
     "id": "n5_0526",
-    "word": "橋",
+    "word": "箸",
     "reading": "はし",
     "romaji": "hashi",
     "partOfSpeech": "名詞",
-    "meaning": "橋",
+    "meaning": "筷子",
     "level": "N5",
-    "example": "その古い橋を渡ると、すぐにコンビニが見えますよ。",
-    "exampleMeaning": "穿過那座老橋，很快就能看到便利商店喔。"
+    "example": "日本に来てから箸が上手に使えるようになりました。",
+    "exampleMeaning": "來日本之後變得會熟練使用筷子了。"
   },
   {
     "id": "n5_0527",
@@ -5855,12 +5855,12 @@
     "id": "n5_0533",
     "word": "バター",
     "reading": "バター",
-    "romaji": "バター",
+    "romaji": "bataa",
     "partOfSpeech": "名詞",
     "meaning": "奶油",
     "level": "N5",
-    "example": "焼きたてのトーストにバターをたっぷり塗ると、最高に美味しい。",
-    "exampleMeaning": "在剛烤好的吐司上抹上厚厚一層奶油，真的超級美味。"
+    "example": "パンにバターを塗って食べるのが好きです。",
+    "exampleMeaning": "我喜歡麵包抹奶油吃。"
   },
   {
     "id": "n5_0534",
@@ -6064,12 +6064,12 @@
     "id": "n5_0552",
     "word": "パン",
     "reading": "パン",
-    "romaji": "パン",
+    "romaji": "pan",
     "partOfSpeech": "名詞",
     "meaning": "麵包",
     "level": "N5",
-    "example": "近所のパン屋で、焼き立てのメロンパンを買ってきた。",
-    "exampleMeaning": "我在附近的麵包店買了剛出爐的菠蘿麵包。"
+    "example": "朝ご飯はパンにすることが多いです。",
+    "exampleMeaning": "早餐常以麵包為主。"
   },
   {
     "id": "n5_0553",
@@ -6095,14 +6095,14 @@
   },
   {
     "id": "n5_0555",
-    "word": "晩御飯",
+    "word": "晩ご飯",
     "reading": "ばんごはん",
     "romaji": "bangohan",
     "partOfSpeech": "名詞",
-    "meaning": "傍晚、晚上",
+    "meaning": "晚餐",
     "level": "N5",
-    "example": "今日の晩御飯は、みんなの大好きな餃子にしよう！",
-    "exampleMeaning": "今天的晚餐就做大家最愛的餃子吧！"
+    "example": "今晩は家で晩ご飯を作るつもりです。",
+    "exampleMeaning": "今晚打算在家做晚餐。"
   },
   {
     "id": "n5_0556",
@@ -6304,14 +6304,14 @@
   },
   {
     "id": "n5_0574",
-    "word": "昼御飯",
+    "word": "昼ご飯",
     "reading": "ひるごはん",
     "romaji": "hirugohan",
     "partOfSpeech": "名詞",
     "meaning": "午餐",
     "level": "N5",
-    "example": "今日の昼御飯は会社の近くでラーメンを食べた。",
-    "exampleMeaning": "我今天的午餐在公司附近吃了拉麵。"
+    "example": "昼ご飯は何にしますか？",
+    "exampleMeaning": "午餐要吃什麼呢？"
   },
   {
     "id": "n5_0575",
@@ -6361,12 +6361,12 @@
     "id": "n5_0579",
     "word": "フォーク",
     "reading": "フォーク",
-    "romaji": "フォーク",
+    "romaji": "fooku",
     "partOfSpeech": "名詞",
     "meaning": "叉子",
     "level": "N5",
-    "example": "ナイフとフォークを使って上手にステーキを食べました。",
-    "exampleMeaning": "我用刀叉熟練地享用牛排。"
+    "example": "フォークが見当たらないので探しています。",
+    "exampleMeaning": "找不到叉子，正在找。"
   },
   {
     "id": "n5_0580",
@@ -6409,8 +6409,8 @@
     "partOfSpeech": "名詞",
     "meaning": "豬肉",
     "level": "N5",
-    "example": "今日の夕食は豚肉と野菜をたっぷり入れた鍋にしよう。",
-    "exampleMeaning": "今天的晚餐就吃加入了滿滿豬肉和蔬菜的火鍋吧！"
+    "example": "豚肉が一番好きです。",
+    "exampleMeaning": "我最喜歡豬肉。"
   },
   {
     "id": "n5_0584",
@@ -7008,14 +7008,14 @@
   },
   {
     "id": "n5_0638",
-    "word": "水",
-    "reading": "みず",
-    "romaji": "mizu",
+    "word": "お水",
+    "reading": "おみず",
+    "romaji": "omizu",
     "partOfSpeech": "名詞",
-    "meaning": "水、冷水",
+    "meaning": "水",
     "level": "N5",
-    "example": "運動した後に冷たい水をたくさん飲みました。",
-    "exampleMeaning": "運動之後我喝了許多清涼的水。"
+    "example": "運動した後はお水をたくさん飲んでください。",
+    "exampleMeaning": "運動後請多喝水。"
   },
   {
     "id": "n5_0639",
@@ -7344,8 +7344,8 @@
     "partOfSpeech": "名詞",
     "meaning": "蔬菜",
     "level": "N5",
-    "example": "健康のために、毎日の食事で野菜をたくさん食べるようにしている。",
-    "exampleMeaning": "為了健康，我盡量每天飲食中都吃很多蔬菜。"
+    "example": "野菜は体にいいから、もっと食べるようにしています。",
+    "exampleMeaning": "蔬菜對身體好，所以我盡量多吃一點。"
   },
   {
     "id": "n5_0669",
@@ -7740,8 +7740,8 @@
     "partOfSpeech": "名詞",
     "meaning": "冰箱",
     "level": "N5",
-    "example": "買い物しすぎて、冷蔵庫のドアが閉まらないよ。",
-    "exampleMeaning": "買太多東西，冰箱的門都關不起來啦。"
+    "example": "野菜は冷蔵庫に入れておいてください。",
+    "exampleMeaning": "請把蔬菜放進冰箱裡。"
   },
   {
     "id": "n5_0705",
@@ -7896,5 +7896,115 @@
     "level": "N5",
     "example": "夕方から天気が悪くなるらしいので、傘を持っていった方がいい。",
     "exampleMeaning": "聽說傍晚開始天氣會變壞，最好帶把傘出門。"
+  },
+  {
+    "id": "n5_0719",
+    "word": "材料",
+    "reading": "ざいりょう",
+    "romaji": "zairyou",
+    "partOfSpeech": "名詞",
+    "meaning": "材料、食材",
+    "level": "N5",
+    "example": "カレーを作るために必要な材料を買いに行きます。",
+    "exampleMeaning": "去買做咖哩所需的材料。"
+  },
+  {
+    "id": "n5_0720",
+    "word": "サンドイッチ",
+    "reading": "サンドイッチ",
+    "romaji": "sandoicchi",
+    "partOfSpeech": "名詞",
+    "meaning": "三明治",
+    "level": "N5",
+    "example": "コンビニでサンドイッチを買ってきました。",
+    "exampleMeaning": "我在便利商店買了三明治回來。"
+  },
+  {
+    "id": "n5_0721",
+    "word": "ハンバーガー",
+    "reading": "ハンバーガー",
+    "romaji": "hanbaagaa",
+    "partOfSpeech": "名詞",
+    "meaning": "漢堡",
+    "level": "N5",
+    "example": "時間がない時はハンバーガーを買って食べます。",
+    "exampleMeaning": "沒有時間的時候會買漢堡吃。"
+  },
+  {
+    "id": "n5_0722",
+    "word": "ラーメン",
+    "reading": "ラーメン",
+    "romaji": "raamen",
+    "partOfSpeech": "名詞",
+    "meaning": "拉麵",
+    "level": "N5",
+    "example": "寒い日はラーメンが食べたくなります。",
+    "exampleMeaning": "天氣冷的時候就會想吃拉麵。"
+  },
+  {
+    "id": "n5_0723",
+    "word": "寿司",
+    "reading": "すし",
+    "romaji": "sushi",
+    "partOfSpeech": "名詞",
+    "meaning": "壽司",
+    "level": "N5",
+    "example": "お祝いの日には寿司を食べることが多いです。",
+    "exampleMeaning": "慶祝的日子常會吃壽司。"
+  },
+  {
+    "id": "n5_0724",
+    "word": "天ぷら",
+    "reading": "てんぷら",
+    "romaji": "tenpura",
+    "partOfSpeech": "名詞",
+    "meaning": "天婦羅",
+    "level": "N5",
+    "example": "このお店の天ぷらは揚げたてで美味しいです。",
+    "exampleMeaning": "這家店的天婦羅是現炸的很好吃。"
+  },
+  {
+    "id": "n5_0725",
+    "word": "味噌汁",
+    "reading": "みそしる",
+    "romaji": "misoshiru",
+    "partOfSpeech": "名詞",
+    "meaning": "味噌湯",
+    "level": "N5",
+    "example": "朝に味噌汁を作る習慣があります。",
+    "exampleMeaning": "我有早上煮味噌湯的習慣。"
+  },
+  {
+    "id": "n5_0726",
+    "word": "ケーキ",
+    "reading": "ケーキ",
+    "romaji": "keeki",
+    "partOfSpeech": "名詞",
+    "meaning": "蛋糕",
+    "level": "N5",
+    "example": "誕生日にケーキを焼いてあげました。",
+    "exampleMeaning": "生日的時候烤了蛋糕送給他。"
+  },
+  {
+    "id": "n5_0727",
+    "word": "アイスクリーム",
+    "reading": "アイスクリーム",
+    "romaji": "aisukuriimu",
+    "partOfSpeech": "名詞",
+    "meaning": "冰淇淋",
+    "level": "N5",
+    "example": "暑い日は子供にアイスクリームを買ってあげてしまいます。",
+    "exampleMeaning": "天氣熱的時候忍不住會買冰淇淋給小孩子。"
+  },
+  {
+    "id": "n5_0728",
+    "word": "ジュース",
+    "reading": "ジュース",
+    "romaji": "juusu",
+    "partOfSpeech": "名詞",
+    "meaning": "果汁",
+    "level": "N5",
+    "example": "子供たちはジュースを欲しがっています。",
+    "exampleMeaning": "小孩子們吵著要喝果汁。"
   }
 ]
