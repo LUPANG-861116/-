@@ -313,10 +313,10 @@
     "reading": "あに",
     "romaji": "ani",
     "partOfSpeech": "名詞",
-    "meaning": "哥哥（自己家的）",
+    "meaning": "（自己的）哥哥",
     "level": "N5",
-    "example": "兄は会社員です。",
-    "exampleMeaning": "我哥哥是上班族。"
+    "example": "兄は背が高いです。",
+    "exampleMeaning": "哥哥身材很高。"
   },
   {
     "id": "n5_0030",
@@ -324,10 +324,10 @@
     "reading": "あね",
     "romaji": "ane",
     "partOfSpeech": "名詞",
-    "meaning": "姊姊（自己家的）",
+    "meaning": "（自己的）姊姊",
     "level": "N5",
-    "example": "姉は東京に住んでいます。",
-    "exampleMeaning": "我姊姊住在東京。"
+    "example": "姉は病院で働いています。",
+    "exampleMeaning": "姊姊在醫院工作。"
   },
   {
     "id": "n5_0031",
@@ -742,10 +742,10 @@
     "reading": "いもうと",
     "romaji": "imouto",
     "partOfSpeech": "名詞",
-    "meaning": "妹妹",
+    "meaning": "（自己的）妹妹",
     "level": "N5",
-    "example": "妹は高校生です。",
-    "exampleMeaning": "我妹妹是高中生。"
+    "example": "妹はピアノを習っています。",
+    "exampleMeaning": "妹妹正在學鋼琴。"
   },
   {
     "id": "n5_0069",
@@ -1116,10 +1116,10 @@
     "reading": "おかあさん",
     "romaji": "okaasan",
     "partOfSpeech": "名詞",
-    "meaning": "母親、媽媽",
+    "meaning": "母親、媽媽（尊稱）",
     "level": "N5",
-    "example": "お母さんは料理が上手です。",
-    "exampleMeaning": "媽媽很會做菜。"
+    "example": "お母さんは料理が上手ですね。",
+    "exampleMeaning": "媽媽做菜很厲害呢。"
   },
   {
     "id": "n5_0103",
@@ -1171,10 +1171,10 @@
     "reading": "おくさん",
     "romaji": "okusan",
     "partOfSpeech": "名詞",
-    "meaning": "夫人、太太（他人妻子）",
+    "meaning": "太太、夫人（尊稱他人妻子）",
     "level": "N5",
-    "example": "田中さんの奥さんは優しいです。",
-    "exampleMeaning": "田中先生的太太很溫柔。"
+    "example": "奥さんも日本人ですか？",
+    "exampleMeaning": "尊夫人也是日本人嗎？"
   },
   {
     "id": "n5_0108",
@@ -1215,10 +1215,10 @@
     "reading": "おじいさん",
     "romaji": "ojiisan",
     "partOfSpeech": "名詞",
-    "meaning": "爺爺、祖父",
+    "meaning": "爺爺、外公、老爺爺",
     "level": "N5",
-    "example": "おじいさんは元気です。",
-    "exampleMeaning": "爺爺很硬朗健康。"
+    "example": "おじいさんは毎朝散歩します。",
+    "exampleMeaning": "爺爺每天早上都散步。"
   },
   {
     "id": "n5_0112",
@@ -1281,10 +1281,10 @@
     "reading": "おとうさん",
     "romaji": "otousan",
     "partOfSpeech": "名詞",
-    "meaning": "父親、爸爸",
+    "meaning": "父親、爸爸（尊稱）",
     "level": "N5",
-    "example": "お父さんは会社員です。",
-    "exampleMeaning": "爸爸是上班族。"
+    "example": "お父さんはお元気ですか？",
+    "exampleMeaning": "令尊身體還好嗎？"
   },
   {
     "id": "n5_0118",
@@ -1292,10 +1292,10 @@
     "reading": "おとうと",
     "romaji": "otouto",
     "partOfSpeech": "名詞",
-    "meaning": "弟弟",
+    "meaning": "（自己的）弟弟",
     "level": "N5",
-    "example": "弟とゲームをします。",
-    "exampleMeaning": "和弟弟一起玩遊戲。"
+    "example": "弟はサッカーが好きです。",
+    "exampleMeaning": "弟弟喜歡踢足球。"
   },
   {
     "id": "n5_0119",
@@ -1314,10 +1314,10 @@
     "reading": "おとこのこ",
     "romaji": "otokonoko",
     "partOfSpeech": "名詞",
-    "meaning": "男孩",
+    "meaning": "男孩、小男孩",
     "level": "N5",
-    "example": "男の子が走っています。",
-    "exampleMeaning": "小男孩正在奔跑。"
+    "example": "あの男の子は元気ですね。",
+    "exampleMeaning": "那個小男孩真有精神呢。"
   },
   {
     "id": "n5_0121",
@@ -1349,8 +1349,8 @@
     "partOfSpeech": "名詞",
     "meaning": "大人、成年人",
     "level": "N5",
-    "example": "大人のチケットを買います。",
-    "exampleMeaning": "買全票（成人票）。"
+    "example": "大人でも勉強は大切です。",
+    "exampleMeaning": "即使是大人，學習也很重要。"
   },
   {
     "id": "n5_0124",
@@ -1380,10 +1380,10 @@
     "reading": "おにいさん",
     "romaji": "oniisan",
     "partOfSpeech": "名詞",
-    "meaning": "哥哥",
+    "meaning": "哥哥（尊稱他人或自家）",
     "level": "N5",
-    "example": "お兄さんは背が高いですね。",
-    "exampleMeaning": "哥哥身材很高呢。"
+    "example": "お兄さんは何歳ですか？",
+    "exampleMeaning": "令兄今年幾歲了呢？"
   },
   {
     "id": "n5_0127",
@@ -1391,10 +1391,10 @@
     "reading": "おねえさん",
     "romaji": "oneesan",
     "partOfSpeech": "名詞",
-    "meaning": "姐姐",
+    "meaning": "姊姊（尊稱他人或自家）",
     "level": "N5",
-    "example": "お姉さんは優しいです。",
-    "exampleMeaning": "姊姊很溫柔。"
+    "example": "お姉さんはとても親切です。",
+    "exampleMeaning": "姊姊為人非常親切。"
   },
   {
     "id": "n5_0128",
@@ -1413,10 +1413,10 @@
     "reading": "おばあさん",
     "romaji": "obaasan",
     "partOfSpeech": "名詞",
-    "meaning": "奶奶、祖母",
+    "meaning": "奶奶、外婆、老奶奶",
     "level": "N5",
-    "example": "おばあさんに手紙を書きます。",
-    "exampleMeaning": "寫信給奶奶。"
+    "example": "おばあさんはとても元気です。",
+    "exampleMeaning": "奶奶身體非常硬朗健康。"
   },
   {
     "id": "n5_0130",
@@ -1545,10 +1545,10 @@
     "reading": "おんなのこ",
     "romaji": "onnanoko",
     "partOfSpeech": "名詞",
-    "meaning": "女孩",
+    "meaning": "女孩、小女孩",
     "level": "N5",
-    "example": "可愛い女の子が笑っています。",
-    "exampleMeaning": "可愛的小女孩正在笑。"
+    "example": "女の子が本を読んでいます。",
+    "exampleMeaning": "小女孩正在看書。"
   },
   {
     "id": "n5_0142",
@@ -1591,8 +1591,8 @@
     "partOfSpeech": "名詞",
     "meaning": "外國人",
     "level": "N5",
-    "example": "外国人の友達がいます。",
-    "exampleMeaning": "我有外國朋友。"
+    "example": "外国人と英語で話しました。",
+    "exampleMeaning": "和外國人用英語交談了。"
   },
   {
     "id": "n5_0146",
@@ -1708,12 +1708,12 @@
     "id": "n5_0156",
     "word": "学生",
     "reading": "がくせい",
-    "romaji": "gakusei",
+    "romaji": "gaksei",
     "partOfSpeech": "名詞",
     "meaning": "學生",
     "level": "N5",
     "example": "私は大学の学生です。",
-    "exampleMeaning": "我是大學生。"
+    "exampleMeaning": "我是大學的學生。"
   },
   {
     "id": "n5_0157",
@@ -1798,10 +1798,10 @@
     "reading": "かた",
     "romaji": "kata",
     "partOfSpeech": "名詞",
-    "meaning": "位、方向、方法",
+    "meaning": "位、人（人的尊敬語）",
     "level": "N5",
-    "example": "あの方はどなたですか。",
-    "exampleMeaning": "那位是哪一位？"
+    "example": "あの方は校長先生です。",
+    "exampleMeaning": "那一位是校長先生。"
   },
   {
     "id": "n5_0165",
@@ -1811,8 +1811,8 @@
     "partOfSpeech": "名詞",
     "meaning": "家人、家族",
     "level": "N5",
-    "example": "家族と一緒に住んでいます。",
-    "exampleMeaning": "和家人住在一起。"
+    "example": "家族と一緒に旅行しました。",
+    "exampleMeaning": "和家人一起去旅行了。"
   },
   {
     "id": "n5_0166",
@@ -2887,10 +2887,10 @@
     "reading": "こども",
     "romaji": "kodomo",
     "partOfSpeech": "名詞",
-    "meaning": "小孩子、兒童",
+    "meaning": "小孩、孩子",
     "level": "N5",
-    "example": "子供たちが遊んでいます。",
-    "exampleMeaning": "小孩子們正在玩耍。"
+    "example": "子供が公園で遊んでいます。",
+    "exampleMeaning": "孩子在公園裡玩耍。"
   },
   {
     "id": "n5_0264",
@@ -3147,14 +3147,14 @@
   },
   {
     "id": "n5_0287",
-    "word": "～さん",
-    "reading": "～さん",
-    "romaji": "～san",
-    "partOfSpeech": "名詞",
-    "meaning": "…先生、…小姐（接在人名後的禮貌稱呼）",
+    "word": "さん",
+    "reading": "さん",
+    "romaji": "san",
+    "partOfSpeech": "其他",
+    "meaning": "先生、小姐（尊稱接尾詞）",
     "level": "N5",
-    "example": "田中さんは親切でいつもみんなを助けてくれます。",
-    "exampleMeaning": "田中先生為人親切，總是熱心幫助大家。"
+    "example": "田中さんは親切です。",
+    "exampleMeaning": "田中先生為人很親切。"
   },
   {
     "id": "n5_0288",
@@ -3362,8 +3362,8 @@
     "partOfSpeech": "名詞",
     "meaning": "自己、自身",
     "level": "N5",
-    "example": "自分でやります。",
-    "exampleMeaning": "我自己來做。"
+    "example": "自分の名前を書いてください。",
+    "exampleMeaning": "請寫下自己的名字。"
   },
   {
     "id": "n5_0307",
@@ -3800,10 +3800,10 @@
     "reading": "せいと",
     "romaji": "seito",
     "partOfSpeech": "名詞",
-    "meaning": "學生（中學以下）",
+    "meaning": "學生、中小學生",
     "level": "N5",
-    "example": "真面目な生徒です。",
-    "exampleMeaning": "是個認真的學生。"
+    "example": "この学校の生徒は多いです。",
+    "exampleMeaning": "這所學校的學生很多。"
   },
   {
     "id": "n5_0347",
@@ -3901,8 +3901,8 @@
     "partOfSpeech": "名詞",
     "meaning": "老師、醫生",
     "level": "N5",
-    "example": "先生に質問します。",
-    "exampleMeaning": "向老師請教問題。"
+    "example": "先生に質問しました。",
+    "exampleMeaning": "向老師提出了問題。"
   },
   {
     "id": "n5_0356",
@@ -4214,14 +4214,14 @@
   },
   {
     "id": "n5_0384",
-    "word": "～たち",
-    "reading": "～たち",
-    "romaji": "～tachi",
-    "partOfSpeech": "名詞",
-    "meaning": "…們（表示人或動物的複數接尾辭）",
+    "word": "たち",
+    "reading": "たち",
+    "romaji": "tachi",
+    "partOfSpeech": "其他",
+    "meaning": "們（複數接尾詞）",
     "level": "N5",
-    "example": "子供たちが校庭で元気に走り回っています。",
-    "exampleMeaning": "孩子們正在校園操場上充滿活力地奔跑。"
+    "example": "子供たちが公園で元気に遊んでいます。",
+    "exampleMeaning": "孩子們在公園裡充滿活力地玩耍。"
   },
   {
     "id": "n5_0385",
@@ -4338,11 +4338,11 @@
     "word": "誰",
     "reading": "だれ",
     "romaji": "dare",
-    "partOfSpeech": "名詞",
-    "meaning": "WHO",
+    "partOfSpeech": "代名詞",
+    "meaning": "誰",
     "level": "N5",
-    "example": "あの教室で掃除をしている人は誰ですか。",
-    "exampleMeaning": "在那個教室打掃的人是誰？"
+    "example": "あの人は誰ですか？",
+    "exampleMeaning": "那個人是誰？"
   },
   {
     "id": "n5_0396",
@@ -4460,10 +4460,10 @@
     "reading": "ちち",
     "romaji": "chichi",
     "partOfSpeech": "名詞",
-    "meaning": "父親",
+    "meaning": "（自己的）父親、爸爸",
     "level": "N5",
-    "example": "父は日曜日の朝からずっとゴルフの練習をしている。",
-    "exampleMeaning": "我父親從星期天早上開始就一直在練習高爾夫球。"
+    "example": "父は会社で働いています。",
+    "exampleMeaning": "父親在公司上班。"
   },
   {
     "id": "n5_0407",
@@ -5097,11 +5097,11 @@
     "word": "どなた",
     "reading": "どなた",
     "romaji": "donata",
-    "partOfSpeech": "名詞",
-    "meaning": "是誰",
+    "partOfSpeech": "代名詞",
+    "meaning": "哪位（誰的尊敬語）",
     "level": "N5",
-    "example": "あそこで話しているおじいさんはどなたですか？",
-    "exampleMeaning": "在那裡說話的老爺爺是哪位啊？"
+    "example": "受付にいる方はどなたですか？",
+    "exampleMeaning": "在櫃台的那位是哪一位呢？"
   },
   {
     "id": "n5_0465",
@@ -5155,8 +5155,8 @@
     "partOfSpeech": "名詞",
     "meaning": "朋友",
     "level": "N5",
-    "example": "休日は大親友と一緒にショッピングに行く。",
-    "exampleMeaning": "假日我都和摯友一起去逛街。"
+    "example": "友達と映画を見ました。",
+    "exampleMeaning": "和朋友一起看了電影。"
   },
   {
     "id": "n5_0470",
@@ -5956,10 +5956,10 @@
     "reading": "はは",
     "romaji": "haha",
     "partOfSpeech": "名詞",
-    "meaning": "母親",
+    "meaning": "（自己的）母親、媽媽",
     "level": "N5",
-    "example": "母が作る手作りのカレーライスが、世界で一番好きです。",
-    "exampleMeaning": "我最喜歡媽媽親手做的咖哩飯，是世界上最好吃的。"
+    "example": "母は料理が上手です。",
+    "exampleMeaning": "母親很會做菜。"
   },
   {
     "id": "n5_0543",
@@ -6198,10 +6198,10 @@
     "reading": "ひと",
     "romaji": "hito",
     "partOfSpeech": "名詞",
-    "meaning": "人們",
+    "meaning": "人",
     "level": "N5",
-    "example": "渋谷のスクランブル交差点には、いつもたくさんの人がいる。",
-    "exampleMeaning": "澀谷的交叉路口總是擠滿了人。"
+    "example": "あの人は先生です。",
+    "exampleMeaning": "那個人是老師。"
   },
   {
     "id": "n5_0565",
@@ -7089,10 +7089,10 @@
     "reading": "みなさん",
     "romaji": "minasan",
     "partOfSpeech": "名詞",
-    "meaning": "各位、大家",
+    "meaning": "各位、大家（禮貌）",
     "level": "N5",
-    "example": "皆さん、本日はお集まりいただき誠にありがとうございます。",
-    "exampleMeaning": "各位，非常感謝大家今天撥冗齊聚一堂。"
+    "example": "皆さん、こんにちは。",
+    "exampleMeaning": "各位，大家好。"
   },
   {
     "id": "n5_0646",
@@ -7132,11 +7132,11 @@
     "word": "みんな",
     "reading": "みんな",
     "romaji": "minna",
-    "partOfSpeech": "な形容詞",
-    "meaning": "大家、全部、所有人",
+    "partOfSpeech": "名詞",
+    "meaning": "大家、全體",
     "level": "N5",
-    "example": "クラスのみんなで力を合わせて合唱コンクールで優勝しました。",
-    "exampleMeaning": "全班同學齊心協力，在合唱比賽中贏得了冠軍。"
+    "example": "みんなで公園へ行きました。",
+    "exampleMeaning": "大家一起去了公園。"
   },
   {
     "id": "n5_0650",
@@ -7694,10 +7694,10 @@
     "reading": "りょうしん",
     "romaji": "ryoushin",
     "partOfSpeech": "名詞",
-    "meaning": "父母",
+    "meaning": "雙親、父母親",
     "level": "N5",
-    "example": "来週の連休は、実家に帰って両親と過ごす予定です。",
-    "exampleMeaning": "下週的連假預計要回老家跟父母一起度過。"
+    "example": "両親は東京に住んでいます。",
+    "exampleMeaning": "父母住在東京。"
   },
   {
     "id": "n5_0701",
@@ -7848,10 +7848,10 @@
     "reading": "わたし",
     "romaji": "watashi",
     "partOfSpeech": "名詞",
-    "meaning": "我（男女通用的常用第一人稱）",
+    "meaning": "我",
     "level": "N5",
-    "example": "私は毎朝六時に起きてジョギングをしています。",
-    "exampleMeaning": "我每天早上六點起床慢跑鍛鍊。"
+    "example": "私は会社員です。",
+    "exampleMeaning": "我是上班族。"
   },
   {
     "id": "n5_0715",
@@ -8006,5 +8006,533 @@
     "level": "N5",
     "example": "子供たちはジュースを欲しがっています。",
     "exampleMeaning": "小孩子們吵著要喝果汁。"
+  },
+  {
+    "id": "n5_0729",
+    "word": "おはようございます",
+    "reading": "おはようございます",
+    "romaji": "ohayougozaimasu",
+    "partOfSpeech": "感動詞",
+    "meaning": "早安（禮貌）",
+    "level": "N5",
+    "example": "おはようございます。",
+    "exampleMeaning": "早上好、早安。"
+  },
+  {
+    "id": "n5_0730",
+    "word": "おはよう",
+    "reading": "おはよう",
+    "romaji": "ohayou",
+    "partOfSpeech": "感動詞",
+    "meaning": "早安（平輩/親近）",
+    "level": "N5",
+    "example": "おはよう。",
+    "exampleMeaning": "早安。"
+  },
+  {
+    "id": "n5_0731",
+    "word": "こんにちは",
+    "reading": "こんにちは",
+    "romaji": "konnichiha",
+    "partOfSpeech": "感動詞",
+    "meaning": "你好、午安",
+    "level": "N5",
+    "example": "こんにちは。",
+    "exampleMeaning": "你好、午安。"
+  },
+  {
+    "id": "n5_0732",
+    "word": "こんばんは",
+    "reading": "こんばんは",
+    "romaji": "konbanha",
+    "partOfSpeech": "感動詞",
+    "meaning": "晚安、晚上好",
+    "level": "N5",
+    "example": "こんばんは。",
+    "exampleMeaning": "晚上好、晚安。"
+  },
+  {
+    "id": "n5_0733",
+    "word": "おやすみなさい",
+    "reading": "おやすみなさい",
+    "romaji": "oyasuminasai",
+    "partOfSpeech": "感動詞",
+    "meaning": "晚安（睡前禮貌）",
+    "level": "N5",
+    "example": "おやすみなさい。",
+    "exampleMeaning": "晚安、祝好夢。"
+  },
+  {
+    "id": "n5_0734",
+    "word": "おやすみ",
+    "reading": "おやすみ",
+    "romaji": "oyasumi",
+    "partOfSpeech": "感動詞",
+    "meaning": "晚安（睡前親近）",
+    "level": "N5",
+    "example": "おやすみ。",
+    "exampleMeaning": "晚安。"
+  },
+  {
+    "id": "n5_0735",
+    "word": "さようなら",
+    "reading": "さようなら",
+    "romaji": "sayounara",
+    "partOfSpeech": "感動詞",
+    "meaning": "再見",
+    "level": "N5",
+    "example": "さようなら。",
+    "exampleMeaning": "再見。"
+  },
+  {
+    "id": "n5_0736",
+    "word": "じゃあね",
+    "reading": "じゃあね",
+    "romaji": "jaane",
+    "partOfSpeech": "感動詞",
+    "meaning": "待會見、再見",
+    "level": "N5",
+    "example": "じゃあね。",
+    "exampleMeaning": "待會見、再見囉。"
+  },
+  {
+    "id": "n5_0737",
+    "word": "またね",
+    "reading": "またね",
+    "romaji": "matane",
+    "partOfSpeech": "感動詞",
+    "meaning": "下次見、回頭見",
+    "level": "N5",
+    "example": "またね。",
+    "exampleMeaning": "下次見。"
+  },
+  {
+    "id": "n5_0738",
+    "word": "ありがとうございます",
+    "reading": "ありがとうございます",
+    "romaji": "arigatougozaimasu",
+    "partOfSpeech": "感動詞",
+    "meaning": "非常感謝（禮貌）",
+    "level": "N5",
+    "example": "ありがとうございます。",
+    "exampleMeaning": "非常感謝您。"
+  },
+  {
+    "id": "n5_0739",
+    "word": "ありがとう",
+    "reading": "ありがとう",
+    "romaji": "arigatou",
+    "partOfSpeech": "感動詞",
+    "meaning": "謝謝（平輩/親近）",
+    "level": "N5",
+    "example": "ありがとう。",
+    "exampleMeaning": "謝謝。"
+  },
+  {
+    "id": "n5_0740",
+    "word": "どうもありがとう",
+    "reading": "どうもありがとう",
+    "romaji": "doumoarigatou",
+    "partOfSpeech": "感動詞",
+    "meaning": "多謝、非常感謝",
+    "level": "N5",
+    "example": "どうもありがとう。",
+    "exampleMeaning": "真的很謝謝你。"
+  },
+  {
+    "id": "n5_0741",
+    "word": "すみません",
+    "reading": "すみません",
+    "romaji": "sumimasen",
+    "partOfSpeech": "感動詞",
+    "meaning": "不好意思、對不起、請問",
+    "level": "N5",
+    "example": "すみません。",
+    "exampleMeaning": "不好意思、對不起。"
+  },
+  {
+    "id": "n5_0742",
+    "word": "ごめんなさい",
+    "reading": "ごめんなさい",
+    "romaji": "gomennasai",
+    "partOfSpeech": "感動詞",
+    "meaning": "對不起、抱歉",
+    "level": "N5",
+    "example": "ごめんなさい。",
+    "exampleMeaning": "對不起。"
+  },
+  {
+    "id": "n5_0743",
+    "word": "ごめん",
+    "reading": "ごめん",
+    "romaji": "gomen",
+    "partOfSpeech": "感動詞",
+    "meaning": "抱歉、對不起",
+    "level": "N5",
+    "example": "ごめん。",
+    "exampleMeaning": "抱歉。"
+  },
+  {
+    "id": "n5_0744",
+    "word": "いえ、どういたしまして",
+    "reading": "いえ、どういたしまして",
+    "romaji": "iedouitashimashite",
+    "partOfSpeech": "感動詞",
+    "meaning": "不用客氣、哪裡哪裡",
+    "level": "N5",
+    "example": "いえ、どういたしまして。",
+    "exampleMeaning": "不用客氣。"
+  },
+  {
+    "id": "n5_0745",
+    "word": "どういたしまして",
+    "reading": "どういたしまして",
+    "romaji": "douitashimashite",
+    "partOfSpeech": "感動詞",
+    "meaning": "不客氣",
+    "level": "N5",
+    "example": "どういたしまして。",
+    "exampleMeaning": "不客氣。"
+  },
+  {
+    "id": "n5_0746",
+    "word": "初めまして",
+    "reading": "はじめまして",
+    "romaji": "hajimemashite",
+    "partOfSpeech": "感動詞",
+    "meaning": "初次見面",
+    "level": "N5",
+    "example": "初めまして、よろしくお願いします。",
+    "exampleMeaning": "初次見面，請多指教。"
+  },
+  {
+    "id": "n5_0747",
+    "word": "よろしくお願いします",
+    "reading": "よろしくおねがいします",
+    "romaji": "yoroshikuonegaishimasu",
+    "partOfSpeech": "句型片語",
+    "meaning": "請多指教",
+    "level": "N5",
+    "example": "これからよろしくお願いします。",
+    "exampleMeaning": "今後請多指教。"
+  },
+  {
+    "id": "n5_0748",
+    "word": "お元気ですか",
+    "reading": "おげんきですか",
+    "romaji": "ogenkidesuka",
+    "partOfSpeech": "句型片語",
+    "meaning": "你好嗎？身體好嗎？",
+    "level": "N5",
+    "example": "お元気ですか？",
+    "exampleMeaning": "您好嗎？"
+  },
+  {
+    "id": "n5_0749",
+    "word": "元気です",
+    "reading": "げんきです",
+    "romaji": "genkidesu",
+    "partOfSpeech": "句型片語",
+    "meaning": "我很好、很有精神",
+    "level": "N5",
+    "example": "はい、元気です。",
+    "exampleMeaning": "是的，我很好。"
+  },
+  {
+    "id": "n5_0750",
+    "word": "ご馳走様でした",
+    "reading": "ごちそうさまでした",
+    "romaji": "gochisousamadeshita",
+    "partOfSpeech": "感動詞",
+    "meaning": "謝謝招待、吃飽了（飯後）",
+    "level": "N5",
+    "example": "ご馳走様でした。とても美味しかったです。",
+    "exampleMeaning": "謝謝招待，非常好吃。"
+  },
+  {
+    "id": "n5_0751",
+    "word": "行ってきます",
+    "reading": "いってきます",
+    "romaji": "ittekimasu",
+    "partOfSpeech": "感動詞",
+    "meaning": "我出門了",
+    "level": "N5",
+    "example": "行ってきます。",
+    "exampleMeaning": "我出門了。"
+  },
+  {
+    "id": "n5_0752",
+    "word": "行ってらっしゃい",
+    "reading": "いってらっしゃい",
+    "romaji": "itterasshai",
+    "partOfSpeech": "感動詞",
+    "meaning": "慢走、一路順風",
+    "level": "N5",
+    "example": "行ってらっしゃい。",
+    "exampleMeaning": "慢走。"
+  },
+  {
+    "id": "n5_0753",
+    "word": "ただいま",
+    "reading": "ただいま",
+    "romaji": "tadaima",
+    "partOfSpeech": "感動詞",
+    "meaning": "我回來了",
+    "level": "N5",
+    "example": "ただいま。",
+    "exampleMeaning": "我回來了。"
+  },
+  {
+    "id": "n5_0754",
+    "word": "お帰りなさい",
+    "reading": "おかえりなさい",
+    "romaji": "okaerinasai",
+    "partOfSpeech": "感動詞",
+    "meaning": "你回來了、歡迎回家",
+    "level": "N5",
+    "example": "お帰りなさい。",
+    "exampleMeaning": "歡迎回家。"
+  },
+  {
+    "id": "n5_0755",
+    "word": "お先に失礼します",
+    "reading": "おさきにしつれいします",
+    "romaji": "osakinishitsureishimasu",
+    "partOfSpeech": "句型片語",
+    "meaning": "我先告辭了、我先走了",
+    "level": "N5",
+    "example": "お先に失礼します。",
+    "exampleMeaning": "我先告辭了。"
+  },
+  {
+    "id": "n5_0756",
+    "word": "お疲れ様でした",
+    "reading": "おつかれさまでした",
+    "romaji": "otsukaresamadeshita",
+    "partOfSpeech": "句型片語",
+    "meaning": "辛苦了",
+    "level": "N5",
+    "example": "今日もお疲れ様でした。",
+    "exampleMeaning": "今天也辛苦了。"
+  },
+  {
+    "id": "n5_0757",
+    "word": "よろしく",
+    "reading": "よろしく",
+    "romaji": "yoroshiku",
+    "partOfSpeech": "感動詞",
+    "meaning": "請多指教（簡略/平輩）",
+    "level": "N5",
+    "example": "これからもよろしくね。",
+    "exampleMeaning": "今後也請多指教囉。"
+  },
+  {
+    "id": "n5_0758",
+    "word": "わかりました",
+    "reading": "わかりました",
+    "romaji": "wakarimashita",
+    "partOfSpeech": "句型片語",
+    "meaning": "明白了、知道了",
+    "level": "N5",
+    "example": "はい、わかりました。",
+    "exampleMeaning": "好的，我明白了。"
+  },
+  {
+    "id": "n5_0759",
+    "word": "知りません",
+    "reading": "しりません",
+    "romaji": "shirimasen",
+    "partOfSpeech": "句型片語",
+    "meaning": "不知道",
+    "level": "N5",
+    "example": "そのことについては知りません。",
+    "exampleMeaning": "關於那件事我不知道。"
+  },
+  {
+    "id": "n5_0760",
+    "word": "少し待ってください",
+    "reading": "すこしまってください",
+    "romaji": "sukoshimatte kudasai",
+    "partOfSpeech": "句型片語",
+    "meaning": "請稍微等一下",
+    "level": "N5",
+    "example": "少し待ってください。",
+    "exampleMeaning": "請稍等一下。"
+  },
+  {
+    "id": "n5_0761",
+    "word": "もう一度言ってください",
+    "reading": "もういちどいってください",
+    "romaji": "mouichidoitte kudasai",
+    "partOfSpeech": "句型片語",
+    "meaning": "請再說一次",
+    "level": "N5",
+    "example": "すみませんが、もう一度言ってください。",
+    "exampleMeaning": "不好意思，請您再說一次。"
+  },
+  {
+    "id": "n5_0762",
+    "word": "日本語で何と言いますか",
+    "reading": "にほんごでなんといいますか",
+    "romaji": "nihongodenantoiimasuka",
+    "partOfSpeech": "句型片語",
+    "meaning": "用日語怎麼說呢？",
+    "level": "N5",
+    "example": "これは日本語で何と言いますか？",
+    "exampleMeaning": "這個用日語要怎麼說呢？"
+  },
+  {
+    "id": "n5_0763",
+    "word": "僕",
+    "reading": "ぼく",
+    "romaji": "boku",
+    "partOfSpeech": "名詞",
+    "meaning": "我（男性自稱）",
+    "level": "N5",
+    "example": "僕は毎日日本語を勉強します。",
+    "exampleMeaning": "我每天都學習日語。"
+  },
+  {
+    "id": "n5_0764",
+    "word": "彼",
+    "reading": "かれ",
+    "romaji": "kare",
+    "partOfSpeech": "名詞",
+    "meaning": "他、男朋友",
+    "level": "N5",
+    "example": "彼は私の友達です。",
+    "exampleMeaning": "他是我的朋友。"
+  },
+  {
+    "id": "n5_0765",
+    "word": "彼女",
+    "reading": "かのじょ",
+    "romaji": "kanojo",
+    "partOfSpeech": "名詞",
+    "meaning": "她、女朋友",
+    "level": "N5",
+    "example": "彼女は学生です。",
+    "exampleMeaning": "她是學生。"
+  },
+  {
+    "id": "n5_0766",
+    "word": "親",
+    "reading": "おや",
+    "romaji": "oya",
+    "partOfSpeech": "名詞",
+    "meaning": "父母、親人",
+    "level": "N5",
+    "example": "親に電話をしました。",
+    "exampleMeaning": "給父母打了電話。"
+  },
+  {
+    "id": "n5_0767",
+    "word": "夫",
+    "reading": "おっと",
+    "romaji": "otto",
+    "partOfSpeech": "名詞",
+    "meaning": "（自己的）丈夫、先生",
+    "level": "N5",
+    "example": "夫は毎朝コーヒーを飲みます。",
+    "exampleMeaning": "丈夫每天早上都喝咖啡。"
+  },
+  {
+    "id": "n5_0768",
+    "word": "妻",
+    "reading": "つま",
+    "romaji": "tsuma",
+    "partOfSpeech": "名詞",
+    "meaning": "（自己的）妻子、太太",
+    "level": "N5",
+    "example": "妻は図書館で働いています。",
+    "exampleMeaning": "妻子在圖書館工作。"
+  },
+  {
+    "id": "n5_0769",
+    "word": "弟さん",
+    "reading": "おとうとさん",
+    "romaji": "otoutosan",
+    "partOfSpeech": "名詞",
+    "meaning": "令弟、弟弟（尊稱他人）",
+    "level": "N5",
+    "example": "弟さんは学生ですか？",
+    "exampleMeaning": "令弟是學生嗎？"
+  },
+  {
+    "id": "n5_0770",
+    "word": "妹さん",
+    "reading": "いもうとさん",
+    "romaji": "imoutosan",
+    "partOfSpeech": "名詞",
+    "meaning": "令妹、妹妹（尊稱他人）",
+    "level": "N5",
+    "example": "妹さんは高校生ですか？",
+    "exampleMeaning": "令妹是高中生嗎？"
+  },
+  {
+    "id": "n5_0771",
+    "word": "ご両親",
+    "reading": "ごりょうしん",
+    "romaji": "goryoushin",
+    "partOfSpeech": "名詞",
+    "meaning": "令尊令堂、父母親（尊稱他人）",
+    "level": "N5",
+    "example": "ご両親はお元気ですか？",
+    "exampleMeaning": "令尊令堂身體還好嗎？"
+  },
+  {
+    "id": "n5_0772",
+    "word": "ご家族",
+    "reading": "ごかぞく",
+    "romaji": "gokazoku",
+    "partOfSpeech": "名詞",
+    "meaning": "府上家人、家屬（尊稱他人）",
+    "level": "N5",
+    "example": "ご家族も一緒に来ますか？",
+    "exampleMeaning": "家人也一起過來嗎？"
+  },
+  {
+    "id": "n5_0773",
+    "word": "お子さん",
+    "reading": "おこさん",
+    "romaji": "okosan",
+    "partOfSpeech": "名詞",
+    "meaning": "令郎、令媛、孩子（尊稱他人）",
+    "level": "N5",
+    "example": "お子さんは何歳ですか？",
+    "exampleMeaning": "令郎（令媛）幾歲了呢？"
+  },
+  {
+    "id": "n5_0774",
+    "word": "ご主人",
+    "reading": "ごしゅじん",
+    "romaji": "goshujin",
+    "partOfSpeech": "名詞",
+    "meaning": "先生、外子（尊稱他人丈夫）",
+    "level": "N5",
+    "example": "ご主人は会社員ですか？",
+    "exampleMeaning": "您先生是上班族嗎？"
+  },
+  {
+    "id": "n5_0775",
+    "word": "男の人",
+    "reading": "おとこのひと",
+    "romaji": "otokonohito",
+    "partOfSpeech": "名詞",
+    "meaning": "男人、男性",
+    "level": "N5",
+    "example": "あの男の人は先生です。",
+    "exampleMeaning": "那位男士是老師。"
+  },
+  {
+    "id": "n5_0776",
+    "word": "女の人",
+    "reading": "おんなのひと",
+    "romaji": "onnanohito",
+    "partOfSpeech": "名詞",
+    "meaning": "女人、女性",
+    "level": "N5",
+    "example": "あの女の人は私の母です。",
+    "exampleMeaning": "那位女士是我的母親。"
   }
 ]
