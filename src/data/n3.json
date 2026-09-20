@@ -3250,21 +3250,21 @@
     "reading": "あい",
     "romaji": "ai",
     "partOfSpeech": "名詞",
-    "meaning": "愛情、關愛、愛好",
+    "meaning": "愛、愛意",
     "level": "N3",
-    "example": "今回の機会を通じて、愛の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「愛情」的重要價值與深層魅力。"
+    "example": "愛は人を強くする。",
+    "exampleMeaning": "愛讓人變得堅強。"
   },
   {
     "id": "n3_0297",
     "word": "相変わらず",
     "reading": "あいかわらず",
     "romaji": "aikawarazu",
-    "partOfSpeech": "名詞",
-    "meaning": "照舊、依然如故",
+    "partOfSpeech": "副詞",
+    "meaning": "照舊、依然",
     "level": "N3",
-    "example": "今回の機会を通じて、相変わらずの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「照舊」的重要價值與深層魅力。"
+    "example": "兄は相変わらず忙しくて正月も帰ってこなかった。",
+    "exampleMeaning": "哥哥依然忙碌，過年也沒有回家。"
   },
   {
     "id": "n3_0298",
@@ -3283,10 +3283,10 @@
     "reading": "あいず",
     "romaji": "aizu",
     "partOfSpeech": "名詞",
-    "meaning": "符號",
+    "meaning": "信號、暗號",
     "level": "N3",
-    "example": "先生の手の合図に合わせて、みんなで一斉に歌い始めました。",
-    "exampleMeaning": "配合老師的手勢信號，大家一起開始齊聲歌唱。"
+    "example": "彼は目で合図を送ってきたが、私は気づかなかった。",
+    "exampleMeaning": "他用眼神向我發送信號，但我沒有注意到。"
   },
   {
     "id": "n3_0300",
@@ -3305,10 +3305,10 @@
     "reading": "あいする",
     "romaji": "aisuru",
     "partOfSpeech": "動詞",
-    "meaning": "愛",
+    "meaning": "熱愛、愛",
     "level": "N3",
-    "example": "毎日しっかり愛するように心がけています。",
-    "exampleMeaning": "每天都用心努力做好愛。"
+    "example": "彼はどんなに忙しくても家族を愛する気持ちを忘れない。",
+    "exampleMeaning": "他無論多麼忙碌，都不忘愛家人的心。"
   },
   {
     "id": "n3_0302",
@@ -3327,10 +3327,10 @@
     "reading": "あいにく",
     "romaji": "ainiku",
     "partOfSpeech": "副詞",
-    "meaning": "不巧、遺憾地",
+    "meaning": "不湊巧、遺憾",
     "level": "N3",
-    "example": "最近はあいにく体調に気をつけて生活しています。",
-    "exampleMeaning": "最近我不巧注意身體健康過生活。"
+    "example": "せっかく誘ってもらったのに、あいにく今日は用事があって行けない。",
+    "exampleMeaning": "難得受到你的邀請，很不湊巧今天有事無法前往。"
   },
   {
     "id": "n3_0304",
@@ -3347,12 +3347,12 @@
     "id": "n3_0305",
     "word": "アウト",
     "reading": "アウト",
-    "romaji": "アウト",
+    "romaji": "auto",
     "partOfSpeech": "名詞",
-    "meaning": "出去",
+    "meaning": "出局、出界",
     "level": "N3",
-    "example": "今回の機会を通じて、アウトの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「出去」的重要價值與深層魅力。"
+    "example": "ギリギリのタイミングだったが判定はアウトだった。",
+    "exampleMeaning": "雖然時機非常驚險，但判決是出局。"
   },
   {
     "id": "n3_0306",
@@ -3360,10 +3360,10 @@
     "reading": "あかり",
     "romaji": "akari",
     "partOfSpeech": "名詞",
-    "meaning": "燈",
+    "meaning": "燈光、光明",
     "level": "N3",
-    "example": "今回の機会を通じて、明かりの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「燈」的重要價值與深層魅力。"
+    "example": "夜中に目が覚めたので明かりをつけずにそっと部屋を出た。",
+    "exampleMeaning": "半夜醒來後，沒有開燈悄悄地走出了房間。"
   },
   {
     "id": "n3_0307",
@@ -3371,21 +3371,21 @@
     "reading": "あき",
     "romaji": "aki",
     "partOfSpeech": "名詞",
-    "meaning": "空缺",
+    "meaning": "空缺、空房",
     "level": "N3",
-    "example": "今回の機会を通じて、空きの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「空缺」的重要價值與深層魅力。"
+    "example": "このホテルには空き部屋がありますか？",
+    "exampleMeaning": "這家飯店有空房間嗎？"
   },
   {
     "id": "n3_0308",
     "word": "明らか",
     "reading": "あきらか",
     "romaji": "akiraka",
-    "partOfSpeech": "名詞",
-    "meaning": "清除",
+    "partOfSpeech": "な形容詞",
+    "meaning": "明顯的、顯然的",
     "level": "N3",
-    "example": "今回の機会を通じて、明らかの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「清除」的重要價值與深層魅力。"
+    "example": "彼が嘘をついているのは明らかだ。",
+    "exampleMeaning": "他顯然是在說謊。"
   },
   {
     "id": "n3_0309",
@@ -3404,10 +3404,10 @@
     "reading": "あきる",
     "romaji": "akiru",
     "partOfSpeech": "動詞",
-    "meaning": "感到無聊",
+    "meaning": "厭倦、膩",
     "level": "N3",
-    "example": "この件について、しっかり飽きることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "毎日同じ料理ばかり食べていたらさすがに飽きてしまった。",
+    "exampleMeaning": "每天都吃同樣的料理，果然還是吃膩了。"
   },
   {
     "id": "n3_0311",
@@ -3415,10 +3415,10 @@
     "reading": "あくしゅ",
     "romaji": "akushu",
     "partOfSpeech": "名詞",
-    "meaning": "阿克舒",
+    "meaning": "握手",
     "level": "N3",
-    "example": "今回の機会を通じて、握手の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「阿克舒」的重要價值與深層魅力。"
+    "example": "試合が終わった後相手のチームと握手をした。",
+    "exampleMeaning": "比賽結束後與對手隊伍握了手。"
   },
   {
     "id": "n3_0312",
@@ -3426,10 +3426,10 @@
     "reading": "あくま",
     "romaji": "akuma",
     "partOfSpeech": "名詞",
-    "meaning": "魔鬼",
+    "meaning": "惡魔",
     "level": "N3",
-    "example": "今回の機会を通じて、悪魔の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「魔鬼」的重要價值與深層魅力。"
+    "example": "悪魔のような笑い声が聞こえた。",
+    "exampleMeaning": "聽到了宛如惡魔般的笑聲。"
   },
   {
     "id": "n3_0313",
@@ -3437,10 +3437,10 @@
     "reading": "あける",
     "romaji": "akeru",
     "partOfSpeech": "動詞",
-    "meaning": "黎明",
+    "meaning": "天明、期滿",
     "level": "N3",
-    "example": "この件について、しっかり明けることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "夜が明けるまで友達と話し続けてしまった。",
+    "exampleMeaning": "和朋友一直聊到天亮。"
   },
   {
     "id": "n3_0314",
@@ -3448,10 +3448,10 @@
     "reading": "あげる",
     "romaji": "ageru",
     "partOfSpeech": "動詞",
-    "meaning": "炒",
+    "meaning": "油炸",
     "level": "N3",
-    "example": "この件について、しっかり揚げることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "母は野菜を揚げて天ぷらを作ってくれた。",
+    "exampleMeaning": "母親炸了蔬菜為我做了天婦羅。"
   },
   {
     "id": "n3_0315",
@@ -3459,10 +3459,10 @@
     "reading": "あげる",
     "romaji": "ageru",
     "partOfSpeech": "動詞",
-    "meaning": "清單",
+    "meaning": "舉起、列舉",
     "level": "N3",
-    "example": "この件について、しっかり挙げることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "分からない人は遠慮しないで手を挙げてください。",
+    "exampleMeaning": "不懂的人請不要客氣舉手發問。"
   },
   {
     "id": "n3_0316",
@@ -3470,10 +3470,10 @@
     "reading": "あずかる",
     "romaji": "azukaru",
     "partOfSpeech": "動詞",
-    "meaning": "保管、代為照顧",
+    "meaning": "保管、代管",
     "level": "N3",
-    "example": "毎日しっかり預かるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好保管。"
+    "example": "旅行の間隣の家の犬を預かることになった。",
+    "exampleMeaning": "在鄰居旅行期間代為照顧他們的狗。"
   },
   {
     "id": "n3_0317",
@@ -3503,10 +3503,10 @@
     "reading": "あたえる",
     "romaji": "ataeru",
     "partOfSpeech": "動詞",
-    "meaning": "給",
+    "meaning": "給予、造成",
     "level": "N3",
-    "example": "毎日しっかり与えるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好給。"
+    "example": "タバコは体に多くの害を与えるのでなるべく吸わない方がいい。",
+    "exampleMeaning": "抽菸對身體造成許多危害，最好盡量不要抽。"
   },
   {
     "id": "n3_0320",
@@ -3525,10 +3525,10 @@
     "reading": "あたたまる",
     "romaji": "atatamaru",
     "partOfSpeech": "動詞",
-    "meaning": "溫暖的",
+    "meaning": "變暖、暖和",
     "level": "N3",
-    "example": "毎日しっかり暖まるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好溫暖的。"
+    "example": "だんだん暖かくなってきたのでコートはもういらない。",
+    "exampleMeaning": "天氣漸漸暖和起來，已經不再需要大衣了。"
   },
   {
     "id": "n3_0322",
@@ -3591,10 +3591,10 @@
     "reading": "あたる",
     "romaji": "ataru",
     "partOfSpeech": "動詞",
-    "meaning": "打",
+    "meaning": "中獎、擊中",
     "level": "N3",
-    "example": "この件について、しっかり当たることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "宝くじが当たったら世界旅行をするつもりだ。",
+    "exampleMeaning": "如果中了彩券，我打算環遊世界。"
   },
   {
     "id": "n3_0328",
@@ -3635,10 +3635,10 @@
     "reading": "あてる",
     "romaji": "ateru",
     "partOfSpeech": "動詞",
-    "meaning": "猜測",
+    "meaning": "猜中、命中",
     "level": "N3",
-    "example": "この件について、しっかり当てることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "箱の中に何が入っているか当ててみてください。",
+    "exampleMeaning": "請猜猜看箱子裡面裝了什麼。"
   },
   {
     "id": "n3_0332",
@@ -3646,10 +3646,10 @@
     "reading": "あと",
     "romaji": "ato",
     "partOfSpeech": "名詞",
-    "meaning": "痕跡",
+    "meaning": "痕跡、蹤跡",
     "level": "N3",
-    "example": "今回の機会を通じて、跡の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「痕跡」的重要價值與深層魅力。"
+    "example": "誰かがここを歩いたようで雪の上に足跡が残っていた。",
+    "exampleMeaning": "似乎有人走過這裡，雪地上留下了腳印。"
   },
   {
     "id": "n3_0333",
@@ -3657,10 +3657,10 @@
     "reading": "あな",
     "romaji": "ana",
     "partOfSpeech": "名詞",
-    "meaning": "洞",
+    "meaning": "洞、孔穴",
     "level": "N3",
-    "example": "今回の機会を通じて、穴の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「洞」的重要價值與深層魅力。"
+    "example": "お気に入りのズボンに穴が開いてしまったので新しいのを買うことにした。",
+    "exampleMeaning": "心愛的褲子破了個洞，所以決定買新的。"
   },
   {
     "id": "n3_0334",
@@ -3701,10 +3701,10 @@
     "reading": "あら",
     "romaji": "ara",
     "partOfSpeech": "名詞",
-    "meaning": "過錯",
+    "meaning": "缺點、毛病",
     "level": "N3",
-    "example": "今回の機会を通じて、粗の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「過錯」的重要價值與深層魅力。"
+    "example": "人の粗ばかり探してはいけない。",
+    "exampleMeaning": "不能光是挑別人的毛病。"
   },
   {
     "id": "n3_0338",
@@ -3712,10 +3712,10 @@
     "reading": "あらし",
     "romaji": "arashi",
     "partOfSpeech": "名詞",
-    "meaning": "風暴",
+    "meaning": "暴風雨",
     "level": "N3",
-    "example": "今回の機会を通じて、嵐の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「風暴」的重要價值與深層魅力。"
+    "example": "昨日の夜、大きな嵐が来て電車が止まってしまった。",
+    "exampleMeaning": "昨晚暴風雨來襲，電車都停駛了。"
   },
   {
     "id": "n3_0339",
@@ -3723,32 +3723,32 @@
     "reading": "あらそう",
     "romaji": "arasou",
     "partOfSpeech": "動詞",
-    "meaning": "爭奪、競爭、爭吵",
+    "meaning": "爭奪、競爭",
     "level": "N3",
-    "example": "この件について、しっかり争うことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "決勝では2つの強いチームが優勝を争います。",
+    "exampleMeaning": "決賽中兩支強隊將角逐冠軍。"
   },
   {
     "id": "n3_0340",
     "word": "新た",
     "reading": "あらた",
     "romaji": "arata",
-    "partOfSpeech": "名詞",
-    "meaning": "新的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "新的、重新",
     "level": "N3",
-    "example": "今回の機会を通じて、新たの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「新的」的重要價值與深層魅力。"
+    "example": "彼は会社を辞めて新たな仕事を始めることにした。",
+    "exampleMeaning": "他辭去了工作，決定展開全新的工作。"
   },
   {
     "id": "n3_0341",
     "word": "あらゆる",
     "reading": "あらゆる",
     "romaji": "arayuru",
-    "partOfSpeech": "名詞",
-    "meaning": "每一個",
+    "partOfSpeech": "連体詞",
+    "meaning": "所有的、一切的",
     "level": "N3",
-    "example": "今回の機会を通じて、あらゆるの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「每一個」的重要價值與深層魅力。"
+    "example": "問題を解決するためにあらゆる方法を試してみた。",
+    "exampleMeaning": "為了解決問題，嘗試了所有可能的方法。"
   },
   {
     "id": "n3_0342",
@@ -3756,10 +3756,10 @@
     "reading": "あらわす",
     "romaji": "arawasu",
     "partOfSpeech": "動詞",
-    "meaning": "表達、表現",
+    "meaning": "表達、表示",
     "level": "N3",
-    "example": "この件について、しっかり表すことが大切です。",
-    "exampleMeaning": "關於這件事，好好表達、表現、是非常重要的。"
+    "example": "彼は自分の気持ちを言葉で表すのが苦手なようだ。",
+    "exampleMeaning": "他似乎不太擅長用言語表達自己的感受。"
   },
   {
     "id": "n3_0343",
@@ -3789,10 +3789,10 @@
     "reading": "あらわれ",
     "romaji": "araware",
     "partOfSpeech": "名詞",
-    "meaning": "外貌",
+    "meaning": "表現、體現",
     "level": "N3",
-    "example": "今回の機会を通じて、現れの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「外貌」的重要價值與深層魅力。"
+    "example": "この成績は毎日の努力の現れだと思う。",
+    "exampleMeaning": "我覺得這個成績是每天努力的體現。"
   },
   {
     "id": "n3_0346",
@@ -3800,10 +3800,10 @@
     "reading": "あらわれる",
     "romaji": "arawareru",
     "partOfSpeech": "動詞",
-    "meaning": "出現、顯露",
+    "meaning": "顯露、呈現",
     "level": "N3",
-    "example": "この件について、しっかり現れることが大切です。",
-    "exampleMeaning": "關於這件事，好好、   、 表達、表現是非常重要的。"
+    "example": "努力の結果が数字に現れている。",
+    "exampleMeaning": "努力的成果顯現在數據上。"
   },
   {
     "id": "n3_0347",
@@ -3818,14 +3818,14 @@
   },
   {
     "id": "n3_0348",
-    "word": "在る; 有る",
+    "word": "ある",
     "reading": "ある",
     "romaji": "aru",
-    "partOfSpeech": "動詞",
-    "meaning": "存在",
+    "partOfSpeech": "連体詞",
+    "meaning": "某個、某",
     "level": "N3",
-    "example": "この件について、しっかり在る; 有ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "ある日駅で偶然昔の同級生に会った。",
+    "exampleMeaning": "某一天在車站偶然遇見了以前的同班同學。"
   },
   {
     "id": "n3_0349",
@@ -3842,23 +3842,23 @@
     "id": "n3_0350",
     "word": "あるいは",
     "reading": "あるいは",
-    "romaji": "aruiha",
-    "partOfSpeech": "連接詞",
-    "meaning": "或者",
+    "romaji": "aruiwa",
+    "partOfSpeech": "接続詞",
+    "meaning": "或是、或者",
     "level": "N3",
-    "example": "今回の機会を通じて、あるいはの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「或者」的重要價值與深層魅力。"
+    "example": "会議には部長あるいは課長が出席する予定です。",
+    "exampleMeaning": "部長或是課長預計會出席會議。"
   },
   {
     "id": "n3_0351",
     "word": "アルバム",
     "reading": "アルバム",
-    "romaji": "アルバム",
+    "romaji": "arubamu",
     "partOfSpeech": "名詞",
-    "meaning": "專輯",
+    "meaning": "相簿、相冊",
     "level": "N3",
-    "example": "今回の機会を通じて、アルバムの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「專輯」的重要價值與深層魅力。"
+    "example": "久しぶりに卒業アルバムを見て懐かしい気持ちになった。",
+    "exampleMeaning": "久違地翻看畢業紀念冊，湧起了懷念之情。"
   },
   {
     "id": "n3_0352",
@@ -3877,10 +3877,10 @@
     "reading": "あわせる",
     "romaji": "awaseru",
     "partOfSpeech": "動詞",
-    "meaning": "匹配",
+    "meaning": "配合、齊心",
     "level": "N3",
-    "example": "毎日しっかり合わせるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好匹配。"
+    "example": "困った時はお互いに力を合わせて助け合いましょう。",
+    "exampleMeaning": "遇到困難時大家齊心協力互相扶持吧。"
   },
   {
     "id": "n3_0354",
@@ -3888,21 +3888,21 @@
     "reading": "あわてる",
     "romaji": "awateru",
     "partOfSpeech": "動詞",
-    "meaning": "恐慌",
+    "meaning": "慌張、急忙",
     "level": "N3",
-    "example": "この件について、しっかり慌てることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "時間は十分ありますから慌てなくても大丈夫ですよ。",
+    "exampleMeaning": "時間很充裕，所以不必慌張沒關係的。"
   },
   {
     "id": "n3_0355",
     "word": "哀れ",
     "reading": "あわれ",
     "romaji": "aware",
-    "partOfSpeech": "名詞",
-    "meaning": "可憐的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "可憐、哀憐",
     "level": "N3",
-    "example": "今回の機会を通じて、哀れの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「可憐的」的重要價值與深層魅力。"
+    "example": "その子の話を聞いて哀れに思った。",
+    "exampleMeaning": "聽了那個孩子的故事，感到非常心酸同情。"
   },
   {
     "id": "n3_0356",
@@ -3910,10 +3910,10 @@
     "reading": "あん",
     "romaji": "an",
     "partOfSpeech": "名詞",
-    "meaning": "提議",
+    "meaning": "提案、方案",
     "level": "N3",
-    "example": "今回の機会を通じて、案の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「提議」的重要價值與深層魅力。"
+    "example": "会議でいくつかの案を出したが全部断られた。",
+    "exampleMeaning": "在會議中提出了幾個方案但全部被否決了。"
   },
   {
     "id": "n3_0357",
@@ -3932,10 +3932,10 @@
     "reading": "あんき",
     "romaji": "anki",
     "partOfSpeech": "名詞",
-    "meaning": "記憶",
+    "meaning": "背誦、熟記",
     "level": "N3",
-    "example": "今回の機会を通じて、暗記の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「記憶」的重要價值與深層魅力。"
+    "example": "試験までにこの単語を全部暗記しなければならない。",
+    "exampleMeaning": "考試前必須把這些單字全部背起來。"
   },
   {
     "id": "n3_0359",
@@ -3943,32 +3943,32 @@
     "reading": "あんてい",
     "romaji": "antei",
     "partOfSpeech": "名詞",
-    "meaning": "穩定的",
+    "meaning": "穩定",
     "level": "N3",
-    "example": "今回の機会を通じて、安定の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「穩定的」的重要價值與深層魅力。"
+    "example": "公務員は安定していると言われているので人気がある。",
+    "exampleMeaning": "公務員據說很穩定，因此很受歡迎。"
   },
   {
     "id": "n3_0360",
     "word": "あんなに",
     "reading": "あんなに",
     "romaji": "annani",
-    "partOfSpeech": "動詞",
-    "meaning": "像這樣",
+    "partOfSpeech": "副詞",
+    "meaning": "那麼、那樣",
     "level": "N3",
-    "example": "この件について、しっかりあんなにことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "あんなに走ると疲れますよ。",
+    "exampleMeaning": "跑成那樣會很累喔。"
   },
   {
     "id": "n3_0361",
     "word": "あんまり",
     "reading": "あんまり",
     "romaji": "anmari",
-    "partOfSpeech": "名詞",
-    "meaning": "不多",
+    "partOfSpeech": "副詞",
+    "meaning": "不太、過分",
     "level": "N3",
-    "example": "今回の機会を通じて、あんまりの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「不多」的重要價值與深層魅力。"
+    "example": "この映画はあんまり好きじゃない。",
+    "exampleMeaning": "我不太喜歡這部電影。"
   },
   {
     "id": "n3_0362",
@@ -3976,10 +3976,10 @@
     "reading": "い",
     "romaji": "i",
     "partOfSpeech": "名詞",
-    "meaning": "胃、胃部器官",
+    "meaning": "胃",
     "level": "N3",
-    "example": "今回の機会を通じて、胃の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「胃」的重要價值與深層魅力。"
+    "example": "食べすぎたせいか朝から胃の調子が悪い。",
+    "exampleMeaning": "不知是否吃太多的緣故，從早上開始胃就不舒服。"
   },
   {
     "id": "n3_0363",
@@ -3987,21 +3987,21 @@
     "reading": "いいん",
     "romaji": "iin",
     "partOfSpeech": "名詞",
-    "meaning": "會員",
+    "meaning": "委員",
     "level": "N3",
-    "example": "今回の機会を通じて、委員の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「會員」的重要價值與深層魅力。"
+    "example": "クラスの委員に選ばれて少し緊張している。",
+    "exampleMeaning": "被選為班級委員，感到有點緊張。"
   },
   {
     "id": "n3_0364",
     "word": "意外",
     "reading": "いがい",
     "romaji": "igai",
-    "partOfSpeech": "名詞",
-    "meaning": "伊貝",
+    "partOfSpeech": "な形容詞",
+    "meaning": "意外的、始料未及的",
     "level": "N3",
-    "example": "今回の機会を通じて、意外の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「伊貝」的重要價值與深層魅力。"
+    "example": "真面目な彼が歌が上手だなんて意外だった。",
+    "exampleMeaning": "一絲不苟的他唱歌居然很厲害，真令人意外。"
   },
   {
     "id": "n3_0365",
@@ -4009,10 +4009,10 @@
     "reading": "いき",
     "romaji": "iki",
     "partOfSpeech": "名詞",
-    "meaning": "去",
+    "meaning": "開往、去程",
     "level": "N3",
-    "example": "今回の機会を通じて、行きの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「去」的重要價值與深層魅力。"
+    "example": "東京行きの新幹線は何番ホームから出ますか？",
+    "exampleMeaning": "開往東京的新幹線在幾號月台發車？"
   },
   {
     "id": "n3_0366",
@@ -4031,21 +4031,21 @@
     "reading": "いき",
     "romaji": "iki",
     "partOfSpeech": "名詞",
-    "meaning": "氣息",
+    "meaning": "呼吸、氣息",
     "level": "N3",
-    "example": "今回の機会を通じて、息の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「氣息」的重要價值與深層魅力。"
+    "example": "緊張している時は深く息を吸ってからゆっくり吐くといいですよ。",
+    "exampleMeaning": "緊張的時候深吸一口氣再慢慢吐出來會比較好喔。"
   },
   {
     "id": "n3_0368",
     "word": "勢い",
     "reading": "いきおい",
     "romaji": "ikioi",
-    "partOfSpeech": "い形容詞",
-    "meaning": "勢頭",
+    "partOfSpeech": "名詞",
+    "meaning": "氣勢、勢頭",
     "level": "N3",
-    "example": "この問題は非常に勢いと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、。"
+    "example": "火は風で勢いを増して隣の建物まで燃え広がった。",
+    "exampleMeaning": "火勢隨風增強，蔓延燃燒到了隔壁的建築物。"
   },
   {
     "id": "n3_0369",
@@ -4064,10 +4064,10 @@
     "reading": "いけない",
     "romaji": "ikenai",
     "partOfSpeech": "い形容詞",
-    "meaning": "別走",
+    "meaning": "不可以、不行",
     "level": "N3",
-    "example": "この問題は非常にいけないと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、 、。"
+    "example": "図書館の中では大きな声で話してはいけませんよ。",
+    "exampleMeaning": "在圖書館裡不能大聲說話喔。"
   },
   {
     "id": "n3_0371",
@@ -4075,10 +4075,10 @@
     "reading": "いし",
     "romaji": "ishi",
     "partOfSpeech": "名詞",
-    "meaning": "醫生",
+    "meaning": "醫師、醫生",
     "level": "N3",
-    "example": "今回の機会を通じて、医師の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「醫生」的重要價值與深層魅力。"
+    "example": "医師の話によると手術はしなくてもいいそうだ。",
+    "exampleMeaning": "據醫生的說法，似乎不需要動手術。"
   },
   {
     "id": "n3_0372",
@@ -4086,10 +4086,10 @@
     "reading": "いし",
     "romaji": "ishi",
     "partOfSpeech": "名詞",
-    "meaning": "目的、宗旨",
+    "meaning": "意圖、想法",
     "level": "N3",
-    "example": "今回の機会を通じて、意思の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「目的」的重要價值與深層魅力。"
+    "example": "彼の意思ははっきりしているので迷うことはないだろう。",
+    "exampleMeaning": "他的意圖很明確，應該不用猶豫吧。"
   },
   {
     "id": "n3_0373",
@@ -4097,10 +4097,10 @@
     "reading": "いし",
     "romaji": "ishi",
     "partOfSpeech": "名詞",
-    "meaning": "將要",
+    "meaning": "意志、決心",
     "level": "N3",
-    "example": "今回の機会を通じて、意志の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「將要」的重要價值與深層魅力。"
+    "example": "彼はどんなに辛くても諦めない強い意志を持っている。",
+    "exampleMeaning": "他擁有無論多麼痛苦都絕不放棄的堅強意志。"
   },
   {
     "id": "n3_0374",
@@ -4110,8 +4110,8 @@
     "partOfSpeech": "名詞",
     "meaning": "維持、保持",
     "level": "N3",
-    "example": "今回の機会を通じて、維持の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「維持」的重要價值與深層魅力。"
+    "example": "健康を維持するために毎朝ジョギングをするようにしている。",
+    "exampleMeaning": "為了維持健康，每天早上都堅持慢跑。"
   },
   {
     "id": "n3_0375",
@@ -4129,11 +4129,11 @@
     "word": "異常",
     "reading": "いじょう",
     "romaji": "ijou",
-    "partOfSpeech": "名詞",
-    "meaning": "紊亂 etc.",
+    "partOfSpeech": "な形容詞",
+    "meaning": "異常的、反常的",
     "level": "N3",
-    "example": "今回の機会を通じて、異常の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「紊亂 etc.」的重要價值與深層魅力。"
+    "example": "検査の結果、体にはどこも異常がないと言われた。",
+    "exampleMeaning": "檢查結果顯示身體各處都沒有任何異常。"
   },
   {
     "id": "n3_0377",
@@ -4152,21 +4152,21 @@
     "reading": "いずみ",
     "romaji": "izumi",
     "partOfSpeech": "名詞",
-    "meaning": "和泉",
+    "meaning": "泉水、泉源",
     "level": "N3",
-    "example": "今回の機会を通じて、泉の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「和泉」的重要價值與深層魅力。"
+    "example": "この山には昔から病気に効くと言われる泉がある。",
+    "exampleMeaning": "這座山裡有自古相傳對治病有療效的泉水。"
   },
   {
     "id": "n3_0379",
     "word": "いずれ",
     "reading": "いずれ",
     "romaji": "izure",
-    "partOfSpeech": "名詞",
-    "meaning": "有一天",
+    "partOfSpeech": "副詞",
+    "meaning": "早晚、改天",
     "level": "N3",
-    "example": "今回の機会を通じて、いずれの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「有一天」的重要價值與深層魅力。"
+    "example": "いずれまた会いましょう。",
+    "exampleMeaning": "改天我們再相聚吧。"
   },
   {
     "id": "n3_0380",
@@ -4174,10 +4174,10 @@
     "reading": "いぜん",
     "romaji": "izen",
     "partOfSpeech": "名詞",
-    "meaning": "之前",
+    "meaning": "以前、從前",
     "level": "N3",
-    "example": "今回の機会を通じて、以前の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「之前」的重要價值與深層魅力。"
+    "example": "彼は以前よりも随分体重が増えている。",
+    "exampleMeaning": "他的體重比以前增加了相當多。"
   },
   {
     "id": "n3_0381",
@@ -4185,21 +4185,21 @@
     "reading": "いた",
     "romaji": "ita",
     "partOfSpeech": "名詞",
-    "meaning": "木板",
+    "meaning": "木板、板子",
     "level": "N3",
-    "example": "今回の機会を通じて、板の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「木板」的重要價值與深層魅力。"
+    "example": "父は板を切って犬のための小屋を作った。",
+    "exampleMeaning": "父親切割木板為狗蓋了一間狗屋。"
   },
   {
     "id": "n3_0382",
     "word": "偉大",
     "reading": "いだい",
     "romaji": "idai",
-    "partOfSpeech": "名詞",
+    "partOfSpeech": "な形容詞",
     "meaning": "偉大的",
     "level": "N3",
-    "example": "今回の機会を通じて、偉大の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「偉大的」的重要價值與深層魅力。"
+    "example": "彼は世界中の人に知られている偉大な音楽家だ。",
+    "exampleMeaning": "他是舉世聞名的偉大音樂家。"
   },
   {
     "id": "n3_0383",
@@ -4207,10 +4207,10 @@
     "reading": "いだく",
     "romaji": "idaku",
     "partOfSpeech": "動詞",
-    "meaning": "擁抱",
+    "meaning": "抱著、懷抱",
     "level": "N3",
-    "example": "この件について、しっかり抱くことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "母は赤ちゃんを優しく抱きながら子守唄を歌っていた。",
+    "exampleMeaning": "母親溫柔地抱著嬰兒唱著搖籃曲。"
   },
   {
     "id": "n3_0384",
@@ -4218,10 +4218,10 @@
     "reading": "いたずら",
     "romaji": "itazura",
     "partOfSpeech": "名詞",
-    "meaning": "惡作劇",
+    "meaning": "淘氣、惡作劇",
     "level": "N3",
-    "example": "今回の機会を通じて、いたずらの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「惡作劇」的重要價值與深層魅力。"
+    "example": "弟は小さい頃いたずらばかりして母を困らせていた。",
+    "exampleMeaning": "弟弟小時候總愛惡作劇，讓媽媽很頭痛。"
   },
   {
     "id": "n3_0385",
@@ -4240,10 +4240,10 @@
     "reading": "いたみ",
     "romaji": "itami",
     "partOfSpeech": "名詞",
-    "meaning": "疼痛",
+    "meaning": "疼痛、痛楚",
     "level": "N3",
-    "example": "今回の機会を通じて、痛みの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「疼痛」的重要價值與深層魅力。"
+    "example": "薬を飲んだのに歯の痛みがなかなか消えない。",
+    "exampleMeaning": "明明吃了藥，牙齒的疼痛卻遲遲沒有消退。"
   },
   {
     "id": "n3_0387",
@@ -4251,10 +4251,10 @@
     "reading": "いたる",
     "romaji": "itaru",
     "partOfSpeech": "動詞",
-    "meaning": "抵達",
+    "meaning": "達到、到達",
     "level": "N3",
-    "example": "この件について、しっかり至ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "努力の結果成功に至った。",
+    "exampleMeaning": "努力的結果終於走向了成功。"
   },
   {
     "id": "n3_0388",
@@ -4262,10 +4262,10 @@
     "reading": "いち",
     "romaji": "ichi",
     "partOfSpeech": "名詞",
-    "meaning": "城市",
+    "meaning": "市集、市場",
     "level": "N3",
-    "example": "今回の機会を通じて、市の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「城市」的重要價值與深層魅力。"
+    "example": "週末になると街の市で新鮮な野菜が安く買える。",
+    "exampleMeaning": "一到週末就能在城鎮的市集便宜買到新鮮蔬菜。"
   },
   {
     "id": "n3_0389",
@@ -4273,10 +4273,10 @@
     "reading": "いち",
     "romaji": "ichi",
     "partOfSpeech": "名詞",
-    "meaning": "一",
+    "meaning": "位置、方位",
     "level": "N3",
-    "example": "今回の機会を通じて、位置の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「一」的重要價值與深層魅力。"
+    "example": "地図で今いる位置を確認してから出発しましょう。",
+    "exampleMeaning": "先在地圖上確認目前所在位置後再出發吧。"
   },
   {
     "id": "n3_0390",
@@ -4284,21 +4284,21 @@
     "reading": "いちじ",
     "romaji": "ichiji",
     "partOfSpeech": "名詞",
-    "meaning": "暫時的",
+    "meaning": "一時、暫時",
     "level": "N3",
-    "example": "今回の機会を通じて、一時の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「暫時的」的重要價值與深層魅力。"
+    "example": "雨は一時止んだがまた降り出すそうだ。",
+    "exampleMeaning": "雨勢暫時停了，但據說還會再下。"
   },
   {
     "id": "n3_0391",
     "word": "一度に",
     "reading": "いちどに",
     "romaji": "ichidoni",
-    "partOfSpeech": "名詞",
-    "meaning": "立刻",
+    "partOfSpeech": "副詞",
+    "meaning": "一次、同時",
     "level": "N3",
-    "example": "今回の機会を通じて、一度にの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「立刻」的重要價值與深層魅力。"
+    "example": "その薬品は一度に全部使用しなければなりません。",
+    "exampleMeaning": "該藥品必須一次全部使用完畢。"
   },
   {
     "id": "n3_0392",
@@ -4306,21 +4306,21 @@
     "reading": "いちば",
     "romaji": "ichiba",
     "partOfSpeech": "名詞",
-    "meaning": "市場、市集",
+    "meaning": "菜市場、魚市",
     "level": "N3",
-    "example": "今回の機会を通じて、市場の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「市場」的重要價值與深層魅力。"
+    "example": "朝早く魚市場に行くと新鮮な魚が安く手に入る。",
+    "exampleMeaning": "大清早去魚市場的話能便宜買到新鮮漁獲。"
   },
   {
     "id": "n3_0393",
     "word": "いつか",
     "reading": "いつか",
     "romaji": "itsuka",
-    "partOfSpeech": "名詞",
-    "meaning": "有一天",
+    "partOfSpeech": "副詞",
+    "meaning": "改天、總有一天",
     "level": "N3",
-    "example": "今回の機会を通じて、いつかの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「有一天」的重要價值與深層魅力。"
+    "example": "いつかあなたに会いに行きます。",
+    "exampleMeaning": "總有一天我會去見你。"
   },
   {
     "id": "n3_0394",
@@ -4328,10 +4328,10 @@
     "reading": "いっか",
     "romaji": "ikka",
     "partOfSpeech": "名詞",
-    "meaning": "家庭",
+    "meaning": "全家、一家人",
     "level": "N3",
-    "example": "今回の機会を通じて、一家の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「家庭」的重要價值與深層魅力。"
+    "example": "私の一家は休みの度にみんなで旅行に出かける。",
+    "exampleMeaning": "我們全家人每逢假期都會一起出門旅行。"
   },
   {
     "id": "n3_0395",
@@ -4339,10 +4339,10 @@
     "reading": "いっしゅ",
     "romaji": "isshu",
     "partOfSpeech": "名詞",
-    "meaning": "和藹親切的",
+    "meaning": "一種",
     "level": "N3",
-    "example": "今回の機会を通じて、一種の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「和藹親切的」的重要價值與深層魅力。"
+    "example": "ヨガは一種の運動だが心を落ち着ける効果もある。",
+    "exampleMeaning": "瑜伽是一種運動，但也有平靜心靈的效果。"
   },
   {
     "id": "n3_0396",
@@ -4361,54 +4361,54 @@
     "reading": "いっしょう",
     "romaji": "isshou",
     "partOfSpeech": "名詞",
-    "meaning": "壽命",
+    "meaning": "一生、終生",
     "level": "N3",
-    "example": "今回の機会を通じて、一生の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「壽命」的重要價值與深層魅力。"
+    "example": "あの日の感動は一生忘れられないと思う。",
+    "exampleMeaning": "我覺得那一天的感動一輩子都忘不了。"
   },
   {
     "id": "n3_0398",
     "word": "一層",
     "reading": "いっそう",
     "romaji": "issou",
-    "partOfSpeech": "名詞",
-    "meaning": "更",
+    "partOfSpeech": "副詞",
+    "meaning": "更加、越發",
     "level": "N3",
-    "example": "今回の機会を通じて、一層の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「更」的重要價值與深層魅力。"
+    "example": "友達と一緒に行けば旅行が一層楽しくなるだろう。",
+    "exampleMeaning": "和朋友一起去的話，旅行會變得更加愉快吧。"
   },
   {
     "id": "n3_0399",
     "word": "一体",
     "reading": "いったい",
     "romaji": "ittai",
-    "partOfSpeech": "名詞",
-    "meaning": "?、 一般的、普遍的",
+    "partOfSpeech": "副詞",
+    "meaning": "到底、究竟",
     "level": "N3",
-    "example": "今回の機会を通じて、一体の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「?」的重要價值與深層魅力。"
+    "example": "一体何が起こったのですか？",
+    "exampleMeaning": "到底發生了什麼事呢？"
   },
   {
     "id": "n3_0400",
     "word": "一致",
     "reading": "いっち",
-    "romaji": "icchi",
+    "romaji": "itchi",
     "partOfSpeech": "名詞",
-    "meaning": "匹配",
+    "meaning": "一致、吻合",
     "level": "N3",
-    "example": "今回の機会を通じて、一致の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「匹配」的重要價值與深層魅力。"
+    "example": "話し合いの結果みんなの意見がやっと一致した。",
+    "exampleMeaning": "商討之後大家的意見終於達成一致。"
   },
   {
     "id": "n3_0401",
     "word": "いつでも",
     "reading": "いつでも",
     "romaji": "itsudemo",
-    "partOfSpeech": "名詞",
-    "meaning": "隨時",
+    "partOfSpeech": "副詞",
+    "meaning": "隨時、無論何時",
     "level": "N3",
-    "example": "今回の機会を通じて、いつでもの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「隨時」的重要價值與深層魅力。"
+    "example": "困ったらいつでも聞いてください。",
+    "exampleMeaning": "遇到困難時請隨時問我。"
   },
   {
     "id": "n3_0402",
@@ -4427,32 +4427,32 @@
     "reading": "いっぱん",
     "romaji": "ippan",
     "partOfSpeech": "名詞",
-    "meaning": "一般的、普遍的",
+    "meaning": "一般、普遍",
     "level": "N3",
-    "example": "今回の機会を通じて、一般の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「一般的」的重要價值與深層魅力。"
+    "example": "一般に地方では商店の閉店時間が早い。",
+    "exampleMeaning": "一般而言在地方城鎮商店打烊的時間比較早。"
   },
   {
     "id": "n3_0404",
     "word": "一方",
     "reading": "いっぽう",
     "romaji": "ippou",
-    "partOfSpeech": "名詞",
-    "meaning": "另一方面",
+    "partOfSpeech": "接続詞",
+    "meaning": "另一方面、然而",
     "level": "N3",
-    "example": "今回の機会を通じて、一方の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「另一方面」的重要價值與深層魅力。"
+    "example": "根気強い一方、短気なところもある。",
+    "exampleMeaning": "雖然很有毅力，但另一方面也有急躁的一面。"
   },
   {
     "id": "n3_0405",
     "word": "いつまでも",
     "reading": "いつまでも",
     "romaji": "itsumademo",
-    "partOfSpeech": "名詞",
-    "meaning": "永遠",
+    "partOfSpeech": "副詞",
+    "meaning": "永遠、始終",
     "level": "N3",
-    "example": "今回の機会を通じて、いつまでもの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「永遠」的重要價值與深層魅力。"
+    "example": "いつまでも若いつもりでいたが最近は疲れやすくなった。",
+    "exampleMeaning": "雖然一直自以為很年輕，但最近容易感到疲倦了。"
   },
   {
     "id": "n3_0406",
@@ -4467,14 +4467,14 @@
   },
   {
     "id": "n3_0407",
-    "word": "従兄弟",
+    "word": "いとこ",
     "reading": "いとこ",
     "romaji": "itoko",
     "partOfSpeech": "名詞",
-    "meaning": "堂兄弟、表兄弟",
+    "meaning": "堂表兄弟姊妹",
     "level": "N3",
-    "example": "今回の機会を通じて、従兄弟の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「堂兄弟」的重要價值與深層魅力。"
+    "example": "いとことは小さい頃からよく遊んでいたので今でも仲がいい。",
+    "exampleMeaning": "從小就常和堂表兄弟姊妹一起玩，所以現在感情依然很好。"
   },
   {
     "id": "n3_0408",
@@ -4493,10 +4493,10 @@
     "reading": "いね",
     "romaji": "ine",
     "partOfSpeech": "名詞",
-    "meaning": "米",
+    "meaning": "水稻、稻子",
     "level": "N3",
-    "example": "今回の機会を通じて、稲の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「米」的重要價值與深層魅力。"
+    "example": "秋になると田んぼの稲が黄金色に色づいてくる。",
+    "exampleMeaning": "到了秋天，稻田裡的稻穗便漸漸染成金黃色。"
   },
   {
     "id": "n3_0410",
@@ -4506,8 +4506,8 @@
     "partOfSpeech": "名詞",
     "meaning": "打瞌睡",
     "level": "N3",
-    "example": "今回の機会を通じて、居眠りの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「打瞌睡」的重要價值與深層魅力。"
+    "example": "疲れていたせいか電車の中でつい居眠りしてしまった。",
+    "exampleMeaning": "不知是否因為太累，在電車裡不知不覺打起瞌睡來了。"
   },
   {
     "id": "n3_0411",
@@ -4526,10 +4526,10 @@
     "reading": "いはん",
     "romaji": "ihan",
     "partOfSpeech": "名詞",
-    "meaning": "伊漢",
+    "meaning": "違反、違規",
     "level": "N3",
-    "example": "今回の機会を通じて、違反の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「伊漢」的重要價值與深層魅力。"
+    "example": "スピード違反で警察に捕まってしまった。",
+    "exampleMeaning": "因為超速違規而被警察攔下來了。"
   },
   {
     "id": "n3_0413",
@@ -4537,10 +4537,10 @@
     "reading": "いふく",
     "romaji": "ifuku",
     "partOfSpeech": "名詞",
-    "meaning": "伊福",
+    "meaning": "衣服、服裝",
     "level": "N3",
-    "example": "今回の機会を通じて、衣服の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「伊福」的重要價值與深層魅力。"
+    "example": "季節が変わるたびに衣服を整理して衣替えをしている。",
+    "exampleMeaning": "每逢換季都會整理衣服並進行換季收納。"
   },
   {
     "id": "n3_0414",
@@ -4548,32 +4548,32 @@
     "reading": "いま",
     "romaji": "ima",
     "partOfSpeech": "名詞",
-    "meaning": "客廳",
+    "meaning": "客廳、起居室",
     "level": "N3",
-    "example": "今回の機会を通じて、居間の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「客廳」的重要價值與深層魅力。"
+    "example": "家族はみんな居間に集まってテレビを見るのが好きだ。",
+    "exampleMeaning": "全家人都喜歡聚在客廳看電視。"
   },
   {
     "id": "n3_0415",
     "word": "今に",
     "reading": "いまに",
     "romaji": "imani",
-    "partOfSpeech": "名詞",
-    "meaning": "最近、這陣子 / 從今以後、接下來",
+    "partOfSpeech": "副詞",
+    "meaning": "早晚、不久",
     "level": "N3",
-    "example": "今回の機会を通じて、今にの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「最近」的重要價值與深層魅力。"
+    "example": "今に雨も上がるだろう。",
+    "exampleMeaning": "不久之後雨就會停了吧。"
   },
   {
     "id": "n3_0416",
     "word": "今にも",
     "reading": "いまにも",
     "romaji": "imanimo",
-    "partOfSpeech": "名詞",
-    "meaning": "隨時",
+    "partOfSpeech": "副詞",
+    "meaning": "眼看著就要、即將",
     "level": "N3",
-    "example": "今回の機会を通じて、今にもの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「隨時」的重要價值與深層魅力。"
+    "example": "今にも雨が降りそうだ。",
+    "exampleMeaning": "眼看著就要下起雨來了。"
   },
   {
     "id": "n3_0417",
@@ -4603,10 +4603,10 @@
     "reading": "いらい",
     "romaji": "irai",
     "partOfSpeech": "名詞",
-    "meaning": "自那以後",
+    "meaning": "自從、以來",
     "level": "N3",
-    "example": "今回の機会を通じて、以来の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「自那以後」的重要價值與深層魅力。"
+    "example": "卒業以来彼とは1度も会っていない。",
+    "exampleMeaning": "自從畢業以來跟他一次也沒有見過面。"
   },
   {
     "id": "n3_0420",
@@ -4614,32 +4614,32 @@
     "reading": "いらい",
     "romaji": "irai",
     "partOfSpeech": "名詞",
-    "meaning": "要求",
+    "meaning": "委託、請求",
     "level": "N3",
-    "example": "今回の機会を通じて、依頼の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「要求」的重要價值與深層魅力。"
+    "example": "急な仕事の依頼だったが、なんとか引き受けることにした。",
+    "exampleMeaning": "雖然是緊急的工作委託，但還是設法接了下來。"
   },
   {
     "id": "n3_0421",
-    "word": "いらいら",
+    "word": "イライラ",
     "reading": "いらいら",
     "romaji": "iraira",
-    "partOfSpeech": "名詞",
-    "meaning": "激怒了",
+    "partOfSpeech": "副詞",
+    "meaning": "焦躁不安、急躁",
     "level": "N3",
-    "example": "今回の機会を通じて、いらいらの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「激怒了」的重要價值與深層魅力。"
+    "example": "待たされてイライラする。",
+    "exampleMeaning": "久等讓人感到焦躁不安。"
   },
   {
     "id": "n3_0422",
     "word": "いらっしゃい",
     "reading": "いらっしゃい",
     "romaji": "irasshai",
-    "partOfSpeech": "い形容詞",
+    "partOfSpeech": "感動詞",
     "meaning": "歡迎",
     "level": "N3",
-    "example": "このデザインはとてもいらっしゃいと思います。",
-    "exampleMeaning": "我覺得這個設計非常歡迎。"
+    "example": "「いらっしゃい。寒かったでしょう。どうぞ入って」と言われた。",
+    "exampleMeaning": "對方說：「歡迎！很冷吧？請進。」"
   },
   {
     "id": "n3_0423",
@@ -4647,10 +4647,10 @@
     "reading": "いりょう",
     "romaji": "iryou",
     "partOfSpeech": "名詞",
-    "meaning": "醫療保健",
+    "meaning": "醫療",
     "level": "N3",
-    "example": "今回の機会を通じて、医療の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「醫療保健」的重要價值與深層魅力。"
+    "example": "この国では医療の発展が目覚ましく平均寿命も伸びている。",
+    "exampleMeaning": "這個國家的醫療發展突飛猛進，平均壽命也隨之延長。"
   },
   {
     "id": "n3_0424",
@@ -4658,21 +4658,21 @@
     "reading": "いわ",
     "romaji": "iwa",
     "partOfSpeech": "名詞",
-    "meaning": "岩石",
+    "meaning": "岩石、礁石",
     "level": "N3",
-    "example": "今回の機会を通じて、岩の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「岩石」的重要價值與深層魅力。"
+    "example": "波に削られてできた大きな岩が海沿いに並んでいる。",
+    "exampleMeaning": "被海浪侵蝕形成的巨大岩石沿著海岸排列著。"
   },
   {
     "id": "n3_0425",
     "word": "祝い",
     "reading": "いわい",
     "romaji": "iwai",
-    "partOfSpeech": "い形容詞",
-    "meaning": "慶典",
+    "partOfSpeech": "名詞",
+    "meaning": "祝賀、賀禮",
     "level": "N3",
-    "example": "このデザインはとても祝いと思います。",
-    "exampleMeaning": "我覺得這個設計非常慶典。"
+    "example": "入学の祝いに祖父母が新しい鞄を買ってくれた。",
+    "exampleMeaning": "為了慶祝入學，祖父母幫我買了新包包。"
   },
   {
     "id": "n3_0426",
@@ -4687,36 +4687,36 @@
   },
   {
     "id": "n3_0427",
-    "word": "言わば",
+    "word": "いわば",
     "reading": "いわば",
     "romaji": "iwaba",
-    "partOfSpeech": "名詞",
-    "meaning": "可以這麼說",
+    "partOfSpeech": "副詞",
+    "meaning": "可以說是、說起來宛如",
     "level": "N3",
-    "example": "今回の機会を通じて、言わばの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「可以這麼說」的重要價值與深層魅力。"
+    "example": "人生はいわば航海のようなものだ。",
+    "exampleMeaning": "人生可以說就像是一場航海。"
   },
   {
     "id": "n3_0428",
     "word": "いわゆる",
     "reading": "いわゆる",
     "romaji": "iwayuru",
-    "partOfSpeech": "名詞",
+    "partOfSpeech": "連体詞",
     "meaning": "所謂的",
     "level": "N3",
-    "example": "今回の機会を通じて、いわゆるの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「所謂的」的重要價值與深層魅力。"
+    "example": "ここはいわゆる観光地なのでいつも人が多い。",
+    "exampleMeaning": "這裡就是所謂的觀光勝地，所以總是人山人海。"
   },
   {
     "id": "n3_0429",
     "word": "インク",
     "reading": "インク",
-    "romaji": "インク",
+    "romaji": "inku",
     "partOfSpeech": "名詞",
     "meaning": "墨水",
     "level": "N3",
-    "example": "今回の機会を通じて、インクの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「墨水」的重要價值與深層魅力。"
+    "example": "プリンターのインクが切れたので買いに行かなければならない。",
+    "exampleMeaning": "印表機沒墨水了，必須去買新的。"
   },
   {
     "id": "n3_0430",
@@ -4735,10 +4735,10 @@
     "reading": "いんしょう",
     "romaji": "inshou",
     "partOfSpeech": "名詞",
-    "meaning": "印象、感想",
+    "meaning": "印象",
     "level": "N3",
-    "example": "今回の機会を通じて、印象の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「印象」的重要價值與深層魅力。"
+    "example": "彼の第一印象はとても良かった。",
+    "exampleMeaning": "給人的第一印象非常好。"
   },
   {
     "id": "n3_0432",
@@ -4746,10 +4746,10 @@
     "reading": "いんたい",
     "romaji": "intai",
     "partOfSpeech": "名詞",
-    "meaning": "退休",
+    "meaning": "退休、引退",
     "level": "N3",
-    "example": "今回の機会を通じて、引退の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「退休」的重要價值與深層魅力。"
+    "example": "彼は怪我をきっかけにスポーツ界からの引退を決めた。",
+    "exampleMeaning": "他以受傷為契機，決定從體育界引退。"
   },
   {
     "id": "n3_0433",
@@ -4768,21 +4768,21 @@
     "reading": "いんよう",
     "romaji": "inyou",
     "partOfSpeech": "名詞",
-    "meaning": "引用、引述",
+    "meaning": "引用",
     "level": "N3",
-    "example": "今回の機会を通じて、引用の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「引用」的重要價值與深層魅力。"
+    "example": "この文章は本から引用したものだ。",
+    "exampleMeaning": "這段文字是從書中引用而來的。"
   },
   {
     "id": "n3_0435",
     "word": "ウイスキー",
     "reading": "ウイスキー",
-    "romaji": "ウイスキー",
+    "romaji": "uisukii",
     "partOfSpeech": "名詞",
-    "meaning": "威士忌酒",
+    "meaning": "威士忌",
     "level": "N3",
-    "example": "今回の機会を通じて、ウイスキーの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「威士忌酒」的重要價值與深層魅力。"
+    "example": "父はウイスキーが好きで寝る前に少し飲むことがある。",
+    "exampleMeaning": "父親喜歡威士忌，睡前有時會小酌一些。"
   },
   {
     "id": "n3_0436",
@@ -4811,11 +4811,11 @@
     "word": "うがい",
     "reading": "うがい",
     "romaji": "ugai",
-    "partOfSpeech": "い形容詞",
+    "partOfSpeech": "名詞",
     "meaning": "漱口",
     "level": "N3",
-    "example": "このデザインはとてもうがいと思います。",
-    "exampleMeaning": "我覺得這個設計非常漱口。"
+    "example": "外から帰ったら必ず手洗いとうがいをするようにしている。",
+    "exampleMeaning": "從外面回家後一定會洗手並漱口。"
   },
   {
     "id": "n3_0439",
@@ -4834,21 +4834,21 @@
     "reading": "うごかす",
     "romaji": "ugokasu",
     "partOfSpeech": "動詞",
-    "meaning": "移動、開動、打動",
+    "meaning": "移動、開動",
     "level": "N3",
-    "example": "この件について、しっかり動かすことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "なんとか車を動かすことができた。",
+    "exampleMeaning": "總算把車子開動了。"
   },
   {
     "id": "n3_0441",
-    "word": "兎",
+    "word": "うさぎ",
     "reading": "うさぎ",
     "romaji": "usagi",
     "partOfSpeech": "名詞",
     "meaning": "兔子",
     "level": "N3",
-    "example": "今回の機会を通じて、兎の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「兔子」的重要價值與深層魅力。"
+    "example": "うさぎは寂しがり屋なので1匹だけで飼うのはかわいそうだそうだ。",
+    "exampleMeaning": "聽說兔子很怕寂寞，只養一隻滿可憐的。"
   },
   {
     "id": "n3_0442",
@@ -4856,10 +4856,10 @@
     "reading": "うし",
     "romaji": "ushi",
     "partOfSpeech": "名詞",
-    "meaning": "乳牛",
+    "meaning": "牛",
     "level": "N3",
-    "example": "今回の機会を通じて、牛の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「乳牛」的重要價值與深層魅力。"
+    "example": "祖父の牧場では牛を50頭ぐらい育てている。",
+    "exampleMeaning": "祖父的牧場裡飼養了約50頭牛。"
   },
   {
     "id": "n3_0443",
@@ -4867,10 +4867,10 @@
     "reading": "うしなう",
     "romaji": "ushinau",
     "partOfSpeech": "動詞",
-    "meaning": "失去、遺失",
+    "meaning": "失去、喪失",
     "level": "N3",
-    "example": "この件について、しっかり失うことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "火事で家を失った人たちのために寄付を集めている。",
+    "exampleMeaning": "正在為因火災失去家園的人們募集捐款。"
   },
   {
     "id": "n3_0444",
@@ -4889,21 +4889,21 @@
     "reading": "うちゅう",
     "romaji": "uchuu",
     "partOfSpeech": "名詞",
-    "meaning": "宇宙、太空",
+    "meaning": "宇宙",
     "level": "N3",
-    "example": "今回の機会を通じて、宇宙の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「宇宙」的重要價值與深層魅力。"
+    "example": "宇宙にはまだ人類が知らないことがたくさんあるらしい。",
+    "exampleMeaning": "宇宙中似乎還有許多人類尚未知曉的事物。"
   },
   {
     "id": "n3_0446",
-    "word": "討つ",
+    "word": "撃つ",
     "reading": "うつ",
     "romaji": "utsu",
     "partOfSpeech": "動詞",
-    "meaning": "攻擊",
+    "meaning": "射擊、討伐",
     "level": "N3",
-    "example": "この件について、しっかり討つことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "ゲームの中で敵を撃つと点数がもらえる仕組みになっている。",
+    "exampleMeaning": "遊戲的機制是射擊敵人就能獲得分數。"
   },
   {
     "id": "n3_0447",
@@ -4973,14 +4973,14 @@
   },
   {
     "id": "n3_0453",
-    "word": "うなる",
+    "word": "唸る",
     "reading": "うなる",
     "romaji": "unaru",
     "partOfSpeech": "動詞",
-    "meaning": "咆哮",
+    "meaning": "低吼、吼叫",
     "level": "N3",
-    "example": "この件について、しっかりうなることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "知らない人が近づくとあの犬は唸ることがある。",
+    "exampleMeaning": "生人靠近時，那隻狗有時會發出低吼。"
   },
   {
     "id": "n3_0454",
@@ -4988,10 +4988,10 @@
     "reading": "うばう",
     "romaji": "ubau",
     "partOfSpeech": "動詞",
-    "meaning": "奪取、搶奪",
+    "meaning": "搶奪、奪走",
     "level": "N3",
-    "example": "この件について、しっかり奪うことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "電車の中ですりに鞄を奪われてしまった。",
+    "exampleMeaning": "在電車裡被扒手偷走了包包。"
   },
   {
     "id": "n3_0455",
@@ -4999,10 +4999,10 @@
     "reading": "うま",
     "romaji": "uma",
     "partOfSpeech": "名詞",
-    "meaning": "馬、馬匹",
+    "meaning": "馬",
     "level": "N3",
-    "example": "今回の機会を通じて、馬の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「馬」的重要價值與深層魅力。"
+    "example": "北海道で生まれたばかりの馬の赤ちゃんを見た。",
+    "exampleMeaning": "在北海道看到了剛出生不久的小馬寶寶。"
   },
   {
     "id": "n3_0456",
@@ -5010,10 +5010,10 @@
     "reading": "うまれ",
     "romaji": "umare",
     "partOfSpeech": "名詞",
-    "meaning": "出生",
+    "meaning": "出生、出身",
     "level": "N3",
-    "example": "今回の機会を通じて、生まれの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「出生」的重要價值與深層魅力。"
+    "example": "彼は大阪生まれだがずっと東京で育ったそうだ。",
+    "exampleMeaning": "他出生於大阪，但據說從小一直在東京長大。"
   },
   {
     "id": "n3_0457",
@@ -5032,10 +5032,10 @@
     "reading": "うめ",
     "romaji": "ume",
     "partOfSpeech": "名詞",
-    "meaning": "李子",
+    "meaning": "梅花、梅樹",
     "level": "N3",
-    "example": "今回の機会を通じて、梅の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「李子」的重要價值與深層魅力。"
+    "example": "庭の梅の花が咲くと春が来たなと感じる。",
+    "exampleMeaning": "院子裡的梅花一開，就感受到春天來了。"
   },
   {
     "id": "n3_0459",
@@ -5045,8 +5045,8 @@
     "partOfSpeech": "動詞",
     "meaning": "掩埋、填補",
     "level": "N3",
-    "example": "この件について、しっかり埋めることが大切です。",
-    "exampleMeaning": "關於這件事，好好、   、是非常重要的。"
+    "example": "犬が庭に骨を埋めているところを見てしまった。",
+    "exampleMeaning": "看到了狗在院子裡埋骨頭的模樣。"
   },
   {
     "id": "n3_0460",
@@ -5076,10 +5076,10 @@
     "reading": "うれる",
     "romaji": "ureru",
     "partOfSpeech": "動詞",
-    "meaning": "賣",
+    "meaning": "暢銷、賣得好",
     "level": "N3",
-    "example": "毎日しっかり売れるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好賣。"
+    "example": "この本はよく売れている。",
+    "exampleMeaning": "這本書非常暢銷。"
   },
   {
     "id": "n3_0463",
@@ -5087,10 +5087,10 @@
     "reading": "うわさ",
     "romaji": "uwasa",
     "partOfSpeech": "名詞",
-    "meaning": "謠言",
+    "meaning": "傳聞、謠言",
     "level": "N3",
-    "example": "今回の機会を通じて、噂の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「謠言」的重要價值與深層魅力。"
+    "example": "あの店が閉まるという噂を聞きましたが本当でしょうか？",
+    "exampleMeaning": "聽到了那家店要關門的傳聞，這是真的嗎？"
   },
   {
     "id": "n3_0464",
@@ -5120,10 +5120,10 @@
     "reading": "え",
     "romaji": "e",
     "partOfSpeech": "名詞",
-    "meaning": "圖案",
+    "meaning": "把手、傘柄",
     "level": "N3",
-    "example": "今回の機会を通じて、柄の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「圖案」的重要價值與深層魅力。"
+    "example": "この傘は柄が長くて持ちやすい。",
+    "exampleMeaning": "這把傘的傘柄很長，非常好握。"
   },
   {
     "id": "n3_0467",
@@ -5131,10 +5131,10 @@
     "reading": "えいえん",
     "romaji": "eien",
     "partOfSpeech": "名詞",
-    "meaning": "永恆",
+    "meaning": "永遠",
     "level": "N3",
-    "example": "今回の機会を通じて、永遠の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「永恆」的重要價值與深層魅力。"
+    "example": "卒業しても私たちの友情は永遠に変わらないだろう。",
+    "exampleMeaning": "即使畢業了，我們的友情也將永遠不變吧。"
   },
   {
     "id": "n3_0468",
@@ -5142,10 +5142,10 @@
     "reading": "えいきゅう",
     "romaji": "eikyuu",
     "partOfSpeech": "名詞",
-    "meaning": "永遠",
+    "meaning": "永久",
     "level": "N3",
-    "example": "今回の機会を通じて、永久の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「永遠」的重要價值與深層魅力。"
+    "example": "この記録は永久に残る。",
+    "exampleMeaning": "這項紀錄將會永久流傳。"
   },
   {
     "id": "n3_0469",
@@ -5175,10 +5175,10 @@
     "reading": "えいせい",
     "romaji": "eisei",
     "partOfSpeech": "名詞",
-    "meaning": "永成",
+    "meaning": "衛星、人造衛星",
     "level": "N3",
-    "example": "今回の機会を通じて、衛星の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「永成」的重要價值與深層魅力。"
+    "example": "この人工衛星は地球の周りを毎日回り続けている。",
+    "exampleMeaning": "這顆人造衛星每天持續繞著地球運轉。"
   },
   {
     "id": "n3_0472",
@@ -5188,8 +5188,8 @@
     "partOfSpeech": "名詞",
     "meaning": "營養",
     "level": "N3",
-    "example": "今回の機会を通じて、栄養の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「營養」的重要價值與深層魅力。"
+    "example": "野菜は体に欠かせない栄養素を豊富に含んでいる。",
+    "exampleMeaning": "蔬菜含有豐富人體不可或缺的營養素。"
   },
   {
     "id": "n3_0473",
@@ -5205,13 +5205,13 @@
   {
     "id": "n3_0474",
     "word": "描く",
-    "reading": "えがく",
-    "romaji": "egaku",
+    "reading": "かく",
+    "romaji": "kaku",
     "partOfSpeech": "動詞",
-    "meaning": "畫",
+    "meaning": "描繪、畫",
     "level": "N3",
-    "example": "この件について、しっかり描くことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "彼は風景を描くのが得意だ。",
+    "exampleMeaning": "他非常擅長描繪風景。"
   },
   {
     "id": "n3_0475",
@@ -5219,21 +5219,21 @@
     "reading": "えさ",
     "romaji": "esa",
     "partOfSpeech": "名詞",
-    "meaning": "餵食",
+    "meaning": "飼料、餌食",
     "level": "N3",
-    "example": "今回の機会を通じて、餌の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「餵食」的重要價值與深層魅力。"
+    "example": "この公園では鳥に餌をあげてはいけないことになっている。",
+    "exampleMeaning": "在這座公園規定不能餵鳥吃飼料。"
   },
   {
     "id": "n3_0476",
     "word": "エネルギー",
     "reading": "エネルギー",
-    "romaji": "エネルギー",
+    "romaji": "enerugii",
     "partOfSpeech": "名詞",
-    "meaning": "活力",
+    "meaning": "精力、能量",
     "level": "N3",
-    "example": "今回の機会を通じて、エネルギーの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「活力」的重要價值與深層魅力。"
+    "example": "残業が続いてエネルギーを使い果たしてしまった。",
+    "exampleMeaning": "連續加班把精力都耗盡了。"
   },
   {
     "id": "n3_0477",
@@ -5241,10 +5241,10 @@
     "reading": "える",
     "romaji": "eru",
     "partOfSpeech": "動詞",
-    "meaning": "得到、獲取、能夠",
+    "meaning": "獲得、得到",
     "level": "N3",
-    "example": "この件について、しっかり得ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、  、是非常重要的。"
+    "example": "この本を読んで今まで知らなかった知識を得ることができた。",
+    "exampleMeaning": "讀了這本書獲得了以往所不知道的知識。"
   },
   {
     "id": "n3_0478",
@@ -5274,10 +5274,10 @@
     "reading": "えんき",
     "romaji": "enki",
     "partOfSpeech": "名詞",
-    "meaning": "延遲",
+    "meaning": "延期",
     "level": "N3",
-    "example": "今回の機会を通じて、延期の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「延遲」的重要價值與深層魅力。"
+    "example": "台風のため明日の運動会は来週に延期になった。",
+    "exampleMeaning": "因為颱風的關係，明天的運動會延期至下週。"
   },
   {
     "id": "n3_0481",
@@ -5285,10 +5285,10 @@
     "reading": "えんぎ",
     "romaji": "engi",
     "partOfSpeech": "名詞",
-    "meaning": "表演",
+    "meaning": "表演、演技",
     "level": "N3",
-    "example": "今回の機会を通じて、演技の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「表演」的重要價值與深層魅力。"
+    "example": "彼の演技は素晴らしくて見ている人を感動させた。",
+    "exampleMeaning": "他的演技精湛出色，感動了在場的觀眾。"
   },
   {
     "id": "n3_0482",
@@ -5296,21 +5296,21 @@
     "reading": "えんじょ",
     "romaji": "enjo",
     "partOfSpeech": "名詞",
-    "meaning": "協助",
+    "meaning": "援助、支援",
     "level": "N3",
-    "example": "今回の機会を通じて、援助の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「協助」的重要價值與深層魅力。"
+    "example": "困っている国に対して多くの国が援助を続けている。",
+    "exampleMeaning": "許多國家持續向陷入困境的國家提供援助。"
   },
   {
     "id": "n3_0483",
     "word": "エンジン",
     "reading": "エンジン",
-    "romaji": "エンジン",
+    "romaji": "enjin",
     "partOfSpeech": "名詞",
-    "meaning": "引擎",
+    "meaning": "引擎、發動機",
     "level": "N3",
-    "example": "今回の機会を通じて、エンジンの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「引擎」的重要價值與深層魅力。"
+    "example": "エンジンの調子が悪いので修理に出すことにした。",
+    "exampleMeaning": "引擎狀況不好，所以決定送去維修。"
   },
   {
     "id": "n3_0484",
@@ -5318,10 +5318,10 @@
     "reading": "えんぜつ",
     "romaji": "enzetsu",
     "partOfSpeech": "名詞",
-    "meaning": "說話、交談、講話",
+    "meaning": "演講、演說",
     "level": "N3",
-    "example": "今回の機会を通じて、演説の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「說話」的重要價值與深層魅力。"
+    "example": "駅前で政治家が大きな声で演説をしていた。",
+    "exampleMeaning": "政治家在車站前大聲發表著演講。"
   },
   {
     "id": "n3_0485",
@@ -5329,21 +5329,21 @@
     "reading": "えんそう",
     "romaji": "ensou",
     "partOfSpeech": "名詞",
-    "meaning": "表現",
+    "meaning": "演奏",
     "level": "N3",
-    "example": "今回の機会を通じて、演奏の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「表現」的重要價值與深層魅力。"
+    "example": "コンサートでピアノの演奏を聞いてとても感動した。",
+    "exampleMeaning": "在音樂會上聆聽了鋼琴演奏，非常感動。"
   },
   {
     "id": "n3_0486",
     "word": "老い",
     "reading": "おい",
     "romaji": "oi",
-    "partOfSpeech": "い形容詞",
-    "meaning": "老的",
+    "partOfSpeech": "名詞",
+    "meaning": "衰老、老邁",
     "level": "N3",
-    "example": "この問題は非常に老いと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、。"
+    "example": "祖父は老いを感じさせないほど毎日元気に畑で働いている。",
+    "exampleMeaning": "祖父每天精神奕奕在田裡工作，絲毫讓人感受不到衰老。"
   },
   {
     "id": "n3_0487",
@@ -5373,10 +5373,10 @@
     "reading": "おう",
     "romaji": "ou",
     "partOfSpeech": "動詞",
-    "meaning": "追求",
+    "meaning": "追隨、追求",
     "level": "N3",
-    "example": "この件について、しっかり追うことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "夢を追い続ければいつか叶う日が来るはずだ。",
+    "exampleMeaning": "只要持續追尋夢想，實現的那一天終會到來。"
   },
   {
     "id": "n3_0490",
@@ -5394,11 +5394,11 @@
     "word": "王様",
     "reading": "おうさま",
     "romaji": "ousama",
-    "partOfSpeech": "な形容詞",
+    "partOfSpeech": "名詞",
     "meaning": "國王",
     "level": "N3",
-    "example": "いつも王様な気持ちで過ごしたいです。",
-    "exampleMeaning": "希望能一直保持著國王的心情度過每一天。"
+    "example": "昔話には優しい王様が国を治める話がよく出てくる。",
+    "exampleMeaning": "民間故事裡經常出現仁慈國王治理國家的情節。"
   },
   {
     "id": "n3_0492",
@@ -5406,10 +5406,10 @@
     "reading": "おうじ",
     "romaji": "ouji",
     "partOfSpeech": "名詞",
-    "meaning": "王子、親王",
+    "meaning": "王子",
     "level": "N3",
-    "example": "今回の機会を通じて、王子の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「王子」的重要價值與深層魅力。"
+    "example": "この物語は若い王子が旅に出るところから始まる。",
+    "exampleMeaning": "這個故事從年輕王子啟程踏上旅程開始。"
   },
   {
     "id": "n3_0493",
@@ -5417,10 +5417,10 @@
     "reading": "おうじる",
     "romaji": "oujiru",
     "partOfSpeech": "動詞",
-    "meaning": "回應",
+    "meaning": "按照、根據/響應",
     "level": "N3",
-    "example": "この件について、しっかり応じることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "お客様の希望に応じて料理の量を変えることができます。",
+    "exampleMeaning": "可以根據客人的需求調整料理的份量。"
   },
   {
     "id": "n3_0494",
@@ -5428,10 +5428,10 @@
     "reading": "おうだん",
     "romaji": "oudan",
     "partOfSpeech": "名詞",
-    "meaning": "穿越",
+    "meaning": "橫穿、橫斷",
     "level": "N3",
-    "example": "今回の機会を通じて、横断の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「穿越」的重要價值與深層魅力。"
+    "example": "道路を横断する時は注意してください。",
+    "exampleMeaning": "橫穿馬路時請多加注意。"
   },
   {
     "id": "n3_0495",
@@ -5441,19 +5441,19 @@
     "partOfSpeech": "動詞",
     "meaning": "完成、結束",
     "level": "N3",
-    "example": "毎日しっかり終えるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好完成。"
+    "example": "仕事を終えたら駅前の喫茶店でお茶でも飲みませんか？",
+    "exampleMeaning": "工作結束後要不要去車站前的咖啡廳喝杯茶呢？"
   },
   {
     "id": "n3_0496",
     "word": "大いに",
     "reading": "おおいに",
-    "romaji": "ooini",
-    "partOfSpeech": "名詞",
-    "meaning": "大大地",
+    "romaji": "ooiny",
+    "partOfSpeech": "副詞",
+    "meaning": "大大地、非常",
     "level": "N3",
-    "example": "今回の機会を通じて、大いにの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「大大地」的重要價值與深層魅力。"
+    "example": "私は彼を大いに尊敬している。",
+    "exampleMeaning": "我非常十分尊敬他。"
   },
   {
     "id": "n3_0497",
@@ -5461,10 +5461,10 @@
     "reading": "おおう",
     "romaji": "oou",
     "partOfSpeech": "動詞",
-    "meaning": "覆蓋、遮蓋",
+    "meaning": "覆蓋、籠罩",
     "level": "N3",
-    "example": "この件について、しっかり覆うことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "朝起きると庭は真っ白な雪に覆われていた。",
+    "exampleMeaning": "早上起床時，院子已經被一片純白積雪覆蓋了。"
   },
   {
     "id": "n3_0498",
@@ -5474,8 +5474,8 @@
     "partOfSpeech": "名詞",
     "meaning": "房東",
     "level": "N3",
-    "example": "今回の機会を通じて、大家の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「房東」的重要價值與深層魅力。"
+    "example": "水道が壊れたので大家さんに電話して直してもらった。",
+    "exampleMeaning": "因為自來水壞了，所以打電話給房東請他幫忙修好。"
   },
   {
     "id": "n3_0499",
@@ -5483,10 +5483,10 @@
     "reading": "おか",
     "romaji": "oka",
     "partOfSpeech": "名詞",
-    "meaning": "爬坡道",
+    "meaning": "小山丘、丘陵",
     "level": "N3",
-    "example": "今回の機会を通じて、丘の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「爬坡道」的重要價值與深層魅力。"
+    "example": "あの丘の上に登ると町全体を見ることができる。",
+    "exampleMeaning": "登上那座山丘頂端就能俯瞰整個城鎮。"
   },
   {
     "id": "n3_0500",
@@ -5494,10 +5494,10 @@
     "reading": "おき",
     "romaji": "oki",
     "partOfSpeech": "名詞",
-    "meaning": "即將來臨",
+    "meaning": "外海、海上",
     "level": "N3",
-    "example": "今回の機会を通じて、沖の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「即將來臨」的重要價值與深層魅力。"
+    "example": "沖の方に白い船がゆっくり進んでいるのが見える。",
+    "exampleMeaning": "看得見外海方向有一艘白色的船緩緩航行著。"
   },
   {
     "id": "n3_0501",
@@ -5505,10 +5505,10 @@
     "reading": "おく",
     "romaji": "oku",
     "partOfSpeech": "名詞",
-    "meaning": "背部、後背",
+    "meaning": "深處、內部",
     "level": "N3",
-    "example": "今回の機会を通じて、奥の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「背部」的重要價值與深層魅力。"
+    "example": "この家の奥には日当たりのいい庭がある。",
+    "exampleMeaning": "這棟房子的深處有一座採光良好的院子。"
   },
   {
     "id": "n3_0502",
@@ -5516,10 +5516,10 @@
     "reading": "おくる",
     "romaji": "okuru",
     "partOfSpeech": "動詞",
-    "meaning": "贈送、頒發",
+    "meaning": "贈送、贈與",
     "level": "N3",
-    "example": "この件について、しっかり贈ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、   、是非常重要的。"
+    "example": "誕生日に彼女に指輪を贈ることにした。",
+    "exampleMeaning": "決定在她生日時送她一枚戒指。"
   },
   {
     "id": "n3_0503",
@@ -5527,10 +5527,10 @@
     "reading": "おこる",
     "romaji": "okoru",
     "partOfSpeech": "動詞",
-    "meaning": "發生",
+    "meaning": "發生、引起",
     "level": "N3",
-    "example": "この件について、しっかり起こることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "夜中に大きな地震が起こってみんな外に逃げた。",
+    "exampleMeaning": "半夜發生了強烈地震，大家都逃到了戶外。"
   },
   {
     "id": "n3_0504",
@@ -5549,21 +5549,21 @@
     "reading": "おさない",
     "romaji": "osanai",
     "partOfSpeech": "い形容詞",
-    "meaning": "年輕的",
+    "meaning": "幼小的、幼年",
     "level": "N3",
-    "example": "この問題は非常に幼いと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、。"
+    "example": "幼い頃の写真を見ると懐かしい気持ちになる。",
+    "exampleMeaning": "看著小時候的照片，心中湧起懷念的感覺。"
   },
   {
     "id": "n3_0506",
-    "word": "収める",
+    "word": "納める",
     "reading": "おさめる",
     "romaji": "osameru",
     "partOfSpeech": "動詞",
-    "meaning": "收納、獲得",
+    "meaning": "取得、收穫/繳納",
     "level": "N3",
-    "example": "この件について、しっかり収めることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "妹は今度の大会でも素晴らしい成績を納めた。",
+    "exampleMeaning": "妹妹在這次的大會中也取得了出色的成績。"
   },
   {
     "id": "n3_0507",
@@ -5611,14 +5611,14 @@
   },
   {
     "id": "n3_0511",
-    "word": "お喋り",
+    "word": "おしゃべり",
     "reading": "おしゃべり",
     "romaji": "oshaberi",
     "partOfSpeech": "名詞",
-    "meaning": "聊天",
+    "meaning": "聊天、閒聊",
     "level": "N3",
-    "example": "今回の機会を通じて、お喋りの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「聊天」的重要價值與深層魅力。"
+    "example": "喫茶店で友達とおしゃべりしていたらあっという間に時間が過ぎた。",
+    "exampleMeaning": "在咖啡廳和朋友聊天，時間一眨眼就過去了。"
   },
   {
     "id": "n3_0512",
@@ -5628,19 +5628,19 @@
     "partOfSpeech": "名詞",
     "meaning": "污染",
     "level": "N3",
-    "example": "今回の機会を通じて、汚染の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「污染」的重要價值與深層魅力。"
+    "example": "工場からの水でこの川の汚染がひどくなっているそうだ。",
+    "exampleMeaning": "聽說因為工廠排放的污水，這條河流的污染變得非常嚴重。"
   },
   {
     "id": "n3_0513",
-    "word": "恐らく",
+    "word": "おそらく",
     "reading": "おそらく",
     "romaji": "osoraku",
-    "partOfSpeech": "名詞",
-    "meaning": "也許",
+    "partOfSpeech": "副詞",
+    "meaning": "大概、恐怕",
     "level": "N3",
-    "example": "今回の機会を通じて、恐らくの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「也許」的重要價值與深層魅力。"
+    "example": "おそらく雨が降るだろう。",
+    "exampleMeaning": "恐怕會下雨吧。"
   },
   {
     "id": "n3_0514",
@@ -5648,10 +5648,10 @@
     "reading": "おそれる",
     "romaji": "osoreru",
     "partOfSpeech": "動詞",
-    "meaning": "害怕、恐懼",
+    "meaning": "畏懼、害怕",
     "level": "N3",
-    "example": "この件について、しっかり恐れることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "失敗を恐れないで新しいことに挑戦してみましょう。",
+    "exampleMeaning": "不要害怕失敗，勇於挑戰新事物吧。"
   },
   {
     "id": "n3_0515",
@@ -5659,10 +5659,10 @@
     "reading": "おそろしい",
     "romaji": "osoroshii",
     "partOfSpeech": "い形容詞",
-    "meaning": "糟糕的",
+    "meaning": "可怕的、恐怖的",
     "level": "N3",
-    "example": "このデザインはとても恐ろしいと思います。",
-    "exampleMeaning": "我覺得這個設計非常糟糕的。"
+    "example": "その映画はとても恐ろしい。",
+    "exampleMeaning": "那部電影非常恐怖可怕。"
   },
   {
     "id": "n3_0516",
@@ -5670,10 +5670,10 @@
     "reading": "おそわる",
     "romaji": "osowaru",
     "partOfSpeech": "動詞",
-    "meaning": "被教導",
+    "meaning": "學習、受教",
     "level": "N3",
-    "example": "毎日しっかり教わるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好被教導。"
+    "example": "この料理の作り方は全部母から教わったものばかりだ。",
+    "exampleMeaning": "這道料理的做法全都是向母親學來的。"
   },
   {
     "id": "n3_0517",
@@ -5691,11 +5691,11 @@
     "word": "穏やか",
     "reading": "おだやか",
     "romaji": "odayaka",
-    "partOfSpeech": "名詞",
-    "meaning": "安靜寧靜的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "平靜的、溫和的",
     "level": "N3",
-    "example": "今回の機会を通じて、穏やかの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「安靜寧靜的」的重要價值與深層魅力。"
+    "example": "今日は穏やかな天気だ。",
+    "exampleMeaning": "今天天氣風和日麗很平靜。"
   },
   {
     "id": "n3_0519",
@@ -5714,10 +5714,10 @@
     "reading": "おとなしい",
     "romaji": "otonashii",
     "partOfSpeech": "い形容詞",
-    "meaning": "安靜寧靜的",
+    "meaning": "溫馴的、老實的",
     "level": "N3",
-    "example": "この問題は非常に大人しいと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、 安靜寧靜的。"
+    "example": "この犬は大人しいので子供がいる家庭でも飼える。",
+    "exampleMeaning": "這隻狗很溫馴老實，所以有小孩的家庭也能飼養。"
   },
   {
     "id": "n3_0521",
@@ -5725,10 +5725,10 @@
     "reading": "おとる",
     "romaji": "otoru",
     "partOfSpeech": "動詞",
-    "meaning": "下",
+    "meaning": "遜色、不如",
     "level": "N3",
-    "example": "この件について、しっかり劣ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "彼の成績は他の人に比べると少し劣っている。",
+    "exampleMeaning": "他的成績跟其他人相比稍微遜色一些。"
   },
   {
     "id": "n3_0522",
@@ -5736,10 +5736,10 @@
     "reading": "おに",
     "romaji": "oni",
     "partOfSpeech": "名詞",
-    "meaning": "惡魔",
+    "meaning": "鬼、惡鬼",
     "level": "N3",
-    "example": "今回の機会を通じて、鬼の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「惡魔」的重要價值與深層魅力。"
+    "example": "昔話には鬼がよく出る。",
+    "exampleMeaning": "民間故事裡經常出現惡鬼。"
   },
   {
     "id": "n3_0523",
@@ -5747,10 +5747,10 @@
     "reading": "おび",
     "romaji": "obi",
     "partOfSpeech": "名詞",
-    "meaning": "樂團",
+    "meaning": "腰帶、帶子",
     "level": "N3",
-    "example": "今回の機会を通じて、帯の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「樂團」的重要價值與深層魅力。"
+    "example": "着物を着る時、帯を1人で結ぶのはとても難しい。",
+    "exampleMeaning": "穿和服時，一個人繫腰帶非常困難。"
   },
   {
     "id": "n3_0524",
@@ -5758,21 +5758,21 @@
     "reading": "おひる",
     "romaji": "ohiru",
     "partOfSpeech": "名詞",
-    "meaning": "午餐",
+    "meaning": "中午、午餐",
     "level": "N3",
-    "example": "今回の機会を通じて、お昼の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「午餐」的重要價值與深層魅力。"
+    "example": "お昼になったらみんなで公園でお弁当を食べましょう。",
+    "exampleMeaning": "到了中午大家一起在公園吃便當吧。"
   },
   {
     "id": "n3_0525",
     "word": "オフィス",
     "reading": "オフィス",
-    "romaji": "オフィス",
+    "romaji": "ofisu",
     "partOfSpeech": "名詞",
     "meaning": "辦公室",
     "level": "N3",
-    "example": "今回の機会を通じて、オフィスの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「辦公室」的重要價值與深層魅力。"
+    "example": "彼は駅前の新しいオフィスで働き始めた。",
+    "exampleMeaning": "他開始在車站前的新辦公室上班。"
   },
   {
     "id": "n3_0526",
@@ -5780,10 +5780,10 @@
     "reading": "おぼれる",
     "romaji": "oboreru",
     "partOfSpeech": "動詞",
-    "meaning": "溺水、沉溺",
+    "meaning": "沉溺、溺水",
     "level": "N3",
-    "example": "この件について、しっかり溺れることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "離婚して以来、彼は酒に溺れている。",
+    "exampleMeaning": "自從離婚以來，他一直沉溺於酒精。"
   },
   {
     "id": "n3_0527",
@@ -5801,11 +5801,11 @@
     "word": "おめでとう",
     "reading": "おめでとう",
     "romaji": "omedetou",
-    "partOfSpeech": "名詞",
-    "meaning": "恭喜你",
+    "partOfSpeech": "感動詞",
+    "meaning": "祝賀、恭喜",
     "level": "N3",
-    "example": "今回の機会を通じて、おめでとうの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「恭喜你」的重要價值與深層魅力。"
+    "example": "「合格おめでとう。本当によく頑張ったね」と褒められた。",
+    "exampleMeaning": "被誇獎道：「恭喜考取！你真的很努力呢。」"
   },
   {
     "id": "n3_0529",
@@ -5835,32 +5835,32 @@
     "reading": "おもいで",
     "romaji": "omoide",
     "partOfSpeech": "名詞",
-    "meaning": "記憶",
+    "meaning": "回憶",
     "level": "N3",
-    "example": "今回の機会を通じて、思い出の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「記憶」的重要價值與深層魅力。"
+    "example": "子供の頃の思い出を話した。",
+    "exampleMeaning": "聊起了小時候的回憶。"
   },
   {
     "id": "n3_0532",
     "word": "主に",
     "reading": "おもに",
     "romaji": "omoni",
-    "partOfSpeech": "名詞",
-    "meaning": "主要是",
+    "partOfSpeech": "副詞",
+    "meaning": "主要、大多",
     "level": "N3",
-    "example": "今回の機会を通じて、主にの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「主要是」的重要價值與深層魅力。"
+    "example": "この本は主に学生向けだ。",
+    "exampleMeaning": "這本書主要是針對學生寫的。"
   },
   {
     "id": "n3_0533",
     "word": "思わず",
     "reading": "おもわず",
     "romaji": "omowazu",
-    "partOfSpeech": "名詞",
-    "meaning": "不由自主",
+    "partOfSpeech": "副詞",
+    "meaning": "不由自主地、不禁",
     "level": "N3",
-    "example": "今回の機会を通じて、思わずの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「不由自主」的重要價值與深層魅力。"
+    "example": "思わず笑ってしまった。",
+    "exampleMeaning": "不由自主地笑了出來。"
   },
   {
     "id": "n3_0534",
@@ -5870,19 +5870,19 @@
     "partOfSpeech": "名詞",
     "meaning": "游泳",
     "level": "N3",
-    "example": "今回の機会を通じて、泳ぎの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「游泳」的重要價值與深層魅力。"
+    "example": "兄は泳ぎが得意で子供の頃から大会に出ている。",
+    "exampleMeaning": "哥哥很擅長游泳，從小就經常參加比賽。"
   },
   {
     "id": "n3_0535",
     "word": "およそ",
     "reading": "およそ",
     "romaji": "oyoso",
-    "partOfSpeech": "名詞",
-    "meaning": "關於",
+    "partOfSpeech": "副詞",
+    "meaning": "大概、大約",
     "level": "N3",
-    "example": "今回の機会を通じて、およその重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「關於」的重要價值與深層魅力。"
+    "example": "ここから駅まで歩くとおよそ1時間かかります。",
+    "exampleMeaning": "從這裡走到車站大約需要1個小時。"
   },
   {
     "id": "n3_0536",
@@ -5890,10 +5890,10 @@
     "reading": "およぼす",
     "romaji": "oyobosu",
     "partOfSpeech": "動詞",
-    "meaning": "造成、帶來影響",
+    "meaning": "造成、波及",
     "level": "N3",
-    "example": "この件について、しっかり及ぼすことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "この事故は多くの人に影響を及ぼした。",
+    "exampleMeaning": "這起事故對許多人造成了影響。"
   },
   {
     "id": "n3_0537",
@@ -5908,14 +5908,14 @@
   },
   {
     "id": "n3_0538",
-    "word": "降ろす",
+    "word": "下ろす",
     "reading": "おろす",
     "romaji": "orosu",
     "partOfSpeech": "動詞",
-    "meaning": "卸下",
+    "meaning": "讓...下車、卸下",
     "level": "N3",
-    "example": "この件について、しっかり降ろすことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "駅の前で下ろしてもらえますか？そこから歩いていきます。",
+    "exampleMeaning": "可以在車站前面讓我下車嗎？我再從那裡走過去。"
   },
   {
     "id": "n3_0539",
@@ -5945,21 +5945,21 @@
     "reading": "おん",
     "romaji": "on",
     "partOfSpeech": "名詞",
-    "meaning": "謝謝",
+    "meaning": "恩情、恩惠",
     "level": "N3",
-    "example": "今回の機会を通じて、恩の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「謝謝」的重要價值與深層魅力。"
+    "example": "お世話になった先生への恩は一生忘れないつもりだ。",
+    "exampleMeaning": "我一輩子都不會忘記受過照顧的老師的恩情。"
   },
   {
     "id": "n3_0542",
     "word": "温暖",
     "reading": "おんだん",
     "romaji": "ondan",
-    "partOfSpeech": "名詞",
+    "partOfSpeech": "な形容詞",
     "meaning": "溫暖的",
     "level": "N3",
-    "example": "今回の機会を通じて、温暖の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「溫暖的」的重要價值與深層魅力。"
+    "example": "この国の気候は温暖だ。",
+    "exampleMeaning": "這個國家的氣候很溫暖。"
   },
   {
     "id": "n3_0543",
@@ -6000,10 +6000,10 @@
     "reading": "か",
     "romaji": "ka",
     "partOfSpeech": "名詞",
-    "meaning": "分配",
+    "meaning": "部門、課",
     "level": "N3",
-    "example": "今回の機会を通じて、課の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「分配」的重要價值與深層魅力。"
+    "example": "来月から営業の課に移ることになり少し不安だ。",
+    "exampleMeaning": "從下個月起要調到業務部門，感到有點不安。"
   },
   {
     "id": "n3_0547",
@@ -6020,12 +6020,12 @@
     "id": "n3_0548",
     "word": "カード",
     "reading": "カード",
-    "romaji": "カード",
+    "romaji": "kaado",
     "partOfSpeech": "名詞",
-    "meaning": "卡片",
+    "meaning": "卡片、信用卡",
     "level": "N3",
-    "example": "今回の機会を通じて、カードの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「卡片」的重要價值與深層魅力。"
+    "example": "現金がなかったのでカードで支払うことにした。",
+    "exampleMeaning": "因為沒有現金所以決定用信用卡付款。"
   },
   {
     "id": "n3_0549",
@@ -6044,10 +6044,10 @@
     "reading": "がい",
     "romaji": "gai",
     "partOfSpeech": "名詞",
-    "meaning": "傷害",
+    "meaning": "危害、害處",
     "level": "N3",
-    "example": "今回の機会を通じて、害の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「傷害」的重要價值與深層魅力。"
+    "example": "タバコは健康に害があると分かっていてもなかなかやめられない。",
+    "exampleMeaning": "明知抽菸對健康有害，卻很難戒掉。"
   },
   {
     "id": "n3_0551",
@@ -6055,10 +6055,10 @@
     "reading": "かいいん",
     "romaji": "kaiin",
     "partOfSpeech": "名詞",
-    "meaning": "成員",
+    "meaning": "會員",
     "level": "N3",
-    "example": "今回の機会を通じて、会員の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「成員」的重要價值與深層魅力。"
+    "example": "会員になると料金が2割安くなるそうですよ。",
+    "exampleMeaning": "聽說成為會員的話費用可以打八折喔。"
   },
   {
     "id": "n3_0552",
@@ -6066,10 +6066,10 @@
     "reading": "かいが",
     "romaji": "kaiga",
     "partOfSpeech": "名詞",
-    "meaning": "繪畫",
+    "meaning": "繪畫、畫作",
     "level": "N3",
-    "example": "今回の機会を通じて、絵画の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「繪畫」的重要價值與深層魅力。"
+    "example": "美術館で有名な画家の絵画をゆっくり見て回った。",
+    "exampleMeaning": "在美術館慢慢欣賞了著名畫家的繪畫作品。"
   },
   {
     "id": "n3_0553",
@@ -6077,10 +6077,10 @@
     "reading": "かいがい",
     "romaji": "kaigai",
     "partOfSpeech": "名詞",
-    "meaning": "國外",
+    "meaning": "海外、國外",
     "level": "N3",
-    "example": "今回の機会を通じて、海外の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「國外」的重要價值與深層魅力。"
+    "example": "来年初めて海外旅行に行くことになった。",
+    "exampleMeaning": "決定明年第一次去海外旅行。"
   },
   {
     "id": "n3_0554",
@@ -6088,10 +6088,10 @@
     "reading": "かいけい",
     "romaji": "kaikei",
     "partOfSpeech": "名詞",
-    "meaning": "會計",
+    "meaning": "結帳、會計",
     "level": "N3",
-    "example": "今回の機会を通じて、会計の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「會計」的重要價值與深層魅力。"
+    "example": "レストランで会計を済ませてから外に出た。",
+    "exampleMeaning": "在餐廳結完帳後走到了外面。"
   },
   {
     "id": "n3_0555",
@@ -6110,10 +6110,10 @@
     "reading": "かいごう",
     "romaji": "kaigou",
     "partOfSpeech": "名詞",
-    "meaning": "會議",
+    "meaning": "聚會、集會",
     "level": "N3",
-    "example": "今回の機会を通じて、会合の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「會議」的重要價值與深層魅力。"
+    "example": "町の安全について話し合う会合が今夜開かれる。",
+    "exampleMeaning": "今晚將召開商討城鎮安全的集會。"
   },
   {
     "id": "n3_0557",
@@ -6121,10 +6121,10 @@
     "reading": "がいこう",
     "romaji": "gaikou",
     "partOfSpeech": "名詞",
-    "meaning": "我們走吧",
+    "meaning": "外交",
     "level": "N3",
-    "example": "今回の機会を通じて、外交の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「我們走吧」的重要價值與深層魅力。"
+    "example": "2つの国は外交を通じて問題を解決しようとしている。",
+    "exampleMeaning": "兩國試圖透過外交手段來解決問題。"
   },
   {
     "id": "n3_0558",
@@ -6132,10 +6132,10 @@
     "reading": "かいし",
     "romaji": "kaishi",
     "partOfSpeech": "名詞",
-    "meaning": "凱石",
+    "meaning": "開始",
     "level": "N3",
-    "example": "今回の機会を通じて、開始の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「凱石」的重要價值與深層魅力。"
+    "example": "試合の開始時間が雨のせいで30分遅れた。",
+    "exampleMeaning": "比賽開始時間因為下雨而延遲了30分鐘。"
   },
   {
     "id": "n3_0559",
@@ -6143,10 +6143,10 @@
     "reading": "かいしゃく",
     "romaji": "kaishaku",
     "partOfSpeech": "名詞",
-    "meaning": "解釋",
+    "meaning": "解讀、解釋",
     "level": "N3",
-    "example": "今回の機会を通じて、解釈の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「解釋」的重要價值與深層魅力。"
+    "example": "この文章の解釈が難しい。",
+    "exampleMeaning": "這篇文章的解讀十分困難。"
   },
   {
     "id": "n3_0560",
@@ -6154,10 +6154,10 @@
     "reading": "がいしゅつ",
     "romaji": "gaishutsu",
     "partOfSpeech": "名詞",
-    "meaning": "加油站",
+    "meaning": "外出、出門",
     "level": "N3",
-    "example": "今回の機会を通じて、外出の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「加油站」的重要價值與深層魅力。"
+    "example": "母は買い物のために外出していて夕方まで戻らない。",
+    "exampleMeaning": "母親因為出門買東西，傍晚前都不會回來。"
   },
   {
     "id": "n3_0561",
@@ -6165,21 +6165,21 @@
     "reading": "かいぜん",
     "romaji": "kaizen",
     "partOfSpeech": "名詞",
-    "meaning": "改進",
+    "meaning": "改善、改良",
     "level": "N3",
-    "example": "今回の機会を通じて、改善の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「改進」的重要價值與深層魅力。"
+    "example": "社員の意見を聞いて働き方を改善することにした。",
+    "exampleMeaning": "聽取員工意見後，決定改善工作方式。"
   },
   {
     "id": "n3_0562",
     "word": "快適",
     "reading": "かいてき",
     "romaji": "kaiteki",
-    "partOfSpeech": "名詞",
-    "meaning": "舒服的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "舒適的、舒暢的",
     "level": "N3",
-    "example": "今回の機会を通じて、快適の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「舒服的」的重要價值與深層魅力。"
+    "example": "エアコンのおかげで夏でも部屋はとても快適だ。",
+    "exampleMeaning": "多虧了冷氣，即使是夏天房間也非常舒適。"
   },
   {
     "id": "n3_0563",
@@ -6187,10 +6187,10 @@
     "reading": "かいふく",
     "romaji": "kaifuku",
     "partOfSpeech": "名詞",
-    "meaning": "恢復",
+    "meaning": "康復、恢復",
     "level": "N3",
-    "example": "今回の機会を通じて、回復の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「恢復」的重要價值與深層魅力。"
+    "example": "祖母は手術の後順調に回復しているので安心した。",
+    "exampleMeaning": "祖母動完手術後恢復得很順利，讓人放心了。"
   },
   {
     "id": "n3_0564",
@@ -6231,10 +6231,10 @@
     "reading": "かえる",
     "romaji": "kaeru",
     "partOfSpeech": "動詞",
-    "meaning": "改變",
+    "meaning": "兌換、交換",
     "level": "N3",
-    "example": "この件について、しっかり替えることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "旅行の前に銀行で円をドルに変えておいた。",
+    "exampleMeaning": "旅行前先在銀行把日圓換成了美元。"
   },
   {
     "id": "n3_0568",
@@ -6242,10 +6242,10 @@
     "reading": "かえる",
     "romaji": "kaeru",
     "partOfSpeech": "動詞",
-    "meaning": "交換",
+    "meaning": "更換、換氣",
     "level": "N3",
-    "example": "この件について、しっかり換えることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "部屋の空気を変えるために窓を全部開けた。",
+    "exampleMeaning": "為了流通房間空氣，把所有窗戶都打開了。"
   },
   {
     "id": "n3_0569",
@@ -6264,10 +6264,10 @@
     "reading": "かおり",
     "romaji": "kaori",
     "partOfSpeech": "名詞",
-    "meaning": "香味",
+    "meaning": "芳香、香氣",
     "level": "N3",
-    "example": "今回の機会を通じて、香りの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「香味」的重要價值與深層魅力。"
+    "example": "台所からカレーのいい香りがしてお腹が空いてきた。",
+    "exampleMeaning": "廚房傳來咖哩誘人的香氣，肚子開始餓了起來。"
   },
   {
     "id": "n3_0571",
@@ -6277,8 +6277,8 @@
     "partOfSpeech": "名詞",
     "meaning": "畫家",
     "level": "N3",
-    "example": "今回の機会を通じて、画家の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「畫家」的重要價值與深層魅力。"
+    "example": "この絵を描いた画家はフランスで長く暮らしていたそうだ。",
+    "exampleMeaning": "畫這幅畫的畫家據說曾在法國生活了很長一段時間。"
   },
   {
     "id": "n3_0572",
@@ -6286,10 +6286,10 @@
     "reading": "かかえる",
     "romaji": "kakaeru",
     "partOfSpeech": "動詞",
-    "meaning": "抱著、承擔負擔",
+    "meaning": "抱著、承擔",
     "level": "N3",
-    "example": "毎日しっかり抱えるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好抱著。"
+    "example": "彼は大きな荷物を抱えたまま階段を登っていった。",
+    "exampleMeaning": "他抱著大件行李登上了樓梯。"
   },
   {
     "id": "n3_0573",
@@ -6299,8 +6299,8 @@
     "partOfSpeech": "名詞",
     "meaning": "價格",
     "level": "N3",
-    "example": "今回の機会を通じて、価格の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「價格」的重要價值與深層魅力。"
+    "example": "この商品の価格は高いが品質を考えれば納得できる。",
+    "exampleMeaning": "這項商品價格雖高，但考慮到品質便能接受。"
   },
   {
     "id": "n3_0574",
@@ -6321,8 +6321,8 @@
     "partOfSpeech": "動詞",
     "meaning": "閃耀、發光",
     "level": "N3",
-    "example": "この件について、しっかり輝くことが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "山の上から見ると星が輝いていてとても綺麗だった。",
+    "exampleMeaning": "從山頂上看繁星閃爍，非常美麗。"
   },
   {
     "id": "n3_0576",
@@ -6337,14 +6337,14 @@
   },
   {
     "id": "n3_0577",
-    "word": "罹る",
+    "word": "かかる",
     "reading": "かかる",
     "romaji": "kakaru",
     "partOfSpeech": "動詞",
-    "meaning": "生病",
+    "meaning": "罹患、感染",
     "level": "N3",
-    "example": "毎日しっかり罹るように心がけています。",
-    "exampleMeaning": "每天都用心努力做好生病。"
+    "example": "彼はインフルエンザにかかって1週間会社を休んだ。",
+    "exampleMeaning": "他得了流感向公司請了一週的假。"
   },
   {
     "id": "n3_0578",
@@ -6352,10 +6352,10 @@
     "reading": "かぎる",
     "romaji": "kagiru",
     "partOfSpeech": "動詞",
-    "meaning": "限定、限於",
+    "meaning": "僅限、限定",
     "level": "N3",
-    "example": "この件について、しっかり限ることが大切です。",
-    "exampleMeaning": "關於這件事，好好嚴格嚴厲的、  、是非常重要的。"
+    "example": "この店は会員に限って利用できます。",
+    "exampleMeaning": "這家店僅限會員使用。"
   },
   {
     "id": "n3_0579",
@@ -6396,10 +6396,10 @@
     "reading": "かぐ",
     "romaji": "kagu",
     "partOfSpeech": "名詞",
-    "meaning": "聞",
+    "meaning": "家具",
     "level": "N3",
-    "example": "今回の機会を通じて、家具の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「聞」的重要價值與深層魅力。"
+    "example": "引っ越しに合わせて新しい家具を買うことにした。",
+    "exampleMeaning": "配合搬家，決定添購新的家具。"
   },
   {
     "id": "n3_0583",
@@ -6407,10 +6407,10 @@
     "reading": "がく",
     "romaji": "gaku",
     "partOfSpeech": "名詞",
-    "meaning": "知識、常識",
+    "meaning": "學識、學問",
     "level": "N3",
-    "example": "今回の機会を通じて、学の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「知識」的重要價值與深層魅力。"
+    "example": "祖父は学がある人で難しい質問にも何でも答えてくれる。",
+    "exampleMeaning": "祖父是個很有學識的人，再困難的問題都能為我解答。"
   },
   {
     "id": "n3_0584",
@@ -6429,21 +6429,21 @@
     "reading": "かくご",
     "romaji": "kakugo",
     "partOfSpeech": "名詞",
-    "meaning": "解決方法",
+    "meaning": "覺悟、心理準備",
     "level": "N3",
-    "example": "今回の機会を通じて、覚悟の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「解決方法」的重要價值與深層魅力。"
+    "example": "試験に合格するためにしっかり勉強する覚悟を決めた。",
+    "exampleMeaning": "下定決心全力讀書以求通過考試。"
   },
   {
     "id": "n3_0586",
     "word": "確実",
     "reading": "かくじつ",
     "romaji": "kakujitsu",
-    "partOfSpeech": "名詞",
-    "meaning": "肯定",
+    "partOfSpeech": "な形容詞",
+    "meaning": "確實的、確鑿的",
     "level": "N3",
-    "example": "今回の機会を通じて、確実の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「肯定」的重要價值與深層魅力。"
+    "example": "台風がこの地域に上陸するのはまず確実だ。",
+    "exampleMeaning": "颱風登陸這個地區幾乎是已成定局。"
   },
   {
     "id": "n3_0587",
@@ -6453,8 +6453,8 @@
     "partOfSpeech": "名詞",
     "meaning": "學者",
     "level": "N3",
-    "example": "今回の機会を通じて、学者の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「學者」的重要價值與深層魅力。"
+    "example": "彼は有名な学者として知られている。",
+    "exampleMeaning": "他作為著名的學者而聞名。"
   },
   {
     "id": "n3_0588",
@@ -6462,10 +6462,10 @@
     "reading": "がくしゅう",
     "romaji": "gakushuu",
     "partOfSpeech": "名詞",
-    "meaning": "學習",
+    "meaning": "學習、研習",
     "level": "N3",
-    "example": "今回の機会を通じて、学習の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「學習」的重要價值與深層魅力。"
+    "example": "毎日学習することが重要だ。",
+    "exampleMeaning": "每天持續學習是非常重要的。"
   },
   {
     "id": "n3_0589",
@@ -6473,10 +6473,10 @@
     "reading": "かくす",
     "romaji": "kakusu",
     "partOfSpeech": "動詞",
-    "meaning": "隱藏、遮掩",
+    "meaning": "隱藏、隱瞞",
     "level": "N3",
-    "example": "この件について、しっかり隠すことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "彼は秘密を隠すのが上手だ。",
+    "exampleMeaning": "他很擅長保守隱藏秘密。"
   },
   {
     "id": "n3_0590",
@@ -6484,10 +6484,10 @@
     "reading": "かくだい",
     "romaji": "kakudai",
     "partOfSpeech": "名詞",
-    "meaning": "擴大、擴展",
+    "meaning": "擴大、拓展",
     "level": "N3",
-    "example": "今回の機会を通じて、拡大の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「擴大」的重要價值與深層魅力。"
+    "example": "会社は来年事業を拡大する予定だ。",
+    "exampleMeaning": "公司預計明年擴大事業規模。"
   },
   {
     "id": "n3_0591",
@@ -6506,10 +6506,10 @@
     "reading": "がくもん",
     "romaji": "gakumon",
     "partOfSpeech": "名詞",
-    "meaning": "學問、學識",
+    "meaning": "學問、學術",
     "level": "N3",
-    "example": "今回の機会を通じて、学問の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「學問」的重要價值與深層魅力。"
+    "example": "彼は学問に非常に熱心だ。",
+    "exampleMeaning": "他對做學問非常熱衷。"
   },
   {
     "id": "n3_0593",
@@ -6517,10 +6517,10 @@
     "reading": "かくれる",
     "romaji": "kakureru",
     "partOfSpeech": "動詞",
-    "meaning": "躲藏、隱蔽",
+    "meaning": "隱藏、躲藏",
     "level": "N3",
-    "example": "この件について、しっかり隠れることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "猫が部屋の隅に隠れていた。",
+    "exampleMeaning": "貓咪躲在房間的角落裡。"
   },
   {
     "id": "n3_0594",
@@ -6528,10 +6528,10 @@
     "reading": "かげ",
     "romaji": "kage",
     "partOfSpeech": "名詞",
-    "meaning": "陰影",
+    "meaning": "影子、蹤影",
     "level": "N3",
-    "example": "今回の機会を通じて、影の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「陰影」的重要價值與深層魅力。"
+    "example": "久しぶりに帰った田舎には人影がなかった。",
+    "exampleMeaning": "久違回到鄉下，路上連個人影都沒有。"
   },
   {
     "id": "n3_0595",
@@ -6539,10 +6539,10 @@
     "reading": "かげ",
     "romaji": "kage",
     "partOfSpeech": "名詞",
-    "meaning": "陰影",
+    "meaning": "樹蔭、陰涼處",
     "level": "N3",
-    "example": "今回の機会を通じて、陰の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「陰影」的重要價值與深層魅力。"
+    "example": "暑かったので木の陰で少し休んだ。",
+    "exampleMeaning": "因為很熱，所以在樹蔭下稍微休息了一下。"
   },
   {
     "id": "n3_0596",
@@ -6550,10 +6550,10 @@
     "reading": "かける",
     "romaji": "kakeru",
     "partOfSpeech": "動詞",
-    "meaning": "缺少",
+    "meaning": "缺損、缺少",
     "level": "N3",
-    "example": "毎日しっかり欠けるように心がけています。",
-    "exampleMeaning": "每天都用心努力做好缺少。"
+    "example": "カップの縁が少し欠けている。",
+    "exampleMeaning": "杯子的邊緣稍微缺了一角。"
   },
   {
     "id": "n3_0597",
@@ -6561,10 +6561,10 @@
     "reading": "かげん",
     "romaji": "kagen",
     "partOfSpeech": "名詞",
-    "meaning": "調整",
+    "meaning": "程度、分寸/水溫",
     "level": "N3",
-    "example": "今回の機会を通じて、加減の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「調整」的重要價值與深層魅力。"
+    "example": "お湯の加減はどうですか？熱かったら水を足してください。",
+    "exampleMeaning": "水溫如何？如果太燙的話請加點冷水。"
   },
   {
     "id": "n3_0598",
@@ -6572,10 +6572,10 @@
     "reading": "かこ",
     "romaji": "kako",
     "partOfSpeech": "名詞",
-    "meaning": "過去的",
+    "meaning": "過去",
     "level": "N3",
-    "example": "今回の機会を通じて、過去の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「過去的」的重要價值與深層魅力。"
+    "example": "過去のことを思い出すと懐かしい気持ちになる。",
+    "exampleMeaning": "回想起過去的事情，心中湧起懷念之情。"
   },
   {
     "id": "n3_0599",
@@ -6583,10 +6583,10 @@
     "reading": "かご",
     "romaji": "kago",
     "partOfSpeech": "名詞",
-    "meaning": "籃子",
+    "meaning": "籃子、提籃",
     "level": "N3",
-    "example": "今回の機会を通じて、籠の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「籃子」的重要價值與深層魅力。"
+    "example": "買い物かごに商品を入れてレジへ向かった。",
+    "exampleMeaning": "把商品放入購物籃後走向收銀台。"
   },
   {
     "id": "n3_0600",
@@ -6594,10 +6594,10 @@
     "reading": "かこむ",
     "romaji": "kakomu",
     "partOfSpeech": "動詞",
-    "meaning": "環繞",
+    "meaning": "圍繞、包圍",
     "level": "N3",
-    "example": "この件について、しっかり囲むことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "みんなでテーブルを囲んで食事をした。",
+    "exampleMeaning": "大家圍繞著餐桌一起用餐。"
   },
   {
     "id": "n3_0601",
@@ -6605,10 +6605,10 @@
     "reading": "かさい",
     "romaji": "kasai",
     "partOfSpeech": "名詞",
-    "meaning": "火",
+    "meaning": "火災",
     "level": "N3",
-    "example": "今回の機会を通じて、火災の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「火」的重要價值與深層魅力。"
+    "example": "昨日大規模な火災が発生した。",
+    "exampleMeaning": "昨天發生了大規模火災。"
   },
   {
     "id": "n3_0602",
@@ -6616,10 +6616,10 @@
     "reading": "かさなる",
     "romaji": "kasanaru",
     "partOfSpeech": "動詞",
-    "meaning": "重疊",
+    "meaning": "重疊、接連發生",
     "level": "N3",
-    "example": "この件について、しっかり重なることが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "仕事と引っ越しが重なって今月は本当に忙しい。",
+    "exampleMeaning": "工作和搬家撞在一起，這個月真的非常忙碌。"
   },
   {
     "id": "n3_0603",
@@ -6627,10 +6627,10 @@
     "reading": "かさねる",
     "romaji": "kasaneru",
     "partOfSpeech": "動詞",
-    "meaning": "重疊",
+    "meaning": "累積、重覆",
     "level": "N3",
-    "example": "この件について、しっかり重ねることが大切です。",
-    "exampleMeaning": "關於這件事，好好、     、是非常重要的。"
+    "example": "練習を重ねれば重ねるほど上手になっていきますよ。",
+    "exampleMeaning": "練習累積得越多，就會變得越熟練喔。"
   },
   {
     "id": "n3_0604",
@@ -6660,10 +6660,10 @@
     "reading": "かし",
     "romaji": "kashi",
     "partOfSpeech": "名詞",
-    "meaning": "糖果",
+    "meaning": "點心、糕點",
     "level": "N3",
-    "example": "今回の機会を通じて、菓子の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「糖果」的重要價值與深層魅力。"
+    "example": "美味しいお菓子を頂いた。",
+    "exampleMeaning": "收到了美味的點心。"
   },
   {
     "id": "n3_0607",
@@ -6671,10 +6671,10 @@
     "reading": "かじ",
     "romaji": "kaji",
     "partOfSpeech": "名詞",
-    "meaning": "家務",
+    "meaning": "家事、家務",
     "level": "N3",
-    "example": "今回の機会を通じて、家事の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「家務」的重要價值與深層魅力。"
+    "example": "家事を分担して効率よく進めましょう。",
+    "exampleMeaning": "分工合作做家事，有效率地完成吧。"
   },
   {
     "id": "n3_0608",
@@ -6682,10 +6682,10 @@
     "reading": "かしこい",
     "romaji": "kashikoi",
     "partOfSpeech": "い形容詞",
-    "meaning": "明智的",
+    "meaning": "聰明的、伶俐的",
     "level": "N3",
-    "example": "この問題は非常に賢いと考えられます。",
-    "exampleMeaning": "這個問題被認為非常、。"
+    "example": "彼は賢い学生でいつも良い成績を取る。",
+    "exampleMeaning": "他是個聰明的學生，總是能拿到好成績。"
   },
   {
     "id": "n3_0609",
@@ -6715,10 +6715,10 @@
     "reading": "かせぐ",
     "romaji": "kasegu",
     "partOfSpeech": "動詞",
-    "meaning": "賺",
+    "meaning": "賺錢、爭取",
     "level": "N3",
-    "example": "この件について、しっかり稼ぐことが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "彼は会社で一生懸命稼いでいる。",
+    "exampleMeaning": "他在公司拚命工作賺錢。"
   },
   {
     "id": "n3_0612",
@@ -6781,10 +6781,10 @@
     "reading": "かたがた",
     "romaji": "katagata",
     "partOfSpeech": "名詞",
-    "meaning": "人們",
+    "meaning": "各位、大家",
     "level": "N3",
-    "example": "今回の機会を通じて、方々の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「人們」的重要價值與深層魅力。"
+    "example": "ご出席の方々はこちらへどうぞ。",
+    "exampleMeaning": "出席的各位貴賓請往這邊走。"
   },
   {
     "id": "n3_0618",
@@ -6803,10 +6803,10 @@
     "reading": "かたな",
     "romaji": "katana",
     "partOfSpeech": "名詞",
-    "meaning": "劍",
+    "meaning": "武士刀、刀",
     "level": "N3",
-    "example": "今回の機会を通じて、刀の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「劍」的重要價值與深層魅力。"
+    "example": "博物館で昔の武士が使っていた刀を見た。",
+    "exampleMeaning": "在博物館看到了古代武士使用過的刀。"
   },
   {
     "id": "n3_0620",
@@ -6814,10 +6814,10 @@
     "reading": "かたる",
     "romaji": "kataru",
     "partOfSpeech": "動詞",
-    "meaning": "說話、交談、講話",
+    "meaning": "講述、談論",
     "level": "N3",
-    "example": "この件について、しっかり語ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、  、是非常重要的。"
+    "example": "その映画は家族の愛について語っている。",
+    "exampleMeaning": "那部電影在講述關於家族之愛的故事。"
   },
   {
     "id": "n3_0621",
@@ -6825,10 +6825,10 @@
     "reading": "かち",
     "romaji": "kachi",
     "partOfSpeech": "名詞",
-    "meaning": "贏",
+    "meaning": "獲勝、勝利",
     "level": "N3",
-    "example": "今回の機会を通じて、勝ちの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「贏」的重要價值與深層魅力。"
+    "example": "最後まで諦めなかったチームの勝ちになった。",
+    "exampleMeaning": "堅持到最後沒有放棄的隊伍贏得了勝利。"
   },
   {
     "id": "n3_0622",
@@ -6838,19 +6838,19 @@
     "partOfSpeech": "名詞",
     "meaning": "價值",
     "level": "N3",
-    "example": "今回の機会を通じて、価値の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「價值」的重要價值與深層魅力。"
+    "example": "他人と比べるのではなく、自分の価値は自分で決めることが大切だ。",
+    "exampleMeaning": "不要與他人攀比，自己的價值由自己決定是很重要的。"
   },
   {
     "id": "n3_0623",
     "word": "がっかり",
     "reading": "がっかり",
     "romaji": "gakkari",
-    "partOfSpeech": "名詞",
-    "meaning": "失望的",
+    "partOfSpeech": "副詞",
+    "meaning": "失望、沮喪",
     "level": "N3",
-    "example": "今回の機会を通じて、がっかりの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「失望的」的重要價值與深層魅力。"
+    "example": "試験に落ちてがっかりした。",
+    "exampleMeaning": "考試沒及格感到非常沮喪失望。"
   },
   {
     "id": "n3_0624",
@@ -6858,10 +6858,10 @@
     "reading": "かっき",
     "romaji": "kakki",
     "partOfSpeech": "名詞",
-    "meaning": "熱鬧",
+    "meaning": "活力、生氣",
     "level": "N3",
-    "example": "今回の機会を通じて、活気の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「熱鬧」的重要價值與深層魅力。"
+    "example": "朝の市場は活気があって歩くだけでも元気が出る。",
+    "exampleMeaning": "清晨的市場充滿活力，光是走在其中就精神百倍。"
   },
   {
     "id": "n3_0625",
@@ -6902,10 +6902,10 @@
     "reading": "かつやく",
     "romaji": "katsuyaku",
     "partOfSpeech": "名詞",
-    "meaning": "活動",
+    "meaning": "活躍、大顯身手",
     "level": "N3",
-    "example": "今回の機会を通じて、活躍の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「活動」的重要價值與深層魅力。"
+    "example": "彼は海外のチームでも活躍できる選手だと思う。",
+    "exampleMeaning": "我覺得他是即使在國外隊伍也能大顯身手的選手。"
   },
   {
     "id": "n3_0629",
@@ -6913,10 +6913,10 @@
     "reading": "かつよう",
     "romaji": "katsuyou",
     "partOfSpeech": "名詞",
-    "meaning": "使用率",
+    "meaning": "活用、運用",
     "level": "N3",
-    "example": "今回の機会を通じて、活用の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「使用率」的重要價值與深層魅力。"
+    "example": "この文法は様々な場面で活用できる。",
+    "exampleMeaning": "這個文法可以在各種情境中靈活運用。"
   },
   {
     "id": "n3_0630",
@@ -6924,10 +6924,10 @@
     "reading": "かてい",
     "romaji": "katei",
     "partOfSpeech": "名詞",
-    "meaning": "假設",
+    "meaning": "假定、假設",
     "level": "N3",
-    "example": "今回の機会を通じて、仮定の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「假設」的重要價值與深層魅力。"
+    "example": "明日雨が降ると仮定して別の計画も立てておきましょう。",
+    "exampleMeaning": "假設明天會下雨，先制定另一套備案吧。"
   },
   {
     "id": "n3_0631",
@@ -6967,11 +6967,11 @@
     "word": "必ずしも",
     "reading": "かならずしも",
     "romaji": "kanarazushimo",
-    "partOfSpeech": "名詞",
-    "meaning": "一定",
+    "partOfSpeech": "副詞",
+    "meaning": "未必、不一定",
     "level": "N3",
-    "example": "今回の機会を通じて、必ずしもの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「一定」的重要價值與深層魅力。"
+    "example": "必ずしも全員が参加するわけではない。",
+    "exampleMeaning": "並非所有人一定都會參加。"
   },
   {
     "id": "n3_0635",
@@ -6979,10 +6979,10 @@
     "reading": "かなり",
     "romaji": "kanari",
     "partOfSpeech": "副詞",
-    "meaning": "漂亮的",
+    "meaning": "相當、頗",
     "level": "N3",
-    "example": "計画をかなり進めていく予定です。",
-    "exampleMeaning": "預計、推進各項計畫。"
+    "example": "かなりの距離を歩いた。",
+    "exampleMeaning": "走了相當長的一段距離。"
   },
   {
     "id": "n3_0636",
@@ -6990,10 +6990,10 @@
     "reading": "かね",
     "romaji": "kane",
     "partOfSpeech": "名詞",
-    "meaning": "金子",
+    "meaning": "金錢、錢",
     "level": "N3",
-    "example": "今回の機会を通じて、金の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「金子」的重要價值與深層魅力。"
+    "example": "金がないので旅行は無理だ。",
+    "exampleMeaning": "因為沒錢所以無法去旅行。"
   },
   {
     "id": "n3_0637",
@@ -7011,11 +7011,11 @@
     "word": "可能",
     "reading": "かのう",
     "romaji": "kanou",
-    "partOfSpeech": "名詞",
-    "meaning": "可能的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "可能、可行",
     "level": "N3",
-    "example": "今回の機会を通じて、可能の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「可能的」的重要價值與深層魅力。"
+    "example": "それは可能ですが時間がかかります。",
+    "exampleMeaning": "那雖然是可行的，但是需要花費時間。"
   },
   {
     "id": "n3_0639",
@@ -7023,10 +7023,10 @@
     "reading": "かぶ",
     "romaji": "kabu",
     "partOfSpeech": "名詞",
-    "meaning": "蕪菁",
+    "meaning": "股票",
     "level": "N3",
-    "example": "今回の機会を通じて、株の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「蕪菁」的重要價值與深層魅力。"
+    "example": "株を買うのはリスクがある。",
+    "exampleMeaning": "買股票是有風險的。"
   },
   {
     "id": "n3_0640",
@@ -7067,10 +7067,10 @@
     "reading": "かみ",
     "romaji": "kami",
     "partOfSpeech": "名詞",
-    "meaning": "上帝",
+    "meaning": "神明、神",
     "level": "N3",
-    "example": "今回の機会を通じて、神の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「上帝」的重要價值與深層魅力。"
+    "example": "お正月には神社へ行って神に1年の無事を祈る。",
+    "exampleMeaning": "新年時會去神社向神明祈求一整年的平安。"
   },
   {
     "id": "n3_0644",
@@ -7078,10 +7078,10 @@
     "reading": "かみなり",
     "romaji": "kaminari",
     "partOfSpeech": "名詞",
-    "meaning": "上成",
+    "meaning": "打雷、雷電",
     "level": "N3",
-    "example": "今回の機会を通じて、雷の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「上成」的重要價值與深層魅力。"
+    "example": "雷が鳴っているので外に出ないでください。",
+    "exampleMeaning": "正在打雷，請不要外出。"
   },
   {
     "id": "n3_0645",
@@ -7091,8 +7091,8 @@
     "partOfSpeech": "名詞",
     "meaning": "頭髮",
     "level": "N3",
-    "example": "今回の機会を通じて、髪の毛の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「頭髮」的重要價值與深層魅力。"
+    "example": "朝髪の毛を綺麗に整えた。",
+    "exampleMeaning": "早上把頭髮梳理得很整齊。"
   },
   {
     "id": "n3_0646",
@@ -7100,10 +7100,10 @@
     "reading": "かもく",
     "romaji": "kamoku",
     "partOfSpeech": "名詞",
-    "meaning": "主題",
+    "meaning": "學科、科目",
     "level": "N3",
-    "example": "今回の機会を通じて、科目の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「主題」的重要價值與深層魅力。"
+    "example": "全部の科目の中で私は歴史が一番好きだ。",
+    "exampleMeaning": "在所有學科當中我最喜歡歷史。"
   },
   {
     "id": "n3_0647",
@@ -7144,10 +7144,10 @@
     "reading": "から",
     "romaji": "kara",
     "partOfSpeech": "名詞",
-    "meaning": "天空",
+    "meaning": "空的、空無",
     "level": "N3",
-    "example": "今回の機会を通じて、空の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「天空」的重要價值與深層魅力。"
+    "example": "気がつくとお菓子の箱はもう空になっていた。",
+    "exampleMeaning": "猛然發覺點心盒子已經空空如也了。"
   },
   {
     "id": "n3_0651",
@@ -7177,10 +7177,10 @@
     "reading": "かる",
     "romaji": "karu",
     "partOfSpeech": "動詞",
-    "meaning": "刈",
+    "meaning": "割草、修剪",
     "level": "N3",
-    "example": "この件について、しっかり刈ることが大切です。",
-    "exampleMeaning": "關於這件事，好好、   、是非常重要的。"
+    "example": "草を刈る仕事がある。",
+    "exampleMeaning": "有一項割草的工作。"
   },
   {
     "id": "n3_0654",
@@ -7199,10 +7199,10 @@
     "reading": "かわ",
     "romaji": "kawa",
     "partOfSpeech": "名詞",
-    "meaning": "皮革",
+    "meaning": "果皮、皮",
     "level": "N3",
-    "example": "今回の機会を通じて、皮の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「皮革」的重要價值與深層魅力。"
+    "example": "バナナの皮で滑って転びそうになった。",
+    "exampleMeaning": "踩到香蕉皮差點滑倒。"
   },
   {
     "id": "n3_0656",
@@ -7212,19 +7212,19 @@
     "partOfSpeech": "名詞",
     "meaning": "皮革",
     "level": "N3",
-    "example": "今回の機会を通じて、革の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「皮革」的重要價值與深層魅力。"
+    "example": "革のジャケットは冬にぴったりだ。",
+    "exampleMeaning": "皮夾克非常適合冬天穿著。"
   },
   {
     "id": "n3_0657",
-    "word": "可愛そう",
+    "word": "かわいそう",
     "reading": "かわいそう",
     "romaji": "kawaisou",
-    "partOfSpeech": "名詞",
-    "meaning": "貧乏的、貧窮的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "可憐的",
     "level": "N3",
-    "example": "今回の機会を通じて、可愛そうの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「貧乏的」的重要價值與深層魅力。"
+    "example": "雨に濡れている子猫がかわいそうで家に連れて帰った。",
+    "exampleMeaning": "看著淋雨的小貓很可憐，就把牠帶回家了。"
   },
   {
     "id": "n3_0658",
@@ -7232,10 +7232,10 @@
     "reading": "かわいらしい",
     "romaji": "kawairashii",
     "partOfSpeech": "い形容詞",
-    "meaning": "迷人的",
+    "meaning": "可愛的、迷人的",
     "level": "N3",
-    "example": "このデザインはとても可愛らしいと思います。",
-    "exampleMeaning": "我覺得這個設計非常迷人的。"
+    "example": "彼女は可愛らしいドレスを着ていた。",
+    "exampleMeaning": "她穿著一件非常可愛的洋裝。"
   },
   {
     "id": "n3_0659",
@@ -7276,10 +7276,10 @@
     "reading": "かん",
     "romaji": "kan",
     "partOfSpeech": "名詞",
-    "meaning": "能",
+    "meaning": "罐頭、鋁罐",
     "level": "N3",
-    "example": "今回の機会を通じて、缶の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「能」的重要價值與深層魅力。"
+    "example": "飲み終わった缶は潰してから捨てるようにしている。",
+    "exampleMeaning": "喝完的飲料罐我習慣壓扁之後再丟掉。"
   },
   {
     "id": "n3_0663",
@@ -7287,10 +7287,10 @@
     "reading": "かん",
     "romaji": "kan",
     "partOfSpeech": "名詞",
-    "meaning": "直覺",
+    "meaning": "直覺、第六感",
     "level": "N3",
-    "example": "今回の機会を通じて、勘の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「直覺」的重要價值與深層魅力。"
+    "example": "彼は勘が鋭い。",
+    "exampleMeaning": "他的直覺非常敏銳。"
   },
   {
     "id": "n3_0664",
@@ -7298,10 +7298,10 @@
     "reading": "かんがえ",
     "romaji": "kangae",
     "partOfSpeech": "名詞",
-    "meaning": "想法",
+    "meaning": "想法、見解",
     "level": "N3",
-    "example": "今回の機会を通じて、考えの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「想法」的重要價值與深層魅力。"
+    "example": "彼の考えは非常にユニークでいつも新しい発見がある。",
+    "exampleMeaning": "他的想法非常獨特，總是能帶來新的啟發。"
   },
   {
     "id": "n3_0665",
@@ -7333,8 +7333,8 @@
     "partOfSpeech": "名詞",
     "meaning": "觀眾",
     "level": "N3",
-    "example": "今回の機会を通じて、観客の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「觀眾」的重要價值與深層魅力。"
+    "example": "選手がゴールを決めると観客は大きな拍手を送った。",
+    "exampleMeaning": "選手射門得分時，觀眾報以熱烈的掌聲。"
   },
   {
     "id": "n3_0668",
@@ -7355,8 +7355,8 @@
     "partOfSpeech": "名詞",
     "meaning": "歡迎",
     "level": "N3",
-    "example": "今回の機会を通じて、歓迎の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「歡迎」的重要價值與深層魅力。"
+    "example": "新しく入った社員をみんなで温かく歓迎した。",
+    "exampleMeaning": "大家熱情地歡迎了新加入的員工。"
   },
   {
     "id": "n3_0670",
@@ -7364,10 +7364,10 @@
     "reading": "かんこう",
     "romaji": "kankou",
     "partOfSpeech": "名詞",
-    "meaning": "觀光",
+    "meaning": "觀光、旅遊",
     "level": "N3",
-    "example": "今回の機会を通じて、観光の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「觀光」的重要價值與深層魅力。"
+    "example": "京都で観光を楽しんだ。",
+    "exampleMeaning": "在京都愉快地進行了觀光旅遊。"
   },
   {
     "id": "n3_0671",
@@ -7377,8 +7377,8 @@
     "partOfSpeech": "名詞",
     "meaning": "觀察",
     "level": "N3",
-    "example": "今回の機会を通じて、観察の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「觀察」的重要價值與深層魅力。"
+    "example": "動物の習性を観察するのは楽しい。",
+    "exampleMeaning": "觀察動物的習性非常有趣。"
   },
   {
     "id": "n3_0672",
@@ -7386,10 +7386,10 @@
     "reading": "かんじ",
     "romaji": "kanji",
     "partOfSpeech": "名詞",
-    "meaning": "感覺、心情、 、 印象、感想",
+    "meaning": "感覺、氣氛",
     "level": "N3",
-    "example": "今回の機会を通じて、感じの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「感覺」的重要價值與深層魅力。"
+    "example": "春が近い感じがする。",
+    "exampleMeaning": "有一種春天即將到來的感覺。"
   },
   {
     "id": "n3_0673",
@@ -7408,10 +7408,10 @@
     "reading": "かんじゃ",
     "romaji": "kanja",
     "partOfSpeech": "名詞",
-    "meaning": "病人",
+    "meaning": "患者、病人",
     "level": "N3",
-    "example": "今回の機会を通じて、患者の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「病人」的重要價值與深層魅力。"
+    "example": "患者は医者の指示に従っている。",
+    "exampleMeaning": "患者遵循著醫生的指示。"
   },
   {
     "id": "n3_0675",
@@ -7419,10 +7419,10 @@
     "reading": "かんじょう",
     "romaji": "kanjou",
     "partOfSpeech": "名詞",
-    "meaning": "帳戶",
+    "meaning": "結帳、計算/帳單",
     "level": "N3",
-    "example": "今回の機会を通じて、勘定の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「帳戶」的重要價值與深層魅力。"
+    "example": "勘定を間違えないように気をつけてください。",
+    "exampleMeaning": "請注意不要算錯帳。"
   },
   {
     "id": "n3_0676",
@@ -7430,10 +7430,10 @@
     "reading": "かんじょう",
     "romaji": "kanjou",
     "partOfSpeech": "名詞",
-    "meaning": "感覺、心情",
+    "meaning": "感情、情緒",
     "level": "N3",
-    "example": "今回の機会を通じて、感情の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「感覺」的重要價值與深層魅力。"
+    "example": "音楽は人の感情を動かす。",
+    "exampleMeaning": "音樂能打動人心的情緒。"
   },
   {
     "id": "n3_0677",
@@ -7452,10 +7452,10 @@
     "reading": "かんしん",
     "romaji": "kanshin",
     "partOfSpeech": "名詞",
-    "meaning": "印象深刻",
+    "meaning": "佩服、欽佩",
     "level": "N3",
-    "example": "今回の機会を通じて、感心の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「印象深刻」的重要價值與深層魅力。"
+    "example": "彼の努力には感心した。",
+    "exampleMeaning": "對他的努力感到非常佩服。"
   },
   {
     "id": "n3_0679",
@@ -7474,10 +7474,10 @@
     "reading": "かんする",
     "romaji": "kansuru",
     "partOfSpeech": "動詞",
-    "meaning": "關於、涉及",
+    "meaning": "關於、有關",
     "level": "N3",
-    "example": "この件について、しっかり関することが大切です。",
-    "exampleMeaning": "關於這件事，好好、是非常重要的。"
+    "example": "この問題に関する調査が行われている。",
+    "exampleMeaning": "目前正在進行關於這個問題的調查。"
   },
   {
     "id": "n3_0681",
@@ -7495,11 +7495,11 @@
     "word": "完全",
     "reading": "かんぜん",
     "romaji": "kanzen",
-    "partOfSpeech": "名詞",
-    "meaning": "完全的",
+    "partOfSpeech": "な形容詞",
+    "meaning": "完全的、徹底的",
     "level": "N3",
-    "example": "今回の機会を通じて、完全の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「完全的」的重要價值與深層魅力。"
+    "example": "問題は完全に解決した。",
+    "exampleMeaning": "問題已經徹底解決了。"
   },
   {
     "id": "n3_0683",
@@ -7507,10 +7507,10 @@
     "reading": "かんそう",
     "romaji": "kansou",
     "partOfSpeech": "名詞",
-    "meaning": "烘乾",
+    "meaning": "乾燥",
     "level": "N3",
-    "example": "今回の機会を通じて、乾燥の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「烘乾」的重要價值與深層魅力。"
+    "example": "冬は空気が乾燥するので風邪を引きやすくなる。",
+    "exampleMeaning": "冬天空氣乾燥，容易引起感冒。"
   },
   {
     "id": "n3_0684",
@@ -7529,10 +7529,10 @@
     "reading": "かんどう",
     "romaji": "kandou",
     "partOfSpeech": "名詞",
-    "meaning": "印象深刻",
+    "meaning": "感動",
     "level": "N3",
-    "example": "今回の機会を通じて、感動の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「印象深刻」的重要價值與深層魅力。"
+    "example": "映画の最後の場面に感動して涙が止まらなかった。",
+    "exampleMeaning": "被電影最後的場景所感動，眼淚止不住地流。"
   },
   {
     "id": "n3_0686",
@@ -7540,10 +7540,10 @@
     "reading": "かんとく",
     "romaji": "kantoku",
     "partOfSpeech": "名詞",
-    "meaning": "導演",
+    "meaning": "教練、導演/監督",
     "level": "N3",
-    "example": "今回の機会を通じて、監督の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「導演」的重要價值與深層魅力。"
+    "example": "監督が試合を見守っていた。",
+    "exampleMeaning": "教練在場邊密切注視著比賽。"
   },
   {
     "id": "n3_0687",
@@ -7551,10 +7551,10 @@
     "reading": "かんり",
     "romaji": "kanri",
     "partOfSpeech": "名詞",
-    "meaning": "管理、掌管",
+    "meaning": "管理",
     "level": "N3",
-    "example": "今回の機会を通じて、管理の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「管理」的重要價值與深層魅力。"
+    "example": "健康管理はとても大切だ。",
+    "exampleMeaning": "健康管理是非常重要的。"
   },
   {
     "id": "n3_0688",
@@ -7562,10 +7562,10 @@
     "reading": "かんりょう",
     "romaji": "kanryou",
     "partOfSpeech": "名詞",
-    "meaning": "完成",
+    "meaning": "完成、完畢",
     "level": "N3",
-    "example": "今回の機会を通じて、完了の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「完成」的重要價值與深層魅力。"
+    "example": "長い時間がかかったが、ようやくプロジェクトが完了した。",
+    "exampleMeaning": "雖然花了很長時間，但專案終於順利完成了。"
   },
   {
     "id": "n3_0689",
@@ -7573,10 +7573,10 @@
     "reading": "かんれん",
     "romaji": "kanren",
     "partOfSpeech": "名詞",
-    "meaning": "聯繫",
+    "meaning": "關聯、相關",
     "level": "N3",
-    "example": "今回の機会を通じて、関連の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「聯繫」的重要價值與深層魅力。"
+    "example": "その事件と関連がある証拠が見つかった。",
+    "exampleMeaning": "找到了與該事件相關的證據。"
   },
   {
     "id": "n3_0690",
@@ -13392,10 +13392,10 @@
     "reading": "いじ",
     "romaji": "iji",
     "partOfSpeech": "名詞",
-    "meaning": "固執",
+    "meaning": "固執、要強",
     "level": "N3",
-    "example": "今回の機会を通じて、意地の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「固執」的重要價值與深層魅力。"
+    "example": "彼は意地になって1人で全部やろうとしている。",
+    "exampleMeaning": "他硬要逞強，打算一個人把全部事情攬下來做。"
   },
   {
     "id": "n3_1219",
@@ -13546,10 +13546,10 @@
     "reading": "おしえ",
     "romaji": "oshie",
     "partOfSpeech": "名詞",
-    "meaning": "課",
+    "meaning": "教誨、教導",
     "level": "N3",
-    "example": "今回の機会を通じて、教えの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「課」的重要價值與深層魅力。"
+    "example": "困った時は祖父の教えを思い出す。",
+    "exampleMeaning": "遇到困難時會想起祖父的教誨。"
   },
   {
     "id": "n3_1233",
@@ -13557,10 +13557,10 @@
     "reading": "おどろき",
     "romaji": "odoroki",
     "partOfSpeech": "名詞",
-    "meaning": "驚喜",
+    "meaning": "驚訝、驚奇",
     "level": "N3",
-    "example": "今回の機会を通じて、驚きの重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「驚喜」的重要價值與深層魅力。"
+    "example": "彼が優勝したという知らせは大きな驚きだった。",
+    "exampleMeaning": "他奪冠的消息令人大吃一驚。"
   },
   {
     "id": "n3_1234",
@@ -13568,10 +13568,10 @@
     "reading": "おる",
     "romaji": "oru",
     "partOfSpeech": "動詞",
-    "meaning": "編織",
+    "meaning": "編織、紡織",
     "level": "N3",
-    "example": "毎日しっかり織るように心がけています。",
-    "exampleMeaning": "每天都用心努力做好編織。"
+    "example": "この町では昔から美しい布を織る技術が伝わっている。",
+    "exampleMeaning": "這個城鎮自古相傳著編織美麗布料的技術。"
   },
   {
     "id": "n3_1235",
@@ -13656,10 +13656,10 @@
     "reading": "かだい",
     "romaji": "kadai",
     "partOfSpeech": "名詞",
-    "meaning": "任務",
+    "meaning": "課題、作業",
     "level": "N3",
-    "example": "今回の機会を通じて、課題の重要性と深い魅力を改めて実感しました。",
-    "exampleMeaning": "透過這次機會，我再次深刻體會到了「任務」的重要價值與深層魅力。"
+    "example": "週末までに課題を出さなければならないので遊べない。",
+    "exampleMeaning": "週末前必須繳交作業課題，所以不能出去玩。"
   },
   {
     "id": "n3_1243",
@@ -23538,5 +23538,1446 @@
     "level": "N3",
     "example": "今回の機会を通じて、表示の重要性と深い魅力を改めて実感しました。",
     "exampleMeaning": "透過這次機會，我再次深刻體會到了「禮物」的重要價值與深層魅力。"
+  },
+  {
+    "id": "n3_0004",
+    "word": "明け方",
+    "reading": "あけがた",
+    "romaji": "akegata",
+    "partOfSpeech": "名詞",
+    "meaning": "拂曉、黎明",
+    "level": "N3",
+    "example": "明け方に強い雨が降ったようで道が濡れている。",
+    "exampleMeaning": "拂曉時分似乎下了大雨，道路都濕透了。"
+  },
+  {
+    "id": "n3_0005",
+    "word": "味わう",
+    "reading": "あじわう",
+    "romaji": "ajiwau",
+    "partOfSpeech": "動詞",
+    "meaning": "品嚐、體驗",
+    "level": "N3",
+    "example": "せっかくの料理ですからゆっくり味わって食べましょう。",
+    "exampleMeaning": "難得的美食，讓我們慢慢品嚐享用吧。"
+  },
+  {
+    "id": "n3_0006",
+    "word": "圧力",
+    "reading": "あつりょく",
+    "romaji": "atsuryoku",
+    "partOfSpeech": "名詞",
+    "meaning": "壓力、氣壓",
+    "level": "N3",
+    "example": "タイヤの空気の圧力は時々確かめた方がいいですよ。",
+    "exampleMeaning": "輪胎的胎壓最好時常確認一下喔。"
+  },
+  {
+    "id": "n3_0007",
+    "word": "宛名",
+    "reading": "あてな",
+    "romaji": "atena",
+    "partOfSpeech": "名詞",
+    "meaning": "收件人姓名",
+    "level": "N3",
+    "example": "宛名を間違えたせいで手紙が戻ってきてしまった。",
+    "exampleMeaning": "因為寫錯了收件人姓名，信件被退回來了。"
+  },
+  {
+    "id": "n3_0008",
+    "word": "穴場",
+    "reading": "あなば",
+    "romaji": "anaba",
+    "partOfSpeech": "名詞",
+    "meaning": "秘境、好地方",
+    "level": "N3",
+    "example": "ここは観光客が少なく桜の穴場として知られています。",
+    "exampleMeaning": "這裡遊客稀少，以賞櫻秘境而聞名。"
+  },
+  {
+    "id": "n3_0009",
+    "word": "甘やかす",
+    "reading": "あまやかす",
+    "romaji": "amayakasu",
+    "partOfSpeech": "動詞",
+    "meaning": "溺愛、放任",
+    "level": "N3",
+    "example": "子供を甘やかすばかりだと後で困りますよ。",
+    "exampleMeaning": "如果一味溺愛孩子，以後會很傷腦筋的。"
+  },
+  {
+    "id": "n3_0010",
+    "word": "あまり",
+    "reading": "あまり",
+    "romaji": "amari",
+    "partOfSpeech": "副詞",
+    "meaning": "不太、太",
+    "level": "N3",
+    "example": "この本はあまり面白くなかったので途中でやめてしまった。",
+    "exampleMeaning": "這本書不太有趣，所以讀到一半就放棄了。"
+  },
+  {
+    "id": "n3_0011",
+    "word": "余る",
+    "reading": "あまる",
+    "romaji": "amaru",
+    "partOfSpeech": "動詞",
+    "meaning": "剩餘、過剩",
+    "level": "N3",
+    "example": "料理が余ったのでみんなで分けて持ち帰った。",
+    "exampleMeaning": "因為菜餚剩下了，大家便分裝帶回家。"
+  },
+  {
+    "id": "n3_0012",
+    "word": "誤る",
+    "reading": "あやまる",
+    "romaji": "ayamaru",
+    "partOfSpeech": "動詞",
+    "meaning": "搞錯、弄錯",
+    "level": "N3",
+    "example": "使い方を誤るとこの機械はすぐ壊れてしまいます。",
+    "exampleMeaning": "若弄錯使用方法，這台機器很快就會損壞。"
+  },
+  {
+    "id": "n3_0013",
+    "word": "荒い",
+    "reading": "あらい",
+    "romaji": "arai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "粗暴的、洶湧的",
+    "level": "N3",
+    "example": "今日は波が荒いので船は出ないことになった。",
+    "exampleMeaning": "今天風浪洶湧，因此決定不出船。"
+  },
+  {
+    "id": "n3_0014",
+    "word": "改める",
+    "reading": "あらためる",
+    "romaji": "aratameru",
+    "partOfSpeech": "動詞",
+    "meaning": "改進、改變",
+    "level": "N3",
+    "example": "夜遅くまで起きている習慣を改めようと思っている。",
+    "exampleMeaning": "我打算改掉熬夜到很晚的習慣。"
+  },
+  {
+    "id": "n3_0015",
+    "word": "荒れる",
+    "reading": "あれる",
+    "romaji": "areru",
+    "partOfSpeech": "動詞",
+    "meaning": "狂暴、惡化",
+    "level": "N3",
+    "example": "天気が荒れる前に早めに家に帰りましょう。",
+    "exampleMeaning": "在天氣變惡劣之前早點回家吧。"
+  },
+  {
+    "id": "n3_0016",
+    "word": "安易",
+    "reading": "あんい",
+    "romaji": "ani",
+    "partOfSpeech": "な形容詞",
+    "meaning": "草率的、輕易的",
+    "level": "N3",
+    "example": "安易な気持ちで始めると途中でやめたくなりますよ。",
+    "exampleMeaning": "如果抱著隨便草率的心態開始，半途就會想放棄喔。"
+  },
+  {
+    "id": "n3_0017",
+    "word": "案の定",
+    "reading": "あんのじょう",
+    "romaji": "annojou",
+    "partOfSpeech": "副詞",
+    "meaning": "果不其然、正如所料",
+    "level": "N3",
+    "example": "傘を忘れた日に限って案の定雨が降ってきた。",
+    "exampleMeaning": "偏偏在忘了帶傘的日子，果不其然下起雨來了。"
+  },
+  {
+    "id": "n3_0018",
+    "word": "言い訳",
+    "reading": "いいわけ",
+    "romaji": "iiwake",
+    "partOfSpeech": "名詞",
+    "meaning": "藉口、辯解",
+    "level": "N3",
+    "example": "遅刻した彼は言い訳ばかりして謝らなかった。",
+    "exampleMeaning": "遲到的他光顧著找藉口，完全沒有道歉。"
+  },
+  {
+    "id": "n3_0019",
+    "word": "いえ",
+    "reading": "いえ",
+    "romaji": "ie",
+    "partOfSpeech": "感動詞",
+    "meaning": "不、不是",
+    "level": "N3",
+    "example": "「いいえ、それは私の傘ではありません」と答えた。",
+    "exampleMeaning": "回答道：「不，那不是我的傘。」"
+  },
+  {
+    "id": "n3_0020",
+    "word": "意義",
+    "reading": "いぎ",
+    "romaji": "igi",
+    "partOfSpeech": "名詞",
+    "meaning": "意義、價值",
+    "level": "N3",
+    "example": "ボランティア活動を通じて働く意義を学んだ。",
+    "exampleMeaning": "透過志工活動學到了工作的意義。"
+  },
+  {
+    "id": "n3_0021",
+    "word": "育児",
+    "reading": "いくじ",
+    "romaji": "ikuji",
+    "partOfSpeech": "名詞",
+    "meaning": "育兒、帶小孩",
+    "level": "N3",
+    "example": "姉は仕事を続けながら育児も頑張っている。",
+    "exampleMeaning": "姊姊一邊繼續工作一邊努力照顧小孩。"
+  },
+  {
+    "id": "n3_0022",
+    "word": "いくつ",
+    "reading": "いくつ",
+    "romaji": "ikutsu",
+    "partOfSpeech": "名詞",
+    "meaning": "幾個、多少",
+    "level": "N3",
+    "example": "この箱の中にりんごがいくつ入っているか数えてください。",
+    "exampleMeaning": "請數數看這個箱子裡放了幾顆蘋果。"
+  },
+  {
+    "id": "n3_0023",
+    "word": "幾分",
+    "reading": "いくぶん",
+    "romaji": "ikubun",
+    "partOfSpeech": "副詞",
+    "meaning": "稍微、多少",
+    "level": "N3",
+    "example": "薬を飲んだら熱は幾分下がってきたようだ。",
+    "exampleMeaning": "吃了藥之後，燒似乎稍微退了一些。"
+  },
+  {
+    "id": "n3_0024",
+    "word": "いくら",
+    "reading": "いくら",
+    "romaji": "ikura",
+    "partOfSpeech": "副詞",
+    "meaning": "多少錢、多麼",
+    "level": "N3",
+    "example": "東京までの新幹線の切符はいくらぐらいしますか？",
+    "exampleMeaning": "到東京的新幹線車票大約多少錢？"
+  },
+  {
+    "id": "n3_0025",
+    "word": "いじめ",
+    "reading": "いじめ",
+    "romaji": "ijime",
+    "partOfSpeech": "名詞",
+    "meaning": "霸凌、欺負",
+    "level": "N3",
+    "example": "学校はいじめをなくすための話し合いを続けている。",
+    "exampleMeaning": "學校持續展開會議以消除校園霸凌。"
+  },
+  {
+    "id": "n3_0026",
+    "word": "遺跡",
+    "reading": "いせき",
+    "romaji": "iseki",
+    "partOfSpeech": "名詞",
+    "meaning": "遺跡、古蹟",
+    "level": "N3",
+    "example": "この遺跡は2000年以上前のものだと言われている。",
+    "exampleMeaning": "這處遺跡據說是有超過2000年歷史的古蹟。"
+  },
+  {
+    "id": "n3_0027",
+    "word": "板前",
+    "reading": "いたまえ",
+    "romaji": "itamae",
+    "partOfSpeech": "名詞",
+    "meaning": "日本料理廚師、主廚",
+    "level": "N3",
+    "example": "あの店の板前は若いのに腕がいいと評判だ。",
+    "exampleMeaning": "那家店的日料師傅雖然年輕，但手藝高超頗受好評。"
+  },
+  {
+    "id": "n3_0028",
+    "word": "祈り",
+    "reading": "いのり",
+    "romaji": "inori",
+    "partOfSpeech": "名詞",
+    "meaning": "祈禱、祈願",
+    "level": "N3",
+    "example": "世界の平和を願ってみんなで祈りを捧げた。",
+    "exampleMeaning": "為了祈求世界和平，大家一起獻上了祈禱。"
+  },
+  {
+    "id": "n3_0029",
+    "word": "いや",
+    "reading": "いや",
+    "romaji": "iya",
+    "partOfSpeech": "感動詞",
+    "meaning": "不、哎呀",
+    "level": "N3",
+    "example": "いや、それは私の考えではありません。",
+    "exampleMeaning": "不，那並不是我的想法。"
+  },
+  {
+    "id": "n3_0030",
+    "word": "嫌がる",
+    "reading": "いやがる",
+    "romaji": "iyagaru",
+    "partOfSpeech": "動詞",
+    "meaning": "討厭、不願意",
+    "level": "N3",
+    "example": "息子は野菜を嫌がってなかなか食べてくれない。",
+    "exampleMeaning": "兒子很討厭吃蔬菜，怎麼都不肯吃。"
+  },
+  {
+    "id": "n3_0031",
+    "word": "意欲",
+    "reading": "いよく",
+    "romaji": "iyoku",
+    "partOfSpeech": "名詞",
+    "meaning": "熱情、意願",
+    "level": "N3",
+    "example": "新しい仕事に対する意欲は誰にも負けません。",
+    "exampleMeaning": "我對新工作的熱情絕不輸給任何人。"
+  },
+  {
+    "id": "n3_0032",
+    "word": "引力",
+    "reading": "いんりょく",
+    "romaji": "inryoku",
+    "partOfSpeech": "名詞",
+    "meaning": "引力、重力",
+    "level": "N3",
+    "example": "月の引力によって海の水は上がったり下がったりする。",
+    "exampleMeaning": "受到月球引力的影響，海水會潮起潮落。"
+  },
+  {
+    "id": "n3_0033",
+    "word": "飢える",
+    "reading": "うえる",
+    "romaji": "ueru",
+    "partOfSpeech": "動詞",
+    "meaning": "飢餓、渴望",
+    "level": "N3",
+    "example": "世界には今も食べ物がなくて飢えている人がいる。",
+    "exampleMeaning": "世界上如今仍有人沒有食物而挨餓。"
+  },
+  {
+    "id": "n3_0034",
+    "word": "浮かぶ",
+    "reading": "うかぶ",
+    "romaji": "ukabu",
+    "partOfSpeech": "動詞",
+    "meaning": "漂浮、浮現",
+    "level": "N3",
+    "example": "空に白い雲がゆっくり浮かんでいる。",
+    "exampleMeaning": "白雲在天空中緩緩漂浮著。"
+  },
+  {
+    "id": "n3_0035",
+    "word": "浮かべる",
+    "reading": "うかべる",
+    "romaji": "ukaberu",
+    "partOfSpeech": "動詞",
+    "meaning": "露出（笑容）、浮起",
+    "level": "N3",
+    "example": "彼女は嬉しそうな笑顔を浮かべて写真を見ていた。",
+    "exampleMeaning": "她臉上浮現開心的笑容看著照片。"
+  },
+  {
+    "id": "n3_0036",
+    "word": "受け止める",
+    "reading": "うけとめる",
+    "romaji": "uketomeru",
+    "partOfSpeech": "動詞",
+    "meaning": "承擔、虛心接受",
+    "level": "N3",
+    "example": "先生の言葉を重く受け止めて練習をやり直した。",
+    "exampleMeaning": "慎重接受了老師的話，重新進行了練習。"
+  },
+  {
+    "id": "n3_0037",
+    "word": "受け持つ",
+    "reading": "うけもつ",
+    "romaji": "ukemotsu",
+    "partOfSpeech": "動詞",
+    "meaning": "負責、擔當",
+    "level": "N3",
+    "example": "今年は1年生を受け持つことになった。",
+    "exampleMeaning": "今年負責帶一年級學生。"
+  },
+  {
+    "id": "n3_0038",
+    "word": "動き",
+    "reading": "うごき",
+    "romaji": "ugoki",
+    "partOfSpeech": "名詞",
+    "meaning": "動作、活動",
+    "level": "N3",
+    "example": "この選手は体が大きいのに動きがとても早い。",
+    "exampleMeaning": "這位選手雖然體型高大但動作非常敏捷。"
+  },
+  {
+    "id": "n3_0039",
+    "word": "薄暗い",
+    "reading": "うすぐらい",
+    "romaji": "usugurai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "昏暗的、陰暗的",
+    "level": "N3",
+    "example": "薄暗い部屋で本を読むと目が悪くなりますよ。",
+    "exampleMeaning": "在昏暗的房間看書視力會變差喔。"
+  },
+  {
+    "id": "n3_0040",
+    "word": "薄める",
+    "reading": "うすめる",
+    "romaji": "usumeru",
+    "partOfSpeech": "動詞",
+    "meaning": "稀釋、使變淡",
+    "level": "N3",
+    "example": "このジュースは濃いので水で薄めて飲んでください。",
+    "exampleMeaning": "這個果汁很濃，請加水稀釋後再喝。"
+  },
+  {
+    "id": "n3_0041",
+    "word": "疑い",
+    "reading": "うたがい",
+    "romaji": "utagai",
+    "partOfSpeech": "名詞",
+    "meaning": "懷疑、嫌疑",
+    "level": "N3",
+    "example": "検査の結果病気の疑いはないと言われて安心した。",
+    "exampleMeaning": "檢查結果告知沒有罹患疾病的嫌疑，總算放心了。"
+  },
+  {
+    "id": "n3_0042",
+    "word": "打ち合わせ",
+    "reading": "うちあわせ",
+    "romaji": "uchiawase",
+    "partOfSpeech": "名詞",
+    "meaning": "事前商量、開會碰頭",
+    "level": "N3",
+    "example": "明日の打ち合わせの時間を午後2時に変更してもいいですか？",
+    "exampleMeaning": "明天的碰頭開會時間可以改成下午2點嗎？"
+  },
+  {
+    "id": "n3_0043",
+    "word": "内側",
+    "reading": "うちがわ",
+    "romaji": "uchigawa",
+    "partOfSpeech": "名詞",
+    "meaning": "內側、內部",
+    "level": "N3",
+    "example": "危ないですから黄色い線の内側でお待ちください。",
+    "exampleMeaning": "危險，請在黃色標線內側候車。"
+  },
+  {
+    "id": "n3_0044",
+    "word": "打ち消す",
+    "reading": "うちけす",
+    "romaji": "uchikesu",
+    "partOfSpeech": "動詞",
+    "meaning": "否定、消除",
+    "level": "N3",
+    "example": "彼は結婚するという噂を笑いながら打ち消した。",
+    "exampleMeaning": "他笑著否認了要結婚的傳聞。"
+  },
+  {
+    "id": "n3_0045",
+    "word": "訴え",
+    "reading": "うったえ",
+    "romaji": "uttae",
+    "partOfSpeech": "名詞",
+    "meaning": "呼籲、訴求",
+    "level": "N3",
+    "example": "住民の訴えを聞いて市は道路を直すことにした。",
+    "exampleMeaning": "聽取了居民的呼籲訴求，市府決定修復道路。"
+  },
+  {
+    "id": "n3_0046",
+    "word": "写し",
+    "reading": "うつし",
+    "romaji": "utsushi",
+    "partOfSpeech": "名詞",
+    "meaning": "複印本、抄本",
+    "level": "N3",
+    "example": "申し込みにはパスポートの写しが必要だそうだ。",
+    "exampleMeaning": "聽說申請時需要護照的影本。"
+  },
+  {
+    "id": "n3_0047",
+    "word": "移す",
+    "reading": "うつす",
+    "romaji": "utsusu",
+    "partOfSpeech": "動詞",
+    "meaning": "傳染、轉移",
+    "level": "N3",
+    "example": "風邪を人に移してはいけません。",
+    "exampleMeaning": "不能把感冒傳染給別人喔。"
+  },
+  {
+    "id": "n3_0048",
+    "word": "器",
+    "reading": "うつわ",
+    "romaji": "utsuwa",
+    "partOfSpeech": "名詞",
+    "meaning": "器皿、容器",
+    "level": "N3",
+    "example": "料理は綺麗な器に入れるともっと美味しく見える。",
+    "exampleMeaning": "菜餚盛裝在漂亮的器皿裡看起來會更美味。"
+  },
+  {
+    "id": "n3_0049",
+    "word": "生み出す",
+    "reading": "うみだす",
+    "romaji": "umidasu",
+    "partOfSpeech": "動詞",
+    "meaning": "產出、創造出",
+    "level": "N3",
+    "example": "彼は誰も考えなかった新しい方法を生み出した。",
+    "exampleMeaning": "他創造出了前所未有的全新方法。"
+  },
+  {
+    "id": "n3_0050",
+    "word": "敬う",
+    "reading": "うやまう",
+    "romaji": "uyamau",
+    "partOfSpeech": "動詞",
+    "meaning": "尊敬、敬重",
+    "level": "N3",
+    "example": "年上の人を敬う気持ちを忘れないようにしましょう。",
+    "exampleMeaning": "請不要忘記敬重長輩的心意。"
+  },
+  {
+    "id": "n3_0051",
+    "word": "裏口",
+    "reading": "うらぐち",
+    "romaji": "uraguchi",
+    "partOfSpeech": "名詞",
+    "meaning": "後門",
+    "level": "N3",
+    "example": "店の前は混んでいるので裏口から入らせてもらった。",
+    "exampleMeaning": "店門口很擠，所以請對方讓我從後門進去。"
+  },
+  {
+    "id": "n3_0052",
+    "word": "恨む",
+    "reading": "うらむ",
+    "romaji": "uramu",
+    "partOfSpeech": "動詞",
+    "meaning": "怨恨、懷恨",
+    "level": "N3",
+    "example": "人を恨んでばかりいても何も変わりませんよ。",
+    "exampleMeaning": "光是一味怨恨他人，是什麼都不會改變的喔。"
+  },
+  {
+    "id": "n3_0053",
+    "word": "羨む",
+    "reading": "うらやむ",
+    "romaji": "urayamu",
+    "partOfSpeech": "動詞",
+    "meaning": "羨慕、眼紅",
+    "level": "N3",
+    "example": "人を羨む前に自分にできることを考えてみましょう。",
+    "exampleMeaning": "在羨慕別人之前，先想想自己能做些什麼吧。"
+  },
+  {
+    "id": "n3_0054",
+    "word": "売上",
+    "reading": "うりあげ",
+    "romaji": "uriage",
+    "partOfSpeech": "名詞",
+    "meaning": "營業額、銷售額",
+    "level": "N3",
+    "example": "新商品のおかげで今月の売上は2倍になった。",
+    "exampleMeaning": "多虧了新商品，這個月的營業額增加為2倍。"
+  },
+  {
+    "id": "n3_0055",
+    "word": "売り切れる",
+    "reading": "うりきれる",
+    "romaji": "urikireru",
+    "partOfSpeech": "動詞",
+    "meaning": "售完、賣光",
+    "level": "N3",
+    "example": "人気のケーキはお昼前に売り切れてしまうそうだ。",
+    "exampleMeaning": "據說人氣蛋糕在中午之前就會賣光了。"
+  },
+  {
+    "id": "n3_0056",
+    "word": "売り出す",
+    "reading": "うりだす",
+    "romaji": "uridasu",
+    "partOfSpeech": "動詞",
+    "meaning": "推出上市、開賣",
+    "level": "N3",
+    "example": "この会社は来月新しいゲームを売り出す予定だ。",
+    "exampleMeaning": "這家公司預計下個月推出上市全新遊戲。"
+  },
+  {
+    "id": "n3_0057",
+    "word": "うるさい",
+    "reading": "うるさい",
+    "romaji": "urusai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "吵鬧的、煩人的",
+    "level": "N3",
+    "example": "隣の部屋のテレビの音がうるさくてなかなか眠れない。",
+    "exampleMeaning": "隔壁房間的電視聲音太吵，遲遲無法入睡。"
+  },
+  {
+    "id": "n3_0058",
+    "word": "運賃",
+    "reading": "うんちん",
+    "romaji": "unchin",
+    "partOfSpeech": "名詞",
+    "meaning": "車資、運費",
+    "level": "N3",
+    "example": "4月からバスの運賃が20円上がることになった。",
+    "exampleMeaning": "從4月起公車車資調漲20日圓。"
+  },
+  {
+    "id": "n3_0059",
+    "word": "永住",
+    "reading": "えいじゅう",
+    "romaji": "eijuu",
+    "partOfSpeech": "名詞",
+    "meaning": "定居、永久居留",
+    "level": "N3",
+    "example": "彼は日本での永住を決めて家を買ったそうだ。",
+    "exampleMeaning": "他決定在日本定居，據說已經買了房子。"
+  },
+  {
+    "id": "n3_0060",
+    "word": "偉い",
+    "reading": "えらい",
+    "romaji": "erai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "了不起的、偉大的",
+    "level": "N3",
+    "example": "毎朝5時に起きて勉強するなんて偉いですね。",
+    "exampleMeaning": "每天早上5點起床讀書，真了不起呢。"
+  },
+  {
+    "id": "n3_0061",
+    "word": "円滑",
+    "reading": "えんかつ",
+    "romaji": "enkatsu",
+    "partOfSpeech": "な形容詞",
+    "meaning": "圓滿的、順利的",
+    "level": "N3",
+    "example": "会議が円滑に進むように資料を準備しておいた。",
+    "exampleMeaning": "為了讓會議能順利進行，事先準備好了資料。"
+  },
+  {
+    "id": "n3_0062",
+    "word": "演劇",
+    "reading": "えんげき",
+    "romaji": "engeki",
+    "partOfSpeech": "名詞",
+    "meaning": "戲劇、話劇",
+    "level": "N3",
+    "example": "大学では演劇のクラブに入って舞台に立ちたい。",
+    "exampleMeaning": "在大學想加入戲劇社登上舞台演戲。"
+  },
+  {
+    "id": "n3_0063",
+    "word": "追いかける",
+    "reading": "おいかける",
+    "romaji": "oikakeru",
+    "partOfSpeech": "動詞",
+    "meaning": "追逐、追趕",
+    "level": "N3",
+    "example": "子犬がボールを追いかけて楽しそうに走っている。",
+    "exampleMeaning": "小狗追著球開心地奔跑著。"
+  },
+  {
+    "id": "n3_0064",
+    "word": "追い越す",
+    "reading": "おいこす",
+    "romaji": "oikosu",
+    "partOfSpeech": "動詞",
+    "meaning": "超車、超越",
+    "level": "N3",
+    "example": "狭い道で前の車を追い越すのは危ないですよ。",
+    "exampleMeaning": "在狹窄道路上超前面的車很危險喔。"
+  },
+  {
+    "id": "n3_0065",
+    "word": "追いつく",
+    "reading": "おいつく",
+    "romaji": "oitsuku",
+    "partOfSpeech": "動詞",
+    "meaning": "趕上、追上",
+    "level": "N3",
+    "example": "遅れて出発したが途中で友達に追いつくことができた。",
+    "exampleMeaning": "雖然出發晚了，但在半路上趕上了朋友。"
+  },
+  {
+    "id": "n3_0066",
+    "word": "大げさ",
+    "reading": "おおげさ",
+    "romaji": "oogesa",
+    "partOfSpeech": "な形容詞",
+    "meaning": "誇張、小題大做",
+    "level": "N3",
+    "example": "彼は少し転んだだけなのに大げさに痛がっている。",
+    "exampleMeaning": "他只不過稍微跌倒了一下，就誇張地喊痛。"
+  },
+  {
+    "id": "n3_0067",
+    "word": "大通り",
+    "reading": "おおどおり",
+    "romaji": "oodoori",
+    "partOfSpeech": "名詞",
+    "meaning": "大馬路、大街",
+    "level": "N3",
+    "example": "祭りの日は大通りに店がたくさん並ぶ。",
+    "exampleMeaning": "慶典當天大街上擺滿了許多攤位。"
+  },
+  {
+    "id": "n3_0068",
+    "word": "大昔",
+    "reading": "おおむかし",
+    "romaji": "oomukashi",
+    "partOfSpeech": "名詞",
+    "meaning": "遠古、很久以前",
+    "level": "N3",
+    "example": "この辺りは大昔海の底だったと言われている。",
+    "exampleMeaning": "據說這一帶在遠古時代曾是海底。"
+  },
+  {
+    "id": "n3_0069",
+    "word": "拝む",
+    "reading": "おがむ",
+    "romaji": "ogamu",
+    "partOfSpeech": "動詞",
+    "meaning": "參拜、瞻仰",
+    "level": "N3",
+    "example": "初日の出を拝むために山の上で朝を待った。",
+    "exampleMeaning": "為了瞻仰元旦的第一道曙光，在山頂上守候清晨到來。"
+  },
+  {
+    "id": "n3_0070",
+    "word": "補う",
+    "reading": "おぎなう",
+    "romaji": "oginau",
+    "partOfSpeech": "動詞",
+    "meaning": "補充、彌補",
+    "level": "N3",
+    "example": "足りない栄養は野菜を多く食べて補うようにしている。",
+    "exampleMeaning": "不足的營養盡量透過多吃蔬菜來補充。"
+  },
+  {
+    "id": "n3_0071",
+    "word": "遅らす",
+    "reading": "おくらす",
+    "romaji": "okurasu",
+    "partOfSpeech": "動詞",
+    "meaning": "推遲、延後",
+    "level": "N3",
+    "example": "雪のため出発の時間を1時間遅らせることになった。",
+    "exampleMeaning": "因為下雪的關係，出發時間延後了1個小時。"
+  },
+  {
+    "id": "n3_0072",
+    "word": "抑える",
+    "reading": "おさえる",
+    "romaji": "osaeru",
+    "partOfSpeech": "動詞",
+    "meaning": "壓住、抑制",
+    "level": "N3",
+    "example": "風で飛ばないように紙を手で押さえていてください。",
+    "exampleMeaning": "為了不被風吹走，請用手壓住紙張。"
+  },
+  {
+    "id": "n3_0073",
+    "word": "惜しい",
+    "reading": "おしい",
+    "romaji": "oshii",
+    "partOfSpeech": "い形容詞",
+    "meaning": "可惜的、令人惋惜的",
+    "level": "N3",
+    "example": "あと1点で合格だったなんて本当に惜しかったですね。",
+    "exampleMeaning": "差1分就能合格，真是太可惜了呢。"
+  },
+  {
+    "id": "n3_0074",
+    "word": "恐れ",
+    "reading": "おそれ",
+    "romaji": "osore",
+    "partOfSpeech": "名詞",
+    "meaning": "顧慮、風險/恐懼",
+    "level": "N3",
+    "example": "今夜から大雨になる恐れがあるので注意してください。",
+    "exampleMeaning": "今晚起有下豪雨的風險，請多加注意。"
+  },
+  {
+    "id": "n3_0075",
+    "word": "落ち葉",
+    "reading": "おちば",
+    "romaji": "ochiba",
+    "partOfSpeech": "名詞",
+    "meaning": "落葉",
+    "level": "N3",
+    "example": "秋になると毎朝庭の落ち葉を集めるのが大変だ。",
+    "exampleMeaning": "一到秋天，每天早上清掃院子裡的落葉就很辛苦。"
+  },
+  {
+    "id": "n3_0076",
+    "word": "落とし物",
+    "reading": "おとしもの",
+    "romaji": "otoshimono",
+    "partOfSpeech": "名詞",
+    "meaning": "遺失物、失物",
+    "level": "N3",
+    "example": "落とし物を交番に届けたらお礼を言われた。",
+    "exampleMeaning": "把撿到的遺失物送到派出所，收到了對方的感謝。"
+  },
+  {
+    "id": "n3_0077",
+    "word": "お参り",
+    "reading": "おまいり",
+    "romaji": "omairi",
+    "partOfSpeech": "名詞",
+    "meaning": "參拜",
+    "level": "N3",
+    "example": "お正月には家族揃って神社にお参りに行く。",
+    "exampleMeaning": "新年時全家人一起去神社參拜。"
+  },
+  {
+    "id": "n3_0078",
+    "word": "お目にかかる",
+    "reading": "おめにかかる",
+    "romaji": "omenikakaru",
+    "partOfSpeech": "動詞",
+    "meaning": "拜見、見面",
+    "level": "N3",
+    "example": "先日尊敬している先生にようやくお目にかかることができた。",
+    "exampleMeaning": "前幾天終於得以拜見我所尊敬的老師。"
+  },
+  {
+    "id": "n3_0079",
+    "word": "思いがけない",
+    "reading": "おもいがけない",
+    "romaji": "omoigakenai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "意想不到的、出乎意料的",
+    "level": "N3",
+    "example": "旅行先で思いがけない人に会ってびっくりした。",
+    "exampleMeaning": "在旅遊地點遇見了意想不到的人，嚇了一跳。"
+  },
+  {
+    "id": "n3_0080",
+    "word": "思いきり",
+    "reading": "おもいきり",
+    "romaji": "omoikiri",
+    "partOfSpeech": "副詞",
+    "meaning": "盡情地、痛快地",
+    "level": "N3",
+    "example": "試験が終わったら思いきり遊ぶつもりだ。",
+    "exampleMeaning": "考試結束後我打算痛痛快快地玩一場。"
+  },
+  {
+    "id": "n3_0081",
+    "word": "思い込む",
+    "reading": "おもいこむ",
+    "romaji": "omoikomu",
+    "partOfSpeech": "動詞",
+    "meaning": "堅信、深信",
+    "level": "N3",
+    "example": "会議は明日だと思い込んでいて今日だと気づかなかった。",
+    "exampleMeaning": "一直堅信會議是明天，沒發現原來是今天。"
+  },
+  {
+    "id": "n3_0082",
+    "word": "思いつく",
+    "reading": "おもいつく",
+    "romaji": "omoitsuku",
+    "partOfSpeech": "動詞",
+    "meaning": "想出、想起",
+    "level": "N3",
+    "example": "散歩している時にいい方法を思いついた。",
+    "exampleMeaning": "散步的時候突然想出了一個好方法。"
+  },
+  {
+    "id": "n3_0083",
+    "word": "重たい",
+    "reading": "おもたい",
+    "romaji": "omotai",
+    "partOfSpeech": "い形容詞",
+    "meaning": "沉重的、沉沉的",
+    "level": "N3",
+    "example": "この辞書は重たいので持ち歩くのが大変だ。",
+    "exampleMeaning": "這本字典很沉重，隨身攜帶很吃力。"
+  },
+  {
+    "id": "n3_0084",
+    "word": "親指",
+    "reading": "おやゆび",
+    "romaji": "oyayubi",
+    "partOfSpeech": "名詞",
+    "meaning": "大拇指",
+    "level": "N3",
+    "example": "包丁で親指を切りそうになってヒヤッとした。",
+    "exampleMeaning": "差點被菜刀切到大拇指，嚇了一身冷汗。"
+  },
+  {
+    "id": "n3_0085",
+    "word": "及ぶ",
+    "reading": "およぶ",
+    "romaji": "oyobu",
+    "partOfSpeech": "動詞",
+    "meaning": "涉及、長達",
+    "level": "N3",
+    "example": "会議は5時間にも及んでみんな疲れてしまった。",
+    "exampleMeaning": "會議長達5個小時，大家都累壞了。"
+  },
+  {
+    "id": "n3_0086",
+    "word": "折り紙",
+    "reading": "おりがみ",
+    "romaji": "origami",
+    "partOfSpeech": "名詞",
+    "meaning": "摺紙",
+    "level": "N3",
+    "example": "折り紙で鶴を折って入院している友達に送った。",
+    "exampleMeaning": "用摺紙摺了紙鶴寄給住院的朋友。"
+  },
+  {
+    "id": "n3_0087",
+    "word": "お詫び",
+    "reading": "おわび",
+    "romaji": "owabi",
+    "partOfSpeech": "名詞",
+    "meaning": "致歉、謝罪",
+    "level": "N3",
+    "example": "店はお詫びとして次に使える券をくれた。",
+    "exampleMeaning": "店家作為致歉給了一張下次可使用的折價券。"
+  },
+  {
+    "id": "n3_0088",
+    "word": "温泉",
+    "reading": "おんせん",
+    "romaji": "onsen",
+    "partOfSpeech": "名詞",
+    "meaning": "溫泉",
+    "level": "N3",
+    "example": "疲れた時は温泉にゆっくり入るのが一番だ。",
+    "exampleMeaning": "疲累時好好泡個溫泉是最棒的。"
+  },
+  {
+    "id": "n3_0089",
+    "word": "温和",
+    "reading": "おんわ",
+    "romaji": "onwa",
+    "partOfSpeech": "な形容詞",
+    "meaning": "溫和的",
+    "level": "N3",
+    "example": "この地方は気候が温和で冬でもあまり寒くならない。",
+    "exampleMeaning": "這個地方氣候溫和，即使到了冬天也不太冷。"
+  },
+  {
+    "id": "n3_0090",
+    "word": "回",
+    "reading": "かい",
+    "romaji": "kai",
+    "partOfSpeech": "名詞",
+    "meaning": "次數、回",
+    "level": "N3",
+    "example": "3ヶ月に1度日本語を勉強する会に参加している。",
+    "exampleMeaning": "每三個月參加一次日語讀書會。"
+  },
+  {
+    "id": "n3_0091",
+    "word": "会",
+    "reading": "かい",
+    "romaji": "kai",
+    "partOfSpeech": "名詞",
+    "meaning": "聚會、集會",
+    "level": "N3",
+    "example": "彼はこれまでに3回仕事で日本へ行ったことがある。",
+    "exampleMeaning": "他至今為止曾因工作去過3次日本。"
+  },
+  {
+    "id": "n3_0092",
+    "word": "回数",
+    "reading": "かいすう",
+    "romaji": "kaisuu",
+    "partOfSpeech": "名詞",
+    "meaning": "回數、次數",
+    "level": "N3",
+    "example": "最近外食の回数を減らして自炊するようにしている。",
+    "exampleMeaning": "最近盡量減少外食次數，改為自己下廚。"
+  },
+  {
+    "id": "n3_0093",
+    "word": "回数券",
+    "reading": "かいすうけん",
+    "romaji": "kaisuuken",
+    "partOfSpeech": "名詞",
+    "meaning": "回數票、聯票",
+    "level": "N3",
+    "example": "よくバスに乗るなら回数券を買った方が得ですよ。",
+    "exampleMeaning": "如果經常搭公車，買回數票會比較划算喔。"
+  },
+  {
+    "id": "n3_0094",
+    "word": "快晴",
+    "reading": "かいせい",
+    "romaji": "kaisei",
+    "partOfSpeech": "名詞",
+    "meaning": "萬里無雲、大晴天",
+    "level": "N3",
+    "example": "運動会の日は快晴で絶好のスポーツ日和だった。",
+    "exampleMeaning": "運動會當天萬里無雲，是絕佳的運動好天氣。"
+  },
+  {
+    "id": "n3_0095",
+    "word": "快速",
+    "reading": "かいそく",
+    "romaji": "kaisoku",
+    "partOfSpeech": "名詞",
+    "meaning": "快速列車、快速",
+    "level": "N3",
+    "example": "快速に乗れば30分で着くことができます。",
+    "exampleMeaning": "搭乘快速列車的話30分鐘就能抵達。"
+  },
+  {
+    "id": "n3_0096",
+    "word": "開通",
+    "reading": "かいつう",
+    "romaji": "kaitsuu",
+    "partOfSpeech": "名詞",
+    "meaning": "開通、通車",
+    "level": "N3",
+    "example": "新しい橋が開通して通勤が随分楽になった。",
+    "exampleMeaning": "新橋開通後通勤變得輕鬆許多。"
+  },
+  {
+    "id": "n3_0097",
+    "word": "飼い主",
+    "reading": "かいぬし",
+    "romaji": "kainushi",
+    "partOfSpeech": "名詞",
+    "meaning": "飼主、主人",
+    "level": "N3",
+    "example": "迷子の犬は無事に飼い主のところへ帰れたそうだ。",
+    "exampleMeaning": "聽說迷路的狗平安回到了飼主身邊。"
+  },
+  {
+    "id": "n3_0098",
+    "word": "香る",
+    "reading": "かおる",
+    "romaji": "kaoru",
+    "partOfSpeech": "動詞",
+    "meaning": "飄香、散發香氣",
+    "level": "N3",
+    "example": "この石鹸はバラのように香るので女性に人気がある。",
+    "exampleMeaning": "這塊肥皂散發著玫瑰般的香氣，很受女性歡迎。"
+  },
+  {
+    "id": "n3_0099",
+    "word": "係員",
+    "reading": "かかりいん",
+    "romaji": "kakariin",
+    "partOfSpeech": "名詞",
+    "meaning": "工作人員、負責人員",
+    "level": "N3",
+    "example": "分からないことは会場の係員に聞いてください。",
+    "exampleMeaning": "有不明白的地方請詢問會場的工作人員。"
+  },
+  {
+    "id": "n3_0100",
+    "word": "科学",
+    "reading": "かがく",
+    "romaji": "kagaku",
+    "partOfSpeech": "名詞",
+    "meaning": "科學",
+    "level": "N3",
+    "example": "彼は大学で科学を専攻していて、将来は研究者になりたいそうだ。",
+    "exampleMeaning": "他在大學主修科學，據說未來想成為研究員。"
+  },
+  {
+    "id": "n3_0101",
+    "word": "各自",
+    "reading": "かくじ",
+    "romaji": "kakuji",
+    "partOfSpeech": "名詞",
+    "meaning": "各自、每個人",
+    "level": "N3",
+    "example": "昼食は各自で用意することになっている。",
+    "exampleMeaning": "午餐規定由每個人各自準備。"
+  },
+  {
+    "id": "n3_0102",
+    "word": "各地",
+    "reading": "かくち",
+    "romaji": "kakuchi",
+    "partOfSpeech": "名詞",
+    "meaning": "各地",
+    "level": "N3",
+    "example": "今日は日本の各地で今年一番の暑さになったそうだ。",
+    "exampleMeaning": "據說今天日本各地迎來了今年最熱的一天。"
+  },
+  {
+    "id": "n3_0103",
+    "word": "駆けつける",
+    "reading": "かけつける",
+    "romaji": "kaketsukeru",
+    "partOfSpeech": "動詞",
+    "meaning": "趕到、奔赴",
+    "level": "N3",
+    "example": "事故の知らせを聞いて家族がすぐに病院へ駆けつけた。",
+    "exampleMeaning": "聽到事故的消息，家屬立刻趕到了醫院。"
+  },
+  {
+    "id": "n3_0104",
+    "word": "加工",
+    "reading": "かこう",
+    "romaji": "kakou",
+    "partOfSpeech": "名詞",
+    "meaning": "加工",
+    "level": "N3",
+    "example": "この工場では魚を缶詰に加工している。",
+    "exampleMeaning": "這座工廠將魚類加工製成罐頭。"
+  },
+  {
+    "id": "n3_0105",
+    "word": "火口",
+    "reading": "かこう",
+    "romaji": "kakou",
+    "partOfSpeech": "名詞",
+    "meaning": "火山口",
+    "level": "N3",
+    "example": "山の頂上まで登ると火口を見ることができる。",
+    "exampleMeaning": "登上山頂就能看見火山口。"
+  },
+  {
+    "id": "n3_0106",
+    "word": "火山",
+    "reading": "かざん",
+    "romaji": "kazan",
+    "partOfSpeech": "名詞",
+    "meaning": "火山",
+    "level": "N3",
+    "example": "日本には火山が多いので温泉もたくさんある。",
+    "exampleMeaning": "因為日本火山很多，所以溫泉也很多。"
+  },
+  {
+    "id": "n3_0107",
+    "word": "貸出",
+    "reading": "かしだし",
+    "romaji": "kashidashi",
+    "partOfSpeech": "名詞",
+    "meaning": "外借、出借",
+    "level": "N3",
+    "example": "この図書館では本の貸出は1人5冊までです。",
+    "exampleMeaning": "這間圖書館每人最多可借出5本書。"
+  },
+  {
+    "id": "n3_0108",
+    "word": "貸し出し",
+    "reading": "かしだし",
+    "romaji": "kashidashi",
+    "partOfSpeech": "名詞",
+    "meaning": "外借、出租",
+    "level": "N3",
+    "example": "この図書館では1人10冊まで貸し出しができる。",
+    "exampleMeaning": "這間圖書館每人最多可外借10本書。"
+  },
+  {
+    "id": "n3_0109",
+    "word": "過失",
+    "reading": "かしつ",
+    "romaji": "kashitsu",
+    "partOfSpeech": "名詞",
+    "meaning": "過失、疏忽",
+    "level": "N3",
+    "example": "事故の原因は運転手の過失だったと発表された。",
+    "exampleMeaning": "事故原因被公佈為駕駛員的過失。"
+  },
+  {
+    "id": "n3_0110",
+    "word": "箇所",
+    "reading": "かしょ",
+    "romaji": "kasho",
+    "partOfSpeech": "名詞",
+    "meaning": "部分、處所",
+    "level": "N3",
+    "example": "直した方がいい箇所に赤いペンで印をつけた。",
+    "exampleMeaning": "在需要修改的地方用紅筆做了記號。"
+  },
+  {
+    "id": "n3_0111",
+    "word": "果実",
+    "reading": "かじつ",
+    "romaji": "kajitsu",
+    "partOfSpeech": "名詞",
+    "meaning": "果實、水果",
+    "level": "N3",
+    "example": "この店のジャムは地元の果実だけで作られている。",
+    "exampleMeaning": "這家店的果醬只使用當地的果實製作。"
+  },
+  {
+    "id": "n3_0112",
+    "word": "過剰",
+    "reading": "かじょう",
+    "romaji": "kajou",
+    "partOfSpeech": "な形容詞",
+    "meaning": "過量、過剩",
+    "level": "N3",
+    "example": "体にいいと言っても過剰に食べれば逆効果ですよ。",
+    "exampleMeaning": "雖說對身體好，但過量食用反而會有反效果喔。"
+  },
+  {
+    "id": "n3_0113",
+    "word": "片道",
+    "reading": "かたみち",
+    "romaji": "katamichi",
+    "partOfSpeech": "名詞",
+    "meaning": "單程",
+    "level": "N3",
+    "example": "会社まで片道1時間もかかるので引っ越しを考えている。",
+    "exampleMeaning": "到公司單程要花1個小時，所以正在考慮搬家。"
+  },
+  {
+    "id": "n3_0114",
+    "word": "偏る",
+    "reading": "かたよる",
+    "romaji": "katayoru",
+    "partOfSpeech": "動詞",
+    "meaning": "偏頗、不均衡",
+    "level": "N3",
+    "example": "食事が偏らないように色々なものを食べましょう。",
+    "exampleMeaning": "飲食要均衡不要偏食，多吃各種食物吧。"
+  },
+  {
+    "id": "n3_0115",
+    "word": "勝手",
+    "reading": "かって",
+    "romaji": "katte",
+    "partOfSpeech": "な形容詞",
+    "meaning": "隨便、任性",
+    "level": "N3",
+    "example": "人のものを勝手に使うのはやめて欲しいです。",
+    "exampleMeaning": "希望不要隨便擅自使用別人的東西。"
+  },
+  {
+    "id": "n3_0116",
+    "word": "活字",
+    "reading": "かつじ",
+    "romaji": "katsuji",
+    "partOfSpeech": "名詞",
+    "meaning": "印刷文字、活字",
+    "level": "N3",
+    "example": "最近の若い人は活字を読む時間が減っているそうだ。",
+    "exampleMeaning": "聽說最近的年輕人閱讀紙本印刷文字的時間變少了。"
+  },
+  {
+    "id": "n3_0117",
+    "word": "金具",
+    "reading": "かなぐ",
+    "romaji": "kanagu",
+    "partOfSpeech": "名詞",
+    "meaning": "金屬零件、金屬扣件",
+    "level": "N3",
+    "example": "棚の金具が緩んでいたのでドライバーで締め直した。",
+    "exampleMeaning": "架子的金屬零件鬆了，所以用螺絲起子重新鎖緊。"
+  },
+  {
+    "id": "n3_0118",
+    "word": "加熱",
+    "reading": "かねつ",
+    "romaji": "kanetsu",
+    "partOfSpeech": "名詞",
+    "meaning": "加熱",
+    "level": "N3",
+    "example": "この肉は中までよく加熱してから食べてください。",
+    "exampleMeaning": "這塊肉請徹底加熱至內部熟透後再食用。"
+  },
+  {
+    "id": "n3_0119",
+    "word": "金持ち",
+    "reading": "かねもち",
+    "romaji": "kanemochi",
+    "partOfSpeech": "名詞",
+    "meaning": "有錢人、富翁",
+    "level": "N3",
+    "example": "彼は金持ちで豪華な家に住んでいる。",
+    "exampleMeaning": "他是個有錢人，住在一棟豪華的豪宅裡。"
+  },
+  {
+    "id": "n3_0120",
+    "word": "可能性",
+    "reading": "かのうせい",
+    "romaji": "kanousei",
+    "partOfSpeech": "名詞",
+    "meaning": "可能性",
+    "level": "N3",
+    "example": "午後から雪になる可能性が高いと天気予報で言っていた。",
+    "exampleMeaning": "氣象預報說下午起下雪的可能性很高。"
+  },
+  {
+    "id": "n3_0121",
+    "word": "花瓶",
+    "reading": "かびん",
+    "romaji": "kabin",
+    "partOfSpeech": "名詞",
+    "meaning": "花瓶",
+    "level": "N3",
+    "example": "もらった花を花瓶に入れて玄関に飾った。",
+    "exampleMeaning": "把收到的花插進花瓶裝飾在玄關。"
+  },
+  {
+    "id": "n3_0122",
+    "word": "構える",
+    "reading": "かまえる",
+    "romaji": "kamaeru",
+    "partOfSpeech": "動詞",
+    "meaning": "過於拘謹、擺出姿態",
+    "level": "N3",
+    "example": "そんなに難しく構えないで気楽に話してください。",
+    "exampleMeaning": "不用那麼拘謹嚴肅，輕鬆地聊聊吧。"
+  },
+  {
+    "id": "n3_0123",
+    "word": "紙くず",
+    "reading": "かみくず",
+    "romaji": "kamikuzu",
+    "partOfSpeech": "名詞",
+    "meaning": "紙屑、廢紙",
+    "level": "N3",
+    "example": "机の下に紙くずを捨てないでゴミ箱に入れましょう。",
+    "exampleMeaning": "請不要把紙屑扔在桌子底下，丟進垃圾桶吧。"
+  },
+  {
+    "id": "n3_0124",
+    "word": "かみそり",
+    "reading": "かみそり",
+    "romaji": "kamisori",
+    "partOfSpeech": "名詞",
+    "meaning": "刮鬍刀、剃刀",
+    "level": "N3",
+    "example": "この剃刀はよく切れるので使う時気をつけてください。",
+    "exampleMeaning": "這把刮鬍刀非常鋒利，使用時請多加小心。"
+  },
+  {
+    "id": "n3_0125",
+    "word": "歌謡曲",
+    "reading": "かようきょく",
+    "romaji": "kayoukyoku",
+    "partOfSpeech": "名詞",
+    "meaning": "流行歌曲、流行樂",
+    "level": "N3",
+    "example": "祖母は昔の歌謡曲を聞くと若い頃を思い出すそうだ。",
+    "exampleMeaning": "祖母聽說一聽起以前的流行歌就會想起年輕時的時光。"
+  },
+  {
+    "id": "n3_0126",
+    "word": "空っぽ",
+    "reading": "からっぽ",
+    "romaji": "karappo",
+    "partOfSpeech": "な形容詞",
+    "meaning": "空空如也、空無一物",
+    "level": "N3",
+    "example": "冷蔵庫が空っぽだったのでスーパーへ買い物に行った。",
+    "exampleMeaning": "因為冰箱空空如也，所以去超市買東西。"
+  },
+  {
+    "id": "n3_0127",
+    "word": "枯れる",
+    "reading": "かれる",
+    "romaji": "kareru",
+    "partOfSpeech": "動詞",
+    "meaning": "枯萎、凋謝",
+    "level": "N3",
+    "example": "水をやるのを忘れて大切にしていた花が枯れてしまった。",
+    "exampleMeaning": "忘了澆水，心愛的花朵枯萎了。"
+  },
+  {
+    "id": "n3_0128",
+    "word": "過労",
+    "reading": "かろう",
+    "romaji": "karou",
+    "partOfSpeech": "名詞",
+    "meaning": "過勞、過度勞累",
+    "level": "N3",
+    "example": "父は過労で倒れて1週間入院することになった。",
+    "exampleMeaning": "父親因為過勞倒下而住院了一週。"
+  },
+  {
+    "id": "n3_0129",
+    "word": "換気",
+    "reading": "かんき",
+    "romaji": "kanki",
+    "partOfSpeech": "名詞",
+    "meaning": "通風、換氣",
+    "level": "N3",
+    "example": "料理の後は窓を開けて部屋を換気してください。",
+    "exampleMeaning": "做完料理後請打開窗戶讓房間通風換氣。"
+  },
+  {
+    "id": "n3_0130",
+    "word": "簡単",
+    "reading": "かんたん",
+    "romaji": "kantan",
+    "partOfSpeech": "な形容詞",
+    "meaning": "簡單的、簡易的",
+    "level": "N3",
+    "example": "この料理は簡単に作れます。",
+    "exampleMeaning": "這道料理做起來很簡單。"
+  },
+  {
+    "id": "n3_0131",
+    "word": "完備",
+    "reading": "かんび",
+    "romaji": "kanbi",
+    "partOfSpeech": "名詞",
+    "meaning": "齊備、完備",
+    "level": "N3",
+    "example": "このアパートはエアコンや家具が完備されている。",
+    "exampleMeaning": "這間公寓的冷氣與家具配備齊全。"
+  },
+  {
+    "id": "n3_0132",
+    "word": "看病",
+    "reading": "かんびょう",
+    "romaji": "kanbyou",
+    "partOfSpeech": "名詞",
+    "meaning": "照顧病人、看護",
+    "level": "N3",
+    "example": "母が熱を出したので一晩中看病していた。",
+    "exampleMeaning": "因為母親發燒，我整晚都在身邊照顧她。"
+  },
+  {
+    "id": "n3_0133",
+    "word": "学力",
+    "reading": "がくりょく",
+    "romaji": "gakuryoku",
+    "partOfSpeech": "名詞",
+    "meaning": "學力、學習能力",
+    "level": "N3",
+    "example": "毎日30分の読書で子供の学力が上がるそうだ。",
+    "exampleMeaning": "據說每天閱讀30分鐘就能提升孩子的學習能力。"
+  },
+  {
+    "id": "n3_0134",
+    "word": "合唱",
+    "reading": "がっしょう",
+    "romaji": "gasshou",
+    "partOfSpeech": "名詞",
+    "meaning": "合唱",
+    "level": "N3",
+    "example": "卒業式で全員で思い出の歌を合唱した。",
+    "exampleMeaning": "在畢業典禮上大家一同合唱了回憶之歌。"
   }
 ]

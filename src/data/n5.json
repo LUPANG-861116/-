@@ -1690,8 +1690,8 @@
     "partOfSpeech": "名詞",
     "meaning": "鑰匙",
     "level": "N5",
-    "example": "鍵を忘れました。",
-    "exampleMeaning": "忘了帶鑰匙。"
+    "example": "部屋の鍵がどこにあるか分かりません。",
+    "exampleMeaning": "不知道房間的鑰匙在哪裡。"
   },
   {
     "id": "n5_0155",
@@ -1754,10 +1754,10 @@
     "reading": "かさ",
     "romaji": "kasa",
     "partOfSpeech": "名詞",
-    "meaning": "雨傘",
+    "meaning": "傘",
     "level": "N5",
-    "example": "雨が降っているので傘をさします。",
-    "exampleMeaning": "因為下雨所以撐傘。"
+    "example": "雨が降りそうなので傘を持っていきます。",
+    "exampleMeaning": "快要下雨了所以帶傘去。"
   },
   {
     "id": "n5_0161",
@@ -1882,14 +1882,14 @@
   },
   {
     "id": "n5_0172",
-    "word": "かばん",
+    "word": "鞄",
     "reading": "かばん",
     "romaji": "kaban",
     "partOfSpeech": "名詞",
-    "meaning": "包包",
+    "meaning": "包包、手提包",
     "level": "N5",
-    "example": "お気に入りのブランドのバッグ、毎日の通勤で大切に使っています。",
-    "exampleMeaning": "我很寶貝地在每天的通勤中使用自己最愛的品牌包包。"
+    "example": "この鞄はとても大きいです。",
+    "exampleMeaning": "這個包包非常大。"
   },
   {
     "id": "n5_0173",
@@ -1919,21 +1919,21 @@
     "reading": "かみ",
     "romaji": "kami",
     "partOfSpeech": "名詞",
-    "meaning": "紙",
+    "meaning": "紙、紙張",
     "level": "N5",
-    "example": "アイデアが思い浮かんだので、手元にあった紙にすぐメモした。",
-    "exampleMeaning": "因為想到了點子，馬上就記在手邊的紙上了。"
+    "example": "この紙はとても柔らかくて描きやすいです。",
+    "exampleMeaning": "這張紙非常柔軟且很好畫。"
   },
   {
     "id": "n5_0176",
     "word": "カメラ",
     "reading": "カメラ",
-    "romaji": "カメラ",
+    "romaji": "kamera",
     "partOfSpeech": "名詞",
     "meaning": "相機",
     "level": "N5",
-    "example": "今度の週末の旅行に向けて、新しいミラーレスのカメラを買っちゃった！",
-    "exampleMeaning": "為了這週末的旅行，我買了一台全新的無反相機！"
+    "example": "旅行に行く時はカメラを忘れずに持っていきます。",
+    "exampleMeaning": "去旅行時別忘了帶相機去。"
   },
   {
     "id": "n5_0177",
@@ -2016,12 +2016,12 @@
     "id": "n5_0184",
     "word": "カレンダー",
     "reading": "カレンダー",
-    "romaji": "カレンダー",
+    "romaji": "karendaa",
     "partOfSpeech": "名詞",
-    "meaning": "日曆",
+    "meaning": "日曆、行事曆",
     "level": "N5",
-    "example": "デスクの上のカレンダーに、来月の面接の予定を書き込んでおいた。",
-    "exampleMeaning": "我把下個月的面試行程寫在桌上日曆的格子裡了。"
+    "example": "カレンダーに大事な予定を書いておきます。",
+    "exampleMeaning": "在日曆上寫下重要行程。"
   },
   {
     "id": "n5_0185",
@@ -2137,12 +2137,12 @@
     "id": "n5_0195",
     "word": "ギター",
     "reading": "ギター",
-    "romaji": "ギター",
+    "romaji": "gitaa",
     "partOfSpeech": "名詞",
     "meaning": "吉他",
     "level": "N5",
-    "example": "ギターを弾くのが上手です。",
-    "exampleMeaning": "吉他彈得很好。"
+    "example": "暇な時間にギターを練習しています。",
+    "exampleMeaning": "在空閒時間練習彈吉他。"
   },
   {
     "id": "n5_0196",
@@ -2174,8 +2174,8 @@
     "partOfSpeech": "名詞",
     "meaning": "郵票",
     "level": "N5",
-    "example": "手紙に切手を貼ります。",
-    "exampleMeaning": "在信封上貼郵票。"
+    "example": "封筒に切手を貼るのを忘れないでください。",
+    "exampleMeaning": "請不要忘記在信封上貼郵票。"
   },
   {
     "id": "n5_0199",
@@ -2183,10 +2183,10 @@
     "reading": "きっぷ",
     "romaji": "kippu",
     "partOfSpeech": "名詞",
-    "meaning": "票券、車票",
+    "meaning": "車票、票券",
     "level": "N5",
-    "example": "電車の切符を買いました。",
-    "exampleMeaning": "買了電車車票。"
+    "example": "切符をなくしてしまったので改札を出られませんでした。",
+    "exampleMeaning": "因為弄丟了車票所以出不了剪票口。"
   },
   {
     "id": "n5_0200",
@@ -2381,10 +2381,10 @@
     "reading": "くすり",
     "romaji": "kusuri",
     "partOfSpeech": "名詞",
-    "meaning": "藥物",
+    "meaning": "藥、藥物",
     "level": "N5",
-    "example": "熱があるので、食後に風邪薬を飲みました。",
-    "exampleMeaning": "因為發燒，飯後吃了感冒藥。"
+    "example": "医者に処方された薬を毎日飲んでいます。",
+    "exampleMeaning": "每天按時服用醫生開的藥。"
   },
   {
     "id": "n5_0218",
@@ -3030,10 +3030,10 @@
     "reading": "さいふ",
     "romaji": "saifu",
     "partOfSpeech": "名詞",
-    "meaning": "錢包",
+    "meaning": "錢包、皮夾",
     "level": "N5",
-    "example": "新しい財布を買いました。",
-    "exampleMeaning": "買了新錢包。"
+    "example": "財布をどこかに忘れてきたかもしれません。",
+    "exampleMeaning": "可能把皮夾忘在某個地方了。"
   },
   {
     "id": "n5_0277",
@@ -3109,8 +3109,8 @@
     "partOfSpeech": "名詞",
     "meaning": "雜誌",
     "level": "N5",
-    "example": "ファッション雑誌を読みます。",
-    "exampleMeaning": "看時尚雜誌。"
+    "example": "美容院で雑誌を読んで時間を潰しました。",
+    "exampleMeaning": "在美容院看雜誌打發時間。"
   },
   {
     "id": "n5_0284",
@@ -3417,8 +3417,8 @@
     "partOfSpeech": "名詞",
     "meaning": "照片",
     "level": "N5",
-    "example": "写真を撮りましょう。",
-    "exampleMeaning": "我們來拍照吧。"
+    "example": "家族の写真を壁に飾りました。",
+    "exampleMeaning": "把全家福照片裝飾在牆上。"
   },
   {
     "id": "n5_0312",
@@ -3593,8 +3593,8 @@
     "partOfSpeech": "名詞",
     "meaning": "報紙",
     "level": "N5",
-    "example": "毎朝新聞を読みます。",
-    "exampleMeaning": "每天早晨看報紙。"
+    "example": "父は毎朝新聞を読みながらコーヒーを飲みます。",
+    "exampleMeaning": "父親每天早上邊看報紙邊喝咖啡。"
   },
   {
     "id": "n5_0328",
@@ -3710,12 +3710,12 @@
     "id": "n5_0338",
     "word": "ストーブ",
     "reading": "ストーブ",
-    "romaji": "ストーブ",
+    "romaji": "sutoobu",
     "partOfSpeech": "名詞",
-    "meaning": "暖爐",
+    "meaning": "暖爐、暖氣機",
     "level": "N5",
-    "example": "ストーブをつけます。",
-    "exampleMeaning": "打開暖爐。"
+    "example": "寒いのでストーブをつけてください。",
+    "exampleMeaning": "因為很冷，請把暖爐打開。"
   },
   {
     "id": "n5_0339",
@@ -3824,8 +3824,8 @@
     "partOfSpeech": "名詞",
     "meaning": "肥皂",
     "level": "N5",
-    "example": "せっけんで手を洗います。",
-    "exampleMeaning": "用肥皂洗手。"
+    "example": "外から帰ったら石鹸でしっかり手を洗いましょう。",
+    "exampleMeaning": "從外面回家後用肥皂好好洗手吧。"
   },
   {
     "id": "n5_0349",
@@ -4451,8 +4451,8 @@
     "partOfSpeech": "名詞",
     "meaning": "地圖",
     "level": "N5",
-    "example": "スマホの地図アプリを開いて、道を確認しよう。",
-    "exampleMeaning": "打開手機的地圖App，確認一下路怎麼走吧。"
+    "example": "この地図を見れば道に迷わないと思います。",
+    "exampleMeaning": "看這張地圖的話應該就不會迷路了。"
   },
   {
     "id": "n5_0406",
@@ -4713,10 +4713,10 @@
     "reading": "てがみ",
     "romaji": "tegami",
     "partOfSpeech": "名詞",
-    "meaning": "信",
+    "meaning": "信、信件",
     "level": "N5",
-    "example": "祖母から昔ながらの手書きの手紙が届いた。",
-    "exampleMeaning": "收到了奶奶親筆寫的懷舊信件。"
+    "example": "海外にいる友達に手紙を書きました。",
+    "exampleMeaning": "寫了信給在國外的朋友。"
   },
   {
     "id": "n5_0430",
@@ -4799,12 +4799,12 @@
     "id": "n5_0437",
     "word": "テレビ",
     "reading": "テレビ",
-    "romaji": "テレビ",
+    "romaji": "terebi",
     "partOfSpeech": "名詞",
-    "meaning": "電視機",
+    "meaning": "電視",
     "level": "N5",
-    "example": "夜遅くまでテレビを見るのは体に良くないよ。",
-    "exampleMeaning": "看到很晚才睡對身體不好喔。"
+    "example": "夜にテレビを見ながらリラックスします。",
+    "exampleMeaning": "晚上邊看電視邊放鬆。"
   },
   {
     "id": "n5_0438",
@@ -4823,10 +4823,10 @@
     "reading": "でんき",
     "romaji": "denki",
     "partOfSpeech": "名詞",
-    "meaning": "電力、電燈",
+    "meaning": "電、電燈",
     "level": "N5",
-    "example": "部屋が暗くなってきたので、電気をつけて明るくしました。",
-    "exampleMeaning": "房間漸漸變暗了，所以我打開電燈讓室內變亮。"
+    "example": "寝る時は電気を消してください。",
+    "exampleMeaning": "睡覺時請把燈關掉。"
   },
   {
     "id": "n5_0440",
@@ -4847,8 +4847,8 @@
     "partOfSpeech": "名詞",
     "meaning": "電話",
     "level": "N5",
-    "example": "あとで母に電話をかけます。",
-    "exampleMeaning": "我等等會打電話給我媽。"
+    "example": "電話で予約を取りました。",
+    "exampleMeaning": "用電話預約好了。"
   },
   {
     "id": "n5_0442",
@@ -4856,10 +4856,10 @@
     "reading": "と",
     "romaji": "to",
     "partOfSpeech": "名詞",
-    "meaning": "門",
+    "meaning": "門、門扉",
     "level": "N5",
-    "example": "風が強いので、戸をしっかり閉めてください。",
-    "exampleMeaning": "風很大，請把木門關好。"
+    "example": "夜は戸をきちんと閉めてください。",
+    "exampleMeaning": "晚上請把門確實關好。"
   },
   {
     "id": "n5_0443",
@@ -4876,12 +4876,12 @@
     "id": "n5_0444",
     "word": "ドア",
     "reading": "ドア",
-    "romaji": "ドア",
+    "romaji": "doa",
     "partOfSpeech": "名詞",
     "meaning": "門",
     "level": "N5",
-    "example": "すみません、そのドアを開けてもらえますか。",
-    "exampleMeaning": "不好意思，可以幫我把那扇門打開嗎？"
+    "example": "このドアは少し開けにくいです。",
+    "exampleMeaning": "這扇門有點難打開。"
   },
   {
     "id": "n5_0445",
@@ -5010,10 +5010,10 @@
     "reading": "とけい",
     "romaji": "tokei",
     "partOfSpeech": "名詞",
-    "meaning": "手錶、時鐘",
+    "meaning": "時鐘、手錶",
     "level": "N5",
-    "example": "急いでいたので、時計を見るのを忘れた。",
-    "exampleMeaning": "因為趕時間，所以忘了看手錶。"
+    "example": "待ち合わせの時間が近いので時計を確認しました。",
+    "exampleMeaning": "因為碰面時間快到了，所以確認了一下時間。"
   },
   {
     "id": "n5_0457",
@@ -5516,10 +5516,10 @@
     "reading": "にもつ",
     "romaji": "nimotsu",
     "partOfSpeech": "名詞",
-    "meaning": "行李",
+    "meaning": "行李、包裹",
     "level": "N5",
-    "example": "荷物が多いので、タクシーを呼びましょう。",
-    "exampleMeaning": "行李很多，我們叫輛計程車吧。"
+    "example": "引っ越しの荷物をまとめるのに1日かかりました。",
+    "exampleMeaning": "整理搬家的行李花了一整天。"
   },
   {
     "id": "n5_0503",
@@ -5743,14 +5743,14 @@
   },
   {
     "id": "n5_0523",
-    "word": "葉書",
+    "word": "はがき",
     "reading": "はがき",
     "romaji": "hagaki",
     "partOfSpeech": "名詞",
     "meaning": "明信片",
     "level": "N5",
-    "example": "旅行先から家族に綺麗な葉書を出しました。",
-    "exampleMeaning": "我從旅遊的地點寄了張漂亮的明信片給家人。"
+    "example": "旅行先から友達にはがきを送りました。",
+    "exampleMeaning": "從旅遊地寄了明信片給朋友。"
   },
   {
     "id": "n5_0524",
@@ -6088,10 +6088,10 @@
     "reading": "ばんごう",
     "romaji": "bangou",
     "partOfSpeech": "名詞",
-    "meaning": "數位",
+    "meaning": "號碼、電話號碼",
     "level": "N5",
-    "example": "ホテルのチェックインのために、予約番号を教えてください。",
-    "exampleMeaning": "為了辦理飯店入住，請告訴我您的預約編號。"
+    "example": "電話番号を間違えてしまいました。",
+    "exampleMeaning": "撥錯了電話號碼。"
   },
   {
     "id": "n5_0555",
@@ -6343,8 +6343,8 @@
     "partOfSpeech": "名詞",
     "meaning": "信封",
     "level": "N5",
-    "example": "手紙を封筒に入れて、切手を貼ってポストに出した。",
-    "exampleMeaning": "我把信放進信封裡，貼上郵票投進郵筒了。"
+    "example": "封筒に手紙を入れて郵便で出しました。",
+    "exampleMeaning": "把信裝進信封裡用郵寄寄出去了。"
   },
   {
     "id": "n5_0578",
@@ -6504,12 +6504,12 @@
     "id": "n5_0592",
     "word": "ページ",
     "reading": "ページ",
-    "romaji": "ページ",
+    "romaji": "peeji",
     "partOfSpeech": "名詞",
-    "meaning": "頁、頁面",
+    "meaning": "頁、頁碼",
     "level": "N5",
-    "example": "教科書の五十ページを開いて問題を解いてください。",
-    "exampleMeaning": "請翻開教科書第五十頁並解答題目。"
+    "example": "このページに大事なことが書いてあります。",
+    "exampleMeaning": "這一頁寫著重要的事情。"
   },
   {
     "id": "n5_0593",
@@ -6526,12 +6526,12 @@
     "id": "n5_0594",
     "word": "ベッド",
     "reading": "ベッド",
-    "romaji": "ベド",
+    "romaji": "beddo",
     "partOfSpeech": "名詞",
-    "meaning": "床、睡床",
+    "meaning": "床",
     "level": "N5",
-    "example": "疲れたので柔らかいベッドに横になって休みました。",
-    "exampleMeaning": "因為太累了，便躺在柔軟的床上好好休息。"
+    "example": "疲れていたのですぐにベッドに入りました。",
+    "exampleMeaning": "因為很累所以馬上進了被窩上床睡覺。"
   },
   {
     "id": "n5_0595",
@@ -6680,12 +6680,12 @@
     "id": "n5_0608",
     "word": "ボタン",
     "reading": "ボタン",
-    "romaji": "ボタン",
+    "romaji": "botan",
     "partOfSpeech": "名詞",
-    "meaning": "按鈕",
+    "meaning": "鈕扣、按鈕",
     "level": "N5",
-    "example": "エレベーターの閉まるボタンを間違えて押してしまった。",
-    "exampleMeaning": "不小心按錯了電梯的關門按鈕。"
+    "example": "シャツのボタンが取れてしまいました。",
+    "exampleMeaning": "襯衫的鈕扣掉落了。"
   },
   {
     "id": "n5_0609",
@@ -6726,10 +6726,10 @@
     "reading": "ほんだな",
     "romaji": "hondana",
     "partOfSpeech": "名詞",
-    "meaning": "字典、辭典",
+    "meaning": "書架、書櫃",
     "level": "N5",
-    "example": "お気に入りの小説を本棚の一番上に並べた。",
-    "exampleMeaning": "我把最喜歡的小說排在書架的最上面。"
+    "example": "本棚の整理をしたらいらない本がたくさん出てきました。",
+    "exampleMeaning": "整理書架後找出了很多不需要的書。"
   },
   {
     "id": "n5_0613",
@@ -6937,8 +6937,8 @@
     "partOfSpeech": "名詞",
     "meaning": "窗戶",
     "level": "N5",
-    "example": "朝起きたら、部屋の窓を開けて新鮮な空気を吸い込む。",
-    "exampleMeaning": "早上起床後，我會打開房間的窗戶呼吸新鮮空氣。"
+    "example": "部屋が暑いので窓を開けてもいいですか？",
+    "exampleMeaning": "房間很熱，可以開窗戶嗎？"
   },
   {
     "id": "n5_0632",
@@ -7223,8 +7223,8 @@
     "partOfSpeech": "名詞",
     "meaning": "眼鏡",
     "level": "N5",
-    "example": "黒ぶちの眼鏡をかけると、雰囲気がかなり変わるね。",
-    "exampleMeaning": "戴上黑框眼鏡後，整個人給人的感覺變了不少呢。"
+    "example": "眼鏡をかけないと文字がよく見えません。",
+    "exampleMeaning": "不戴眼鏡的話看不清楚文字。"
   },
   {
     "id": "n5_0658",
@@ -7298,10 +7298,10 @@
     "reading": "もん",
     "romaji": "mon",
     "partOfSpeech": "名詞",
-    "meaning": "週一",
+    "meaning": "大門、門",
     "level": "N5",
-    "example": "東京駅の南口の門で待ち合わせをしましょう。",
-    "exampleMeaning": "我們在東京車站南口的門口碰面吧。"
+    "example": "学校の門は8時に開きます。",
+    "exampleMeaning": "學校的大門8點開啟。"
   },
   {
     "id": "n5_0665",
@@ -7648,12 +7648,12 @@
     "id": "n5_0696",
     "word": "ラジオ",
     "reading": "ラジオ",
-    "romaji": "ラジオ",
+    "romaji": "rajio",
     "partOfSpeech": "名詞",
-    "meaning": "收音機",
+    "meaning": "收音機、廣播",
     "level": "N5",
-    "example": "朝起きたら、まずラジオをつけてニュースを聞く。",
-    "exampleMeaning": "早上起床後，我會先打開收音機聽新聞。"
+    "example": "運転しながらよくラジオを聞きます。",
+    "exampleMeaning": "開車時經常聽廣播。"
   },
   {
     "id": "n5_0697",
@@ -8534,5 +8534,82 @@
     "level": "N5",
     "example": "あの女の人は私の母です。",
     "exampleMeaning": "那位女士是我的母親。"
+  },
+  {
+    "id": "n5_0006",
+    "word": "洗濯機",
+    "reading": "せんたくき",
+    "romaji": "sentakuki",
+    "partOfSpeech": "名詞",
+    "meaning": "洗衣機",
+    "level": "N5",
+    "example": "新しい洗濯機は音が静かでとても使いやすいです。",
+    "exampleMeaning": "新的洗衣機聲音很安靜，非常好用。"
+  },
+  {
+    "id": "n5_0007",
+    "word": "火",
+    "reading": "ひ",
+    "romaji": "hi",
+    "partOfSpeech": "名詞",
+    "meaning": "火",
+    "level": "N5",
+    "example": "キャンプで火を起こすのが好きです。",
+    "exampleMeaning": "我喜歡在露營時生火。"
+  },
+  {
+    "id": "n5_0008",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "partOfSpeech": "名詞",
+    "meaning": "水",
+    "level": "N5",
+    "example": "植物に水をあげるのを忘れていました。",
+    "exampleMeaning": "忘了給植物澆水。"
+  },
+  {
+    "id": "n5_0009",
+    "word": "橋",
+    "reading": "はし",
+    "romaji": "hashi",
+    "partOfSpeech": "名詞",
+    "meaning": "橋、橋樑",
+    "level": "N5",
+    "example": "橋を渡ったところに公園があります。",
+    "exampleMeaning": "過了橋的地方有一座公園。"
+  },
+  {
+    "id": "n5_0010",
+    "word": "コンビニ",
+    "reading": "コンビニ",
+    "romaji": "konbini",
+    "partOfSpeech": "名詞",
+    "meaning": "便利商店",
+    "level": "N5",
+    "example": "忘れ物をしたのでコンビニで必要なものを買いました。",
+    "exampleMeaning": "因為忘了帶東西所以在便利商店買了必需品。"
+  },
+  {
+    "id": "n5_0011",
+    "word": "スーパー",
+    "reading": "スーパー",
+    "romaji": "suupaa",
+    "partOfSpeech": "名詞",
+    "meaning": "超級市場",
+    "level": "N5",
+    "example": "帰り道にスーパーで野菜を買ってきます。",
+    "exampleMeaning": "回家的路上在超市買蔬菜回去。"
+  },
+  {
+    "id": "n5_0012",
+    "word": "準備",
+    "reading": "じゅんび",
+    "romaji": "junbi",
+    "partOfSpeech": "名詞",
+    "meaning": "準備",
+    "level": "N5",
+    "example": "旅行の準備で忙しいです。",
+    "exampleMeaning": "正忙著準備旅行。"
   }
 ]
