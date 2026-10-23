@@ -12,7 +12,6 @@ import {
   Star,
   MessageSquare,
   X,
-  Headphones,
   CheckCircle2
 } from 'lucide-react';
 
@@ -175,11 +174,11 @@ export const LevelSelector: React.FC<LevelSelectorProps> = ({
             <div className="space-y-3 text-xs">
               <div className="p-3.5 bg-indigo-50/90 dark:bg-indigo-950/50 rounded-2xl border border-indigo-200 dark:border-indigo-900/60 space-y-1.5 shadow-2xs">
                 <div className="font-bold text-indigo-900 dark:text-indigo-200 flex items-center gap-1.5 text-xs">
-                  <Headphones className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-                  <span>🎧 答對 2 次進入「聽力盲測模式」</span>
+                  <BookOpen className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+                  <span>📖 純粹單字記憶模式</span>
                 </div>
                 <p className="text-slate-700 dark:text-slate-200 text-xs leading-relaxed font-normal">
-                  單字前兩次以漢字讀音熟悉；當連續答對 2 次後，系統會隱藏文字並自動播放真人發音，考驗聽力耳感，點卡片即可對答案！
+                  以最純粹直接的單字卡模式學習，完整呈現日文漢字、假名讀音與日文例句，點擊字卡即可查看中文釋義與翻譯！
                 </p>
               </div>
 

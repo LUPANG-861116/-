@@ -19,7 +19,6 @@ import {
   Clock,
   Calendar,
   Star,
-  Headphones,
   Gauge,
   Edit3,
   RotateCcw,
@@ -91,9 +90,6 @@ export const Flashcard: React.FC<FlashcardProps> = ({
     });
   };
 
-  // 判定是否為純聽力模式（答對兩次以上）
-  const isListeningMode = (srsData.reps || 0) >= 2;
-
   // 當單字切換時重設狀態，並在自動發音開啟時自動播放真人發音
   useEffect(() => {
     setIsRevealed(false);
@@ -101,11 +97,11 @@ export const Flashcard: React.FC<FlashcardProps> = ({
     setIsStarred(isFavorite(word.id));
     setActiveWord(getAppliedWord(word));
 
-    if (autoPlayAudio || isListeningMode) {
+    if (autoPlayAudio) {
       // 換卡時立即自動發音，使用自然語速
       speakJapanese(word.reading, speechRate);
     }
-  }, [word.id, autoPlayAudio, isListeningMode, speechRate]);
+  }, [word.id, autoPlayAudio, speechRate]);
 
   // 開啟編輯模式
   const handleOpenEdit = (e: React.MouseEvent) => {
@@ -278,8 +274,6 @@ export const Flashcard: React.FC<FlashcardProps> = ({
         className={`group relative w-full bg-white dark:bg-slate-800 border-2 rounded-3xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer select-none ${
           isRevealed
             ? 'border-rose-300 dark:border-rose-800/80 ring-4 ring-rose-500/10'
-            : isListeningMode
-            ? 'border-indigo-300 dark:border-indigo-800/80 bg-indigo-50/10'
             : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600'
         }`}
       >
@@ -321,63 +315,36 @@ export const Flashcard: React.FC<FlashcardProps> = ({
           </div>
         </div>
 
-        {/* Word Display Section (Listening Challenge if reps >= 2 and unrevealed) */}
-        {isListeningMode && !isRevealed ? (
-          /* 純聽力盲測畫面 (答對兩次後自動觸發) */
-          <div className="text-center py-6 sm:py-8 space-y-3 animate-fadeIn">
-            <div className="w-16 h-16 mx-auto rounded-3xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shadow-inner">
-              <Headphones className="w-8 h-8 animate-bounce" />
-            </div>
-
-            <div className="space-y-1">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 rounded-full text-xs font-black">
-                <span>🎧 純聽力挑戰（已連續答對 {srsData.reps} 次）</span>
-              </div>
-              <p className="text-xs text-slate-500 dark:text-slate-400 max-w-xs mx-auto pt-1 leading-relaxed">
-                文字已暫時隱藏。請聆聽日語發音並回想漢字與意思，單點字卡即可翻開對答案！
-              </p>
-            </div>
-
-            <button
-              onClick={(e) => handleSpeak(e)}
-              className="inline-flex items-center gap-1.5 px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-sm cursor-pointer"
-            >
-              <Volume2 className="w-4 h-4" />
-              <span>再次播放發音</span>
-            </button>
+        {/* 標準單字顯示畫面 */}
+        <div className="text-center py-6 sm:py-8 space-y-2">
+          {/* Hiragana Reading & Romaji */}
+          <div className="flex items-center justify-center gap-2 text-rose-500 dark:text-rose-400 font-semibold text-base sm:text-lg">
+            <span>{activeWord.reading}</span>
+            <span className="text-xs text-slate-400 font-normal">({activeWord.romaji})</span>
           </div>
-        ) : (
-          /* 標準單字顯示畫面 (正面未熟 或 翻開後) */
-          <div className="text-center py-6 sm:py-8 space-y-2">
-            {/* Hiragana Reading & Romaji */}
-            <div className="flex items-center justify-center gap-2 text-rose-500 dark:text-rose-400 font-semibold text-base sm:text-lg">
-              <span>{activeWord.reading}</span>
-              <span className="text-xs text-slate-400 font-normal">({activeWord.romaji})</span>
-            </div>
 
-            {/* Big Japanese Kanji / Word */}
-            <h2 className="text-4xl sm:text-5xl font-black text-slate-800 dark:text-slate-100 tracking-wide font-sans py-1">
-              {activeWord.word}
-            </h2>
+          {/* Big Japanese Kanji / Word */}
+          <h2 className="text-4xl sm:text-5xl font-black text-slate-800 dark:text-slate-100 tracking-wide font-sans py-1">
+            {activeWord.word}
+          </h2>
 
-            {/* SRS Mastery Tag */}
-            <div className="pt-1 flex items-center justify-center gap-1.5 text-[11px] text-slate-400 font-medium">
-              {srsData.reps > 0 ? (
-                <span className="text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">
-                  <Calendar className="w-3 h-3" />
-                  已連續答對 {srsData.reps} 次 • 間隔 {srsData.interval}d
-                </span>
-              ) : srsData.wrongCount > 0 ? (
-                <span className="text-rose-500 font-semibold flex items-center gap-1">
-                  <Clock className="w-3 h-3" />
-                  曾答錯 {srsData.wrongCount} 次 (今日加強中)
-                </span>
-              ) : (
-                <span>全新單字</span>
-              )}
-            </div>
+          {/* SRS Mastery Tag */}
+          <div className="pt-1 flex items-center justify-center gap-1.5 text-[11px] text-slate-400 font-medium">
+            {srsData.reps > 0 ? (
+              <span className="text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">
+                <Calendar className="w-3 h-3" />
+                已連續答對 {srsData.reps} 次 • 間隔 {srsData.interval}d
+              </span>
+            ) : srsData.wrongCount > 0 ? (
+              <span className="text-rose-500 font-semibold flex items-center gap-1">
+                <Clock className="w-3 h-3" />
+                曾答錯 {srsData.wrongCount} 次 (今日加強中)
+              </span>
+            ) : (
+              <span>全新單字</span>
+            )}
           </div>
-        )}
+        </div>
 
         {/* Success Toast */}
         {saveSuccessToast && (
@@ -405,7 +372,7 @@ export const Flashcard: React.FC<FlashcardProps> = ({
 
           {/* Japanese Sentence */}
           <p className="text-base sm:text-lg text-slate-800 dark:text-slate-200 font-medium leading-relaxed">
-            {isListeningMode && !isRevealed ? '（翻開後顯示例句內容）' : activeWord.example}
+            {activeWord.example}
           </p>
 
           {/* Example Chinese Translation (Revealed when card is clicked) */}
