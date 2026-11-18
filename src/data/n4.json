@@ -132,17 +132,6 @@
     "exampleMeaning": "水燒開之後請把麵放進去。"
   },
   {
-    "id": "n4_0013",
-    "word": "意見",
-    "reading": "いけん",
-    "romaji": "iken",
-    "partOfSpeech": "名詞",
-    "meaning": "意見、看法",
-    "level": "N4",
-    "example": "今回の企画について、何か率直な意見を聞かせてください。",
-    "exampleMeaning": "關於這次的企劃，請告訴我一些坦率的看法。"
-  },
-  {
     "id": "n4_0014",
     "word": "やはり; やっぱり",
     "reading": "やはり; やっぱり",
@@ -203,10 +192,10 @@
     "reading": "～つき",
     "romaji": "～tsuki",
     "partOfSpeech": "名詞",
-    "meaning": "…月（月份單位）",
+    "meaning": "…個月（時間長度的量詞）",
     "level": "N4",
-    "example": "来年の四月から新しい大学に入学する予定です。",
-    "exampleMeaning": "預計從明年四月起進入新大學就讀。"
+    "example": "あと一月（ひとつき）で今年も終わりますね。",
+    "exampleMeaning": "再過一個月今年就要結束了呢。"
   },
   {
     "id": "n4_0020",
@@ -251,17 +240,6 @@
     "level": "N4",
     "example": "隣の部屋からピアノの音が聞こえてくる。",
     "exampleMeaning": "從隔壁房間傳來了鋼琴的聲音。"
-  },
-  {
-    "id": "n4_0024",
-    "word": "僕",
-    "reading": "ぼく",
-    "romaji": "boku",
-    "partOfSpeech": "名詞",
-    "meaning": "我（男性常用）",
-    "level": "N4",
-    "example": "僕は大学生です。",
-    "exampleMeaning": "我是大學生。"
   },
   {
     "id": "n4_0025",
@@ -713,17 +691,6 @@
     "level": "N4",
     "example": "駅の構造が複雑で迷いました。",
     "exampleMeaning": "車站結構太複雜我迷路了。"
-  },
-  {
-    "id": "n4_0066",
-    "word": "彼",
-    "reading": "かれ",
-    "romaji": "kare",
-    "partOfSpeech": "名詞",
-    "meaning": "他、男朋友",
-    "level": "N4",
-    "example": "彼はいつも親切です。",
-    "exampleMeaning": "他總是很親切。"
   },
   {
     "id": "n4_0067",
@@ -1232,17 +1199,6 @@
     "exampleMeaning": "最近發現了一本有趣的小說，不知不覺讀到了深夜。"
   },
   {
-    "id": "n4_0113",
-    "word": "親",
-    "reading": "おや",
-    "romaji": "oya",
-    "partOfSpeech": "名詞",
-    "meaning": "父母、雙親",
-    "level": "N4",
-    "example": "親に感謝の気持ちを伝えます。",
-    "exampleMeaning": "向父母表達感謝的心情。"
-  },
-  {
     "id": "n4_0114",
     "word": "それに",
     "reading": "それに",
@@ -1386,17 +1342,6 @@
     "exampleMeaning": "我們社長是個會認真傾聽員工意見的人。"
   },
   {
-    "id": "n4_0127",
-    "word": "動物園",
-    "reading": "どうぶつえん",
-    "romaji": "doubutsuen",
-    "partOfSpeech": "名詞",
-    "meaning": "動物圍欄",
-    "level": "N4",
-    "example": "日曜日だから、家族連れで動物園がとても賑わっている。",
-    "exampleMeaning": "因為是星期天，動物園裡全家出遊的人潮非常熱鬧。"
-  },
-  {
     "id": "n4_0128",
     "word": "捕まえる",
     "reading": "つかまえる",
@@ -1446,10 +1391,10 @@
     "reading": "ひらく",
     "romaji": "hiraku",
     "partOfSpeech": "動詞",
-    "meaning": "打開、開著（自動詞）",
+    "meaning": "打開、翻開、敞開（他動詞/自動詞）",
     "level": "N4",
-    "example": "ドアが開きます。",
-    "exampleMeaning": "門開了。"
+    "example": "教科書を開いて、30ページを読んでください。",
+    "exampleMeaning": "請翻開教科書，閱讀第30頁。"
   },
   {
     "id": "n4_0133",
@@ -1573,17 +1518,6 @@
     "exampleMeaning": "身體如果不舒服的話，請不要勉強自己好好休息。"
   },
   {
-    "id": "n4_0144",
-    "word": "サンドイッチ",
-    "reading": "サンドイッチ",
-    "romaji": "サンドイチ",
-    "partOfSpeech": "名詞",
-    "meaning": "三明治",
-    "level": "N4",
-    "example": "時間がないので、今日のランチはサンドイッチで済ませよう。",
-    "exampleMeaning": "因為沒時間，今天的午餐就吃三明治打發吧。"
-  },
-  {
     "id": "n4_0145",
     "word": "会議室",
     "reading": "かいぎしつ",
@@ -1639,17 +1573,6 @@
     "exampleMeaning": "聖誕節快到了，所以在房間裡擺放了漂亮的花裝飾。"
   },
   {
-    "id": "n4_0150",
-    "word": "止める",
-    "reading": "とめる",
-    "romaji": "tomeru",
-    "partOfSpeech": "動詞",
-    "meaning": "停止",
-    "level": "N4",
-    "example": "急な用事ができたので、車のエンジンを止めて戻った。",
-    "exampleMeaning": "因為突然有事，我熄火把車停好後又折了回來。"
-  },
-  {
     "id": "n4_0151",
     "word": "恥ずかしい",
     "reading": "はずかしい",
@@ -1699,10 +1622,10 @@
     "reading": "けんかする",
     "romaji": "kenkasuru",
     "partOfSpeech": "動詞",
-    "meaning": "鬥爭",
+    "meaning": "吵架、打架",
     "level": "N4",
-    "example": "子供の頃は、よくゲームのことで兄弟とけんかしたものだ。",
-    "exampleMeaning": "小時候，經常為了打電動的事跟兄弟姐妹吵架。"
+    "example": "くだらないことで友達とけんかしてしまった。",
+    "exampleMeaning": "因為無聊的小事跟朋友吵架了。"
   },
   {
     "id": "n4_0156",
@@ -1870,17 +1793,6 @@
     "exampleMeaning": "珍藏的照片不知何時不見了。"
   },
   {
-    "id": "n4_0171",
-    "word": "準備",
-    "reading": "じゅんびする",
-    "romaji": "junbisuru",
-    "partOfSpeech": "名詞",
-    "meaning": "準備、籌備",
-    "level": "N4",
-    "example": "明日のキャンプに向けて、みんなで分担して荷物の準備をしているところです。",
-    "exampleMeaning": "為了明天的露營，大家正在分工合作準備行李。"
-  },
-  {
     "id": "n4_0172",
     "word": "世界",
     "reading": "せかい",
@@ -2022,17 +1934,6 @@
     "level": "N4",
     "example": "夜空にたくさんの星が光っていた。",
     "exampleMeaning": "夜空中閃爍著許多繁星。"
-  },
-  {
-    "id": "n4_0185",
-    "word": "夫",
-    "reading": "おっと",
-    "romaji": "otto",
-    "partOfSpeech": "名詞",
-    "meaning": "丈夫",
-    "level": "N4",
-    "example": "うちの夫は休日に趣味の料理を家族に振る舞うのが好きなんです。",
-    "exampleMeaning": "我丈夫喜歡在休假日大顯身手，做拿手菜給家人吃。"
   },
   {
     "id": "n4_0186",
@@ -2596,17 +2497,6 @@
     "exampleMeaning": "祖母把每天寫日記當作例行功課。"
   },
   {
-    "id": "n4_0237",
-    "word": "場所",
-    "reading": "ばしょ",
-    "romaji": "basho",
-    "partOfSpeech": "名詞",
-    "meaning": "地方",
-    "level": "N4",
-    "example": "今度の週末、みんなで集まるのにちょうどいい場所を探している。",
-    "exampleMeaning": "正在尋找適合大家這週末聚會的好地方。"
-  },
-  {
     "id": "n4_0238",
     "word": "答",
     "reading": "こたえ",
@@ -2651,17 +2541,6 @@
     "exampleMeaning": "請在櫃台填寫姓名。"
   },
   {
-    "id": "n4_0242",
-    "word": "うち",
-    "reading": "うち",
-    "romaji": "uchi",
-    "partOfSpeech": "名詞",
-    "meaning": "家、我處",
-    "level": "N4",
-    "example": "今日は友達がうちに遊びに来ます。",
-    "exampleMeaning": "今天朋友要來我家玩。"
-  },
-  {
     "id": "n4_0243",
     "word": "スクリーン",
     "reading": "スクリーン",
@@ -2700,10 +2579,10 @@
     "reading": "けがする",
     "romaji": "kegasuru",
     "partOfSpeech": "動詞",
-    "meaning": "損傷",
+    "meaning": "受傷",
     "level": "N4",
-    "example": "サッカーの試合中に転んで、足をけがしてしまった。",
-    "exampleMeaning": "踢足球時不小心跌倒，把腳給摔傷了。"
+    "example": "階段で転んで足をけがしてしまった。",
+    "exampleMeaning": "在樓梯跌倒把腳給弄受傷了。"
   },
   {
     "id": "n4_0247",
@@ -2755,10 +2634,10 @@
     "reading": "～だす",
     "romaji": "～dasu",
     "partOfSpeech": "動詞",
-    "meaning": "給出",
+    "meaning": "…起來、開始…（表示動作突然開始）",
     "level": "N4",
-    "example": "空が急に暗くなって、雨が降りだしてきた。",
-    "exampleMeaning": "天空突然暗了下來，開始下起雨了。"
+    "example": "空が急に暗くなって、大雨が降り出しました。",
+    "exampleMeaning": "天空突然變暗，開始下起了大雨。"
   },
   {
     "id": "n4_0252",
@@ -2948,17 +2827,6 @@
     "exampleMeaning": "幫忙在牆壁上塗刷油漆。"
   },
   {
-    "id": "n4_0269",
-    "word": "ご主人",
-    "reading": "ごしゅじん",
-    "romaji": "goshujin",
-    "partOfSpeech": "名詞",
-    "meaning": "丈夫",
-    "level": "N4",
-    "example": "「いつもご主人には色々とお世話になっております。」",
-    "exampleMeaning": "「一直以來都承蒙您先生的各方面照顧。」"
-  },
-  {
     "id": "n4_0270",
     "word": "珍しい",
     "reading": "めずらしい",
@@ -2975,10 +2843,10 @@
     "reading": "よう",
     "romaji": "you",
     "partOfSpeech": "名詞",
-    "meaning": "拿取、拍照",
+    "meaning": "事情、要事、用途",
     "level": "N4",
-    "example": "ちょっと急な用ができたので、今日の飲み会は行けなくなりました。",
-    "exampleMeaning": "剛剛突然有急事，今天的聚餐沒辦法去了。"
+    "example": "今日は午後から急な用ができて外出します。",
+    "exampleMeaning": "今天下午臨時有急事要出門。"
   },
   {
     "id": "n4_0272",
@@ -3122,17 +2990,6 @@
     "level": "N4",
     "example": "このデザインはとても寂しいと思います。",
     "exampleMeaning": "我覺得這個設計非常寂寞的。"
-  },
-  {
-    "id": "n4_0285",
-    "word": "火",
-    "reading": "ひ",
-    "romaji": "hi",
-    "partOfSpeech": "名詞",
-    "meaning": "火、火焰、火光",
-    "level": "N4",
-    "example": "キャンプ場でみんなと囲んだ焚き火の火が、とても温かかった。",
-    "exampleMeaning": "在露營區跟大夥兒圍坐在一起的營火，感覺好溫暖。"
   },
   {
     "id": "n4_0286",
@@ -3311,17 +3168,6 @@
     "exampleMeaning": "專案正按照計畫順利進行中。"
   },
   {
-    "id": "n4_0302",
-    "word": "楽む",
-    "reading": "たのしむ",
-    "romaji": "tanoshimu",
-    "partOfSpeech": "動詞",
-    "meaning": "享受",
-    "level": "N4",
-    "example": "せっかくの旅行だから、忙しい日常を忘れて思いきり楽しもう！",
-    "exampleMeaning": "難得出來玩，就把忙碌的日常拋諸腦後，盡情享受吧！"
-  },
-  {
     "id": "n4_0303",
     "word": "貿易",
     "reading": "ぼうえき",
@@ -3364,17 +3210,6 @@
     "level": "N4",
     "example": "初めまして田中と申します。よろしくお願いします。",
     "exampleMeaning": "初次見面，我叫田中。請多指教。"
-  },
-  {
-    "id": "n4_0307",
-    "word": "試験",
-    "reading": "しけん",
-    "romaji": "shiken",
-    "partOfSpeech": "名詞",
-    "meaning": "測試",
-    "level": "N4",
-    "example": "来週の金曜日に漢字のテストがあるから、今週はしっかり勉強しなきゃ。",
-    "exampleMeaning": "下週五有漢字考試，這禮拜得好好用功才行。"
   },
   {
     "id": "n4_0308",
@@ -3459,10 +3294,10 @@
     "reading": "チェックする",
     "romaji": "チェクsuru",
     "partOfSpeech": "動詞",
-    "meaning": "查看",
+    "meaning": "檢查、確認、核對",
     "level": "N4",
-    "example": "出発の前に、もう一度飛行機の時間をチェックしておこう。",
-    "exampleMeaning": "出發前，再確認一次班機時間吧。"
+    "example": "提出する前にもう一度レポートをチェックしよう。",
+    "exampleMeaning": "交出去之前，再來檢查確認一次報告吧。"
   },
   {
     "id": "n4_0316",
@@ -3529,17 +3364,6 @@
     "level": "N4",
     "example": "時間がないので、普通電車ではなく急行に乗りましょう。",
     "exampleMeaning": "因為沒時間了，不要搭普通電車，搭快車吧。"
-  },
-  {
-    "id": "n4_0322",
-    "word": "皆",
-    "reading": "みんな",
-    "romaji": "minna",
-    "partOfSpeech": "名詞・副詞",
-    "meaning": "大家、所有人",
-    "level": "N4",
-    "example": "みんなで協力すればきっと成功するでしょう。",
-    "exampleMeaning": "只要大家同心協力，一定會成功的吧。"
   },
   {
     "id": "n4_0323",
@@ -3894,17 +3718,6 @@
     "exampleMeaning": "那位男士非常親切。"
   },
   {
-    "id": "n4_0355",
-    "word": "理由",
-    "reading": "りゆう",
-    "romaji": "riyuu",
-    "partOfSpeech": "名詞",
-    "meaning": "理由、緣由",
-    "level": "N4",
-    "example": "急に仕事を辞めた理由を、親友にだけこっそり打ち明けた。",
-    "exampleMeaning": "我只向摯友悄悄透露了突然辭掉工作的理由。"
-  },
-  {
     "id": "n4_0356",
     "word": "生産",
     "reading": "せいさん",
@@ -4081,17 +3894,6 @@
     "exampleMeaning": "房間角落積了灰塵，來打掃一下吧。"
   },
   {
-    "id": "n4_0372",
-    "word": "伺う",
-    "reading": "うかがう",
-    "romaji": "ukagau",
-    "partOfSpeech": "名詞",
-    "meaning": "拜訪、詢問（謙讓語）",
-    "level": "N4",
-    "example": "明日お宅にうかがいます。",
-    "exampleMeaning": "明天將會去拜訪您府上。"
-  },
-  {
     "id": "n4_0373",
     "word": "再来週",
     "reading": "さらいしゅう",
@@ -4250,11 +4052,11 @@
     "word": "～やすい",
     "reading": "～やすい",
     "romaji": "～yasui",
-    "partOfSpeech": "い形容詞",
-    "meaning": "做、幹",
+    "partOfSpeech": "接尾語",
+    "meaning": "容易…、便於…",
     "level": "N4",
-    "example": "このペンは滑らかな書き心地で、文字がとても書きやすい。",
-    "exampleMeaning": "這支筆書寫手感滑順，字非常好寫。"
+    "example": "このペンはインクが滑らかで、とても書きやすい。",
+    "exampleMeaning": "這支筆出墨滑順，非常容易書寫。"
   },
   {
     "id": "n4_0388",
@@ -4884,17 +4686,6 @@
     "exampleMeaning": "根據氣象預報，明天下午開始好像會下大雨。"
   },
   {
-    "id": "n4_0445",
-    "word": "妻",
-    "reading": "つま",
-    "romaji": "tsuma",
-    "partOfSpeech": "名詞",
-    "meaning": "妻子",
-    "level": "N4",
-    "example": "妻と一緒に近くのスーパーへ夕飯の買い物に行きました。",
-    "exampleMeaning": "我和妻子一起去附近的超市買晚餐的食材。"
-  },
-  {
     "id": "n4_0446",
     "word": "帰り",
     "reading": "かえり",
@@ -4981,17 +4772,6 @@
     "level": "N4",
     "example": "出かける前に天気予報を確認した方がいい。",
     "exampleMeaning": "出門前最好先確認一下天氣預報。"
-  },
-  {
-    "id": "n4_0454",
-    "word": "彼女",
-    "reading": "かのじょ",
-    "romaji": "kanojo",
-    "partOfSpeech": "名詞",
-    "meaning": "她、女朋友",
-    "level": "N4",
-    "example": "彼女は日本語がとても上手です。",
-    "exampleMeaning": "她的日語說得非常好。"
   },
   {
     "id": "n4_0455",
@@ -5252,10 +5032,10 @@
     "reading": "おりる",
     "romaji": "oriru",
     "partOfSpeech": "動詞",
-    "meaning": "去、前往",
+    "meaning": "下車、下來、降下",
     "level": "N4",
-    "example": "次の駅で電車を降りて、バスに乗り換えます。",
-    "exampleMeaning": "我們在下一站下車，然後轉乘公車。"
+    "example": "次の駅で電車を下りて、バスに乗り換えます。",
+    "exampleMeaning": "在下一站下電車，轉搭公車。"
   },
   {
     "id": "n4_0479",
@@ -5307,10 +5087,10 @@
     "reading": "こうこう; こうとうがっこう",
     "romaji": "koukou; koutougakkou",
     "partOfSpeech": "名詞",
-    "meaning": "學校",
+    "meaning": "高中、高級中學",
     "level": "N4",
-    "example": "彼女は高校の頃からずっとバンド活動をしている。",
-    "exampleMeaning": "她從高中時期開始就一直有在組團玩音樂。"
+    "example": "兄は毎日自転車で高校に通っています。",
+    "exampleMeaning": "哥哥每天騎自行車去上高中。"
   },
   {
     "id": "n4_0484",
@@ -5443,17 +5223,6 @@
     "level": "N4",
     "example": "息子は今年から大学生になった。",
     "exampleMeaning": "兒子從今年起成為了大學生。"
-  },
-  {
-    "id": "n4_0496",
-    "word": "お子さん",
-    "reading": "おこさん",
-    "romaji": "okosan",
-    "partOfSpeech": "名詞",
-    "meaning": "孩子",
-    "level": "N4",
-    "example": "お子さんは今、いくつになられたんですか？",
-    "exampleMeaning": "您的小孩現在幾歲了呢？"
   },
   {
     "id": "n4_0497",
@@ -5841,17 +5610,6 @@
     "exampleMeaning": "聽到家人的聲音後終於安心了。"
   },
   {
-    "id": "n4_0532",
-    "word": "直る",
-    "reading": "なおる",
-    "romaji": "naoru",
-    "partOfSpeech": "動詞",
-    "meaning": "使固定",
-    "level": "N4",
-    "example": "毎日しっかり直るように心がけています。",
-    "exampleMeaning": "每天都用心努力做好使固定。"
-  },
-  {
     "id": "n4_0533",
     "word": "集める",
     "reading": "あつめる",
@@ -5918,17 +5676,6 @@
     "exampleMeaning": "旅行期間把照顧貓咪的事拜託給朋友了。"
   },
   {
-    "id": "n4_0539",
-    "word": "近所",
-    "reading": "きんじょ",
-    "romaji": "kinjo",
-    "partOfSpeech": "名詞",
-    "meaning": "附近、鄰近、鄰居",
-    "level": "N4",
-    "example": "近所に大きなスーパーができたので、毎日の買い物がとても便利になりました。",
-    "exampleMeaning": "家附近開了一家大型超市，每天買東西變得非常方便。"
-  },
-  {
     "id": "n4_0540",
     "word": "将来",
     "reading": "しょうらい",
@@ -5949,17 +5696,6 @@
     "level": "N4",
     "example": "部屋の奥に大きな机が置いてある。",
     "exampleMeaning": "房間深處放著一張大桌子。"
-  },
-  {
-    "id": "n4_0542",
-    "word": "数学",
-    "reading": "すうがく",
-    "romaji": "suugaku",
-    "partOfSpeech": "名詞",
-    "meaning": "數學",
-    "level": "N4",
-    "example": "学生の頃は数学の計算問題が得意で、テストで満点を取りました。",
-    "exampleMeaning": "學生時期我很擅長數學計算題，考試還拿過滿分。"
   },
   {
     "id": "n4_0543",
@@ -6094,17 +5830,6 @@
     "exampleMeaning": "走路途中似乎把錢包弄丟掉了。"
   },
   {
-    "id": "n4_0555",
-    "word": "明日",
-    "reading": "あす",
-    "romaji": "asu",
-    "partOfSpeech": "名詞",
-    "meaning": "明天",
-    "level": "N4",
-    "example": "明日の朝八時に駅で待ち合わせをしましょう。",
-    "exampleMeaning": "明天早上八點在車站碰面吧。"
-  },
-  {
     "id": "n4_0556",
     "word": "出発",
     "reading": "しゅっぱつ",
@@ -6171,17 +5896,6 @@
     "exampleMeaning": "不可以欺負朋友。"
   },
   {
-    "id": "n4_0562",
-    "word": "回る、回す",
-    "reading": "まわる、まわす",
-    "romaji": "mawaru、mawasu",
-    "partOfSpeech": "動詞",
-    "meaning": "去、前往",
-    "level": "N4",
-    "example": "毎日しっかり回る、回すように心がけています。",
-    "exampleMeaning": "每天都用心努力做好去。"
-  },
-  {
     "id": "n4_0563",
     "word": "～君",
     "reading": "～くん",
@@ -6235,17 +5949,6 @@
     "level": "N4",
     "example": "疲れすぎて駅のホームで倒れてしまった人がいた。",
     "exampleMeaning": "有人因為太過疲勞而在車站月台倒下了。"
-  },
-  {
-    "id": "n4_0568",
-    "word": "スーパー",
-    "reading": "スーパー",
-    "romaji": "suupaa",
-    "partOfSpeech": "名詞",
-    "meaning": "超級市場、超市",
-    "level": "N4",
-    "example": "仕事帰りに近くのスーパーへ寄って、今晩の夕飯の材料を買いました。",
-    "exampleMeaning": "下班回家的路上順道去了附近的超市，買了今晚煮晚餐的食材。"
   },
   {
     "id": "n4_0569",
@@ -6616,10 +6319,10 @@
     "reading": "いそぐ",
     "romaji": "isogu",
     "partOfSpeech": "動詞",
-    "meaning": "匆忙",
+    "meaning": "急忙、趕緊、加快",
     "level": "N4",
-    "example": "毎日しっかり急ぐように心がけています。",
-    "exampleMeaning": "每天都用心努力做好匆忙。"
+    "example": "電車の時間に遅れそうなので、急いで駅へ向かった。",
+    "exampleMeaning": "因為快趕不上電車時間了，急急忙忙趕往車站。"
   },
   {
     "id": "n4_0603",
@@ -6693,10 +6396,10 @@
     "reading": "やくにたつ",
     "romaji": "yakunitatsu",
     "partOfSpeech": "動詞",
-    "meaning": "有用",
+    "meaning": "有用、管用、有幫助",
     "level": "N4",
-    "example": "毎日しっかり役に立つように心がけています。",
-    "exampleMeaning": "每天都用心努力做好有用。"
+    "example": "留学での経験は、今の仕事にとても役に立っています。",
+    "exampleMeaning": "留學時獲得的經驗，對現在的工作非常有幫助。"
   },
   {
     "id": "n4_0610",
@@ -6741,17 +6444,6 @@
     "level": "N4",
     "example": "大学院で環境について研究するつもりだ。",
     "exampleMeaning": "打算在研究所研究環境相關議題。"
-  },
-  {
-    "id": "n4_0614",
-    "word": "ケーキ",
-    "reading": "ケーキ",
-    "romaji": "keeki",
-    "partOfSpeech": "名詞",
-    "meaning": "蛋糕",
-    "level": "N4",
-    "example": "誕生日パーティーのためにイチゴがたくさん乗ったケーキを買いました。",
-    "exampleMeaning": "為了生日派對，我買了一個上面放滿草莓的美味蛋糕。"
   },
   {
     "id": "n4_0615",
@@ -7066,11 +6758,11 @@
     "word": "～にくい",
     "reading": "～にくい",
     "romaji": "～nikui",
-    "partOfSpeech": "い形容詞",
-    "meaning": "做、幹",
+    "partOfSpeech": "接尾語",
+    "meaning": "難以…、不易…",
     "level": "N4",
-    "example": "このデザインはとてもにくいと思います。",
-    "exampleMeaning": "我覺得這個設計非常做。"
+    "example": "この文字は小さすぎて、遠くからだと見にくい。",
+    "exampleMeaning": "這個字太小了，從遠處看很難看得清楚。"
   },
   {
     "id": "n4_0644",
@@ -7335,17 +7027,6 @@
     "level": "N4",
     "example": "忙しい毎日だがたまに映画を見に行ってリラックスしている。",
     "exampleMeaning": "雖然生活忙碌，但偶爾會去看電影放鬆一下。"
-  },
-  {
-    "id": "n4_0668",
-    "word": "社会",
-    "reading": "しゃかい",
-    "romaji": "shakai",
-    "partOfSpeech": "名詞",
-    "meaning": "社會、社交界",
-    "level": "N4",
-    "example": "大学を卒業した後は、立派な社会人として社会に貢献したいと考えています。",
-    "exampleMeaning": "大學畢業後，我想成為一名優秀的社會人士並為社會做出貢獻。"
   },
   {
     "id": "n4_0669",
@@ -7744,17 +7425,6 @@
     "exampleMeaning": "你不覺得最近車站的廣告增加了很多嗎？"
   },
   {
-    "id": "n4_0705",
-    "word": "交差点",
-    "reading": "こうさてん",
-    "romaji": "kousaten",
-    "partOfSpeech": "名詞",
-    "meaning": "十字路口、交叉路口",
-    "level": "N4",
-    "example": "この交差点は事故が多いので、渡る時は気をつけてください。",
-    "exampleMeaning": "這個十字路口常發生事故，過馬路時請小心。"
-  },
-  {
     "id": "n4_0706",
     "word": "高等学校",
     "reading": "こうとうがっこう",
@@ -8083,17 +7753,6 @@
     "level": "N4",
     "example": "チケットを買うために順番に並んでいる。",
     "exampleMeaning": "為了買票正在按順序排隊。"
-  },
-  {
-    "id": "n4_0736",
-    "word": "ああ",
-    "reading": "ああ",
-    "romaji": "aa",
-    "partOfSpeech": "感動詞",
-    "meaning": "啊、哎呀",
-    "level": "N4",
-    "example": "ああ、財布を家に忘れてしまった。",
-    "exampleMeaning": "啊，把錢包忘在家裡了。"
   },
   {
     "id": "n4_0737",
@@ -8657,17 +8316,6 @@
     "exampleMeaning": "搭新幹線往返於東京與大阪之間。"
   },
   {
-    "id": "n4_0788",
-    "word": "大勢",
-    "reading": "おおぜい",
-    "romaji": "oozei",
-    "partOfSpeech": "名詞",
-    "meaning": "許多人、大批人",
-    "level": "N4",
-    "example": "広場には大勢の人が集まってお祭りを楽しんでいた。",
-    "exampleMeaning": "廣場上聚集了許多人享受著祭典。"
-  },
-  {
     "id": "n4_0789",
     "word": "行い",
     "reading": "おこない",
@@ -9031,17 +8679,6 @@
     "exampleMeaning": "抵達的時候他已經回家了。"
   },
   {
-    "id": "n4_0013",
-    "word": "素直",
-    "reading": "すなお",
-    "romaji": "sunao",
-    "partOfSpeech": "な形容詞",
-    "meaning": "坦率的、純樸的",
-    "level": "N4",
-    "example": "彼は素直な性格でみんなに好かれている。",
-    "exampleMeaning": "他性格坦率真誠，受大家喜愛。"
-  },
-  {
     "id": "n4_0014",
     "word": "スペース",
     "reading": "スペース",
@@ -9102,10 +8739,10 @@
     "reading": "せきにん",
     "romaji": "sekinin",
     "partOfSpeech": "名詞",
-    "meaning": "責任",
+    "meaning": "…個月（時間長度的量詞）",
     "level": "N4",
-    "example": "自分がやったことには最後まで責任を持ちたい。",
-    "exampleMeaning": "對自己做過的事情，希望能負責任到底。"
+    "example": "あと一月（ひとつき）で今年も終わりますね。",
+    "exampleMeaning": "再過一個月今年就要結束了呢。"
   },
   {
     "id": "n4_0020",
@@ -9150,17 +8787,6 @@
     "level": "N4",
     "example": "1人でいると退屈する。",
     "exampleMeaning": "一個人的時候會覺得很無聊。"
-  },
-  {
-    "id": "n4_0024",
-    "word": "互い",
-    "reading": "たがい",
-    "romaji": "tagai",
-    "partOfSpeech": "名詞",
-    "meaning": "互相、彼此",
-    "level": "N4",
-    "example": "困った時は互いに助け合うことが大切だ。",
-    "exampleMeaning": "遇到困難時，彼此互相扶持是很重要的。"
   },
   {
     "id": "n4_0025",
@@ -9328,17 +8954,6 @@
     "exampleMeaning": "被老師提問後，他沉默了好一會兒。"
   },
   {
-    "id": "n4_0816",
-    "word": "小さな",
-    "reading": "ちいさな",
-    "romaji": "chiisana",
-    "partOfSpeech": "連体詞",
-    "meaning": "小的、微小的",
-    "level": "N4",
-    "example": "駅の近くに小さな喫茶店を見つけた。",
-    "exampleMeaning": "在車站附近發現了一家小咖啡館。"
-  },
-  {
     "id": "n4_0817",
     "word": "チェック",
     "reading": "チェック",
@@ -9403,17 +9018,6 @@
     "level": "N4",
     "example": "この地方は雪が多いので冬は運転に気をつけなければならない。",
     "exampleMeaning": "這個地區經常下雪，所以冬天開車必須格外小心。"
-  },
-  {
-    "id": "n4_0823",
-    "word": "茶碗",
-    "reading": "ちゃわん",
-    "romaji": "chawan",
-    "partOfSpeech": "名詞",
-    "meaning": "飯碗、茶碗",
-    "level": "N4",
-    "example": "食事の後茶碗を洗うのは子供の仕事だ。",
-    "exampleMeaning": "吃完飯後洗碗是孩子的工作。"
   },
   {
     "id": "n4_0824",
@@ -10186,17 +9790,6 @@
     "exampleMeaning": "請教我這個做法。"
   },
   {
-    "id": "n4_0894",
-    "word": "夕方",
-    "reading": "ゆうがた",
-    "romaji": "yuugata",
-    "partOfSpeech": "名詞",
-    "meaning": "傍晚、黃昏",
-    "level": "N4",
-    "example": "夕方になると涼しい風が吹いてきて気持ちがいい。",
-    "exampleMeaning": "一到傍晚就有涼爽的風吹來，非常舒服。"
-  },
-  {
     "id": "n4_0895",
     "word": "優勝",
     "reading": "ゆうしょう",
@@ -10274,17 +9867,6 @@
     "exampleMeaning": "這次因為時間很充裕，所以能悠閒地到處參觀。"
   },
   {
-    "id": "n4_0902",
-    "word": "弱い",
-    "reading": "よわい",
-    "romaji": "yowai",
-    "partOfSpeech": "い形容詞",
-    "meaning": "虛弱的、軟弱的、弱的",
-    "level": "N4",
-    "example": "彼は昔から体が弱いので無理をしないようにしている。",
-    "exampleMeaning": "他從小身體就比較虛弱，因此儘量不讓自己太勉強。"
-  },
-  {
     "id": "n4_0903",
     "word": "楽",
     "reading": "らく",
@@ -10327,17 +9909,6 @@
     "level": "N4",
     "example": "締め切りに間に合うように急いでレポートを提出した。",
     "exampleMeaning": "為了趕在截止日前，匆忙提交了報告。"
-  },
-  {
-    "id": "n4_0907",
-    "word": "ワイシャツ",
-    "reading": "ワイシャツ",
-    "romaji": "waishatsu",
-    "partOfSpeech": "名詞",
-    "meaning": "襯衫、白襯衫",
-    "level": "N4",
-    "example": "明日は面接があるので白いYシャツを着ていくつもりだ。",
-    "exampleMeaning": "明天因為有面試，打算穿白色襯衫過去。"
   },
   {
     "id": "n4_0908",

@@ -430,25 +430,14 @@
   },
   {
     "id": "n5_0040",
-    "word": "在る",
+    "word": "ある（有る・在る）",
     "reading": "ある",
     "romaji": "aru",
     "partOfSpeech": "動詞",
     "meaning": "有、存在（無生命/植物）",
     "level": "N5",
-    "example": "机の上に本があります。",
-    "exampleMeaning": "桌上有書。"
-  },
-  {
-    "id": "n5_0041",
-    "word": "有る",
-    "reading": "ある",
-    "romaji": "aru",
-    "partOfSpeech": "動詞",
-    "meaning": "有、存在（無生命/植物）",
-    "level": "N5",
-    "example": "机の上に本があります。",
-    "exampleMeaning": "桌上有書。"
+    "example": "机の上に日本語の本があります。",
+    "exampleMeaning": "桌上有日語書。"
   },
   {
     "id": "n5_0042",
@@ -720,10 +709,10 @@
     "reading": "いま",
     "romaji": "ima",
     "partOfSpeech": "名詞",
-    "meaning": "最近、這陣子 / 從今以後、接下來",
+    "meaning": "現在、目前",
     "level": "N5",
     "example": "今何時ですか。",
-    "exampleMeaning": "現在幾點？"
+    "exampleMeaning": "現在幾點了？"
   },
   {
     "id": "n5_0067",
@@ -1508,14 +1497,14 @@
   },
   {
     "id": "n5_0138",
-    "word": "終る",
+    "word": "終わる（終る）",
     "reading": "おわる",
     "romaji": "owaru",
     "partOfSpeech": "動詞",
-    "meaning": "關閉",
+    "meaning": "結束、完成",
     "level": "N5",
-    "example": "店を閉じる前に、鍵がちゃんと掛かっているかもう一度確認して。",
-    "exampleMeaning": "在關閉店鋪之前，請再確認一次鑰匙有沒有鎖好。"
+    "example": "今日の授業はこれで終わります。",
+    "exampleMeaning": "今天的課程到此結束。"
   },
   {
     "id": "n5_0139",
@@ -1732,10 +1721,10 @@
     "reading": "かける",
     "romaji": "kakeru",
     "partOfSpeech": "動詞",
-    "meaning": "放置、擺放",
+    "meaning": "掛、戴（眼鏡）、花費（時間）",
     "level": "N5",
-    "example": "濡れた傘は外に置いて、壁に立て掛けておいてください。",
-    "exampleMeaning": "濕掉的雨傘請放在外面，靠在牆上放著就好。"
+    "example": "壁にカレンダーを掛けました。",
+    "exampleMeaning": "在牆上掛了日曆。"
   },
   {
     "id": "n5_0159",
@@ -1743,10 +1732,10 @@
     "reading": "かける",
     "romaji": "kakeru",
     "partOfSpeech": "動詞",
-    "meaning": "坐下",
+    "meaning": "坐（お掛けになる）、戴、打（電話）",
     "level": "N5",
-    "example": "どうぞこちらにお掛けになって、温かいお茶でも召し上がってください。",
-    "exampleMeaning": "請坐到這邊來，喝杯熱茶暖暖身子吧。"
+    "example": "どうぞそちらの椅子にお掛けください。",
+    "exampleMeaning": "請坐在那邊的椅子上。"
   },
   {
     "id": "n5_0160",
@@ -1904,14 +1893,14 @@
   },
   {
     "id": "n5_0174",
-    "word": "かぶる",
+    "word": "かぶる（被る）",
     "reading": "かぶる",
     "romaji": "kaburu",
     "partOfSpeech": "動詞",
-    "meaning": "放置、擺放",
+    "meaning": "戴（帽子）、蒙受、澆（水）",
     "level": "N5",
-    "example": "荷物を棚の上に置いて、少しの間だけそこで待っていてくれる？",
-    "exampleMeaning": "你可以把行李放置在架子上，在那裡稍微等我一下嗎？"
+    "example": "日差しが強いので帽子をかぶって出かけました。",
+    "exampleMeaning": "因為陽光很強，所以戴著帽子出門了。"
   },
   {
     "id": "n5_0175",
@@ -2337,10 +2326,10 @@
     "reading": "キロ; キロメートル",
     "romaji": "キロ; キロメートル",
     "partOfSpeech": "名詞",
-    "meaning": "公斤",
+    "meaning": "公里、千米（km）",
     "level": "N5",
-    "example": "次の駅まであと1キロメートルくらいだから、このまま歩いて行こうよ。",
-    "exampleMeaning": "到下一站大約還有一公里左右，就這樣走過去吧。"
+    "example": "家から駅まで約1キロメートルあります。",
+    "exampleMeaning": "從家裡到車站大約有一公里。"
   },
   {
     "id": "n5_0214",
@@ -2667,10 +2656,10 @@
     "reading": "ご",
     "romaji": "go",
     "partOfSpeech": "名詞",
-    "meaning": "去",
+    "meaning": "五、5",
     "level": "N5",
-    "example": "今週末、家族で温泉に行きます。",
-    "exampleMeaning": "這週末我要和家人去泡溫泉。"
+    "example": "私の家族は父、母、姉、弟と私の五人です。",
+    "exampleMeaning": "我的家庭有父親、母親、姊姊、弟弟和我共五個人。"
   },
   {
     "id": "n5_0244",
@@ -3008,10 +2997,10 @@
     "reading": "さあ",
     "romaji": "saa",
     "partOfSpeech": "名詞",
-    "meaning": "最近、這陣子 / 從今以後、接下來",
+    "meaning": "來吧、那麼、好吧（催促或遲疑）",
     "level": "N5",
-    "example": "さあ、そろそろ出発の時間だよ。",
-    "exampleMeaning": "好啦，差不多該出發囉。"
+    "example": "さあ、そろそろ出発しましょう。",
+    "exampleMeaning": "來吧，我們差不多該出發了。"
   },
   {
     "id": "n5_0275",
@@ -3404,10 +3393,10 @@
     "reading": "じゃ; じゃあ",
     "romaji": "ja; jaa",
     "partOfSpeech": "名詞",
-    "meaning": "出色地",
+    "meaning": "那麼、那",
     "level": "N5",
-    "example": "じゃ、今日の打ち合わせはこれで終わりましょう。",
-    "exampleMeaning": "那麼，今天的會議就到這裡結束吧。"
+    "example": "じゃ、また明日学校で会いましょう。",
+    "exampleMeaning": "那麼，明天學校見囉。"
   },
   {
     "id": "n5_0311",
@@ -3459,10 +3448,10 @@
     "reading": "～じゅう",
     "romaji": "～juu",
     "partOfSpeech": "名詞",
-    "meaning": "…之中、…期間（接尾辭）",
+    "meaning": "全…、整個…（表示範圍或期間）",
     "level": "N5",
-    "example": "部長はただいま会議中ですので、少々お待ちください。",
-    "exampleMeaning": "部長現在正在會議中，請稍候片刻。"
+    "example": "一日中雨が降っていました。",
+    "exampleMeaning": "一整天都在下雨。"
   },
   {
     "id": "n5_0316",
@@ -3767,10 +3756,10 @@
     "reading": "する",
     "romaji": "suru",
     "partOfSpeech": "動詞",
-    "meaning": "做、幹",
+    "meaning": "做、從事、進行",
     "level": "N5",
-    "example": "宿題をします。",
-    "exampleMeaning": "寫作業。"
+    "example": "宿題をしてから遊びに行きます。",
+    "exampleMeaning": "做完作業之後再去玩。"
   },
   {
     "id": "n5_0344",
@@ -3934,8 +3923,8 @@
     "partOfSpeech": "名詞",
     "meaning": "是的",
     "level": "N5",
-    "example": "「明日、駅前で待ち合わせね」「はい、わかりました」",
-    "exampleMeaning": "「明天在車站前碰面喔」「好的，知道了。」"
+    "example": "「これはあなたの傘ですか」「はい、そうです」",
+    "exampleMeaning": "「這是你的傘嗎？」「是的，沒錯。」"
   },
   {
     "id": "n5_0359",
@@ -3954,10 +3943,10 @@
     "reading": "そうして; そして",
     "romaji": "soushite; soshite",
     "partOfSpeech": "名詞",
-    "meaning": "喜歡的",
+    "meaning": "然後、而且、並且",
     "level": "N5",
-    "example": "スーパーで野菜を買って、そして魚も買った。",
-    "exampleMeaning": "在超市買了蔬菜，然後也買了魚。"
+    "example": "朝起きて顔を洗い、そして朝ご飯を食べました。",
+    "exampleMeaning": "早上起床洗了臉，然後吃了早餐。"
   },
   {
     "id": "n5_0361",
@@ -4119,10 +4108,10 @@
     "reading": "だいすき",
     "romaji": "daisuki",
     "partOfSpeech": "名詞",
-    "meaning": "喜歡的",
+    "meaning": "非常喜歡的、最愛的",
     "level": "N5",
-    "example": "休みの日は、家で猫とゴロゴロするのが大好きです。",
-    "exampleMeaning": "休假日最喜歡在家裡跟貓咪一起耍廢了。"
+    "example": "休みの日は家で猫と遊ぶのが大好きです。",
+    "exampleMeaning": "休假日最喜歡在家裡跟貓咪玩耍了。"
   },
   {
     "id": "n5_0376",
@@ -4207,10 +4196,10 @@
     "reading": "だす",
     "romaji": "dasu",
     "partOfSpeech": "動詞",
-    "meaning": "拿取、拍照",
+    "meaning": "拿出、寄出、交出",
     "level": "N5",
-    "example": "レポートの提出期限は明日なので、今夜早く出そう。",
-    "exampleMeaning": "報告的繳交期限是明天，今晚得趕快交出去。"
+    "example": "鞄からノートとペンを出しました。",
+    "exampleMeaning": "從包包裡拿出了筆記本和筆。"
   },
   {
     "id": "n5_0384",
@@ -4394,10 +4383,10 @@
     "reading": "ちいさな",
     "romaji": "chiisana",
     "partOfSpeech": "な形容詞",
-    "meaning": "小的",
+    "meaning": "小的、微小的",
     "level": "N5",
-    "example": "ここはとても小さなな場所です。",
-    "exampleMeaning": "這裡是個非常小的的地方。"
+    "example": "駅の近くに小さなカフェを見つけました。",
+    "exampleMeaning": "在車站附近發現了一家小巧的咖啡廳。"
   },
   {
     "id": "n5_0401",
@@ -4482,10 +4471,10 @@
     "reading": "ちゃわん",
     "romaji": "chawan",
     "partOfSpeech": "名詞",
-    "meaning": "查萬",
+    "meaning": "飯碗、茶碗",
     "level": "N5",
-    "example": "この茶碗、職人さんの手作りだからすごく温かみがあるね。",
-    "exampleMeaning": "這個飯碗是師傅手工製作的，所以非常有溫度呢。"
+    "example": "ご飯を茶碗によそいました。",
+    "exampleMeaning": "把飯盛進了飯碗裡。"
   },
   {
     "id": "n5_0409",
@@ -4526,10 +4515,10 @@
     "reading": "ついたち",
     "romaji": "tsuitachi",
     "partOfSpeech": "名詞",
-    "meaning": "一日、一整天",
+    "meaning": "一日、每月一號",
     "level": "N5",
-    "example": "一日中勉強しました。",
-    "exampleMeaning": "學習了一整天。"
+    "example": "毎月一日は全校朝礼があります。",
+    "exampleMeaning": "每月一號有全校朝會。"
   },
   {
     "id": "n5_0413",
@@ -4599,14 +4588,14 @@
   },
   {
     "id": "n5_0419",
-    "word": "つける",
+    "word": "つける（点ける・付ける）",
     "reading": "つける",
     "romaji": "tsukeru",
     "partOfSpeech": "動詞",
-    "meaning": "拿取、拍照",
+    "meaning": "開啟（電源、電燈）、附上",
     "level": "N5",
-    "example": "暗いから、部屋の電気をつけてくれる？",
-    "exampleMeaning": "因為很暗，可以幫我開房間電燈嗎？"
+    "example": "部屋が暗いので、電気をつけてください。",
+    "exampleMeaning": "房間很暗，請把電燈打開。"
   },
   {
     "id": "n5_0420",
@@ -4702,10 +4691,10 @@
     "reading": "でかける",
     "romaji": "dekakeru",
     "partOfSpeech": "動詞",
-    "meaning": "去、前往",
+    "meaning": "出門、外出",
     "level": "N5",
-    "example": "ちょっとコンビニまで出かけてくるね。",
-    "exampleMeaning": "我出門去一下便利商店喔。"
+    "example": "ちょっとコンビニまで出かけてきます。",
+    "exampleMeaning": "我出門去一下便利商店就回來。"
   },
   {
     "id": "n5_0429",
@@ -4724,10 +4713,10 @@
     "reading": "できる",
     "romaji": "dekiru",
     "partOfSpeech": "動詞",
-    "meaning": "能",
+    "meaning": "會、能、做好",
     "level": "N5",
-    "example": "練習すれば、誰でもピアノが弾けるようになるよ。",
-    "exampleMeaning": "只要練習，任何人都能學會彈鋼琴喔。"
+    "example": "日本語で簡単な会話ができます。",
+    "exampleMeaning": "我能用日語進行簡單的對話。"
   },
   {
     "id": "n5_0431",
@@ -4900,10 +4889,10 @@
     "reading": "どう",
     "romaji": "dou",
     "partOfSpeech": "名詞",
-    "meaning": "銅",
+    "meaning": "如何、怎樣",
     "level": "N5",
-    "example": "この鍋は銅で作られています。",
-    "exampleMeaning": "這支鍋子是用銅製作的。"
+    "example": "新しいアパートの住み心地はどうですか。",
+    "exampleMeaning": "新公寓住起來感覺如何呢？"
   },
   {
     "id": "n5_0447",
@@ -4951,14 +4940,14 @@
   },
   {
     "id": "n5_0451",
-    "word": "十",
-    "reading": "(〜を) とお",
+    "word": "十（とお）",
+    "reading": "とお",
     "romaji": "(〜wo) too",
     "partOfSpeech": "名詞",
-    "meaning": "十",
+    "meaning": "十個、十",
     "level": "N5",
-    "example": "十分休みます。",
-    "exampleMeaning": "休息十分鐘。"
+    "example": "スーパーでみかんを十（とお）買いました。",
+    "exampleMeaning": "在超市買了十顆橘子。"
   },
   {
     "id": "n5_0452",
@@ -4984,14 +4973,14 @@
   },
   {
     "id": "n5_0454",
-    "word": "～時",
+    "word": "～時（～とき）",
     "reading": "～とき",
     "romaji": "～toki",
     "partOfSpeech": "名詞",
-    "meaning": "…點鐘（時間）",
+    "meaning": "…的時候、…之際",
     "level": "N5",
-    "example": "明日の朝八時に駅の改札前で待ち合わせしましょう。",
-    "exampleMeaning": "明天早上八點在車站剪票口前碰面集合吧。"
+    "example": "子どもの時はよく外で遊んでいました。",
+    "exampleMeaning": "小時候常常在戶外玩耍。"
   },
   {
     "id": "n5_0455",
@@ -5197,10 +5186,10 @@
     "reading": "とる",
     "romaji": "toru",
     "partOfSpeech": "動詞",
-    "meaning": "拿取、拍照",
+    "meaning": "拿取、取得、拿給",
     "level": "N5",
-    "example": "すみません、その醤油を取っていただけますか。",
-    "exampleMeaning": "不好意思，可以幫我拿一下那個醬油嗎？"
+    "example": "すみません、その塩を取っていただけますか。",
+    "exampleMeaning": "不好意思，可以幫我拿一下那個鹽巴嗎？"
   },
   {
     "id": "n5_0474",
@@ -5417,10 +5406,10 @@
     "reading": "ならべる",
     "romaji": "naraberu",
     "partOfSpeech": "動詞",
-    "meaning": "放置、擺放",
+    "meaning": "排列、陳列、擺放",
     "level": "N5",
-    "example": "スーパーの棚に新しいお菓子がきれいに並べられている。",
-    "exampleMeaning": "超市的架子上整齊地擺放著新的零食。"
+    "example": "机の上に教科書がきれいに並べられています。",
+    "exampleMeaning": "書桌上整齊地陳列著教科書。"
   },
   {
     "id": "n5_0494",
@@ -5560,10 +5549,10 @@
     "reading": "ぬぐ",
     "romaji": "nugu",
     "partOfSpeech": "動詞",
-    "meaning": "拿取、拍照",
+    "meaning": "脫下（鞋子、衣物）",
     "level": "N5",
-    "example": "日本の家に入る時は、靴を脱がなければならない。",
-    "exampleMeaning": "進到日本的家裡時，必須把鞋子脫掉。"
+    "example": "日本の家に入る時は、玄関で靴を脱ぎます。",
+    "exampleMeaning": "進到日本人的家裡時，要在玄關脫下鞋子。"
   },
   {
     "id": "n5_0507",
@@ -5604,10 +5593,10 @@
     "reading": "ねる",
     "romaji": "neru",
     "partOfSpeech": "動詞",
-    "meaning": "去、前往",
+    "meaning": "睡覺、就寢",
     "level": "N5",
-    "example": "明日も早いから、そろそろ寝ようっと。",
-    "exampleMeaning": "明天也要早起，差不多該睡覺囉。"
+    "example": "明日も早いので、そろそろ寝ます。",
+    "exampleMeaning": "明天也要早起，我差不多該睡覺了。"
   },
   {
     "id": "n5_0511",
@@ -5754,14 +5743,14 @@
   },
   {
     "id": "n5_0524",
-    "word": "はく",
+    "word": "はく（履く・掃く）",
     "reading": "はく",
     "romaji": "haku",
     "partOfSpeech": "動詞",
-    "meaning": "放置、擺放",
+    "meaning": "穿（鞋襪、褲子）／打掃",
     "level": "N5",
-    "example": "床にゴミが落ちているので、ほうきではいてください。",
-    "exampleMeaning": "地板上有垃圾，請用掃帚掃一下。"
+    "example": "毎朝新しい靴下を履いて出かけます。",
+    "exampleMeaning": "每天早晨都穿上乾淨的襪子出門。"
   },
   {
     "id": "n5_0525",
@@ -5784,17 +5773,6 @@
     "level": "N5",
     "example": "日本に来てから箸が上手に使えるようになりました。",
     "exampleMeaning": "來日本之後變得會熟練使用筷子了。"
-  },
-  {
-    "id": "n5_0527",
-    "word": "箸",
-    "reading": "はし",
-    "romaji": "hashi",
-    "partOfSpeech": "名詞",
-    "meaning": "筷子",
-    "level": "N5",
-    "example": "うどんを食べようとしたら、箸を忘れてしまったことに気づいた。",
-    "exampleMeaning": "正準備要吃烏龍麵時，才發現自己忘記拿筷子了。"
   },
   {
     "id": "n5_0528",
@@ -6440,10 +6418,10 @@
     "reading": "ふとい",
     "romaji": "futoi",
     "partOfSpeech": "い形容詞",
-    "meaning": "厚的",
+    "meaning": "粗的、粗大的、粗壯的",
     "level": "N5",
-    "example": "この木は幹が太くて、何百年も生きているらしい。",
-    "exampleMeaning": "這棵樹的樹幹很粗，據說已經活了好幾百年了。"
+    "example": "この公園には幹の太い立派な大木がある。",
+    "exampleMeaning": "這座公園裡有一棵樹幹粗壯的高大樹木。"
   },
   {
     "id": "n5_0587",
@@ -6671,10 +6649,10 @@
     "reading": "ほそい",
     "romaji": "hosoi",
     "partOfSpeech": "い形容詞",
-    "meaning": "薄的",
+    "meaning": "細的、纖細的、苗條的",
     "level": "N5",
-    "example": "ダイエットをしてから、足が細くなった気がする。",
-    "exampleMeaning": "減肥之後，總覺得雙腿變細了。"
+    "example": "彼女は手足が細くてスタイルがいい。",
+    "exampleMeaning": "她的手腳纖細，身材非常好。"
   },
   {
     "id": "n5_0608",
@@ -7129,14 +7107,14 @@
   },
   {
     "id": "n5_0649",
-    "word": "みんな",
+    "word": "みんな（皆）",
     "reading": "みんな",
     "romaji": "minna",
     "partOfSpeech": "名詞",
-    "meaning": "大家、全體",
+    "meaning": "大家、全體、所有人",
     "level": "N5",
-    "example": "みんなで公園へ行きました。",
-    "exampleMeaning": "大家一起去了公園。"
+    "example": "みんなで協力して準備をしましょう。",
+    "exampleMeaning": "大家一起同心協力做好準備吧。"
   },
   {
     "id": "n5_0650",
@@ -7364,10 +7342,10 @@
     "reading": "やすい",
     "romaji": "yasui",
     "partOfSpeech": "い形容詞",
-    "meaning": "昂貴的、高",
+    "meaning": "便宜的、廉價的",
     "level": "N5",
-    "example": "このセーター、デザインが可愛いのにすごく安いね！",
-    "exampleMeaning": "這件毛衣設計很可愛，而且超便宜的耶！"
+    "example": "このスーパーの野菜は新鮮でとても安いです。",
+    "exampleMeaning": "這家超市的蔬菜既新鮮又非常便宜。"
   },
   {
     "id": "n5_0671",
@@ -7430,10 +7408,10 @@
     "reading": "ゆうがた",
     "romaji": "yuugata",
     "partOfSpeech": "名詞",
-    "meaning": "下午、白天",
+    "meaning": "傍晚、黃昏",
     "level": "N5",
-    "example": "夕方になると、涼しい風が吹いてきて気持ちがいい。",
-    "exampleMeaning": "到了傍晚就會吹起涼爽的風，感覺很舒服。"
+    "example": "夕方になると涼しい風が吹いてきます。",
+    "exampleMeaning": "一到傍晚就會吹來涼爽的微風。"
   },
   {
     "id": "n5_0677",
@@ -7441,10 +7419,10 @@
     "reading": "ゆうはん",
     "romaji": "yuuhan",
     "partOfSpeech": "名詞",
-    "meaning": "傍晚、晚上",
+    "meaning": "晚餐、晚飯",
     "level": "N5",
-    "example": "今日の夕飯は、私が大好きなカレーライスだよ。",
-    "exampleMeaning": "今天的晚餐是我最愛的咖哩飯喔！"
+    "example": "今日の夕飯は家族みんなでカレーを食べました。",
+    "exampleMeaning": "今天的晚餐全家人一起吃了咖哩。"
   },
   {
     "id": "n5_0678",
@@ -7881,10 +7859,10 @@
     "reading": "わたる",
     "romaji": "wataru",
     "partOfSpeech": "動詞",
-    "meaning": "去、前往",
+    "meaning": "渡過、過（馬路、橋樑）",
     "level": "N5",
-    "example": "横断歩道を渡るときは、手を挙げて車に気をつけましょう。",
-    "exampleMeaning": "走斑馬線時，要舉起手來注意來車。"
+    "example": "信号が青になってから横断歩道を渡りましょう。",
+    "exampleMeaning": "等號誌變成綠燈之後再過斑馬線吧。"
   },
   {
     "id": "n5_0718",
